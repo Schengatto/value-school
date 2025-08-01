@@ -6,7 +6,7 @@ import { sleep } from "./utility/promise.js";
 import { getRSI } from "./tech-indicators/rsi.js";
 import { Signal, analyzeFundamentals, generateReport, saveToFile } from './value-investing/index.js';
 import { NASDAQ_LARGE_CAPS } from './symbols/nasdaq.js';
-import { getCompanySummary } from './connectors/yahoo-finance.js';
+import { getCompanySummary, getPricesOfLast10Years } from './connectors/yahoo-finance.js';
 
 const TICKERS = [
     ...NASDAQ_LARGE_CAPS,
@@ -26,9 +26,10 @@ const processTickers = async (tickers) => {
             const companySummary = await getCompanySummary(symbol);
             const yahooQuote = await yahooFinance.quote(symbol);
             const pricePerShare = yahooQuote.regularMarketPrice;
+            const historicalPrices = await getPricesOfLast10Years(symbol);
 
             const stockResult = fmpData
-                ? analyzeFundamentals({ ...fmpData, pricePerShare })
+                ? analyzeFundamentals({ ...fmpData, historicalPrices, pricePerShare })
                 : { signal: Signal.None, reasons: { unavailable: "Error fetching data" }, score: 0 };
             const rsi = await getRSI(symbol, undefined, "1mo");
 

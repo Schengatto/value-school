@@ -1,12 +1,17 @@
 import finnhub from "finnhub";
 import dotenv from "dotenv";
+import { readDataFromFile, saveDataToFile } from "../utility/file.js";
+import { FINNHUB_SYMBOLS } from "../symbols/finnhub.js";
 
 dotenv.config();
 
 const AUTH_KEYS = [
     process.env.FINNHUB_API_KEY1,
     process.env.FINNHUB_API_KEY2,
-    process.env.FINNHUB_API_KEY3
+    process.env.FINNHUB_API_KEY3,
+    process.env.FINNHUB_API_KEY4,
+    process.env.FINNHUB_API_KEY5,
+    process.env.FINNHUB_API_KEY6
 ].filter(Boolean);
 
 if (AUTH_KEYS.length === 0) {
@@ -132,5 +137,121 @@ export const fetchCompanyData = async (symbol) => {
         return null;
     }
 };
+
+export const getEventCalendars = async (from, to) => {
+    return await new Promise((resolve, reject) => {
+        finnhubClient.earningsCalendar({ from, to }, (error, data, response) => {
+            if (error) {
+                console.error('Errore:', error);
+            } else {
+                resolve(data.earningsCalendar);
+            }
+        })
+    });
+};
+
+const getClassification = (marketCap) => {
+    let category = null;
+    if (marketCap > 10_000) category = 'LARGE';
+    else if (marketCap > 2_000) category = 'MID';
+    else if (marketCap > 300) category = 'SMALL';
+    else category = 'MICRO';
+    return category;
+};
+
+/**
+ * The value of classification can be "LARGE", "MID", "SMALL", "MICRO"
+ * @param {*} classification
+ */
+export const getTickersByCapitalization = async (classification) => {
+    return FINNHUB_SYMBOLS
+        .map(t => ({ ...t, cap: getClassification(t.marketCap) }))
+        .filter(t => t.cap === classification);
+};
+
+export const getTickerInfoFromSymbol = (symbol) => {
+    const ticker = FINNHUB_SYMBOLS.find(s => s.symbol === symbol);
+    return {
+        ...ticker,
+        cap: ticker && getClassification(ticker.marketCap)
+    }
+};
+
+export const fixMissingMarketCaps = async () => {
+    const backupData = await readDataFromFile("fixed.json");
+    const result = [];
+    const size = FINNHUB_SYMBOLS.length;
+    let count = 0;
+    for (const ticker of FINNHUB_SYMBOLS) {
+        try {
+            count += 1;
+            console.log(`${count}/${size} Processing ${ticker.symbol}`);
+            if (ticker.marketCap && ticker.cap) {
+                result.push(ticker);
+            } else if (ticker.marketCap) {
+                const cap = getClassification(ticker.marketCap);
+                result.push({ ...ticker, cap });
+            } else {
+                const bk = backupData.find(b => b.symbol === ticker.symbol);
+                if (!bk) {
+                    const profile = await promisify(finnhubClient.companyProfile2.bind(finnhubClient), { symbol: ticker.symbol });
+                    const marketCap = profile?.marketCapitalization;
+                    const cap = getClassification(marketCap);
+                    result.push({ ...ticker, ...profile, marketCap, cap });
+                    // await sleep(500);
+                } else {
+                    result.push(bk);
+                }
+            }
+        } catch (e) {
+            console.error(e);
+            result.push(ticker)
+        }
+        saveDataToFile("fixed2.json", result);
+    }
+}
+
+export const getEarnings = async (symbol) => {
+    try {
+        const earningsData = await promisify(finnhubClient.companyEarnings.bind(finnhubClient), symbol, {});
+        return (earningsData || []).map(e => ({
+            period: e.period,
+            actual: e.actual,
+            estimate: e.estimate,
+            surprise: e.surprise,
+            surprisePercent: e.surprisePercent
+        }));
+    } catch (error) {
+        console.error(`❌ Error fetching earnings for ${symbol}:`, error?.message);
+        return [];
+    }
+};
+
+function unixTimestampDaysAgo(days) {
+    const now = Math.floor(Date.now() / 1000);
+    return now - days * 86400;
+}
+
+export async function getWeeklyPriceChange(symbol) {
+    const now = Math.floor(Date.now() / 1000);
+    const aWeekAgo = unixTimestampDaysAgo(7);
+
+    return await new Promise((resolve, reject) => {
+        finnhubClient.stockCandles(symbol, 'D', aWeekAgo, now, (error, data) => {
+            if (error) return reject(error);
+            if (!data || data.s !== "ok" || data.c.length < 2) return resolve(null);
+
+            const closeStart = data.c[0];
+            const closeEnd = data.c.at(-1);
+            const change = ((closeEnd - closeStart) / closeStart) * 100;
+
+            resolve({
+                start: closeStart,
+                end: closeEnd,
+                change
+            });
+        });
+    });
+}
 
 export default finnhubClient;

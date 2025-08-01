@@ -1,12 +1,11 @@
 import { askAi } from "../connectors/hugging-ai.js";
 import finnhub from "../connectors/finnhub.js";
-import { parseDate } from "./parsers.js";
-
+import { parseDate } from "./date.js";
 
 export const Sentiment = {
-    Low: "negative",
-    Medium: "neutral",
-    High: "positive",
+    Negative: "negative",
+    Neutral: "neutral",
+    Positive: "positive",
 };
 
 const analyzeSentiment = async (text) => {
@@ -25,14 +24,14 @@ const analyzeSentiment = async (text) => {
 
 const generateSignalFromNews = (sentiment, score, threshold = 0.85) => {
     if (sentiment === 'positive' && score > threshold) {
-        return Sentiment.High;
+        return Sentiment.Positive;
     } else if (sentiment === 'negative' && score > threshold) {
-        return Sentiment.Low;
+        return Sentiment.Negative;
     }
-    return Sentiment.Medium;
+    return Sentiment.Neutral;
 };
 
-export const getNews = async (symbol, last = 3, startingDate = undefined) => {
+export const getNews = async (symbol, last = 3, startingDate = undefined, endingDate = undefined) => {
     const getFromDate = () => {
         const _fromDate = new Date();
         _fromDate.setMonth(new Date().getMonth() - 1);
@@ -43,7 +42,9 @@ export const getNews = async (symbol, last = 3, startingDate = undefined) => {
         ? parseDate(startingDate)
         : parseDate(getFromDate());
 
-    const toDate = parseDate(new Date());
+    const toDate = endingDate
+        ? parseDate(endingDate)
+        : parseDate(new Date());
 
     try {
         const data = await new Promise((resolve, reject) => {
