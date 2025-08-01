@@ -1,16 +1,12 @@
 
+import yahooFinance from "yahoo-finance2";
 import { getEarnings, getEventCalendars } from "./connectors/finnhub.js";
 import { sendFileViaTelegram, sendViaTelegram } from "./connectors/telegram.js";
 import { readDataFromFile, saveDataToFile } from "./utility/file.js";
 import { getNews, Sentiment } from "./utility/news.js";
 import { sleep } from "./utility/promise.js";
 import { generateReport, processTickers } from "./value-investing/index.js";
-
-const Signal = {
-    Buy: "buy",
-    Sell: "sell",
-    None: "none",
-}
+import { getYahooSymbolFromFinnhub } from "./symbols/yahoo-to-finnhub.js";
 
 function getNextEvents(before, after) {
     const today = new Date();
@@ -68,7 +64,7 @@ function scoreEpsEstimate(estimates) {
 }
 
 async function fetchEvents() {
-    const { from, to } = getNextEvents(0, 0);
+    const { from, to } = getNextEvents(0, 2);
     const events = await getEventCalendars(from, to);
 
     const db = await readDataFromFile("./database/finnhub.json");
@@ -106,6 +102,17 @@ async function fetchEvents() {
                 return output;
             }, 0);
 
+        const prices = await yahooFinance.historical(getYahooSymbolFromFinnhub(e.symbol), {
+            period1: '2025-01-01',
+            interval: "1d",
+        });
+
+        // --- Price performance calculation ---
+        const closes = prices.map(d => d.close).filter(Boolean);
+        const latest = closes.at(-1);
+        const oneWeekAgo = closes.at(-6); // 7 calendar days = ~5 market days, adjust accordingly
+        const performanceWeek = oneWeekAgo ? ((latest - oneWeekAgo) / oneWeekAgo) * 100 : null;
+
         const fundamentals = tickersFundamentals.find(t => t.symbol === e.symbol);
 
         const newsSentiment = newsScore > 0 ? Sentiment.Positive : newsScore < 0 ? Sentiment.Negative : Sentiment.Neutral;
@@ -114,7 +121,11 @@ async function fetchEvents() {
             && epsScore >= 1
             && fundamentals?.score >= 9;
 
-        const message = `${isHighlighted ? "↗️" : ""} ${e.date} ${e.description} (${e.symbol}) - Estimated EPS: ${e.epsEstimate} | EPS Score: ${epsScore} | ${e.finnhubIndustry} | Past earnings beat rate: ${pastEarnings.beatRate.toFixed(2)} | Last score: ${pastEarnings.lastResult} | Sentiment: ${newsSentiment} | Fundamentals: ${fundamentals.signal.toUpperCase()} (${fundamentals.score})`;
+        const fundamentalMessage = fundamentals
+            ? `Monthly RSI: ${fundamentals.rsi} | Fundamentals: ${fundamentals?.signal.toUpperCase()} (${fundamentals.score})`
+            : "";
+
+        const message = `${isHighlighted ? "↗️" : ""} ${e.date} ${e.description} (${e.symbol}) - Estimated EPS: ${e.epsEstimate} | EPS Score: ${epsScore} | ${e.finnhubIndustry} | Past earnings beat rate: ${pastEarnings.beatRate.toFixed(2)} | Last score: ${pastEarnings.lastResult} | Sentiment: ${newsSentiment} ${fundamentalMessage} | Weekly performance: ${performanceWeek.toFixed(2)}%`;
         messages.push(message);
         console.log(message);
     }
