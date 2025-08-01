@@ -15,4 +15,3 @@ export const readDataFromFile = async (filePath, encoding = "utf8") => {
         console.log('File does not exist: ' + filePath);
     }
 };
-

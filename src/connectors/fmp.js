@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import axios from "axios";
-import { parseDate } from "../utility/parsers.js";
 import { readDataFromFile, saveDataToFile } from "../utility/file.js";
+import { dateOfPast, today } from "../utility/date.js";
 
 dotenv.config();
 
@@ -56,7 +56,6 @@ const fetchWithKeyRotation = async (url) => {
 };
 
 const getDataFromSymbol = async (symbol) => {
-    const today = parseDate(new Date());
     const databasePath = `./.storage/${today}_fmp.json`;
     const readFromDb = async () => {
         try {
@@ -70,13 +69,16 @@ const getDataFromSymbol = async (symbol) => {
     let data = Object.hasOwn(database, symbol) && database[symbol];
 
     if (!data) {
+        const twoYearsAgo = dateOfPast({ years: 2, isParsed: true });
+
+        const historicalMarketCap = await fetchWithKeyRotation(`${BASE_URL}/historical-market-capitalization/${symbol}?from=${twoYearsAgo}&to=${today}`);
         const incomeData = await fetchWithKeyRotation(`${BASE_URL}/income-statement/${symbol}?limit=5`);
         const balanceData = await fetchWithKeyRotation(`${BASE_URL}/balance-sheet-statement/${symbol}?limit=5`);
         const ratiosData = await fetchWithKeyRotation(`${BASE_URL}/ratios/${symbol}?limit=5`);
         const cashFlowData = await fetchWithKeyRotation(`${BASE_URL}/cash-flow-statement/${symbol}?limit=5`);
         const keyMetricsData = await fetchWithKeyRotation(`${BASE_URL}/key-metrics/${symbol}?limit=5`);
 
-        data = { incomeData, balanceData, ratiosData, cashFlowData, keyMetricsData };
+        data = { historicalMarketCap, incomeData, balanceData, ratiosData, cashFlowData, keyMetricsData };
         await saveDataToFile(databasePath, { ...database, [symbol]: data });
     }
 
@@ -85,7 +87,7 @@ const getDataFromSymbol = async (symbol) => {
 
 export const fetchCompanyDataFromFMP = async (symbol) => {
     try {
-        const { incomeData, balanceData, ratiosData, cashFlowData, keyMetricsData } = await getDataFromSymbol(symbol);
+        const { incomeData, balanceData, ratiosData, cashFlowData, keyMetricsData, historicalMarketCap } = await getDataFromSymbol(symbol);
 
         const annualEarnings = incomeData.map((report) => ({
             date: report.date,
@@ -137,6 +139,10 @@ export const fetchCompanyDataFromFMP = async (symbol) => {
             }))
         };
 
+        const historicalFCF = (cashFlowStatement?.annualReports ?? [])
+            .map(r => r.freeCashFlow)
+            .filter(v => !isNaN(v) && v > 0);
+
         // fallback Debt/EBITDA calculation
         const fallbackDebtToEBITDA = (() => {
             const totalDebt = parseFloat(latestMetrics.totalDebt ?? NaN);
@@ -175,11 +181,27 @@ export const fetchCompanyDataFromFMP = async (symbol) => {
             balanceSheet,
             cashFlowStatement,
             metrics,
-            latestFCF
+            latestFCF,
+            historicalFCF,
+            historicalMarketCap
         };
 
     } catch (err) {
         console.error(`❌ FMP error for ${symbol}:`, err.message);
         return null;
+    }
+};
+
+export const getEventCalendars = async (from, to) => {
+    const earnings = await fetchWithKeyRotation(`${BASE_URL}/earning_calendar?from=${from}&to=${to}`);
+    const statements = await fetchWithKeyRotation(`${BASE_URL}/financial-statement-calendar?from=${from}&to=${to}`);
+    const dividends = await fetchWithKeyRotation(`${BASE_URL}/stock_dividend_calendar?from=${from}&to=${to}`);
+    const ipo = await fetchWithKeyRotation(`${BASE_URL}/ipo_calendar?from=${from}&to=${to}`);
+
+    return {
+        earnings,
+        statements,
+        dividends,
+        ipo
     }
 };

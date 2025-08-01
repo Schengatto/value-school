@@ -1,3 +1,6 @@
+/**
+ * @deprecated use date.js
+ */
 export const parseDate = (input) => {
     let date;
     if (typeof input === 'number') {

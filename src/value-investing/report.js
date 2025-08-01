@@ -1,59 +1,15 @@
 import fs from "fs";
 import PDFDocument from "pdfkit-table";
-import yahooFinance from "yahoo-finance2";
 import puppeteer from "puppeteer";
 
 import { FUNDAMENTALS_CONFIG, Signal } from "./index.js";
-import { parseDate, parseInUSD } from "../utility/parsers.js";
+import { parseInUSD } from "../utility/parsers.js";
 import { readDataFromFile } from "../utility/file.js";
-
-async function getMonthlyData(symbol) {
-    const to = new Date();
-    const from = new Date();
-    from.setFullYear(to.getFullYear() - 10); // ultimi 10 anni
-
-    const result = await yahooFinance.historical(symbol, {
-        period1: parseDate(from),
-        period2: parseDate(to),
-        interval: '1mo',
-    });
-
-    return result.map(row => ({
-        date: parseDate(row.date),
-        open: row.open,
-        high: row.high,
-        low: row.low,
-        close: row.close
-    }));
-}
-
-function aggregateAnnual(data) {
-    const yearlyData = {};
-
-    data.forEach(d => {
-        const year = new Date(d.date).getFullYear();
-
-        if (!yearlyData[year]) {
-            yearlyData[year] = {
-                date: `${year}-12-31`,
-                open: d.open,
-                high: d.high,
-                low: d.low,
-                close: d.close
-            };
-        } else {
-            yearlyData[year].high = Math.max(yearlyData[year].high, d.high);
-            yearlyData[year].low = Math.min(yearlyData[year].low, d.low);
-            yearlyData[year].close = d.close; // ultima chiusura dell'anno
-        }
-    });
-
-    return Object.values(yearlyData).sort((a, b) => new Date(a.date) - new Date(b.date));
-}
+import { parseDate } from "../utility/date.js";
+import { getPricesOfLast10Years } from "../connectors/yahoo-finance.js";
 
 const generateCandlestickChart = async (symbol) => {
-    const monthlyData = await getMonthlyData(symbol);
-    const data = aggregateAnnual(monthlyData);
+    const data = await getPricesOfLast10Years(symbol);
 
     const trace = {
         x: data.map(d => (new Date(d.date)).getFullYear().toString()),
@@ -111,11 +67,14 @@ const generateCandlestickChart = async (symbol) => {
 
 export const generateReport = async (_data) => {
     let data = _data || readDataFromFile(FUNDAMENTALS_CONFIG.dataFilePath);
-    data.sort((a, b) => a.name.localeCompare(b.name));
+    data.sort((a, b) =>
+        b.score !== a.score
+            ? b.score - a.score // Primary sort: descending score
+            : a.name.localeCompare(b.name)
+    );
 
     const buySignals = data.filter(x => x.signal === Signal.Positive);
     const sellSignals = data.filter(x => x.signal === Signal.Negative);
-    const noneSignals = data.filter(x => x.signal === Signal.None);
 
     const doc = new PDFDocument({ margin: 50 });
     const today = parseDate(new Date());
@@ -187,7 +146,7 @@ export const generateReport = async (_data) => {
             doc
                 .fontSize(10)
                 .fillColor('blue')
-                .text(`${ticker.name}`, {
+                .text(`${ticker.name} | score ${ticker.score}`, {
                     goTo: `${ticker.symbol}-detail`,
                     underline: true
                 });
@@ -203,7 +162,7 @@ export const generateReport = async (_data) => {
             doc
                 .fontSize(10)
                 .fillColor('blue')
-                .text(`${ticker.name}`, {
+                .text(`${ticker.name} | score ${ticker.score}`, {
                     goTo: `${ticker.symbol}-detail`,
                     underline: true,
                 });
@@ -315,7 +274,7 @@ export const generateReport = async (_data) => {
         }
 
         doc.moveDown(1);
-        doc.font('Helvetica-Bold').fontSize(10).text(`Score: ${entry.score} | Signal: ${entry.signal.toUpperCase()} | Current Price: $ ${entry.currentPrice} | RSI (Monthly timeframe): ${entry.rsi}`, startX);
+        doc.font('Helvetica-Bold').fontSize(10).text(`Financial Strength: ${entry.score} | Signal: ${entry.signal.toUpperCase()} | Current Price: $ ${entry.currentPrice} | RSI (Monthly timeframe): ${entry.rsi}`, startX);
         doc.moveDown(2);
 
         if (entry.news?.length) {
@@ -339,7 +298,7 @@ export const generateReport = async (_data) => {
     doc.moveDown(2);
 
     let entryCountOnPage = 0;
-    for (let entry of [...buySignals, ...sellSignals, ...noneSignals]) {
+    for (let entry of data) {
         if (entryCountOnPage === 1) {
             doc.addPage();
             entryCountOnPage = 0;

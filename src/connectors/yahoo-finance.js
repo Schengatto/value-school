@@ -1,4 +1,5 @@
 import yahooFinance from 'yahoo-finance2';
+import { parseDate } from '../utility/date.js';
 
 export const fetchCompanyDataFromYahoo = async (symbol) => {
     try {
@@ -73,4 +74,53 @@ export async function getCompanySummary(symbol) {
         console.error(`Error retrieving company description for ${symbol}:`, error.message);
         return { sector: null, industry: null, longBusinessSummary: null };
     }
+};
+
+async function getMonthlyData(symbol, years = 10) {
+    const to = new Date();
+    const from = new Date();
+    from.setFullYear(to.getFullYear() - years);
+
+    const result = await yahooFinance.historical(symbol, {
+        period1: parseDate(from),
+        period2: parseDate(to),
+        interval: '1mo',
+    });
+
+    return result.map(row => ({
+        date: parseDate(row.date),
+        open: row.open,
+        high: row.high,
+        low: row.low,
+        close: row.close
+    }));
 }
+
+function aggregateAnnual(data) {
+    const yearlyData = {};
+
+    data.forEach(d => {
+        const year = new Date(d.date).getFullYear();
+
+        if (!yearlyData[year]) {
+            yearlyData[year] = {
+                date: `${year}-12-31`,
+                open: d.open,
+                high: d.high,
+                low: d.low,
+                close: d.close
+            };
+        } else {
+            yearlyData[year].high = Math.max(yearlyData[year].high, d.high);
+            yearlyData[year].low = Math.min(yearlyData[year].low, d.low);
+            yearlyData[year].close = d.close;
+        }
+    });
+
+    return Object.values(yearlyData).sort((a, b) => new Date(a.date) - new Date(b.date));
+}
+
+export const getPricesOfLast10Years = async (ticker) => {
+    const monthlyData = await getMonthlyData(ticker, 10);
+    return aggregateAnnual(monthlyData);
+};
