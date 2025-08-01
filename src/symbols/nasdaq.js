@@ -12,6 +12,18 @@ export const NASDAQ_LARGE_CAPS = [
         "symbol": "AAPL"
     },
     {
+        "name": "DOMINION ENERGY INC",
+        "symbol": "D"
+    },
+    {
+        "name": "CBOE GLOBAL MARKETS INC",
+        "symbol": "CBOE"
+    },
+    {
+        "name": "KIMBERLY-CLARK CORP",
+        "symbol": "KMB"
+    },
+    {
         "name": "Palantir Technologies Inc.",
         "symbol": "PLTR"
     },

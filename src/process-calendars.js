@@ -1,21 +1,16 @@
 
-import yahooFinance from "yahoo-finance2";
-import { getEarnings, getEventCalendars, getWeeklyPriceChange } from "./connectors/finnhub.js";
-import { sendViaTelegram } from "./connectors/telegram.js";
-import { getYahooSymbolFromFinnhub } from "./symbols/yahoo-to-finnhub.js";
+import { getEarnings, getEventCalendars } from "./connectors/finnhub.js";
+import { sendFileViaTelegram, sendViaTelegram } from "./connectors/telegram.js";
 import { readDataFromFile, saveDataToFile } from "./utility/file.js";
 import { getNews, Sentiment } from "./utility/news.js";
-import { RSI } from "technicalindicators";
+import { sleep } from "./utility/promise.js";
+import { generateReport, processTickers } from "./value-investing/index.js";
 
 const Signal = {
     Buy: "buy",
     Sell: "sell",
     None: "none",
 }
-
-const length = 14;
-const upperLine = 70;
-const lowerLine = 30;
 
 function getNextEvents(before, after) {
     const today = new Date();
@@ -94,6 +89,7 @@ async function fetchEvents() {
         }))
         .reverse();
 
+    const tickersFundamentals = await processTickers(largeCapEvents);
 
     const messages = [];
 
@@ -108,41 +104,17 @@ async function fetchEvents() {
                 if (s === Sentiment.Positive) return output + 1;
                 if (s === Sentiment.Negative) return output - 1;
                 return output;
-            }, 0)
+            }, 0);
 
-        const sentiment = newsScore > 0 ? Sentiment.Positive : newsScore < 0 ? Sentiment.Negative : Sentiment.Neutral;
-        const isHighlighted = sentiment === Sentiment.Positive && pastEarnings.lastResult === "beat" && epsScore >= 1;
+        const fundamentals = tickersFundamentals.find(t => t.symbol === e.symbol);
 
-        const prices = await yahooFinance.historical(getYahooSymbolFromFinnhub(e.symbol), {
-            period1: '2025-01-01',
-            period2: to,
-            interval: "1d",
-        });
+        const newsSentiment = newsScore > 0 ? Sentiment.Positive : newsScore < 0 ? Sentiment.Negative : Sentiment.Neutral;
+        const isHighlighted = newsSentiment === Sentiment.Positive
+            && pastEarnings.lastResult === "beat"
+            && epsScore >= 1
+            && fundamentals?.score >= 9;
 
-        const closes = prices.map(d => d.close).filter(Boolean);
-
-        // --- RSI Calculation ---
-        const rsiValues = RSI.calculate({ values: closes, period: length });
-        const prev = rsiValues.at(-2);
-        const curr = rsiValues.at(-1);
-        if (prev == null || curr == null) return;
-
-        const signal =
-            prev < lowerLine && curr >= lowerLine
-                ? Signal.Buy
-                : prev > upperLine && curr <= upperLine
-                    ? Signal.Sell
-                    : Signal.None;
-
-
-        // --- Price performance calculation ---
-        const latest = closes.at(-1);
-        const oneDayAgo = closes.at(-2);
-        const oneWeekAgo = closes.at(-6); // 7 calendar days = ~5 market days, adjust accordingly
-
-        const performanceWeek = oneWeekAgo ? ((latest - oneWeekAgo) / oneWeekAgo) * 100 : null;
-
-        const message = `${isHighlighted ? "↗️" : ""} ${e.date} ${e.description} (${e.symbol}) - Estimated EPS: ${e.epsEstimate} | EPS Score: ${epsScore} | ${e.finnhubIndustry} | Past earnings beat rate: ${pastEarnings.beatRate.toFixed(2)} | Last score: ${pastEarnings.lastResult} | Sentiment: ${sentiment} | Weekly: ${performanceWeek.toFixed(2)} % | RSI: ${curr} - Signal: ${signal}`;
+        const message = `${isHighlighted ? "↗️" : ""} ${e.date} ${e.description} (${e.symbol}) - Estimated EPS: ${e.epsEstimate} | EPS Score: ${epsScore} | ${e.finnhubIndustry} | Past earnings beat rate: ${pastEarnings.beatRate.toFixed(2)} | Last score: ${pastEarnings.lastResult} | Sentiment: ${newsSentiment} | Fundamentals: ${fundamentals.signal.toUpperCase()} (${fundamentals.score})`;
         messages.push(message);
         console.log(message);
     }
@@ -156,6 +128,10 @@ async function fetchEvents() {
     }
 
     saveDataToFile("calendars.json", messages);
+
+    const reportPath = await generateReport(tickersFundamentals);
+    await sleep(5000);
+    await sendFileViaTelegram(reportPath, `Value Investing Report - Earnings`);
 }
 
 fetchEvents();
