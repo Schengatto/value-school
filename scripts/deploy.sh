@@ -14,7 +14,8 @@ COMPOSE_FILE="${COMPOSE_FILE:-docker-compose.yml}"
 ENV_FILE="${ENV_FILE:-.env.docker}"
 PROJECT="${COMPOSE_PROJECT:-stocks-radar}"
 IMAGE="${DOCKER_IMAGE:-ghcr.io/${GITHUB_REPOSITORY:-your-user/stocks-radar}:latest}"
-APP_CONTAINER="${APP_CONTAINER:-${PROJECT}-app-1}"
+APP_SERVICE="${APP_SERVICE:-app}"
+APP_CONTAINER="${APP_CONTAINER:-${PROJECT}-${APP_SERVICE}-1}"
 HEALTH_CHECK_URL="${HEALTH_CHECK_URL:-}"
 
 # Colors
@@ -43,8 +44,8 @@ docker pull "${IMAGE}" || { error "Docker pull failed"; exit 1; }
 # ── 3. Recreate stocks-radar container ──────────────────────────
 cd "${COMPOSE_DIR}"
 info "Recreating app container..."
-docker compose --env-file "${ENV_FILE}" -p "${PROJECT}" up -d --force-recreate app-stocks-radar \
-  || { error "Docker up (app-stocks-radar) failed"; exit 1; }
+docker compose --env-file "${ENV_FILE}" -p "${PROJECT}" up -d --force-recreate ${APP_SERVICE} \
+  || { error "Docker up (${APP_SERVICE}) failed"; exit 1; }
 
 # ── 4. Wait and health check ───────────────────────────────────
 info "Waiting for container to start (10s)..."
@@ -53,13 +54,13 @@ sleep 10
 APP_STATUS=$(docker inspect --format='{{.State.Status}}' "${APP_CONTAINER}" 2>/dev/null || echo "not found")
 
 info "Container status:"
-echo "  app-stocks-radar: ${APP_STATUS}"
+echo "  ${APP_SERVICE}: ${APP_STATUS}"
 
 if [[ "$APP_STATUS" == "running" ]]; then
   info "Container running!"
 else
   warn "Container may not be healthy — check logs:"
-  echo "  docker compose --env-file ${ENV_FILE} -p ${PROJECT} logs --tail=30 app-stocks-radar"
+  echo "  docker compose --env-file ${ENV_FILE} -p ${PROJECT} logs --tail=30 ${APP_SERVICE}"
   exit 1
 fi
 
@@ -75,9 +76,9 @@ if [[ -n "$HEALTH_CHECK_URL" ]]; then
 fi
 
 # ── 6. Show recent logs ────────────────────────────────────────
-info "Recent app-stocks-radar logs:"
+info "Recent ${APP_SERVICE} logs:"
 echo ""
-docker compose --env-file "${ENV_FILE}" -p "${PROJECT}" logs --tail=10 --no-log-prefix app-stocks-radar
+docker compose --env-file "${ENV_FILE}" -p "${PROJECT}" logs --tail=10 --no-log-prefix ${APP_SERVICE}
 
 echo ""
 info "Deploy complete! Branch: ${BRANCH}, Commit: ${COMMIT}"
