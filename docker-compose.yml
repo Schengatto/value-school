@@ -15,12 +15,14 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    networks:
+      - default
 
   app:
     build: .
     restart: unless-stopped
-    ports:
-      - "3100:3000"
+    expose:
+      - "3000"
     environment:
       DATABASE_URL: postgresql://postgres:postgres@postgres:5432/stocks_radar
       NUXT_DATABASE_URL: postgresql://postgres:postgres@postgres:5432/stocks_radar
@@ -29,6 +31,12 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+    networks:
+      - default
 
 volumes:
   postgres_data:
+
+networks:
+  default:
+    driver: bridge
