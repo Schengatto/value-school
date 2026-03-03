@@ -1,0 +1,123 @@
+{
+  "tour": {
+    "startTour": "Guided Tour",
+    "welcome": {
+      "title": "Your Value Investing Analysis",
+      "description": "You are about to learn how to analyze a stock like a professional value investor. This guided tour walks you through every key metric on this page, explaining what it means and how to use it.\n\nWe'll cover 5 phases:\n1. Understand the Business\n2. Evaluate Financial Health\n3. Assess the Value\n4. Read Market Signals\n5. Judge Management Quality\n\nTake your time. You can exit with Esc and restart anytime."
+    },
+    "overview": {
+      "title": "Phase 1: Understand the Business",
+      "description": "Before looking at any numbers, make sure you truly understand WHAT this company does.\n\nAsk yourself: can you explain this business to a friend in one sentence? If not, you probably don't understand it well enough to invest.\n\nRead the company description, note the sector and industry. This context is essential: a P/E of 30 means something very different for a tech company vs a utility."
+    },
+    "balanceSheet": {
+      "title": "Phase 2: Financial Health",
+      "description": "Now we dig into the numbers. The balance sheet tells you whether this company can survive hard times.\n\nThink of it as a health checkup: revenue and income show if the business is thriving, while debt and liquidity ratios reveal hidden vulnerabilities.\n\nLet's examine each metric one by one."
+    },
+    "revenue": {
+      "title": "Revenue",
+      "description": "Revenue is the total money coming in from sales. It's the top line: everything starts here.\n\nWhat to look for:\n• Is revenue growing year over year? Stagnation or decline is a warning.\n• Compare to industry peers: is this company gaining or losing market share?\n\nRevenue alone doesn't tell you if the company is profitable. A company can have billions in revenue and still lose money."
+    },
+    "fcf": {
+      "title": "Free Cash Flow (FCF)",
+      "description": "Free Cash Flow is the REAL cash left after running the business and investing in growth. Unlike net income, it's very hard to manipulate with accounting tricks.\n\nWhat to look for:\n• Positive FCF: the company generates real cash.\n• FCF growing over time: the business is becoming a stronger cash machine.\n• FCF > Net Income: earnings are backed by real cash (very healthy sign).\n\nA company with strong FCF can pay dividends, buy back shares, reduce debt, or invest in growth, all without borrowing."
+    },
+    "currentRatio": {
+      "title": "Current Ratio",
+      "description": "The Current Ratio measures short-term liquidity: can the company pay its bills due within the next 12 months?\n\nHow to read it:\n• Above 1.5: healthy: the company has $1.50+ of liquid assets for every $1 of short-term debt.\n• Between 1.0 and 1.5: adequate, but not much safety margin.\n• Below 1.0: warning: current liabilities exceed current assets.\n\nA low current ratio doesn't always mean trouble (some industries like retail operate with low ratios), but it increases risk during economic downturns."
+    },
+    "debtMetrics": {
+      "title": "Debt Metrics",
+      "description": "These two ratios tell you if debt levels are dangerous:\n\nInterest Coverage: how easily the company pays interest on its debt.\n• Above 3x: comfortable.\n• Below 1.5x: a large share of profits goes to interest payments.\n\nDebt/EBITDA: how many years of earnings it would take to pay off all debt.\n• Below 3x: healthy.\n• 3-5x: needs monitoring.\n• Above 5x: red flag.\n\nDuring recessions, heavily indebted companies are the first to fail. Low debt = safety."
+    },
+    "epsChart": {
+      "title": "Earnings Per Share (EPS) Trend",
+      "description": "EPS shows how much profit each share of stock earns. A rising EPS trend is one of the strongest signals of a quality business.\n\nWhat to look for:\n• Rising EPS over 3-5 years: the company is becoming more profitable.\n• EPS growing faster than revenue: improving margins and efficiency.\n• Sudden drops: investigate: it could be a one-time event or a real problem.\n\nCompare EPS growth to stock price growth. If EPS grows faster than the price, the stock is getting cheaper relative to earnings, a potential opportunity."
+    },
+    "revenueChart": {
+      "title": "Revenue & Net Income Trend",
+      "description": "This chart shows whether the business is growing AND keeping more of what it earns.\n\nWhat to look for:\n• Both lines rising: healthy, sustainable growth.\n• Revenue rising but income flat: costs growing too fast. Investigate why.\n• Income growing faster than revenue: improving efficiency, a great sign.\n• Revenue declining: potential loss of market share or industry disruption.\n\nThe gap between revenue and net income represents total costs. If this gap narrows over time, profitability is improving."
+    },
+    "fcfChart": {
+      "title": "Free Cash Flow History",
+      "description": "This chart visualizes FCF over multiple years. Consistency matters more than any single year.\n\nWhat to look for:\n• Consistently positive bars: the business generates real cash year after year.\n• Growing trend: the cash machine is getting stronger.\n• FCF volatile or negative: the company may need external funding, increasing risk.\n\nA company with strong, growing FCF has the financial flexibility to reward shareholders through dividends or buybacks."
+    },
+    "incomeBreakdown": {
+      "title": "Income Breakdown",
+      "description": "This chart shows where every dollar of revenue actually goes: cost of goods, operating expenses, taxes, and finally net income.\n\nWhat to look for:\n• Larger net income slice: better profitability.\n• Cost of revenue eating most of the bar: thin margins, vulnerable to cost increases.\n• Operating expenses growing faster than revenue: efficiency declining.\n\nCompanies with high gross margins (small cost-of-revenue slice) typically have stronger competitive advantages: pricing power, unique products, or network effects."
+    },
+    "fairValue": {
+      "title": "Phase 3: Is the Price Right?",
+      "description": "This is the heart of value investing. Fair value estimates what the stock is TRULY worth, independent of market sentiment. We combine multiple methods (DCF, Graham, EPV, P/E-based) to reduce bias.\n\nKey concepts:\n• Fair Value: our best estimate of intrinsic worth.\n• Current Price: what the market charges today.\n• Fair Value Range: the confidence interval of our estimate.\n\nWhen methods agree on a similar value, the estimate is more reliable. Wide disagreement means more uncertainty."
+    },
+    "marginOfSafety": {
+      "title": "Margin of Safety",
+      "description": "Benjamin Graham's most important concept. The margin of safety is the discount between the current price and fair value.\n\nHow to read it:\n• Positive (e.g., +30%): the stock trades below fair value, a potential bargain.\n• Near zero: the stock is fairly priced, with limited upside.\n• Negative (e.g., -15%): the stock trades above fair value; you're paying a premium.\n\nGraham recommended at least 25% margin of safety to account for estimation errors.\n\nA stock below fair value isn't automatically a buy. Always ask WHY it's cheap; there might be a good reason."
+    },
+    "peRatio": {
+      "title": "P/E Ratio",
+      "description": "Price-to-Earnings tells you how much you pay for each dollar of annual profit.\n\nHow to read it:\n• Low P/E (< 15): could be undervalued, or the market sees problems ahead.\n• Medium P/E (15-25): fairly valued for most industries.\n• High P/E (> 25): the market expects strong future growth.\n• Negative P/E: the company is losing money.\n\nAlways compare within the same industry: tech stocks typically have higher P/E (25-35) than utilities (12-18).\n\nThe value investor's sweet spot: low P/E combined with high ROE and growing earnings."
+    },
+    "roeRoic": {
+      "title": "ROE & ROIC",
+      "description": "These measure how efficiently management uses capital:\n\nROE (Return on Equity): profit generated per dollar of shareholder equity.\n• Above 15%: excellent management efficiency.\n• Below 10%: the company may not be using capital well.\n\nROIC (Return on Invested Capital): similar, but includes debt in the calculation. More complete picture.\n• Above 10%: generating strong returns on ALL capital.\n\nConsistently high ROE + ROIC = a company with a durable competitive advantage (what Buffett calls a 'moat')."
+    },
+    "pbPfcf": {
+      "title": "P/B & P/FCF Ratios",
+      "description": "Alternative valuation lenses that complement P/E:\n\nP/B (Price-to-Book): compares stock price to the company's net asset value.\n• Below 1: you're paying less than the company's assets are worth. Could be undervalued, or a value trap.\n• Above 3: the market values intangible assets (brand, IP, growth) highly.\n\nP/FCF (Price-to-Free Cash Flow): like P/E but uses real cash instead of accounting profit. More reliable.\n\nP/FCF is often more useful than P/E because free cash flow is harder to manipulate."
+    },
+    "radarChart": {
+      "title": "Profitability Radar",
+      "description": "This radar chart gives you an instant visual snapshot of the company's financial profile across multiple dimensions.\n\nWhat to look for:\n• Wide, balanced shape: strong across all dimensions.\n• Collapsed or flat axis: reveals a specific weakness; investigate it.\n• Compare with your mental model of an ideal investment.\n\nNo company scores perfectly on every axis. The key question: are the weaknesses temporary (and fixable) or structural (and permanent)?"
+    },
+    "fundamentalCriteria": {
+      "title": "Fundamental Criteria Scorecard",
+      "description": "This section shows every criterion used to calculate the fundamental score. Think of it as a quality checklist.\n\nHow to read it:\n• Green (Passed): the company exceeds the quality threshold for this metric.\n• Red (Failed): the company falls short. Check the weight: high-weight failures matter more.\n• Gray (Unavailable): data missing. Not included in the score.\n\nScore interpretation:\n• Above 75: strong fundamentals.\n• 60-75: decent, but check what failed.\n• Below 40: significant concerns.\n\nDon't just look at the total score. Read which specific criteria failed. A company could score 65 but hide dangerous debt levels among many minor passes."
+    },
+    "priceChart": {
+      "title": "Phase 4: Market Signals",
+      "description": "The candlestick chart shows price action over time. Green candles = price went up, red = went down. The thin lines (wicks) show the day's high and low.\n\nWhat to look for:\n• Overall trend: higher highs = uptrend, lower lows = downtrend.\n• Support levels: prices where the stock consistently bounces back up.\n• Resistance levels: prices where it repeatedly pulls back.\n\nThe price chart tells you what the MARKET thinks. Your fundamental analysis tells you what the company is WORTH. When these diverge, opportunities arise."
+    },
+    "rsi": {
+      "title": "RSI (Relative Strength Index)",
+      "description": "RSI measures whether a stock has been rising or falling too quickly. It ranges from 0 to 100.\n\nHow to read it:\n• Below 30: potentially oversold. The stock may have been sold too aggressively. Could be a buying opportunity.\n• Between 30 and 70: neutral territory, with normal trading conditions.\n• Above 70: potentially overbought. The stock may have risen too fast. Could pull back.\n\nRSI is a timing tool, not a selection tool. Use fundamentals to decide WHAT to buy, RSI to decide WHEN."
+    },
+    "smaTrend": {
+      "title": "Moving Averages (SMA 50 & 200)",
+      "description": "Moving averages smooth out daily noise to reveal the underlying trend.\n\nKey signals:\n• SMA 50 above SMA 200 (Golden Cross): the short-term trend is stronger than the long-term, a bullish signal.\n• SMA 50 below SMA 200 (Death Cross): the short-term trend is weaker, a bearish signal.\n• Price above SMA 200: the long-term trend is up.\n\nThese signals work best as confirmation of your fundamental analysis. A fundamentally great company in a Golden Cross is a strong combination."
+    },
+    "macdVolatility": {
+      "title": "MACD & Volatility",
+      "description": "Two more tools for understanding momentum and risk:\n\nMACD Histogram: positive and rising = bullish momentum. Negative and falling = bearish.\n\nVolatility: how much the stock price swings. High volatility means higher risk but also higher potential opportunity for patient buyers.\n\nFor value investors, high volatility in a fundamentally strong company can create buying opportunities: the market overreacts, creating temporary discounts."
+    },
+    "piotroski": {
+      "title": "Phase 5: Management Quality",
+      "description": "The Piotroski F-Score is a 9-point checklist that evaluates financial health across profitability, leverage, and operating efficiency.\n\nHow to read it:\n• 7-9: strong financial health; management is doing well.\n• 4-6: mixed signals; some areas need attention.\n• 0-3: serious financial concerns; proceed with extreme caution.\n\nLook at the breakdown below to see exactly which criteria passed and which failed.\n\nAcademic research shows that high Piotroski scores tend to outperform low scores over time. It's one of the most validated quality indicators."
+    },
+    "earningsQuality": {
+      "title": "Earnings Quality",
+      "description": "Earnings Quality compares Operating Cash Flow to Net Income. This reveals whether reported profits are backed by real cash.\n\nHow to read it:\n• Above 1.0: operating cash flow exceeds net income, so earnings are solid and real.\n• Between 0.5 and 1.0: some gap between reported and real earnings. Worth monitoring.\n• Below 0.5: net income is much higher than actual cash generated, suggesting possible aggressive accounting.\n\nCompanies with high earnings quality are less likely to deliver negative surprises. Cash doesn't lie."
+    },
+    "shareDilution": {
+      "title": "Share Dilution",
+      "description": "Share dilution tells you whether management is creating or destroying shareholder value through stock issuance.\n\nHow to read it:\n• Negative (e.g., -3%): the company is buying back shares; each remaining share becomes more valuable. Shareholder-friendly.\n• Near zero: neutral; share count is stable.\n• Positive (e.g., +5%): new shares are being issued, diluting your ownership percentage.\n\nConsistent buybacks combined with a high Piotroski score is a strong sign of shareholder-friendly management."
+    },
+    "governance": {
+      "title": "Corporate Governance",
+      "description": "Even the best business can be ruined by poor management. This section evaluates leadership trustworthiness.\n\nWhat to look for:\n• Board independence: more independent directors = better oversight.\n• Low risk scores: high audit, board, or compensation risk are warning signs.\n• Executive compensation: should be tied to shareholder returns, not guaranteed bonuses.\n\nPoor governance is one of the strongest predictors of future problems. If everything else looks great but governance scores are alarming, think twice."
+    },
+    "conclusion": {
+      "title": "Putting It All Together",
+      "description": "You've now seen every metric a value investor needs. Here's how to connect the dots:\n\n1. Strong business you understand? (Phase 1)\n2. Solid financials: growing revenue, positive FCF, low debt? (Phase 2)\n3. Trading below fair value with margin of safety? (Phase 3)\n4. Technical signals not screaming 'stay away'? (Phase 4)\n5. Trustworthy management building shareholder value? (Phase 5)\n\nIf most answers are YES, you may have found a quality investment candidate. If several are NO, dig deeper or move on.\n\nNo single metric tells the full story. Look for convergence. Click the info icon on any card to revisit its explanation anytime."
+    },
+    "prompt": {
+      "title": "Want a guided tour?",
+      "description": "Learn how to read each metric like a value investor. Takes about 5 minutes.",
+      "start": "Start Tour",
+      "dismiss": "Not now",
+      "dontAskAgain": "Don't ask me again"
+    },
+    "next": "Next",
+    "prev": "Previous",
+    "done": "Done"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "previous": "Previous",
+    "next": "Next",
+    "reset": "Reset",
+    "backToCurrentWeek": "Back to current week",
+    "backToCurrentMonth": "Back to current month",
+    "today": "Today",
+    "noData": "No data available"
+  },
+  "nav": {
+    "brand": "Value School",
+    "home": "Home",
+    "screener": "Screener",
+    "compare": "Compare",
+    "earnings": "Earnings",
+    "ipo": "IPO",
+    "dividends": "Dividends",
+    "lastUpdate": "Last update:",
+    "disclaimer": "This platform is for educational purposes only. It does not provide financial, investment, or trading advice. All scores, valuations, and signals are based on automated analysis of publicly available data that may be incomplete or inaccurate. Always conduct your own research and consult a qualified financial advisor before making investment decisions.",
+    "createdBy": "Created by"
+  },
+  "disclaimer": {
+    "short": "Scores and valuations are indicative only, based on potentially limited data. This is not financial advice.",
+    "landing": "This platform is designed to teach value investing methodology through practical analysis. All scores and valuations are purely indicative and based on automated processing of publicly available data, which may be incomplete or contain errors. No content on this platform constitutes financial advice or investment recommendation. Always do your own due diligence and consult a qualified financial advisor before making any investment decisions.",
+    "analysis": "The analysis shown is automatically generated from publicly available financial data that may be incomplete or inaccurate. Scores and valuations are purely indicative and should not be used as the sole basis for investment decisions. This platform is educational: learn the methodology, then apply your own judgment."
+  },
+  "welcome": {
+    "title": "Welcome to Value School",
+    "subtitle": "Learn value investing through practical analysis",
+    "selectLanguage": "Choose your preferred language",
+    "disclaimer": "All data, scores, and valuations on this platform are purely indicative and for educational purposes only. They are generated from automated analysis of publicly available financial data that may be incomplete or inaccurate. Nothing here constitutes financial advice.",
+    "continue": "Continue",
+    "english": "English",
+    "italian": "Italiano"
+  },
+  "pipeline": {
+    "running": "Analysis running",
+    "completed": "Analysis completed",
+    "starting": "Starting...",
+    "processing": "{current}/{total}: {symbol}",
+    "success": "OK",
+    "errors": "Errors"
+  }
+}

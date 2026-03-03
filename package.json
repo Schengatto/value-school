@@ -1,0 +1,56 @@
+{
+  "name": "stocks-radar",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "Enrico Schintu",
+    "email": "schengatto@gmail.com"
+  },
+  "engines": {
+    "node": ">= 22.10.0"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "1.2.90",
+    "@iconify-json/simple-icons": "1.2.70",
+    "@nuxt/ui": "4.4.0",
+    "@nuxtjs/i18n": "10.2.3",
+    "@polygon.io/client-js": "8.2.0",
+    "axios": "1.13.5",
+    "chart.js": "4.5.0",
+    "driver.js": "1.4.0",
+    "drizzle-orm": "0.44.0",
+    "lightweight-charts": "4.2.2",
+    "nuxt": "4.3.1",
+    "pg": "8.16.0",
+    "tailwindcss": "4.1.18",
+    "technicalindicators": "3.1.0",
+    "vue-chartjs": "5.3.2",
+    "yahoo-finance2": "3.13.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "1.15.1",
+    "@scalar/nuxt": "0.5.83",
+    "@types/pg": "8.15.0",
+    "@vitest/coverage-v8": "4.0.18",
+    "drizzle-kit": "0.31.0",
+    "eslint": "10.0.0",
+    "typescript": "5.9.3",
+    "vitest": "4.0.18",
+    "vue-tsc": "3.2.4"
+  },
+  "packageManager": "pnpm@10.29.3"
+}

@@ -1,0 +1,46 @@
+{
+  "common": {
+    "loading": "Caricamento...",
+    "previous": "Precedente",
+    "next": "Successivo",
+    "reset": "Reset",
+    "backToCurrentWeek": "Torna alla settimana corrente",
+    "backToCurrentMonth": "Torna al mese corrente",
+    "today": "Oggi",
+    "noData": "Nessun dato disponibile"
+  },
+  "nav": {
+    "brand": "Value School",
+    "home": "Home",
+    "screener": "Screener",
+    "compare": "Confronta",
+    "earnings": "Utili",
+    "ipo": "IPO",
+    "dividends": "Dividendi",
+    "lastUpdate": "Ultimo aggiornamento:",
+    "disclaimer": "Questa piattaforma ha esclusivamente finalita educative. Non fornisce consulenza finanziaria, di investimento o di trading. Tutti i punteggi, le valutazioni e i segnali si basano su analisi automatizzate di dati pubblicamente disponibili che potrebbero essere incompleti o imprecisi. Effettua sempre le tue ricerche e consulta un consulente finanziario qualificato prima di prendere decisioni di investimento.",
+    "createdBy": "Creato da"
+  },
+  "disclaimer": {
+    "short": "Punteggi e valutazioni sono puramente indicativi, basati su dati potenzialmente limitati. Questo non e consulenza finanziaria.",
+    "landing": "Questa piattaforma e progettata per insegnare la metodologia del value investing attraverso l'analisi pratica. Tutti i punteggi e le valutazioni sono puramente indicativi e basati sull'elaborazione automatica di dati pubblicamente disponibili, che potrebbero essere incompleti o contenere errori. Nessun contenuto di questa piattaforma costituisce consulenza finanziaria o raccomandazione di investimento. Effettua sempre la tua due diligence e consulta un consulente finanziario qualificato prima di prendere qualsiasi decisione di investimento.",
+    "analysis": "L'analisi mostrata e generata automaticamente da dati finanziari pubblicamente disponibili che potrebbero essere incompleti o imprecisi. Punteggi e valutazioni sono puramente indicativi e non devono essere usati come unica base per decisioni di investimento. Questa piattaforma e educativa: impara la metodologia, poi applica il tuo giudizio."
+  },
+  "welcome": {
+    "title": "Benvenuto su Value School",
+    "subtitle": "Impara il value investing attraverso l'analisi pratica",
+    "selectLanguage": "Scegli la tua lingua preferita",
+    "disclaimer": "Tutti i dati, i punteggi e le valutazioni presenti su questa piattaforma sono puramente indicativi e hanno esclusivamente finalità educative. Sono generati dall'analisi automatizzata di dati finanziari pubblicamente disponibili che potrebbero essere incompleti o imprecisi. Nulla qui costituisce consulenza finanziaria.",
+    "continue": "Continua",
+    "english": "English",
+    "italian": "Italiano"
+  },
+  "pipeline": {
+    "running": "Analisi in corso",
+    "completed": "Analisi completata",
+    "starting": "Avvio...",
+    "processing": "{current}/{total}: {symbol}",
+    "success": "OK",
+    "errors": "Errori"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "compare": {
+    "title": "Stock Comparison",
+    "description": "Compare 2-3 stocks side by side to evaluate which offers the best combination of quality, price, and growth potential.",
+    "searchPlaceholder": "Search by name or symbol...",
+    "addStock": "Add stock",
+    "removeStock": "Remove",
+    "selectAtLeast": "Select at least 2 stocks to compare",
+    "maxStocks": "Maximum 3 stocks",
+    "loading": "Loading stock data...",
+    "guidedTour": "Guided Tour",
+    "sections": {
+      "overview": "Overview",
+      "fundamentals": "Fundamental Metrics",
+      "valuation": "Valuation",
+      "priceChart": "Price Performance",
+      "radarChart": "Profile Comparison"
+    },
+    "metrics": {
+      "metric": "Metric",
+      "pe": "P/E Ratio",
+      "roe": "ROE",
+      "grossMargin": "Gross Margin",
+      "operatingMargin": "Operating Margin",
+      "currentRatio": "Current Ratio",
+      "debtToEbitda": "Debt / EBITDA",
+      "interestCoverage": "Interest Coverage",
+      "fcf": "Free Cash Flow",
+      "piotroski": "Piotroski F-Score",
+      "earningsQuality": "Earnings Quality",
+      "dataCompleteness": "Data Completeness"
+    },
+    "overview": {
+      "category": "Category",
+      "sector": "Sector",
+      "industry": "Industry",
+      "price": "Price",
+      "compositeScore": "Composite Score",
+      "fundamentalScore": "Fundamental Score",
+      "technicalScore": "Technical Score",
+      "signal": "Signal",
+      "valuation": "Valuation"
+    },
+    "valuation": {
+      "fairValue": "Fair Value",
+      "currentPrice": "Current Price",
+      "marginOfSafety": "Margin of Safety",
+      "signal": "Valuation Signal",
+      "fairValueRange": "Fair Value Range"
+    },
+    "chart": {
+      "normalizedPrice": "Normalized Price (base 100)",
+      "percentChange": "% Change",
+      "noData": "No price data available for comparison"
+    },
+    "tour": {
+      "intro": {
+        "title": "Welcome to Stock Comparison",
+        "description": "Relative analysis is a cornerstone of value investing. A company's numbers mean little in isolation; they only become meaningful when compared to its competitors. This tool lets you place up to 3 stocks side by side to discover which one truly offers the best combination of quality, price, and growth potential."
+      },
+      "selector": {
+        "title": "Select at Least 2 Companies",
+        "description": "Use this search bar to add stocks you want to compare. For the most meaningful analysis, choose companies from the same sector: comparing a tech firm to a utility would be like comparing apples to oranges. Same-sector comparisons reveal real differences in competitive advantage, efficiency, and management quality. Go ahead. Search and add at least 2 companies to begin!"
+      },
+      "overview": {
+        "title": "The Big Picture",
+        "description": "Start here to get a quick snapshot. The composite score combines fundamental and technical factors. Ask yourself: does the category (value, growth, GARP) match your investment strategy? A 'value' stock with a high composite score is a promising starting point for deeper analysis."
+      },
+      "fundamentals": {
+        "title": "Financial Health Check",
+        "description": "This is where value investing truly begins. Green highlights the strongest metric, red the weakest. Key questions: Who has the highest ROE (management efficiency)? The lowest debt (financial safety)? The widest margins (competitive moat)? A high Piotroski score (7-9) signals strong financial health."
+      },
+      "valuation": {
+        "title": "Is the Price Right?",
+        "description": "Benjamin Graham taught that a great company at a bad price is still a bad investment. Compare each stock's fair value to its current price. The margin of safety tells you how much 'cushion' you have: higher is better. Look for companies that are undervalued AND have strong fundamentals."
+      },
+      "radar": {
+        "title": "Visual Profile",
+        "description": "The radar chart gives you an instant visual comparison. A wider, more balanced shape indicates a company that's strong across multiple dimensions. Be cautious of shapes that are very narrow on one side; it signals a weakness. The ideal value investment shows strength in profitability, solvency, and growth."
+      },
+      "price": {
+        "title": "Price vs Value",
+        "description": "Remember: price is what you pay, value is what you get. This chart normalizes all prices to 100 so you can compare performance fairly. A stock that has risen sharply might be overvalued now, while one that has lagged could represent an opportunity. Always cross-reference with the valuation section above."
+      },
+      "conclusion": {
+        "title": "Your Analysis Toolkit",
+        "description": "You now have the tools to compare stocks like a value investor. No company is perfect. The goal is to find the best trade-off between quality, price, and growth potential. Use this comparison as a starting point, then dive deeper into each company's detail page for your final evaluation."
+      },
+      "next": "Next",
+      "prev": "Previous",
+      "done": "Got it!"
+    }
+  }
+}

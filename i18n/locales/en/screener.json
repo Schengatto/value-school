@@ -1,0 +1,135 @@
+{
+  "screenerTour": {
+    "welcome": {
+      "title": "Welcome to the Screener",
+      "description": "The Screener helps you discover investment opportunities among 200+ NASDAQ large-cap stocks.\n\nEach stock is scored on fundamentals (financial health) and technicals (market trends), then ranked by a composite score.\n\nThis tour shows you how to use filters, presets, and sorting to find the stocks that match your investment criteria. It takes about 2 minutes.\n\nPress Esc anytime to exit, and use the \"Guided Tour\" button to revisit."
+    },
+    "intro": {
+      "title": "How the Screener Works",
+      "description": "This card explains the scoring methodology behind the screener.\n\nEvery stock receives a Composite Score (0-100) combining 70% fundamental analysis and 30% technical analysis.\n\nExpand \"Evaluation Criteria\" to see the full list of metrics used: EPS trends, ROIC, margins, debt levels, DCF valuation, and more.\n\n💡 Understanding the criteria helps you interpret scores more effectively."
+    },
+    "presets": {
+      "title": "Quick Presets",
+      "description": "Presets apply predefined filters with one click, perfect for common screening strategies:\n\n• Value Picks: classic value stocks with strong fundamentals\n• Growth Stars: high-growth companies with top composite scores\n• Quality Stocks: high Piotroski F-Score and reliable data\n• Undervalued: stocks trading below their estimated fair value\n\n💡 Use presets as a starting point, then refine with additional filters."
+    },
+    "filters": {
+      "title": "Search & Filter",
+      "description": "Narrow down the stock list using these controls:\n\n• Search: find a specific stock by name or ticker\n• Sector: filter by industry (Technology, Healthcare, etc.)\n• Signal: filter by overall signal (positive, neutral, negative)\n• Category: toggle stock types (value, growth, GARP, speculative)\n• Valuation: filter by valuation signal (undervalued, fair, overvalued)\n\n💡 Filters combine together: only stocks matching ALL active filters are shown."
+    },
+    "scoreRanges": {
+      "title": "Score Ranges",
+      "description": "Set minimum and maximum thresholds for the three main scores:\n\n• Composite Score: the overall ranking (70% fundamental + 30% technical)\n• Fundamental Score: financial health and quality metrics\n• Technical Score: market trends and momentum indicators\n\nScores range from 0 to 100. Above 60 generally indicates a solid stock.\n\n💡 Try setting Fundamental Score min to 60 to filter for financially healthy companies."
+    },
+    "advanced": {
+      "title": "Advanced Filters",
+      "description": "Expand for deeper screening options:\n\n• Piotroski F-Score (0-9): measures financial strength. 7+ means strong fundamentals\n• Margin of Safety: how much discount to fair value. Positive = potentially undervalued\n• Data Completeness: percentage of available data. Higher = more reliable scores\n\n💡 Combining Piotroski ≥ 7 with positive Margin of Safety is a classic value investing screen."
+    },
+    "sorting": {
+      "title": "Sorting",
+      "description": "Sort the results by any metric to find what matters most:\n\n• Composite Score (default): overall best-ranked stocks\n• Fundamental/Technical Score: sort by specific analysis type\n• Margin of Safety: find the most undervalued stocks first\n• Piotroski F-Score: prioritize financial quality\n• P/E or ROE: sort by classic valuation metrics\n\nClick the arrow to toggle ascending/descending order."
+    },
+    "results": {
+      "title": "Stock Cards",
+      "description": "Each card shows key information at a glance:\n\n• Name, ticker, and current price\n• Category badge (value, growth, GARP, speculative)\n• Three scores: Composite, Fundamental, Technical\n• Overall signal and valuation signal\n• Margin of Safety, Piotroski F-Score, P/E, and ROE\n\nClick any card to open the full analysis page with charts, fair value estimation, and governance data.\n\n💡 A \"~\" prefix on scores means low data completeness; interpret with caution."
+    },
+    "conclusion": {
+      "title": "Ready to Explore!",
+      "description": "You now know how to use the screener effectively:\n\n✅ Use presets for quick screening strategies\n✅ Combine filters to narrow your search\n✅ Sort by different metrics to find what matters\n✅ Click a stock to dive into detailed analysis\n\nRemember: the screener is a starting point for research, not a buy/sell recommendation. Always do your own due diligence.\n\n💡 Click the \"Guided Tour\" button anytime to revisit this walkthrough."
+    }
+  },
+  "screener": {
+    "title": "Stock Screener",
+    "description": "Filter and discover stocks based on fundamental scores, technical signals, valuation metrics, and quality indicators. Use presets for quick analysis or build your own custom screen.",
+    "presets": {
+      "valuePicks": "Value Picks",
+      "growthStars": "Growth Stars",
+      "qualityStocks": "Quality Stocks",
+      "undervalued": "Undervalued"
+    },
+    "filters": {
+      "title": "Filters",
+      "active": "{count} active | {count} active",
+      "category": "Category",
+      "compositeRange": "Composite Score",
+      "fundamentalRange": "Fundamental Score",
+      "technicalRange": "Technical Score",
+      "advanced": "Advanced Filters",
+      "piotroskiMin": "Piotroski F-Score (min)",
+      "marginOfSafetyRange": "Margin of Safety (%)",
+      "dataCompletenessMin": "Data Completeness (min %)",
+      "valuationSignal": "Valuation",
+      "allValuations": "All valuations"
+    },
+    "columns": {
+      "price": "Price",
+      "valuation": "Valuation",
+      "marginOfSafety": "MoS %",
+      "piotroski": "F-Score",
+      "pe": "P/E",
+      "roe": "ROE %"
+    },
+    "results": {
+      "found": "{count} stocks found",
+      "noResults": "No stocks match your criteria. Try relaxing some filters."
+    },
+    "valuation": {
+      "undervalued": "Undervalued",
+      "fairlyValued": "Fair Value",
+      "overvalued": "Overvalued"
+    },
+    "help": {
+      "sector": {
+        "title": "Industry Sector",
+        "content": "The economic sector a company belongs to (e.g. Technology, Healthcare, Finance).\n\nFiltering by sector helps you focus on industries you understand or want to explore.\n\nDifferent sectors have different typical valuations; comparing within the same sector is more meaningful."
+      },
+      "signal": {
+        "title": "Overall Signal",
+        "content": "A summary recommendation derived from the composite score:\n\n• Positive: composite score suggests favorable conditions\n• Neutral: mixed signals, neither strongly positive nor negative\n• Negative: low scores indicate potential concerns\n\nThis is NOT a buy/sell recommendation; always do your own research."
+      },
+      "category": {
+        "title": "Stock Category",
+        "content": "Each stock is classified based on its financial profile:\n\n• Value: low valuation relative to fundamentals (low P/E, high dividend)\n• Growth: strong earnings and revenue growth momentum\n• GARP: Growth at a Reasonable Price, a blend of growth and value\n• Speculative: high uncertainty or insufficient data for classification"
+      },
+      "valuation": {
+        "title": "Valuation Signal",
+        "content": "Compares the current stock price to its estimated fair value:\n\n• Undervalued: price is below the estimated fair value (potential opportunity)\n• Fair Value: price is close to the estimated fair value\n• Overvalued: price is above the estimated fair value\n\nFair value is calculated using DCF, Graham Number, EPV, and P/E-based models."
+      },
+      "compositeScore": {
+        "title": "Composite Score (0-100)",
+        "content": "The overall ranking score combining:\n\n• 70% Fundamental Score (financial health, earnings quality, valuation)\n• 30% Technical Score (market trends, momentum)\n\nA higher score means the stock ranks well on both fundamental and technical criteria.\n\n60+ is generally considered solid. Compare within the same sector for best results."
+      },
+      "fundamentalScore": {
+        "title": "Fundamental Score (0-100)",
+        "content": "Evaluates a company's financial health using 30+ metrics:\n\n• Profitability: EPS growth, ROE, ROIC, margins\n• Financial strength: debt levels, current ratio, interest coverage\n• Cash flow: free cash flow generation, payout sustainability\n• Valuation: P/E, P/FCF, Graham Number, DCF\n\nHigher score = stronger financial fundamentals."
+      },
+      "technicalScore": {
+        "title": "Technical Score (0-100)",
+        "content": "Measures market trends and price momentum:\n\n• SMA 50/200: short and long-term moving averages\n• RSI (14): overbought/oversold indicator\n• MACD: momentum and trend direction\n• Price momentum: 12-month rate of change\n• Volatility: price stability assessment\n\nHigher score = more favorable technical conditions for entry."
+      },
+      "piotroski": {
+        "title": "Piotroski F-Score (0-9)",
+        "content": "A quality score developed by professor Joseph Piotroski that tests 9 financial criteria:\n\n• Profitability (4 tests): positive net income, operating cash flow, ROA improvement, cash flow > net income\n• Leverage (3 tests): decreasing debt, improving current ratio, no share dilution\n• Efficiency (2 tests): improving gross margin, improving asset turnover\n\n7-9 = strong fundamentals\n4-6 = mixed\n0-3 = weak fundamentals"
+      },
+      "marginOfSafety": {
+        "title": "Margin of Safety (%)",
+        "content": "The percentage difference between a stock's estimated fair value and its current market price.\n\n• Positive: stock trades below fair value (e.g. +25% means 25% discount)\n• Zero: stock trades at fair value\n• Negative: stock trades above fair value (e.g. -15% means 15% premium)\n\nBenjamin Graham recommended a margin of safety of at least 25-30% before buying."
+      },
+      "dataCompleteness": {
+        "title": "Data Completeness (%)",
+        "content": "The percentage of fundamental metrics for which we have data.\n\nSome companies (especially newer or foreign-listed ones) may have incomplete financial data from our sources.\n\n• Above 60%: reliable scores\n• 40-60%: use with caution\n• Below 40%: scores shown with a ~ prefix indicating low confidence\n\nSet a minimum to ensure you only see stocks with reliable data."
+      }
+    },
+    "sort": {
+      "label": "Sort by",
+      "compositeScore": "Composite Score",
+      "fundamentalScore": "Fundamental Score",
+      "technicalScore": "Technical Score",
+      "currentPrice": "Price",
+      "name": "Name",
+      "marginOfSafety": "Margin of Safety",
+      "piotroskiScore": "Piotroski F-Score",
+      "pe": "P/E Ratio",
+      "roe": "ROE"
+    }
+  }
+}

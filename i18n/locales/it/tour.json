@@ -1,0 +1,123 @@
+{
+  "tour": {
+    "startTour": "Tour Guidato",
+    "welcome": {
+      "title": "La Tua Analisi di Value Investing",
+      "description": "Stai per imparare ad analizzare un'azione come un investitore value professionista. Questo tour guidato ti accompagna attraverso ogni metrica chiave, spiegando cosa significa e come utilizzarla.\n\nCopriremo 5 fasi:\n1. Capire il Business\n2. Valutare la Salute Finanziaria\n3. Stimare il Valore\n4. Leggere i Segnali di Mercato\n5. Giudicare la Qualit\u00e0 del Management\n\nPrenditi il tuo tempo. Puoi uscire con Esc e ricominciare quando vuoi."
+    },
+    "overview": {
+      "title": "Fase 1: Capire il Business",
+      "description": "Prima di guardare qualsiasi numero, assicurati di capire COSA fa questa azienda.\n\nChiediti: puoi spiegare questo business a un amico in una frase? Se no, probabilmente non lo capisci abbastanza per investirci.\n\nLeggi la descrizione dell'azienda, nota il settore e l'industria. Questo contesto \u00e8 essenziale \u2014 un P/E di 30 ha un significato molto diverso per un'azienda tech rispetto a una utility."
+    },
+    "balanceSheet": {
+      "title": "Fase 2: Salute Finanziaria",
+      "description": "Ora entriamo nei numeri. Il bilancio ti dice se questa azienda pu\u00f2 sopravvivere ai momenti difficili.\n\nPensalo come un check-up medico: ricavi e utili mostrano se il business prospera, mentre i rapporti di debito e liquidit\u00e0 rivelano vulnerabilit\u00e0 nascoste.\n\nEsaminiamo ogni metrica una per una."
+    },
+    "revenue": {
+      "title": "Ricavi",
+      "description": "I ricavi sono il totale del denaro che entra dalle vendite. \u00c8 la riga pi\u00f9 alta \u2014 tutto parte da qui.\n\nCosa cercare:\n\u2022 I ricavi crescono anno dopo anno? Stagnazione o calo sono un segnale d'allarme.\n\u2022 Confronta con i concorrenti: l'azienda sta guadagnando o perdendo quota di mercato?\n\nI ricavi da soli non dicono se l'azienda \u00e8 redditizia. Un'azienda pu\u00f2 avere miliardi di ricavi e perdere comunque denaro."
+    },
+    "fcf": {
+      "title": "Free Cash Flow (FCF)",
+      "description": "Il Free Cash Flow \u00e8 il VERO contante rimasto dopo aver gestito il business e investito nella crescita. A differenza dell'utile netto, \u00e8 molto difficile da manipolare con trucchi contabili.\n\nCosa cercare:\n\u2022 FCF positivo: l'azienda genera denaro reale.\n\u2022 FCF in crescita: la macchina del cash si sta rafforzando.\n\u2022 FCF > Utile Netto: gli utili sono supportati da denaro reale (segno molto sano).\n\nUn'azienda con FCF forte pu\u00f2 pagare dividendi, riacquistare azioni, ridurre il debito o investire nella crescita \u2014 tutto senza indebitarsi."
+    },
+    "currentRatio": {
+      "title": "Current Ratio",
+      "description": "Il Current Ratio misura la liquidit\u00e0 a breve termine: l'azienda pu\u00f2 pagare le fatture in scadenza nei prossimi 12 mesi?\n\nCome leggerlo:\n\u2022 Sopra 1.5: sano \u2014 l'azienda ha $1.50+ di attivit\u00e0 liquide per ogni $1 di debito a breve.\n\u2022 Tra 1.0 e 1.5: adeguato, ma poco margine di sicurezza.\n\u2022 Sotto 1.0: attenzione \u2014 le passivit\u00e0 correnti superano le attivit\u00e0 correnti.\n\nUn current ratio basso non significa sempre problemi (alcuni settori come il retail operano con ratio bassi), ma aumenta il rischio durante le crisi economiche."
+    },
+    "debtMetrics": {
+      "title": "Metriche del Debito",
+      "description": "Questi due rapporti ti dicono se i livelli di debito sono pericolosi:\n\nCopertura Interessi: con quanta facilit\u00e0 l'azienda paga gli interessi sul debito.\n\u2022 Sopra 3x: confortevole.\n\u2022 Sotto 1.5x: una larga parte dei profitti va in pagamento interessi.\n\nDebito/EBITDA: quanti anni di utili servirebbero per ripagare tutto il debito.\n\u2022 Sotto 3x: sano.\n\u2022 3-5x: da monitorare.\n\u2022 Sopra 5x: segnale d'allarme.\n\nDurante le recessioni, le aziende molto indebitate sono le prime a fallire. Poco debito = sicurezza."
+    },
+    "epsChart": {
+      "title": "Utile Per Azione (EPS) \u2014 Trend",
+      "description": "L'EPS mostra quanto profitto genera ogni azione. Un trend EPS in crescita \u00e8 uno dei segnali pi\u00f9 forti di un business di qualit\u00e0.\n\nCosa cercare:\n\u2022 EPS in crescita su 3-5 anni: l'azienda diventa pi\u00f9 redditizia.\n\u2022 EPS cresce pi\u00f9 dei ricavi: margini ed efficienza in miglioramento.\n\u2022 Cali improvvisi: indaga \u2014 potrebbe essere un evento isolato o un problema reale.\n\nConfronta la crescita dell'EPS con quella del prezzo. Se l'EPS cresce pi\u00f9 velocemente del prezzo, l'azione sta diventando pi\u00f9 economica rispetto agli utili \u2014 una potenziale opportunit\u00e0."
+    },
+    "revenueChart": {
+      "title": "Ricavi e Utile Netto \u2014 Trend",
+      "description": "Questo grafico mostra se il business sta crescendo E trattenendo pi\u00f9 di quello che guadagna.\n\nCosa cercare:\n\u2022 Entrambe le linee in salita: crescita sana e sostenibile.\n\u2022 Ricavi in salita ma utili piatti: i costi crescono troppo. Indaga il perch\u00e9.\n\u2022 Utili che crescono pi\u00f9 dei ricavi: efficienza in miglioramento \u2014 ottimo segno.\n\u2022 Ricavi in calo: potenziale perdita di quota di mercato.\n\nLo spazio tra ricavi e utile netto rappresenta i costi totali. Se si restringe nel tempo, la redditivit\u00e0 sta migliorando."
+    },
+    "fcfChart": {
+      "title": "Storico del Free Cash Flow",
+      "description": "Questo grafico visualizza il FCF su pi\u00f9 anni. La costanza conta pi\u00f9 di qualsiasi singolo anno.\n\nCosa cercare:\n\u2022 Barre costantemente positive: il business genera denaro reale anno dopo anno.\n\u2022 Trend in crescita: la macchina del cash si sta rafforzando.\n\u2022 FCF volatile o negativo: l'azienda potrebbe aver bisogno di finanziamenti esterni.\n\nUn'azienda con FCF forte e crescente ha la flessibilit\u00e0 finanziaria per premiare gli azionisti con dividendi o buyback."
+    },
+    "incomeBreakdown": {
+      "title": "Scomposizione dei Ricavi",
+      "description": "Questo grafico mostra dove va effettivamente ogni dollaro di ricavi \u2014 costo del venduto, spese operative, tasse e infine utile netto.\n\nCosa cercare:\n\u2022 Fetta di utile netto pi\u00f9 grande: migliore redditivit\u00e0.\n\u2022 Costo del venduto che occupa la maggior parte: margini sottili, vulnerabili ad aumenti dei costi.\n\u2022 Spese operative che crescono pi\u00f9 dei ricavi: efficienza in calo.\n\nLe aziende con alti margini lordi (piccola fetta di costo del venduto) hanno tipicamente vantaggi competitivi pi\u00f9 forti \u2014 potere di prezzo, prodotti unici o effetti di rete."
+    },
+    "fairValue": {
+      "title": "Fase 3: Il Prezzo \u00c8 Giusto?",
+      "description": "Questo \u00e8 il cuore del value investing. Il fair value stima quanto vale VERAMENTE l'azione, indipendentemente dal sentiment di mercato. Combiniamo pi\u00f9 metodi (DCF, Graham, EPV, basato su P/E) per ridurre i bias.\n\nConcetti chiave:\n\u2022 Fair Value: la nostra migliore stima del valore intrinseco.\n\u2022 Prezzo Attuale: quello che il mercato chiede oggi.\n\u2022 Range di Fair Value: l'intervallo di confidenza della stima.\n\nQuando i metodi concordano su un valore simile, la stima \u00e8 pi\u00f9 affidabile. Grande disaccordo significa pi\u00f9 incertezza."
+    },
+    "marginOfSafety": {
+      "title": "Margine di Sicurezza",
+      "description": "Il concetto pi\u00f9 importante di Benjamin Graham. Il margine di sicurezza \u00e8 lo sconto tra il prezzo attuale e il fair value.\n\nCome leggerlo:\n\u2022 Positivo (es. +30%): l'azione tratta sotto il fair value \u2014 potenziale affare.\n\u2022 Vicino a zero: il prezzo \u00e8 equo \u2014 upside limitato.\n\u2022 Negativo (es. -15%): l'azione tratta sopra il fair value \u2014 stai pagando un premio.\n\nGraham raccomandava almeno il 25% di margine di sicurezza per compensare errori di stima.\n\nUn'azione sotto il fair value non \u00e8 automaticamente un acquisto. Chiediti sempre PERCH\u00c9 \u00e8 a sconto \u2014 potrebbe esserci un buon motivo."
+    },
+    "peRatio": {
+      "title": "Rapporto P/E",
+      "description": "Il Price-to-Earnings ti dice quanto paghi per ogni dollaro di profitto annuale.\n\nCome leggerlo:\n\u2022 P/E basso (< 15): potrebbe essere sottovalutato, o il mercato vede problemi.\n\u2022 P/E medio (15-25): valutazione equa per la maggior parte dei settori.\n\u2022 P/E alto (> 25): il mercato si aspetta forte crescita futura.\n\u2022 P/E negativo: l'azienda sta perdendo denaro.\n\nConfronta sempre all'interno dello stesso settore: i titoli tech hanno tipicamente P/E pi\u00f9 alti (25-35) rispetto alle utility (12-18).\n\nIl punto dolce del value investor: P/E basso combinato con ROE alto e utili in crescita."
+    },
+    "roeRoic": {
+      "title": "ROE e ROIC",
+      "description": "Misurano quanto efficientemente il management usa il capitale:\n\nROE (Return on Equity): profitto generato per ogni dollaro di patrimonio netto.\n\u2022 Sopra 15%: eccellente efficienza gestionale.\n\u2022 Sotto 10%: l'azienda potrebbe non usare bene il capitale.\n\nROIC (Return on Invested Capital): simile, ma include il debito nel calcolo. Quadro pi\u00f9 completo.\n\u2022 Sopra 10%: genera rendimenti forti su TUTTO il capitale.\n\nROE + ROIC costantemente alti = un'azienda con un vantaggio competitivo duraturo (quello che Buffett chiama 'moat')."
+    },
+    "pbPfcf": {
+      "title": "Rapporti P/B e P/FCF",
+      "description": "Lenti di valutazione alternative che completano il P/E:\n\nP/B (Price-to-Book): confronta il prezzo dell'azione con il valore patrimoniale netto.\n\u2022 Sotto 1: stai pagando meno del valore degli asset. Potrebbe essere sottovalutato \u2014 o una trappola del valore.\n\u2022 Sopra 3: il mercato valuta molto gli asset intangibili (brand, brevetti, crescita).\n\nP/FCF (Price-to-Free Cash Flow): come il P/E ma usa il cash reale invece del profitto contabile. Pi\u00f9 affidabile.\n\nIl P/FCF \u00e8 spesso pi\u00f9 utile del P/E perch\u00e9 il free cash flow \u00e8 pi\u00f9 difficile da manipolare."
+    },
+    "radarChart": {
+      "title": "Radar della Redditivit\u00e0",
+      "description": "Questo grafico radar ti d\u00e0 un'istantanea visiva del profilo finanziario dell'azienda su pi\u00f9 dimensioni.\n\nCosa cercare:\n\u2022 Forma ampia e bilanciata: forte su tutte le dimensioni.\n\u2022 Asse collassato o piatto: rivela una debolezza specifica \u2014 investigala.\n\u2022 Confronta con il tuo modello mentale di investimento ideale.\n\nNessuna azienda ha un punteggio perfetto su ogni asse. La domanda chiave: le debolezze sono temporanee (e risolvibili) o strutturali (e permanenti)?"
+    },
+    "fundamentalCriteria": {
+      "title": "Scorecard dei Criteri Fondamentali",
+      "description": "Questa sezione mostra ogni criterio usato per calcolare il punteggio fondamentale. Pensala come una checklist di qualit\u00e0.\n\nCome leggerla:\n\u2022 Verde (Superato): l'azienda supera la soglia di qualit\u00e0 per questa metrica.\n\u2022 Rosso (Non superato): l'azienda non raggiunge la soglia. Controlla il peso \u2014 i criteri con peso alto contano di pi\u00f9.\n\u2022 Grigio (Non disponibile): dato mancante. Non incluso nel punteggio.\n\nInterpretazione del punteggio:\n\u2022 Sopra 75: fondamentali forti.\n\u2022 60-75: discreti, ma controlla cosa non ha superato.\n\u2022 Sotto 40: preoccupazioni significative.\n\nNon guardare solo il punteggio totale. Leggi quali criteri specifici non sono stati superati."
+    },
+    "priceChart": {
+      "title": "Fase 4: Segnali di Mercato",
+      "description": "Il grafico a candele mostra l'andamento del prezzo. Candele verdi = prezzo salito, rosse = sceso. Le linee sottili (ombre) mostrano massimo e minimo del giorno.\n\nCosa cercare:\n\u2022 Trend generale: massimi crescenti = rialzo, minimi decrescenti = ribasso.\n\u2022 Livelli di supporto: prezzi dove l'azione rimbalza verso l'alto.\n\u2022 Livelli di resistenza: prezzi dove ritraccia.\n\nIl grafico dei prezzi ti dice cosa pensa il MERCATO. La tua analisi fondamentale ti dice quanto VALE l'azienda. Quando divergono, nascono le opportunit\u00e0."
+    },
+    "rsi": {
+      "title": "RSI (Indice di Forza Relativa)",
+      "description": "L'RSI misura se un'azione \u00e8 salita o scesa troppo rapidamente. Va da 0 a 100.\n\nCome leggerlo:\n\u2022 Sotto 30: potenzialmente ipervenduto \u2014 l'azione potrebbe essere stata venduta troppo aggressivamente. Possibile opportunit\u00e0 d'acquisto.\n\u2022 Tra 30 e 70: zona neutra \u2014 condizioni di trading normali.\n\u2022 Sopra 70: potenzialmente ipercomprato \u2014 l'azione potrebbe essere salita troppo in fretta.\n\nL'RSI \u00e8 uno strumento di timing, non di selezione. Usa i fondamentali per decidere COSA comprare, l'RSI per decidere QUANDO."
+    },
+    "smaTrend": {
+      "title": "Medie Mobili (SMA 50 e 200)",
+      "description": "Le medie mobili filtrano il rumore quotidiano per rivelare il trend sottostante.\n\nSegnali chiave:\n\u2022 SMA 50 sopra SMA 200 (Golden Cross): il trend a breve \u00e8 pi\u00f9 forte del lungo periodo \u2014 rialzista.\n\u2022 SMA 50 sotto SMA 200 (Death Cross): il trend a breve \u00e8 pi\u00f9 debole \u2014 ribassista.\n\u2022 Prezzo sopra SMA 200: il trend di lungo periodo \u00e8 al rialzo.\n\nQuesti segnali funzionano meglio come conferma della tua analisi fondamentale. Un'azienda fondamentalmente solida in Golden Cross \u00e8 una combinazione forte."
+    },
+    "macdVolatility": {
+      "title": "MACD e Volatilit\u00e0",
+      "description": "Altri due strumenti per capire momentum e rischio:\n\nIstogramma MACD: positivo e in crescita = momentum rialzista. Negativo e in calo = ribassista.\n\nVolatilit\u00e0: quanto oscilla il prezzo. Alta volatilit\u00e0 significa rischio maggiore ma anche maggiore opportunit\u00e0 per gli investitori pazienti.\n\nPer i value investor, alta volatilit\u00e0 in un'azienda fondamentalmente solida pu\u00f2 creare opportunit\u00e0 d'acquisto \u2014 il mercato reagisce in eccesso, creando sconti temporanei."
+    },
+    "piotroski": {
+      "title": "Fase 5: Qualit\u00e0 del Management",
+      "description": "Il Piotroski F-Score \u00e8 una checklist a 9 punti che valuta la salute finanziaria su redditivit\u00e0, leva e efficienza operativa.\n\nCome leggerlo:\n\u2022 7-9: salute finanziaria forte \u2014 il management sta facendo bene.\n\u2022 4-6: segnali misti \u2014 alcune aree necessitano attenzione.\n\u2022 0-3: preoccupazioni serie \u2014 procedi con estrema cautela.\n\nGuarda il dettaglio sotto per vedere esattamente quali criteri sono stati superati e quali no.\n\nLa ricerca accademica mostra che punteggi Piotroski alti tendono a sovraperformare quelli bassi nel tempo."
+    },
+    "earningsQuality": {
+      "title": "Qualit\u00e0 degli Utili",
+      "description": "La Qualit\u00e0 degli Utili confronta il Cash Flow Operativo con l'Utile Netto. Rivela se i profitti dichiarati sono supportati da denaro reale.\n\nCome leggerlo:\n\u2022 Sopra 1.0: il cash flow operativo supera l'utile netto \u2014 utili solidi e reali.\n\u2022 Tra 0.5 e 1.0: qualche divario tra utili dichiarati e reali. Da monitorare.\n\u2022 Sotto 0.5: l'utile netto \u00e8 molto superiore al cash generato \u2014 possibile contabilit\u00e0 aggressiva.\n\nLe aziende con alta qualit\u00e0 degli utili hanno meno probabilit\u00e0 di sorprese negative. Il cash non mente."
+    },
+    "shareDilution": {
+      "title": "Diluizione Azionaria",
+      "description": "La diluizione azionaria ti dice se il management sta creando o distruggendo valore per gli azionisti attraverso l'emissione di azioni.\n\nCome leggerlo:\n\u2022 Negativo (es. -3%): l'azienda sta riacquistando azioni \u2014 ogni azione rimanente diventa pi\u00f9 preziosa. Favorevole agli azionisti.\n\u2022 Vicino a zero: neutro \u2014 numero di azioni stabile.\n\u2022 Positivo (es. +5%): vengono emesse nuove azioni, diluendo la tua percentuale di propriet\u00e0.\n\nBuyback costanti combinati con un alto Piotroski score sono un forte segno di management attento agli azionisti."
+    },
+    "governance": {
+      "title": "Governance Aziendale",
+      "description": "Anche il miglior business pu\u00f2 essere rovinato da un management scadente. Questa sezione valuta l'affidabilit\u00e0 della leadership.\n\nCosa cercare:\n\u2022 Indipendenza del consiglio: pi\u00f9 consiglieri indipendenti = migliore supervisione.\n\u2022 Punteggi di rischio bassi: alto rischio di audit, board o compensi sono segnali d'allarme.\n\u2022 Compensi dei dirigenti: dovrebbero essere legati ai rendimenti per gli azionisti.\n\nUna governance scadente \u00e8 uno dei pi\u00f9 forti predittori di problemi futuri. Se tutto il resto sembra ottimo ma i punteggi di governance sono allarmanti, pensaci due volte."
+    },
+    "conclusion": {
+      "title": "Mettere Tutto Insieme",
+      "description": "Hai ora visto ogni metrica di cui un value investor ha bisogno. Ecco come collegare i punti:\n\n1. Business solido che capisci? (Fase 1)\n2. Finanze solide \u2014 ricavi in crescita, FCF positivo, debito basso? (Fase 2)\n3. Tratta sotto il fair value con margine di sicurezza? (Fase 3)\n4. Segnali tecnici che non gridano 'stai lontano'? (Fase 4)\n5. Management affidabile che crea valore per gli azionisti? (Fase 5)\n\nSe la maggior parte delle risposte \u00e8 S\u00cc, potresti aver trovato un candidato d'investimento di qualit\u00e0. Se diverse sono NO, approfondisci o passa oltre.\n\nNessuna singola metrica racconta tutta la storia. Cerca la convergenza. Clicca l'icona info su qualsiasi card per rileggere la spiegazione."
+    },
+    "prompt": {
+      "title": "Vuoi un tour guidato?",
+      "description": "Impara a leggere ogni metrica come un value investor. Dura circa 5 minuti.",
+      "start": "Inizia il Tour",
+      "dismiss": "Non ora",
+      "dontAskAgain": "Non chiedermelo più"
+    },
+    "next": "Avanti",
+    "prev": "Indietro",
+    "done": "Fine"
+  }
+}

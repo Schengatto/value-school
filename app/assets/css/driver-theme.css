@@ -1,0 +1,84 @@
+/* Dark mode overrides for Driver.js popover */
+.dark .driver-popover {
+  background-color: #1f2937;
+  color: #f3f4f6;
+}
+
+.dark .driver-popover .driver-popover-title {
+  color: #f9fafb;
+}
+
+.dark .driver-popover .driver-popover-description {
+  color: #d1d5db;
+}
+
+.dark .driver-popover .driver-popover-progress-text {
+  color: #9ca3af;
+}
+
+.dark .driver-popover .driver-popover-close-btn {
+  color: #9ca3af;
+}
+
+.dark .driver-popover .driver-popover-close-btn:hover {
+  color: #f3f4f6;
+}
+
+.dark .driver-popover .driver-popover-arrow-side-left .driver-popover-arrow,
+.dark .driver-popover .driver-popover-arrow-side-right .driver-popover-arrow,
+.dark .driver-popover .driver-popover-arrow-side-top .driver-popover-arrow,
+.dark .driver-popover .driver-popover-arrow-side-bottom .driver-popover-arrow {
+  border-color: #1f2937;
+}
+
+.dark .driver-popover button.driver-popover-prev-btn {
+  color: #e5e7eb;
+  border: 1px solid #6b7280;
+  background-color: #374151;
+}
+
+.dark .driver-popover button.driver-popover-prev-btn:hover {
+  background-color: #4b5563;
+}
+
+.dark .driver-popover button.driver-popover-next-btn,
+.dark .driver-popover button.driver-popover-done-btn {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.dark .driver-popover button.driver-popover-next-btn:hover,
+.dark .driver-popover button.driver-popover-done-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Button text fix – remove text-shadow applied by Driver.js defaults */
+.driver-popover button {
+  text-shadow: none !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Previous button – light theme */
+.driver-popover button.driver-popover-prev-btn {
+  color: #374151;
+  border: 1px solid #d1d5db;
+  background-color: #f9fafb;
+}
+
+.driver-popover button.driver-popover-prev-btn:hover {
+  background-color: #e5e7eb;
+}
+
+/* Scrollable descriptions for long helper content */
+.tour-popover .driver-popover-description {
+  max-height: 300px;
+  overflow-y: auto;
+  white-space: pre-line;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* Ensure popover doesn't get too wide on desktop */
+.tour-popover.driver-popover {
+  max-width: 420px;
+}

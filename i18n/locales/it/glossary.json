@@ -1,0 +1,190 @@
+{
+  "glossary": {
+    "revenue": {
+      "label": "Ricavi",
+      "title": "Ricavi (Fatturato Totale)",
+      "definition": "Il denaro totale che un'azienda incassa dalla vendita di prodotti o servizi, prima di sottrarre qualsiasi costo. È la prima riga del conto economico.",
+      "example": "Se Apple vende 10 milioni di iPhone a $1.000 ciascuno, il fatturato è $10 miliardi, indipendentemente dai costi di produzione."
+    },
+    "netIncome": {
+      "label": "Utile Netto",
+      "title": "Utile Netto (Bottom Line)",
+      "definition": "Il profitto effettivo dopo aver sottratto TUTTI i costi: produzione, stipendi, tasse, interessi e tutto il resto. È ciò che gli azionisti guadagnano davvero.",
+      "example": "Un'azienda con $10 miliardi di ricavi e $7 miliardi di costi ha $3 miliardi di utile netto. Cioè 30 centesimi di profitto per ogni dollaro venduto."
+    },
+    "freeCashFlow": {
+      "label": "Free Cash Flow",
+      "title": "Flusso di Cassa Libero (FCF)",
+      "definition": "La liquidità reale generata dopo aver pagato le spese operative e gli investimenti. A differenza dell'utile netto, è molto difficile da manipolare con trucchi contabili.",
+      "example": "Un'azienda guadagna $5 miliardi ma spende $2 miliardi in nuovi stabilimenti. FCF = $3 miliardi. Questa è la cassa disponibile per dividendi, buyback o riduzione del debito."
+    },
+    "totalEquity": {
+      "label": "Patrimonio Netto",
+      "title": "Patrimonio Netto (Book Value)",
+      "definition": "Ciò che gli azionisti possiedono realmente: attività totali meno passività totali. È il valore netto dell'azienda se vendesse tutto e pagasse tutti i debiti.",
+      "example": "Un'azienda con $50 miliardi di attività e $30 miliardi di debiti ha $20 miliardi di patrimonio netto. Con 1 miliardo di azioni, il valore contabile è $20 per azione."
+    },
+    "totalLiabilities": {
+      "label": "Passività Totali",
+      "title": "Passività Totali (Debito Totale)",
+      "definition": "Tutto ciò che l'azienda deve: prestiti, obbligazioni, debiti verso fornitori, leasing e altri obblighi finanziari. Passività elevate aumentano il rischio nei momenti difficili.",
+      "example": "Un'azienda con $40 miliardi di passività e $20 miliardi di patrimonio netto ha un rapporto debito/equity di 2:1, cioè deve il doppio di ciò che possiede."
+    },
+    "currentRatio": {
+      "label": "Current Ratio",
+      "title": "Rapporto Corrente (Liquidità)",
+      "definition": "Attività a breve termine divise per debiti a breve termine. Mostra se l'azienda può pagare le fatture in scadenza entro 12 mesi. Sopra 1,5 è sano, sotto 1,0 è un segnale d'allarme.",
+      "example": "Un'azienda con $6 miliardi di attività correnti e $4 miliardi di passività correnti ha un current ratio di 1,5, quindi può coprire comodamente gli obblighi a breve."
+    },
+    "interestCoverage": {
+      "label": "Copertura Interessi",
+      "title": "Rapporto di Copertura degli Interessi",
+      "definition": "Utile operativo diviso per i pagamenti degli interessi. Mostra con quanta facilità l'azienda può pagare gli interessi sul debito. Sopra 3x è confortevole, sotto 1,5x è rischioso.",
+      "example": "Se un'azienda guadagna $9 miliardi di utile operativo e paga $3 miliardi di interessi, la copertura è 3x. Guadagna tre volte i suoi pagamenti di interessi."
+    },
+    "debtToEbitda": {
+      "label": "Debito/EBITDA",
+      "title": "Rapporto Debito/EBITDA",
+      "definition": "Debito totale diviso per gli utili al lordo di interessi, tasse, svalutazioni e ammortamenti. Indica quanti anni di utili servirebbero per ripagare tutto il debito. Sotto 3x è sano.",
+      "example": "Un'azienda con $15 miliardi di debito e $5 miliardi di EBITDA ha un rapporto 3x, quindi servirebbero 3 anni di utili per estinguere il debito."
+    },
+    "peRatio": {
+      "label": "Rapporto P/E",
+      "title": "Rapporto Prezzo/Utili (P/E)",
+      "definition": "Prezzo dell'azione diviso per l'utile per azione. Mostra quanto gli investitori pagano per ogni dollaro di profitto. Un P/E più basso può segnalare un buon affare, ma confronta sempre nello stesso settore.",
+      "example": "Un'azione a $150 che guadagna $6/azione ha P/E = 25. Paghi $25 per ogni $1 di utili. Il tech è in media ~25-30, le utility ~15-18."
+    },
+    "roe": {
+      "label": "ROE",
+      "title": "Return on Equity (ROE)",
+      "definition": "Utile netto diviso per il patrimonio netto. Misura con quanta efficienza l'azienda usa il denaro degli azionisti per generare profitto. Sopra il 15% è eccellente.",
+      "example": "Un'azienda con $3 miliardi di profitto e $20 miliardi di patrimonio ha ROE = 15%. Ogni $1 investito dagli azionisti genera 15 centesimi di profitto annuo."
+    },
+    "pbRatio": {
+      "label": "Rapporto P/B",
+      "title": "Rapporto Prezzo/Valore Contabile (P/B)",
+      "definition": "Prezzo dell'azione diviso per il valore contabile per azione. Sotto 1,0 significa che stai pagando meno delle attività nette. Potrebbe indicare un titolo sottovalutato, oppure essere segnale di problemi più profondi.",
+      "example": "Un'azione a $40 con valore contabile di $50/azione ha P/B = 0,8. Stai comprando $50 di attività per $40, ma indaga PERCHÉ è così economica."
+    },
+    "pfcf": {
+      "label": "P/FCF",
+      "title": "Rapporto Prezzo/Free Cash Flow (P/FCF)",
+      "definition": "Prezzo dell'azione diviso per il free cash flow per azione. Come il P/E ma usa la cassa reale invece degli utili contabili. Più affidabile per trovare il vero valore.",
+      "example": "Un'azione a $100 con $5 di FCF/azione ha P/FCF = 20. Confrontalo con il P/E: se P/FCF è molto più alto, i profitti potrebbero non essere supportati da cassa reale."
+    },
+    "grossMargin": {
+      "label": "Margine Lordo",
+      "title": "Margine di Profitto Lordo",
+      "definition": "Ricavi meno costo del venduto, diviso per i ricavi. Mostra la redditività base prima delle spese generali. Margini alti (>40%) spesso segnalano vantaggi competitivi o potere di prezzo.",
+      "example": "Una software company con 80% di margine lordo trattiene $0,80 per ogni dollaro venduto. Un retailer al 25% ne trattiene solo $0,25. Modelli di business molto diversi."
+    },
+    "roic": {
+      "label": "ROIC",
+      "title": "Return on Invested Capital (ROIC)",
+      "definition": "Utile operativo (al netto delle tasse) diviso per tutto il capitale investito (equity + debito). La miglior misura di quanto efficientemente il management usa TUTTO il capitale. Sopra 10% è forte.",
+      "example": "Un'azienda con $4 miliardi di utile operativo su $30 miliardi di capitale investito ha ROIC = 13%. Genera $0,13 di ritorno per ogni $1 investito."
+    },
+    "fairValueLabel": {
+      "label": "Fair Value",
+      "title": "Valore Equo Stimato",
+      "definition": "Una stima di quanto vale realmente l'azione, calcolata combinando più metodi (DCF, Graham, EPV). È un calcolo ragionato, non una garanzia.",
+      "example": "Se il fair value è $120 e l'azione viene scambiata a $95, c'è un margine di sicurezza del 26%, il che significa che stai potenzialmente comprando a sconto."
+    },
+    "marginOfSafety": {
+      "label": "Margine di Sicurezza",
+      "title": "Margine di Sicurezza (MoS)",
+      "definition": "Quanto il prezzo dell'azione è inferiore al fair value, in percentuale. Positivo = potenziale affare. Benjamin Graham raccomandava di comprare solo con un margine del 25%+.",
+      "example": "Fair value $100, prezzo attuale $75 → MoS = +25%. Stai comprando con un cuscinetto del 25% nel caso la tua stima sia leggermente sbagliata."
+    },
+    "rsi": {
+      "label": "RSI (14)",
+      "title": "Relative Strength Index (RSI)",
+      "definition": "Un indicatore di momentum da 0 a 100 che misura velocità e ampiezza delle variazioni di prezzo recenti. Sotto 30 = potenzialmente ipervenduto (segnale di acquisto). Sopra 70 = potenzialmente ipercomprato (cautela).",
+      "example": "RSI a 25 significa che l'azione è scesa bruscamente di recente e potrebbe essere ipervenduta. Questo rappresenta un potenziale punto di ingresso se i fondamentali sono ancora solidi."
+    },
+    "sma50": {
+      "label": "SMA 50",
+      "title": "Media Mobile Semplice a 50 Giorni",
+      "definition": "Il prezzo medio di chiusura degli ultimi 50 giorni di trading. Indicatore di tendenza a breve termine. Prezzo sopra la SMA 50 = trend rialzista a breve.",
+      "example": "Se l'azione è a $150 e la SMA 50 è $140, il prezzo è in tendenza rialzista. Se scende sotto, potrebbe segnalare un'inversione a breve termine."
+    },
+    "sma200": {
+      "label": "SMA 200",
+      "title": "Media Mobile Semplice a 200 Giorni",
+      "definition": "Il prezzo medio di chiusura degli ultimi 200 giorni di trading. Il riferimento standard per identificare tendenze a lungo termine. Prezzo sopra la SMA 200 = trend rialzista di lungo periodo.",
+      "example": "Quando la SMA 50 incrocia al rialzo la SMA 200 si chiama 'Golden Cross', un segnale rialzista. L'opposto ('Death Cross') è ribassista."
+    },
+    "macd": {
+      "label": "MACD",
+      "title": "Moving Average Convergence Divergence",
+      "definition": "Mostra la relazione tra due medie mobili. L'istogramma indica la forza del momentum. Positivo e in crescita = momentum rialzista. Negativo e in calo = ribassista.",
+      "example": "Istogramma MACD a +2,5 e in crescita significa che il momentum rialzista sta accelerando. A -1,0 e in diminuzione, la pressione ribassista si sta attenuando."
+    },
+    "volatility": {
+      "label": "Volatilità",
+      "title": "Volatilità del Prezzo",
+      "definition": "Misura quanto il prezzo dell'azione oscilla in su e in giù. Alta volatilità = oscillazioni maggiori (più rischio e opportunità). Bassa volatilità = prezzo più stabile.",
+      "example": "Un'azione con volatilità del 40% potrebbe oscillare del 40% in un anno. Un'utility al 15% di volatilità è molto più stabile."
+    },
+    "momentum": {
+      "label": "Momentum (12m)",
+      "title": "Momentum di Prezzo a 12 Mesi (ROC)",
+      "definition": "Quanto è cambiato il prezzo dell'azione negli ultimi 12 mesi, in percentuale. Positivo = il prezzo è salito. Negativo = il prezzo è sceso.",
+      "example": "Momentum di +25% significa che l'azione è salita del 25% rispetto a un anno fa. Un forte momentum tende a persistere, ma può anche significare che l'azione è costosa."
+    },
+    "dividendYield": {
+      "label": "Rendimento Dividendo",
+      "title": "Rendimento del Dividendo (Annuale)",
+      "definition": "Dividendo annuo per azione diviso per il prezzo dell'azione, espresso in percentuale. Mostra il rendimento in contanti ottenuto semplicemente detenendo l'azione, indipendentemente dalle variazioni di prezzo.",
+      "example": "Un'azione a $100 che paga $3/anno di dividendi ha un rendimento del 3%. Sono $3.000/anno su un investimento di $100.000, prima di qualsiasi rivalutazione."
+    },
+    "dividendPerShare": {
+      "label": "Dividendo per Azione",
+      "title": "Dividendo Annuo per Azione (DPS)",
+      "definition": "L'importo totale in dollari dei dividendi pagati per azione in un anno. Un DPS crescente nel tempo è uno dei segnali più forti di un'azienda sana e orientata agli azionisti.",
+      "example": "Se un'azienda paga $0,25 a trimestre, il DPS annuo è $1,00. Se l'anno scorso era $0,80, i dividendi sono cresciuti del 25%."
+    },
+    "payoutRatio": {
+      "label": "Payout Ratio",
+      "title": "Rapporto di Distribuzione dei Dividendi",
+      "definition": "Percentuale dell'utile netto distribuita come dividendi. Sotto il 60% è sostenibile, poiché l'azienda trattiene abbastanza per reinvestire. Sopra l'80% il dividendo potrebbe essere a rischio di taglio.",
+      "example": "Un'azienda che guadagna $5/azione e paga $2 di dividendi ha un payout del 40%. Trattiene $3 per reinvestire nella crescita premiando gli azionisti."
+    },
+    "fcfPayout": {
+      "label": "Payout su FCF",
+      "title": "Rapporto Payout su Free Cash Flow",
+      "definition": "Dividendi pagati come percentuale del free cash flow. Più affidabile del payout sugli utili perché il FCF rappresenta cassa reale. Sotto il 70% è sano.",
+      "example": "Se il FCF è $4/azione e i dividendi sono $2/azione, il payout su FCF è 50%. L'azienda genera il doppio della cassa necessaria per coprire i dividendi. Molto sicuro."
+    },
+    "dividendGrowth": {
+      "label": "Crescita (CAGR 5 anni)",
+      "title": "Tasso di Crescita dei Dividendi a 5 Anni (CAGR)",
+      "definition": "Il tasso di crescita annuo composto dei dividendi negli ultimi 5 anni. Mostra quanto velocemente l'azienda ha aumentato i pagamenti dei dividendi agli azionisti.",
+      "example": "Un CAGR del 10% significa che i dividendi sono raddoppiati all'incirca ogni 7 anni. Le aziende con crescita costante dei dividendi spesso sovraperformano il mercato nel lungo termine."
+    },
+    "consecutiveYears": {
+      "label": "Anni Consecutivi",
+      "title": "Anni Consecutivi di Pagamento Dividendi",
+      "definition": "Quanti anni consecutivi l'azienda ha pagato dividendi senza interruzione. Serie lunghe (10+ anni) segnalano stabilità finanziaria e impegno del management verso gli azionisti.",
+      "example": "Le aziende con 25+ anni consecutivi sono chiamate 'Dividend Aristocrats'. Hanno mantenuto i dividendi durante le recessioni, dimostrando eccezionale resilienza finanziaria."
+    },
+    "piotroskiScore": {
+      "label": "Piotroski F-Score",
+      "title": "Piotroski F-Score (Solidità Finanziaria)",
+      "definition": "Un punteggio da 0 a 9 basato su 9 criteri binari che coprono redditività, leva finanziaria ed efficienza operativa. Creato dal Professor Joseph Piotroski per identificare aziende finanziariamente solide. Più alto è meglio.",
+      "example": "Un'azienda con punteggio 8/9 supera quasi tutti i test di salute finanziaria: cash flow positivo, margini in miglioramento, debito basso e fatturato in crescita. Un 2/9 ne fallisce la maggior parte, il che è un segnale d'allarme."
+    },
+    "earningsQuality": {
+      "label": "Qualità Utili",
+      "title": "Qualità degli Utili (OCF/Utile Netto)",
+      "definition": "Flusso di cassa operativo diviso per l'utile netto. Misura se i profitti dichiarati sono supportati da cassa reale. Un rapporto sopra 1,0 significa che l'azienda genera più cassa di quanta ne riporti come profitto, il che indica utili di alta qualità.",
+      "example": "Un'azienda con $5 miliardi di cash flow e $4 miliardi di utile netto ha qualità utili di 1,25, dove la cassa supera i profitti dichiarati. Se invertito ($3B cassa, $5B profitto), la qualità è 0,6, un segnale negativo."
+    },
+    "shareDilution": {
+      "label": "Diluizione Azioni",
+      "title": "Diluizione Azioni / Buyback",
+      "definition": "Variazione percentuale anno su anno delle azioni in circolazione. Valori negativi indicano riacquisti di azioni (meno azioni = più valore per azione). Valori positivi significano diluizione (più azioni = meno valore per azione).",
+      "example": "Un valore di -3% significa che l'azienda ha riacquistato il 3% delle sue azioni, quindi ogni azione rimanente rappresenta ora una fetta più grande del business. +5% significa 5% di diluizione."
+    }
+  }
+}

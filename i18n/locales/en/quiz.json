@@ -1,0 +1,95 @@
+{
+  "quiz": {
+    "sectionTitle": "Test Your Understanding",
+    "questions": {
+      "currentRatio": {
+        "question": "The Current Ratio is {value}. What does this suggest about short-term liquidity?",
+        "a": "Healthy: can comfortably pay short-term debts",
+        "b": "Adequate but limited safety margin",
+        "c": "Warning: may struggle to pay short-term obligations",
+        "explanation": "A Current Ratio above 1.5 is considered healthy, between 1.0-1.5 is adequate, and below 1.0 means current liabilities exceed current assets, a warning sign."
+      },
+      "debtToEbitda": {
+        "question": "Debt/EBITDA is {value}. How would you assess the debt level?",
+        "a": "Healthy: debt is manageable",
+        "b": "Moderate: needs monitoring",
+        "c": "Concerning: heavily indebted",
+        "explanation": "Debt/EBITDA below 3x is considered healthy, 3-5x needs monitoring, and above 5x is a red flag. High debt increases risk during economic downturns."
+      },
+      "fcf": {
+        "question": "Free Cash Flow is {value}. What does this tell you?",
+        "a": "The company generates real cash, a positive sign",
+        "b": "The company is burning cash; needs investigation",
+        "c": "FCF doesn't matter for value investing",
+        "explanation": "Positive FCF means the company generates real cash after operations and investments. This is one of the most important metrics because, unlike net income, it's very hard to manipulate."
+      },
+      "pe": {
+        "question": "The P/E Ratio is {value}. How would you interpret this?",
+        "a": "Potentially undervalued, trading at a low multiple",
+        "b": "Fairly valued: reasonable price for earnings",
+        "c": "High expectations or losing money; investigate further",
+        "explanation": "P/E below 15 may indicate undervaluation, 15-25 is fair for most sectors, and above 25 suggests the market expects strong growth. Negative P/E means the company is unprofitable. Always compare within the same industry."
+      },
+      "marginOfSafety": {
+        "question": "The Margin of Safety is {value}. What does Benjamin Graham's framework suggest?",
+        "a": "Strong discount: attractive entry point",
+        "b": "Small discount: limited margin for error",
+        "c": "Trading above fair value; you're paying a premium",
+        "explanation": "Graham recommended at least 25% margin of safety to protect against estimation errors. A positive margin means you're buying below fair value, while a negative margin means you're paying more than the estimated worth."
+      },
+      "fairValueVsPrice": {
+        "question": "Fair value is estimated at {fairValue} and the current price is {price}. What does this mean?",
+        "a": "The stock appears undervalued: price is below estimated worth",
+        "b": "The stock is roughly fairly priced",
+        "c": "The stock appears overvalued: price exceeds estimated worth",
+        "explanation": "When the current price is below fair value, the stock may be undervalued, a potential opportunity. When it's above, you're paying more than the estimated intrinsic worth. Remember: fair value is an estimate, not a guarantee."
+      },
+      "rsi": {
+        "question": "RSI (14) is {value}. What does this signal about current momentum?",
+        "a": "Oversold: potentially a buying opportunity",
+        "b": "Neutral: normal trading conditions",
+        "c": "Overbought: the stock may be due for a pullback",
+        "explanation": "RSI below 30 suggests the stock is oversold (possibly a buy), 30-70 is neutral territory, and above 70 suggests overbought conditions (possibly a sell). RSI is a timing tool; use it with fundamental analysis."
+      },
+      "smaTrend": {
+        "question": "SMA 50 is {sma50} and SMA 200 is {sma200}. What trend pattern does this show?",
+        "a": "Golden Cross (bullish): short-term trend is strong",
+        "b": "Death Cross (bearish): short-term weakness",
+        "c": "No clear signal: averages are too close",
+        "explanation": "When SMA 50 is above SMA 200 (Golden Cross), it indicates the short-term trend is stronger, generally bullish. When SMA 50 is below SMA 200 (Death Cross), it suggests weakening momentum."
+      },
+      "piotroski": {
+        "question": "The Piotroski F-Score is {value}/9. What does this indicate about financial health?",
+        "a": "Strong: the company passes most quality checks",
+        "b": "Mixed: some areas of concern",
+        "c": "Weak: significant financial concerns",
+        "explanation": "A Piotroski score of 7-9 indicates strong financial health, 4-6 shows mixed signals, and 0-3 suggests serious concerns. Academic research has shown that high-scoring stocks tend to outperform over time."
+      },
+      "earningsQuality": {
+        "question": "Earnings Quality is {value}. Are the reported profits reliable?",
+        "a": "High quality: profits are backed by real cash flow",
+        "b": "Moderate: some gap between accounting profits and cash",
+        "c": "Low quality: significant gap, possible accounting concerns",
+        "explanation": "Earnings Quality above 1.0 means operating cash flow exceeds net income, so profits are real and reliable. Between 0.5-1.0 warrants monitoring. Below 0.5 suggests net income may be inflated by accounting choices."
+      }
+    },
+    "page": {
+      "title": "Analysis Quiz: {symbol}",
+      "backToAnalysis": "Back to analysis",
+      "step": "Step {current} of {total}",
+      "next": "Next",
+      "previous": "Previous",
+      "finish": "View Results",
+      "results": "Results",
+      "score": "{correct} of {total} correct",
+      "restart": "Restart Quiz",
+      "backToCompany": "Back to {symbol}",
+      "sections": {
+        "financials": "Financial Health",
+        "valuation": "Valuation",
+        "technical": "Technical Signals",
+        "management": "Management Quality"
+      }
+    }
+  }
+}

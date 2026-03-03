@@ -1,0 +1,95 @@
+{
+  "quiz": {
+    "sectionTitle": "Metti alla Prova",
+    "questions": {
+      "currentRatio": {
+        "question": "Il Current Ratio \u00e8 {value}. Cosa suggerisce sulla liquidit\u00e0 a breve termine?",
+        "a": "Sano \u2014 pu\u00f2 pagare comodamente i debiti a breve",
+        "b": "Adeguato ma con margine di sicurezza limitato",
+        "c": "Attenzione \u2014 potrebbe avere difficolt\u00e0 a pagare le obbligazioni a breve",
+        "explanation": "Un Current Ratio sopra 1.5 \u00e8 considerato sano, tra 1.0-1.5 \u00e8 adeguato, e sotto 1.0 significa che le passivit\u00e0 correnti superano le attivit\u00e0 correnti \u2014 un segnale d'allarme."
+      },
+      "debtToEbitda": {
+        "question": "Il rapporto Debito/EBITDA \u00e8 {value}. Come valuteresti il livello di debito?",
+        "a": "Sano \u2014 il debito \u00e8 gestibile",
+        "b": "Moderato \u2014 da monitorare",
+        "c": "Preoccupante \u2014 fortemente indebitata",
+        "explanation": "Debito/EBITDA sotto 3x \u00e8 considerato sano, 3-5x necessita monitoraggio, e sopra 5x \u00e8 un segnale d'allarme. Un debito elevato aumenta il rischio durante le crisi economiche."
+      },
+      "fcf": {
+        "question": "Il Free Cash Flow \u00e8 {value}. Cosa ti dice questo?",
+        "a": "L'azienda genera denaro reale \u2014 segno positivo",
+        "b": "L'azienda sta bruciando cash \u2014 serve indagare",
+        "c": "Il FCF non \u00e8 importante per il value investing",
+        "explanation": "Un FCF positivo significa che l'azienda genera denaro reale dopo le operazioni e gli investimenti. \u00c8 una delle metriche pi\u00f9 importanti perch\u00e9, a differenza dell'utile netto, \u00e8 molto difficile da manipolare."
+      },
+      "pe": {
+        "question": "Il rapporto P/E \u00e8 {value}. Come lo interpreteresti?",
+        "a": "Potenzialmente sottovalutato \u2014 multiplo basso",
+        "b": "Valutazione equa \u2014 prezzo ragionevole per gli utili",
+        "c": "Alte aspettative o in perdita \u2014 da approfondire",
+        "explanation": "Un P/E sotto 15 pu\u00f2 indicare sottovalutazione, 15-25 \u00e8 equo per la maggior parte dei settori, e sopra 25 suggerisce che il mercato si aspetta forte crescita. P/E negativo indica che l'azienda non \u00e8 redditizia. Confronta sempre all'interno dello stesso settore."
+      },
+      "marginOfSafety": {
+        "question": "Il Margine di Sicurezza \u00e8 {value}. Cosa suggerisce il framework di Benjamin Graham?",
+        "a": "Forte sconto \u2014 punto d'ingresso attraente",
+        "b": "Sconto ridotto \u2014 margine d'errore limitato",
+        "c": "Tratta sopra il fair value \u2014 stai pagando un premio",
+        "explanation": "Graham raccomandava almeno il 25% di margine di sicurezza per proteggersi da errori di stima. Un margine positivo significa che stai comprando sotto il fair value, mentre uno negativo significa che stai pagando pi\u00f9 del valore stimato."
+      },
+      "fairValueVsPrice": {
+        "question": "Il fair value stimato \u00e8 {fairValue} e il prezzo attuale \u00e8 {price}. Cosa significa?",
+        "a": "L'azione appare sottovalutata \u2014 il prezzo \u00e8 sotto il valore stimato",
+        "b": "L'azione \u00e8 circa al prezzo equo",
+        "c": "L'azione appare sopravvalutata \u2014 il prezzo supera il valore stimato",
+        "explanation": "Quando il prezzo corrente \u00e8 sotto il fair value, l'azione potrebbe essere sottovalutata \u2014 una potenziale opportunit\u00e0. Quando \u00e8 sopra, stai pagando pi\u00f9 del valore intrinseco stimato. Ricorda: il fair value \u00e8 una stima, non una garanzia."
+      },
+      "rsi": {
+        "question": "L'RSI (14) \u00e8 {value}. Cosa segnala sul momentum attuale?",
+        "a": "Ipervenduto \u2014 potenziale opportunit\u00e0 d'acquisto",
+        "b": "Neutro \u2014 condizioni di trading normali",
+        "c": "Ipercomprato \u2014 l'azione potrebbe ritracciare",
+        "explanation": "Un RSI sotto 30 suggerisce che l'azione \u00e8 ipervenduta (possibile acquisto), 30-70 \u00e8 zona neutra, e sopra 70 suggerisce condizioni di ipercomprato (possibile vendita). L'RSI \u00e8 uno strumento di timing \u2014 usalo con l'analisi fondamentale."
+      },
+      "smaTrend": {
+        "question": "La SMA 50 \u00e8 {sma50} e la SMA 200 \u00e8 {sma200}. Quale pattern di trend mostra?",
+        "a": "Golden Cross (rialzista) \u2014 trend a breve forte",
+        "b": "Death Cross (ribassista) \u2014 debolezza a breve termine",
+        "c": "Nessun segnale chiaro \u2014 le medie sono troppo vicine",
+        "explanation": "Quando la SMA 50 \u00e8 sopra la SMA 200 (Golden Cross), indica che il trend a breve \u00e8 pi\u00f9 forte \u2014 generalmente rialzista. Quando la SMA 50 \u00e8 sotto la SMA 200 (Death Cross), suggerisce momentum in indebolimento."
+      },
+      "piotroski": {
+        "question": "Il Piotroski F-Score \u00e8 {value}/9. Cosa indica sulla salute finanziaria?",
+        "a": "Forte \u2014 l'azienda supera la maggior parte dei controlli di qualit\u00e0",
+        "b": "Misto \u2014 alcune aree di preoccupazione",
+        "c": "Debole \u2014 preoccupazioni finanziarie significative",
+        "explanation": "Un punteggio Piotroski di 7-9 indica forte salute finanziaria, 4-6 mostra segnali misti, e 0-3 suggerisce preoccupazioni serie. La ricerca accademica ha dimostrato che le azioni con punteggi alti tendono a sovraperformare nel tempo."
+      },
+      "earningsQuality": {
+        "question": "La Qualit\u00e0 degli Utili \u00e8 {value}. I profitti dichiarati sono affidabili?",
+        "a": "Alta qualit\u00e0 \u2014 i profitti sono supportati da cash flow reale",
+        "b": "Moderata \u2014 qualche divario tra profitti contabili e cash",
+        "c": "Bassa qualit\u00e0 \u2014 divario significativo, possibili preoccupazioni contabili",
+        "explanation": "Una Qualit\u00e0 degli Utili sopra 1.0 significa che il cash flow operativo supera l'utile netto \u2014 i profitti sono reali e affidabili. Tra 0.5-1.0 merita monitoraggio. Sotto 0.5 suggerisce che l'utile netto potrebbe essere gonfiato da scelte contabili."
+      }
+    },
+    "page": {
+      "title": "Quiz di Analisi: {symbol}",
+      "backToAnalysis": "Torna all'analisi",
+      "step": "Passo {current} di {total}",
+      "next": "Avanti",
+      "previous": "Indietro",
+      "finish": "Vedi Risultati",
+      "results": "Risultati",
+      "score": "{correct} su {total} corrette",
+      "restart": "Ricomincia Quiz",
+      "backToCompany": "Torna a {symbol}",
+      "sections": {
+        "financials": "Salute Finanziaria",
+        "valuation": "Valutazione",
+        "technical": "Segnali Tecnici",
+        "management": "Qualità del Management"
+      }
+    }
+  }
+}

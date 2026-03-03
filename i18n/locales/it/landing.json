@@ -1,0 +1,53 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Impara il Value Investing Facendo Pratica",
+      "subtitle": "Analizza titoli reali del NASDAQ con strumenti professionali. Comprendi i fondamentali, stima il fair value e costruisci il tuo framework di investimento, passo dopo passo.",
+      "ctaScreener": "Esplora lo Screener",
+      "ctaLearn": "Cos'è il Value Investing?"
+    },
+    "valueInvesting": {
+      "sectionTitle": "Cos'è il Value Investing?",
+      "sectionSubtitle": "La strategia utilizzata da Warren Buffett, Benjamin Graham e dagli investitori di lungo termine di maggior successo.",
+      "pillar1Title": "Compra Sotto il Valore Reale",
+      "pillar1Description": "Gli investitori value cercano azioni che trattano sotto il loro valore intrinseco. Questo 'margine di sicurezza' protegge da errori e ribassi di mercato.",
+      "pillar2Title": "Analizza i Fondamentali",
+      "pillar2Description": "Invece di seguire i trend, gli investitori value studiano i bilanci: ricavi, cash flow, livelli di debito e redditività. I numeri non mentono.",
+      "pillar3Title": "Pensa a Lungo Termine",
+      "pillar3Description": "Il value investing non è day trading. Si tratta di trovare grandi aziende a prezzi equi e mantenerle mentre generano ricchezza nel tempo."
+    },
+    "learningPath": {
+      "sectionTitle": "Come Questa App Ti Aiuta a Imparare",
+      "sectionSubtitle": "Segui un percorso strutturato dalla scoperta dei titoli alla decisione di investimento.",
+      "step1Title": "Cerca e Scopri",
+      "step1Description": "Usa lo screener per trovare titoli valutati su fondamentali, tecnici e valutazione. Filtra per settore, segnale e categoria.",
+      "step2Title": "Comprendi i Numeri",
+      "step2Description": "Approfondisci i dati finanziari di ogni azienda: trend dei ricavi, cash flow, solidità patrimoniale. Ogni metrica ha un glossario interattivo che ti spiega cosa significa.",
+      "step3Title": "Stima il Fair Value",
+      "step3Description": "Visualizza più modelli di valutazione (DCF, Graham, EPV) combinati in una stima del fair value. Impara a capire se un titolo è economico o costoso.",
+      "step4Title": "Prendi Decisioni Informate",
+      "step4Description": "Combina analisi fondamentale, valutazione, tecnici e qualità del management in un quadro completo. Il tour guidato ti accompagna attraverso ogni sezione."
+    },
+    "features": {
+      "sectionTitle": "Progettato per Imparare",
+      "sectionSubtitle": "Ogni funzionalità è pensata per insegnarti i concetti del value investing mentre la utilizzi.",
+      "glossaryTitle": "Glossario Interattivo",
+      "glossaryDescription": "Clicca su qualsiasi termine finanziario per vederne una definizione chiara e un esempio concreto.",
+      "tourTitle": "Tour Guidato",
+      "tourDescription": "Una guida passo-passo che ti insegna come leggere ogni sezione dell'analisi.",
+      "fundamentalTitle": "Analisi Fondamentale",
+      "fundamentalDescription": "30+ criteri ponderati valutano redditività, crescita, debito e qualità del cash flow.",
+      "fairValueTitle": "Stima del Fair Value",
+      "fairValueDescription": "Più modelli di valutazione combinati per stimare quanto vale realmente un titolo.",
+      "technicalTitle": "Indicatori Tecnici",
+      "technicalDescription": "RSI, medie mobili, MACD e momentum ti aiutano a temporizzare gli ingressi.",
+      "managementTitle": "Qualità del Management",
+      "managementDescription": "Piotroski F-Score, attività insider e allocazione del capitale rivelano la qualità della leadership."
+    },
+    "cta": {
+      "title": "Pronto a Iniziare ad Analizzare?",
+      "subtitle": "Scegli un titolo dallo screener e inizia il tuo percorso nel value investing.",
+      "button": "Apri lo Screener"
+    }
+  }
+}

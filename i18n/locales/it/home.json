@@ -1,0 +1,27 @@
+{
+  "home": {
+    "title": "Analisi Value Investing",
+    "description1": "Questo report è generato utilizzando una metodologia di Value Investing modernizzata ispirata a {buffett} e {graham}. Ogni azienda è valutata in base alla solidità finanziaria, redditività, efficienza operativa e se il titolo appare sottovalutato rispetto al suo valore intrinseco.",
+    "description2": "Ogni azienda riceve un {score} su fondamentali, efficienza, struttura del capitale e valutazione intrinseca.",
+    "compositeScore": "punteggio composito 0-100",
+    "evaluationCriteria": "Criteri di Valutazione",
+    "criteriaIntro": "Il modello di scoring si basa su una valutazione ponderata dei seguenti criteri chiave:",
+    "criteria": {
+      "epsTrend": "Crescita costante dell'utile per azione (EPS), indice di potere reddituale duraturo.",
+      "epsCagr": "Tasso di crescita annuale composto (CAGR) dell'EPS superiore al 10%, segno di forte crescita a lungo termine.",
+      "roic": "Rendimento del capitale investito (ROIC) superiore al 10%, riflesso di un'allocazione efficiente del capitale.",
+      "grossMargin": "Margine di profitto lordo superiore al 60%, suggerendo un vantaggio competitivo duraturo.",
+      "pfcf": "Rapporto Prezzo/Free Cash Flow (P/FCF) inferiore a 15, indice di valutazione attraente.",
+      "fcfPositive": "Free Cash Flow (FCF) positivo, confermando la capacità di generare liquidità in eccesso.",
+      "dividendPayout": "Rapporto di distribuzione dividendi inferiore al 60%, bilanciando rendimento per gli azionisti e reinvestimento.",
+      "debtToEquity": "Rapporto Debito/Patrimonio Netto inferiore a 2, mostrando una struttura patrimoniale conservativa.",
+      "operatingMargin": "Margine operativo superiore al 10%, rappresentando efficienza operativa.",
+      "currentRatio": "Rapporto di liquidità corrente superiore a 1,5, dimostrando solidità finanziaria a breve termine.",
+      "interestCoverage": "Copertura degli interessi superiore a 3, garantendo la capacità di servizio del debito.",
+      "debtEbitda": "Rapporto Debito/EBITDA inferiore a 3, indice di leva finanziaria sostenibile.",
+      "grahamNumber": "Prezzo di mercato inferiore al Graham Number, un benchmark classico di fair value.",
+      "dcf": "Valore intrinseco DCF superiore al prezzo di mercato attuale, suggerendo sottovalutazione."
+    },
+    "rankings": "Classifica Aziende"
+  }
+}

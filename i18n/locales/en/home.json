@@ -1,0 +1,27 @@
+{
+  "home": {
+    "title": "Value Investing Analytics",
+    "description1": "This report is generated using a modernized Value Investing methodology inspired by {buffett} and {graham}. Each company is evaluated based on its financial strength, profitability, operational efficiency, and whether the stock appears undervalued relative to its intrinsic value.",
+    "description2": "Each company receives a {score} across fundamentals, efficiency, capital structure, and intrinsic valuation.",
+    "compositeScore": "0-100 composite score",
+    "evaluationCriteria": "Evaluation Criteria",
+    "criteriaIntro": "The scoring model is based on a weighted evaluation of the following key criteria:",
+    "criteria": {
+      "epsTrend": "Consistent growth in Earnings Per Share (EPS), indicating durable earning power.",
+      "epsCagr": "EPS compound annual growth rate (CAGR) above 10%, showing strong long-term growth.",
+      "roic": "Return on Invested Capital (ROIC) above 10%, reflecting efficient capital allocation.",
+      "grossMargin": "Gross profit margin above 60%, suggesting a durable competitive advantage.",
+      "pfcf": "Price-to-Free-Cash-Flow (P/FCF) below 15, indicating attractive valuation.",
+      "fcfPositive": "Positive Free Cash Flow (FCF), confirming the ability to generate excess cash.",
+      "dividendPayout": "Dividend payout ratio below 60%, balancing shareholder return and reinvestment.",
+      "debtToEquity": "Debt-to-Equity ratio below 2, showing a conservative capital structure.",
+      "operatingMargin": "Operating margin above 10%, representing operational efficiency.",
+      "currentRatio": "Current ratio above 1.5, demonstrating short-term financial health.",
+      "interestCoverage": "Interest coverage above 3, ensuring ability to service debt.",
+      "debtEbitda": "Debt/EBITDA ratio below 3, indicating sustainable leverage.",
+      "grahamNumber": "Market price below the Graham Number, a classical fair-value benchmark.",
+      "dcf": "DCF intrinsic value above the current market price, suggesting undervaluation."
+    },
+    "rankings": "Company Rankings"
+  }
+}

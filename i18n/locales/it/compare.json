@@ -1,0 +1,94 @@
+{
+  "compare": {
+    "title": "Confronto Stock",
+    "description": "Confronta 2-3 azioni fianco a fianco per valutare quale offre la migliore combinazione di qualita, prezzo e potenziale di crescita.",
+    "searchPlaceholder": "Cerca per nome o simbolo...",
+    "addStock": "Aggiungi azione",
+    "removeStock": "Rimuovi",
+    "selectAtLeast": "Seleziona almeno 2 azioni da confrontare",
+    "maxStocks": "Massimo 3 azioni",
+    "loading": "Caricamento dati...",
+    "guidedTour": "Tour Guidato",
+    "sections": {
+      "overview": "Panoramica",
+      "fundamentals": "Metriche Fondamentali",
+      "valuation": "Valutazione",
+      "priceChart": "Performance Prezzo",
+      "radarChart": "Confronto Profilo"
+    },
+    "metrics": {
+      "metric": "Metrica",
+      "pe": "Rapporto P/E",
+      "roe": "ROE",
+      "grossMargin": "Margine Lordo",
+      "operatingMargin": "Margine Operativo",
+      "currentRatio": "Current Ratio",
+      "debtToEbitda": "Debito / EBITDA",
+      "interestCoverage": "Copertura Interessi",
+      "fcf": "Free Cash Flow",
+      "piotroski": "Piotroski F-Score",
+      "earningsQuality": "Qualita Utili",
+      "dataCompleteness": "Completezza Dati"
+    },
+    "overview": {
+      "category": "Categoria",
+      "sector": "Settore",
+      "industry": "Industria",
+      "price": "Prezzo",
+      "compositeScore": "Punteggio Composito",
+      "fundamentalScore": "Punteggio Fondamentale",
+      "technicalScore": "Punteggio Tecnico",
+      "signal": "Segnale",
+      "valuation": "Valutazione"
+    },
+    "valuation": {
+      "fairValue": "Fair Value",
+      "currentPrice": "Prezzo Attuale",
+      "marginOfSafety": "Margine di Sicurezza",
+      "signal": "Segnale Valutazione",
+      "fairValueRange": "Range Fair Value"
+    },
+    "chart": {
+      "normalizedPrice": "Prezzo Normalizzato (base 100)",
+      "percentChange": "% Variazione",
+      "noData": "Nessun dato sui prezzi disponibile per il confronto"
+    },
+    "tour": {
+      "intro": {
+        "title": "Benvenuto nel Confronto Azioni",
+        "description": "L'analisi relativa e un pilastro del value investing. I numeri di un'azienda significano poco da soli; diventano davvero utili solo confrontandoli con quelli dei concorrenti. Questo strumento ti permette di affiancare fino a 3 azioni per scoprire quale offre la migliore combinazione di qualita, prezzo e potenziale di crescita."
+      },
+      "selector": {
+        "title": "Seleziona almeno 2 aziende",
+        "description": "Usa la barra di ricerca per aggiungere le azioni che vuoi confrontare. Per un'analisi significativa, scegli aziende dello stesso settore: confrontare un'azienda tech con una utility sarebbe come confrontare mele con arance. I confronti nello stesso settore rivelano differenze reali nel vantaggio competitivo, nell'efficienza e nella qualita del management. Inizia. Cerca e aggiungi almeno 2 aziende!"
+      },
+      "overview": {
+        "title": "Il quadro generale",
+        "description": "Parti da qui per una fotografia rapida. Il punteggio composito combina fattori fondamentali e tecnici. Chiediti: la categoria (value, growth, GARP) e coerente con la tua strategia di investimento? Un titolo 'value' con un alto punteggio composito e un punto di partenza promettente per un'analisi piu approfondita."
+      },
+      "fundamentals": {
+        "title": "Controllo salute finanziaria",
+        "description": "Qui inizia il vero value investing. Il verde evidenzia la metrica migliore, il rosso la peggiore. Domande chiave: chi ha il ROE piu alto (efficienza del management)? Il debito piu basso (solidita finanziaria)? I margini piu ampi (vantaggio competitivo)? Un Piotroski alto (7-9) segnala ottima salute finanziaria."
+      },
+      "valuation": {
+        "title": "Il prezzo e giusto?",
+        "description": "Benjamin Graham insegnava che una grande azienda a un prezzo sbagliato resta un cattivo investimento. Confronta il fair value di ogni azione con il prezzo attuale. Il margine di sicurezza ti dice quanto 'cuscinetto' hai: piu e alto, meglio e. Cerca aziende che siano sottovalutate E con fondamentali solidi."
+      },
+      "radar": {
+        "title": "Profilo visivo",
+        "description": "Il grafico radar offre un confronto visivo immediato. Una forma piu ampia e bilanciata indica un'azienda forte su piu dimensioni. Attenzione alle forme molto strette su un lato; segnalano una debolezza. L'investimento value ideale mostra forza in redditivita, solidita e crescita."
+      },
+      "price": {
+        "title": "Prezzo vs Valore",
+        "description": "Ricorda: il prezzo e quello che paghi, il valore e quello che ottieni. Questo grafico normalizza tutti i prezzi a 100 per confrontare la performance equamente. Un titolo salito molto potrebbe essere ora sopravvalutato, mentre uno rimasto indietro potrebbe rappresentare un'opportunita. Incrocia sempre con la sezione valutazione sopra."
+      },
+      "conclusion": {
+        "title": "I tuoi strumenti di analisi",
+        "description": "Ora hai gli strumenti per confrontare le azioni come un value investor. Nessuna azienda e perfetta. L'obiettivo e trovare il miglior compromesso tra qualita, prezzo e potenziale di crescita. Usa questo confronto come punto di partenza, poi approfondisci nella pagina dettaglio di ciascuna azienda per la tua valutazione finale."
+      },
+      "next": "Avanti",
+      "prev": "Indietro",
+      "done": "Ho capito!"
+    }
+  }
+}

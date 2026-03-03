@@ -1,0 +1,53 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Learn Value Investing by Doing",
+      "subtitle": "Analyze real NASDAQ stocks with professional-grade tools. Understand fundamentals, estimate fair value, and build your investing framework, step by step.",
+      "ctaScreener": "Explore the Screener",
+      "ctaLearn": "What is Value Investing?"
+    },
+    "valueInvesting": {
+      "sectionTitle": "What is Value Investing?",
+      "sectionSubtitle": "The strategy used by Warren Buffett, Benjamin Graham, and the most successful long-term investors.",
+      "pillar1Title": "Buy Below Intrinsic Value",
+      "pillar1Description": "Value investors look for stocks trading below what the business is actually worth. This 'margin of safety' protects against mistakes and market downturns.",
+      "pillar2Title": "Analyze the Fundamentals",
+      "pillar2Description": "Instead of following trends, value investors study financial statements: revenue, cash flow, debt levels, and profitability. Numbers don't lie.",
+      "pillar3Title": "Think Long-Term",
+      "pillar3Description": "Value investing isn't day trading. It's about finding great businesses at fair prices and holding them while they compound wealth over years."
+    },
+    "learningPath": {
+      "sectionTitle": "How This App Helps You Learn",
+      "sectionSubtitle": "Follow a structured path from stock discovery to investment decision.",
+      "step1Title": "Screen & Discover",
+      "step1Description": "Use the screener to find stocks scored on fundamentals, technicals, and valuation. Filter by sector, signal, and category.",
+      "step2Title": "Understand the Numbers",
+      "step2Description": "Dive into each company's financials: revenue trends, cash flow, balance sheet strength. Every metric has an interactive glossary to teach you what it means.",
+      "step3Title": "Estimate Fair Value",
+      "step3Description": "See multiple valuation models (DCF, Graham, EPV) combined into a fair value estimate. Learn how to tell if a stock is cheap or expensive.",
+      "step4Title": "Make Informed Decisions",
+      "step4Description": "Combine fundamental analysis, valuation, technicals, and management quality into a complete picture. The guided tour walks you through every section."
+    },
+    "features": {
+      "sectionTitle": "Built for Learning",
+      "sectionSubtitle": "Every feature is designed to teach you value investing concepts as you use them.",
+      "glossaryTitle": "Interactive Glossary",
+      "glossaryDescription": "Click any financial term to see a clear definition and real-world example.",
+      "tourTitle": "Guided Tour",
+      "tourDescription": "A step-by-step walkthrough that teaches you how to read each analysis section.",
+      "fundamentalTitle": "Fundamental Analysis",
+      "fundamentalDescription": "30+ weighted criteria evaluate profitability, growth, debt, and cash flow quality.",
+      "fairValueTitle": "Fair Value Estimation",
+      "fairValueDescription": "Multiple valuation models combined to estimate what a stock is truly worth.",
+      "technicalTitle": "Technical Indicators",
+      "technicalDescription": "RSI, moving averages, MACD, and momentum help you time your entries.",
+      "managementTitle": "Management Quality",
+      "managementDescription": "Piotroski F-Score, insider activity, and capital allocation reveal leadership quality."
+    },
+    "cta": {
+      "title": "Ready to Start Analyzing?",
+      "subtitle": "Pick a stock from the screener and begin your value investing journey.",
+      "button": "Open the Screener"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "screenerTour": {
+    "welcome": {
+      "title": "Benvenuto nello Screener",
+      "description": "Lo Screener ti aiuta a scoprire opportunita di investimento tra oltre 200 titoli NASDAQ a grande capitalizzazione.\n\nOgni titolo viene valutato su fondamentali (salute finanziaria) e tecnici (trend di mercato), poi classificato con un punteggio composito.\n\nQuesto tour ti mostra come usare filtri, preset e ordinamento per trovare i titoli che corrispondono ai tuoi criteri. Dura circa 2 minuti.\n\nPremi Esc per uscire, e usa il pulsante \"Tour Guidato\" per rivederlo."
+    },
+    "intro": {
+      "title": "Come Funziona lo Screener",
+      "description": "Questa card spiega la metodologia di scoring alla base dello screener.\n\nOgni titolo riceve un Punteggio Composito (0-100) che combina 70% analisi fondamentale e 30% analisi tecnica.\n\nEspandi \"Criteri di Valutazione\" per vedere la lista completa delle metriche usate: trend EPS, ROIC, margini, livelli di debito, valutazione DCF e altro.\n\n💡 Capire i criteri ti aiuta a interpretare i punteggi in modo piu efficace."
+    },
+    "presets": {
+      "title": "Preset Rapidi",
+      "description": "I preset applicano filtri predefiniti con un click, perfetti per strategie di screening comuni:\n\n• Value Picks: titoli value classici con fondamentali solidi\n• Growth Stars: aziende ad alta crescita con punteggi compositi elevati\n• Qualita: alto Piotroski F-Score e dati affidabili\n• Sottovalutate: titoli che trattano sotto il loro fair value stimato\n\n💡 Usa i preset come punto di partenza, poi affina con filtri aggiuntivi."
+    },
+    "filters": {
+      "title": "Ricerca e Filtri",
+      "description": "Restringi la lista dei titoli usando questi controlli:\n\n• Ricerca: trova un titolo specifico per nome o ticker\n• Settore: filtra per settore industriale (Tecnologia, Sanita, ecc.)\n• Segnale: filtra per segnale complessivo (positivo, neutro, negativo)\n• Categoria: seleziona tipi di titolo (value, growth, GARP, speculative)\n• Valutazione: filtra per segnale di valutazione (sottovalutato, equo, sopravvalutato)\n\n💡 I filtri si combinano: vengono mostrati solo i titoli che soddisfano TUTTI i filtri attivi."
+    },
+    "scoreRanges": {
+      "title": "Intervalli di Punteggio",
+      "description": "Imposta soglie minime e massime per i tre punteggi principali:\n\n• Punteggio Composito: la classifica generale (70% fondamentale + 30% tecnico)\n• Punteggio Fondamentale: salute finanziaria e metriche di qualita\n• Punteggio Tecnico: trend di mercato e indicatori di momentum\n\nI punteggi vanno da 0 a 100. Sopra 60 generalmente indica un titolo solido.\n\n💡 Prova a impostare il Punteggio Fondamentale minimo a 60 per filtrare le aziende finanziariamente sane."
+    },
+    "advanced": {
+      "title": "Filtri Avanzati",
+      "description": "Espandi per opzioni di screening piu approfondite:\n\n• Piotroski F-Score (0-9): misura la solidita finanziaria. 7+ significa fondamentali forti\n• Margine di Sicurezza: quanto sconto rispetto al fair value. Positivo = potenzialmente sottovalutato\n• Completezza Dati: percentuale di dati disponibili. Piu alto = punteggi piu affidabili\n\n💡 Combinare Piotroski ≥ 7 con Margine di Sicurezza positivo e uno screening classico da value investing."
+    },
+    "sorting": {
+      "title": "Ordinamento",
+      "description": "Ordina i risultati per qualsiasi metrica per trovare cio che conta di piu:\n\n• Punteggio Composito (predefinito): i titoli meglio classificati\n• Punteggio Fondamentale/Tecnico: ordina per tipo di analisi specifico\n• Margine di Sicurezza: trova prima i titoli piu sottovalutati\n• Piotroski F-Score: priorita alla qualita finanziaria\n• P/E o ROE: ordina per metriche di valutazione classiche\n\nClicca la freccia per alternare ordine crescente/decrescente."
+    },
+    "results": {
+      "title": "Schede Titoli",
+      "description": "Ogni scheda mostra informazioni chiave a colpo d'occhio:\n\n• Nome, ticker e prezzo attuale\n• Badge categoria (value, growth, GARP, speculative)\n• Tre punteggi: Composito, Fondamentale, Tecnico\n• Segnale complessivo e segnale di valutazione\n• Margine di Sicurezza, Piotroski F-Score, P/E e ROE\n\nClicca qualsiasi scheda per aprire la pagina di analisi completa con grafici, stima del fair value e dati di governance.\n\n💡 Un prefisso \"~\" sui punteggi indica bassa completezza dati; interpreta con cautela."
+    },
+    "conclusion": {
+      "title": "Pronto per Esplorare!",
+      "description": "Ora sai come usare lo screener in modo efficace:\n\n✅ Usa i preset per strategie di screening rapide\n✅ Combina i filtri per restringere la ricerca\n✅ Ordina per diverse metriche per trovare cio che conta\n✅ Clicca un titolo per approfondire l'analisi dettagliata\n\nRicorda: lo screener e un punto di partenza per la ricerca, non una raccomandazione di acquisto/vendita. Fai sempre la tua due diligence.\n\n💡 Clicca il pulsante \"Tour Guidato\" in qualsiasi momento per rivedere questa guida."
+    }
+  },
+  "screener": {
+    "title": "Stock Screener",
+    "description": "Filtra e scopri azioni in base a punteggi fondamentali, segnali tecnici, metriche di valutazione e indicatori di qualita. Usa i preset per un'analisi rapida o crea il tuo filtro personalizzato.",
+    "presets": {
+      "valuePicks": "Value Picks",
+      "growthStars": "Growth Stars",
+      "qualityStocks": "Qualita",
+      "undervalued": "Sottovalutate"
+    },
+    "filters": {
+      "title": "Filtri",
+      "active": "{count} attivo | {count} attivi",
+      "category": "Categoria",
+      "compositeRange": "Punteggio Composito",
+      "fundamentalRange": "Punteggio Fondamentale",
+      "technicalRange": "Punteggio Tecnico",
+      "advanced": "Filtri Avanzati",
+      "piotroskiMin": "Piotroski F-Score (min)",
+      "marginOfSafetyRange": "Margine di Sicurezza (%)",
+      "dataCompletenessMin": "Completezza Dati (min %)",
+      "valuationSignal": "Valutazione",
+      "allValuations": "Tutte le valutazioni"
+    },
+    "columns": {
+      "price": "Prezzo",
+      "valuation": "Valutazione",
+      "marginOfSafety": "MdS %",
+      "piotroski": "F-Score",
+      "pe": "P/E",
+      "roe": "ROE %"
+    },
+    "results": {
+      "found": "{count} titoli trovati",
+      "noResults": "Nessun titolo corrisponde ai criteri. Prova ad allentare alcuni filtri."
+    },
+    "valuation": {
+      "undervalued": "Sottovalutato",
+      "fairlyValued": "Fair Value",
+      "overvalued": "Sopravvalutato"
+    },
+    "help": {
+      "sector": {
+        "title": "Settore Industriale",
+        "content": "Il settore economico a cui appartiene l'azienda (es. Tecnologia, Sanita, Finanza).\n\nFiltrare per settore ti aiuta a concentrarti su industrie che conosci o vuoi esplorare.\n\nSettori diversi hanno valutazioni tipiche diverse; confrontare titoli dello stesso settore e piu significativo."
+      },
+      "signal": {
+        "title": "Segnale Complessivo",
+        "content": "Un riepilogo derivato dal punteggio composito:\n\n• Positivo: il punteggio composito suggerisce condizioni favorevoli\n• Neutro: segnali misti, ne fortemente positivi ne negativi\n• Negativo: punteggi bassi indicano potenziali criticita\n\nNON e una raccomandazione di acquisto/vendita; fai sempre la tua ricerca."
+      },
+      "category": {
+        "title": "Categoria del Titolo",
+        "content": "Ogni titolo viene classificato in base al suo profilo finanziario:\n\n• Value: valutazione bassa rispetto ai fondamentali (basso P/E, alto dividendo)\n• Growth: forte crescita degli utili e dei ricavi\n• GARP: Growth at a Reasonable Price, mix di crescita e valore\n• Speculative: alta incertezza o dati insufficienti per la classificazione"
+      },
+      "valuation": {
+        "title": "Segnale di Valutazione",
+        "content": "Confronta il prezzo attuale del titolo con il suo fair value stimato:\n\n• Sottovalutato: il prezzo e sotto il fair value stimato (potenziale opportunita)\n• Fair Value: il prezzo e vicino al fair value stimato\n• Sopravvalutato: il prezzo e sopra il fair value stimato\n\nIl fair value viene calcolato usando modelli DCF, Graham Number, EPV e basati sul P/E."
+      },
+      "compositeScore": {
+        "title": "Punteggio Composito (0-100)",
+        "content": "Il punteggio complessivo che combina:\n\n• 70% Punteggio Fondamentale (salute finanziaria, qualita degli utili, valutazione)\n• 30% Punteggio Tecnico (trend di mercato, momentum)\n\nUn punteggio piu alto significa che il titolo si posiziona bene sia sui criteri fondamentali che tecnici.\n\n60+ e generalmente considerato solido. Confronta all'interno dello stesso settore per risultati migliori."
+      },
+      "fundamentalScore": {
+        "title": "Punteggio Fondamentale (0-100)",
+        "content": "Valuta la salute finanziaria dell'azienda usando oltre 30 metriche:\n\n• Redditivita: crescita EPS, ROE, ROIC, margini\n• Solidita finanziaria: livelli di debito, current ratio, copertura interessi\n• Cash flow: generazione di free cash flow, sostenibilita dei dividendi\n• Valutazione: P/E, P/FCF, Graham Number, DCF\n\nPunteggio piu alto = fondamentali finanziari piu solidi."
+      },
+      "technicalScore": {
+        "title": "Punteggio Tecnico (0-100)",
+        "content": "Misura i trend di mercato e il momentum del prezzo:\n\n• SMA 50/200: medie mobili a breve e lungo termine\n• RSI (14): indicatore di ipercomprato/ipervenduto\n• MACD: momentum e direzione del trend\n• Momentum: tasso di variazione a 12 mesi\n• Volatilita: valutazione della stabilita del prezzo\n\nPunteggio piu alto = condizioni tecniche piu favorevoli per l'ingresso."
+      },
+      "piotroski": {
+        "title": "Piotroski F-Score (0-9)",
+        "content": "Un punteggio di qualita sviluppato dal professor Joseph Piotroski che testa 9 criteri finanziari:\n\n• Redditivita (4 test): utile netto positivo, cash flow operativo, miglioramento ROA, cash flow > utile netto\n• Leva (3 test): debito in diminuzione, current ratio in miglioramento, nessuna diluizione azionaria\n• Efficienza (2 test): miglioramento margine lordo, miglioramento rotazione attivi\n\n7-9 = fondamentali forti\n4-6 = misti\n0-3 = fondamentali deboli"
+      },
+      "marginOfSafety": {
+        "title": "Margine di Sicurezza (%)",
+        "content": "La differenza percentuale tra il fair value stimato del titolo e il suo prezzo di mercato attuale.\n\n• Positivo: il titolo tratta sotto il fair value (es. +25% significa 25% di sconto)\n• Zero: il titolo tratta al fair value\n• Negativo: il titolo tratta sopra il fair value (es. -15% significa 15% di premio)\n\nBenjamin Graham raccomandava un margine di sicurezza di almeno 25-30% prima di acquistare."
+      },
+      "dataCompleteness": {
+        "title": "Completezza Dati (%)",
+        "content": "La percentuale di metriche fondamentali per cui abbiamo dati disponibili.\n\nAlcune aziende (specialmente quelle piu recenti o quotate all'estero) possono avere dati finanziari incompleti dalle nostre fonti.\n\n• Sopra 60%: punteggi affidabili\n• 40-60%: usare con cautela\n• Sotto 40%: i punteggi vengono mostrati con prefisso ~ che indica bassa affidabilita\n\nImposta un minimo per vedere solo titoli con dati affidabili."
+      }
+    },
+    "sort": {
+      "label": "Ordina per",
+      "compositeScore": "Punteggio Composito",
+      "fundamentalScore": "Punteggio Fondamentale",
+      "technicalScore": "Punteggio Tecnico",
+      "currentPrice": "Prezzo",
+      "name": "Nome",
+      "marginOfSafety": "Margine di Sicurezza",
+      "piotroskiScore": "Piotroski F-Score",
+      "pe": "Rapporto P/E",
+      "roe": "ROE"
+    }
+  }
+}

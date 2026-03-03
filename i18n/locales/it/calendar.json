@@ -1,0 +1,132 @@
+{
+  "earnings": {
+    "title": "Calendario Utili",
+    "countThisWeek": "{count} utili questa settimana",
+    "countThisMonth": "{count} utili questo mese",
+    "description": "Date previste per i report sugli utili dei titoli NASDAQ monitorati. Clicca su un giorno per vedere i dettagli delle aziende.",
+    "loadingCalendar": "Caricamento calendario utili...",
+    "reports": "({count} report)",
+    "noReports": "Nessun report sugli utili previsto",
+    "dayDrawerTitle": "Utili del {date}",
+    "dayDrawerEmpty": "Nessun utile previsto per questo giorno.",
+    "earningsCount": "{count} utili",
+    "searchPlaceholder": "Cerca per nome azienda o ticker...",
+    "searchResults": "{count} risultati per \"{query}\"",
+    "searchNoResults": "Nessun utile trovato per \"{query}\"",
+    "searchResultDate": "Utili il {date}",
+    "guidedTour": "Tour Guidato",
+    "tour": {
+      "welcome": {
+        "title": "Perche monitorare gli utili?",
+        "description": "I report sugli utili sono il battito cardiaco del value investing. Rivelano se un'azienda sta facendo crescere i ricavi, migliorando i margini e generando liquidita. Monitorare le date degli utili ti aiuta a restare informato e pronto ad agire quando il mercato reagisce in modo eccessivo, creando opportunita."
+      },
+      "search": {
+        "title": "Trova le tue aziende",
+        "description": "Usa la barra di ricerca per trovare rapidamente un'azienda per nome o ticker. Utile quando hai gia un titolo in mente e vuoi sapere quando pubblichera gli utili. Una data chiave per ogni value investor."
+      },
+      "calendar": {
+        "title": "Panoramica mensile",
+        "description": "Il calendario mostra quante aziende riportano ogni giorno. Clicca su un giorno per vedere la lista completa. Fai attenzione ai cluster: quando molte aziende riportano insieme, i mercati possono essere piu volatili, creando potenziali opportunita di acquisto."
+      },
+      "detail": {
+        "title": "Dettaglio utili",
+        "description": "Ogni scheda mostra il punteggio composito e il segnale accanto alla data degli utili. L'orario pre-market o after-hours ti dice quando aspettarti la notizia. Usalo per pianificare la tua ricerca: esamina i fondamentali di un'azienda nello Screener prima del giorno degli utili."
+      },
+      "conclusion": {
+        "title": "Preparati, non reagire",
+        "description": "I migliori value investor si preparano prima degli utili, non si sorprendono dopo. Usa questo calendario per pianificare le tue analisi: identifica le aziende che riporteranno a breve, studia i loro fondamentali nella pagina dettaglio e forma la tua tesi prima che il mercato reagisca."
+      },
+      "next": "Avanti",
+      "prev": "Indietro",
+      "done": "Ho capito!"
+    }
+  },
+  "ipo": {
+    "title": "Calendario IPO",
+    "countThisWeek": "{count} IPO questa settimana",
+    "countThisMonth": "{count} IPO questo mese",
+    "description": "Prossime Offerte Pubbliche Iniziali (IPO) raggruppate per data di quotazione prevista. Clicca su un giorno per i dettagli. Dati forniti da Polygon.io.",
+    "loadingCalendar": "Caricamento calendario IPO...",
+    "iposCount": "({count} IPO)",
+    "noIpos": "Nessuna IPO prevista",
+    "dayDrawerTitle": "IPO del {date}",
+    "dayDrawerEmpty": "Nessuna IPO prevista per questo giorno.",
+    "status": {
+      "new": "Depositata",
+      "pending": "Prevista",
+      "directListing": "Quotazione Diretta",
+      "rumor": "Indiscrezione",
+      "history": "Prezzata",
+      "withdrawn": "Ritirata",
+      "unknown": "Sconosciuto"
+    },
+    "shares": "{count} azioni",
+    "raised": "{amount} raccolti",
+    "guidedTour": "Tour Guidato",
+    "tour": {
+      "welcome": {
+        "title": "IPO e Value Investing",
+        "description": "Le Offerte Pubbliche Iniziali sono entusiasmanti ma rischiose. I value investor le affrontano con cautela: storia finanziaria limitata, prezzi gonfiati dall'hype e periodi di lock-up rendono difficile determinare il vero valore intrinseco. Questa pagina ti aiuta a monitorare le prossime IPO e valutarle criticamente."
+      },
+      "calendar": {
+        "title": "Calendario IPO",
+        "description": "Il calendario mostra le date di quotazione delle prossime IPO. Clicca su un giorno per i dettagli: range di prezzo, azioni offerte e stato. I cluster di IPO indicano spesso un sentiment di mercato forte. Ma ricorda, popolare non significa buon valore."
+      },
+      "detail": {
+        "title": "Valutare un'IPO",
+        "description": "Esamina il range di prezzo e il capitale raccolto. Una valutazione molto alta rispetto al capitale potrebbe segnalare un prezzo eccessivo. Guarda il badge di stato: 'Depositata' significa che il processo e avviato, 'Prevista' che c'e una data. I value investor spesso aspettano la scadenza del lock-up prima di comprare."
+      },
+      "conclusion": {
+        "title": "La pazienza paga",
+        "description": "Warren Buffett investe raramente nelle IPO; preferisce aziende con un lungo track record. Usa questo calendario per monitorare le nuove quotazioni, ma considera di aspettare 6-12 mesi prima di investire. A quel punto avrai dati finanziari reali da analizzare nello Screener."
+      },
+      "next": "Avanti",
+      "prev": "Indietro",
+      "done": "Ho capito!"
+    }
+  },
+  "dividends": {
+    "title": "Calendario Dividendi",
+    "countThisMonth": "{count} date ex-dividendo questo mese",
+    "description": "Date ex-dividendo per i titoli monitorati dalla piattaforma. Clicca su un giorno per i dettagli: importo, data di pagamento e frequenza.",
+    "loadingCalendar": "Caricamento calendario dividendi...",
+    "dayDrawerTitle": "Dividendi del {date}",
+    "dayDrawerEmpty": "Nessuna data ex-dividendo per questo giorno.",
+    "dividendsCount": "{count} dividendi",
+    "share": "azione",
+    "yield": "Rendimento",
+    "highYield": "Alto Rendimento",
+    "price": "Prezzo",
+    "annualizedYield": "~{yield}% annualizzato",
+    "payDate": "Data pagamento",
+    "recordDate": "Data registrazione",
+    "frequency": {
+      "annual": "Annuale",
+      "semiAnnual": "Semestrale",
+      "quarterly": "Trimestrale",
+      "monthly": "Mensile"
+    },
+    "guidedTour": "Tour Guidato",
+    "tour": {
+      "welcome": {
+        "title": "I dividendi nel Value Investing",
+        "description": "I dividendi sono un pilastro del value investing. Offrono rendimenti concreti mentre aspetti che il prezzo del titolo rifletta il suo valore intrinseco. Dividendi regolari e in crescita sono spesso segnale di un'azienda finanziariamente sana con un management disciplinato."
+      },
+      "calendar": {
+        "title": "Date Ex-Dividendo",
+        "description": "Questo calendario mostra le date ex-dividendo: il giorno entro cui devi possedere il titolo per ricevere il dividendo. I badge verdi evidenziano le distribuzioni ad alto rendimento. Pianificare intorno a queste date ti aiuta a costruire un flusso di reddito affidabile."
+      },
+      "detail": {
+        "title": "Analizzare i dividendi",
+        "description": "Ogni scheda mostra l'importo per azione, il rendimento e la frequenza di pagamento. Un alto rendimento e attraente, ma come value investor verifica sempre se e sostenibile: controlla il payout ratio e il free cash flow nella pagina dettaglio. Un dividendo insostenibile e un segnale d'allarme, non un'opportunita."
+      },
+      "conclusion": {
+        "title": "Qualita prima del rendimento",
+        "description": "I migliori titoli da dividendo non sono sempre quelli con il rendimento piu alto; sono quelli che possono far crescere il dividendo in modo costante. Usa questo calendario per identificare opportunita, poi verifica la capacita di ogni azienda di sostenere e far crescere i pagamenti nello Screener."
+      },
+      "next": "Avanti",
+      "prev": "Indietro",
+      "done": "Ho capito!"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: stocks_radar
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d stocks_radar"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3100:3000"
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/stocks_radar
+      NUXT_DATABASE_URL: postgresql://postgres:postgres@postgres:5432/stocks_radar
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

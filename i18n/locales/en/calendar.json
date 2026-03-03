@@ -1,0 +1,132 @@
+{
+  "earnings": {
+    "title": "Earnings Calendar",
+    "countThisWeek": "{count} earnings this week",
+    "countThisMonth": "{count} earnings this month",
+    "description": "Upcoming earnings report dates for tracked NASDAQ stocks. Click on any day to see detailed company information.",
+    "loadingCalendar": "Loading earnings calendar...",
+    "reports": "({count} reports)",
+    "noReports": "No earnings reports scheduled",
+    "dayDrawerTitle": "Earnings on {date}",
+    "dayDrawerEmpty": "No earnings scheduled for this day.",
+    "earningsCount": "{count} earnings",
+    "searchPlaceholder": "Search by company name or ticker...",
+    "searchResults": "{count} results for \"{query}\"",
+    "searchNoResults": "No earnings found for \"{query}\"",
+    "searchResultDate": "Earnings on {date}",
+    "guidedTour": "Guided Tour",
+    "tour": {
+      "welcome": {
+        "title": "Why Track Earnings?",
+        "description": "Earnings reports are the heartbeat of value investing. They reveal whether a company is growing revenue, improving margins, and generating cash. Tracking earnings dates helps you stay informed and prepared to act when opportunities arise from market overreactions."
+      },
+      "search": {
+        "title": "Find Your Companies",
+        "description": "Use the search bar to quickly find a specific company by name or ticker. This is useful when you already have a stock in mind and want to know when it will report earnings. This is a key date for any value investor."
+      },
+      "calendar": {
+        "title": "Monthly Overview",
+        "description": "The calendar shows how many companies report each day. Click on any day to see the full list. Pay attention to clusters: when many companies report at once, markets can be more volatile, creating potential buying opportunities."
+      },
+      "detail": {
+        "title": "Earnings Detail",
+        "description": "Each company card shows its composite score and signal alongside the earnings date. Pre-market or after-hours timing tells you when to expect the news. Use this to plan your research: review a company's financials on the Screener before earnings day."
+      },
+      "conclusion": {
+        "title": "Prepare, Don't React",
+        "description": "The best value investors are prepared before earnings, not surprised after. Use this calendar to plan your research schedule: identify companies reporting soon, review their fundamentals on the detail page, and form your thesis before the market reacts."
+      },
+      "next": "Next",
+      "prev": "Previous",
+      "done": "Got it!"
+    }
+  },
+  "ipo": {
+    "title": "IPO Calendar",
+    "countThisWeek": "{count} IPOs this week",
+    "countThisMonth": "{count} IPOs this month",
+    "description": "Upcoming Initial Public Offerings (IPOs) grouped by expected listing date. Click on any day to see details. Data sourced from Polygon.io.",
+    "loadingCalendar": "Loading IPO calendar...",
+    "iposCount": "({count} IPOs)",
+    "noIpos": "No IPOs scheduled",
+    "dayDrawerTitle": "IPOs on {date}",
+    "dayDrawerEmpty": "No IPOs scheduled for this day.",
+    "status": {
+      "new": "Filed",
+      "pending": "Expected",
+      "directListing": "Direct Listing",
+      "rumor": "Rumor",
+      "history": "Priced",
+      "withdrawn": "Withdrawn",
+      "unknown": "Unknown"
+    },
+    "shares": "{count} shares",
+    "raised": "{amount} raised",
+    "guidedTour": "Guided Tour",
+    "tour": {
+      "welcome": {
+        "title": "IPOs and Value Investing",
+        "description": "Initial Public Offerings are exciting but risky. Value investors typically approach IPOs with caution: limited financial history, hype-driven pricing, and insider lock-up periods make it hard to determine true intrinsic value. This page helps you track upcoming IPOs and assess them critically."
+      },
+      "calendar": {
+        "title": "IPO Calendar",
+        "description": "The calendar shows listing dates for upcoming IPOs. Click on any day to see details including price range, shares offered, and status. IPO clusters often indicate strong market sentiment. But remember, popular doesn't mean good value."
+      },
+      "detail": {
+        "title": "Evaluating an IPO",
+        "description": "Review the price range and amount raised. A very high valuation relative to the capital raised may signal overpricing. Look for the status badge: 'Filed' means the process is underway, 'Expected' means a date is set. Value investors often wait for the lock-up period to expire before buying."
+      },
+      "conclusion": {
+        "title": "Patience Pays",
+        "description": "Warren Buffett rarely invests in IPOs; he prefers companies with long track records. Use this calendar to monitor new listings, but consider waiting 6-12 months before investing. By then, you'll have real financial data to analyze on the Screener."
+      },
+      "next": "Next",
+      "prev": "Previous",
+      "done": "Got it!"
+    }
+  },
+  "dividends": {
+    "title": "Dividend Calendar",
+    "countThisMonth": "{count} ex-dividend dates this month",
+    "description": "Ex-dividend dates for stocks tracked by the platform. Click on any day to see dividend details including amount, pay date, and frequency.",
+    "loadingCalendar": "Loading dividend calendar...",
+    "dayDrawerTitle": "Dividends on {date}",
+    "dayDrawerEmpty": "No ex-dividend dates for this day.",
+    "dividendsCount": "{count} dividends",
+    "share": "share",
+    "yield": "Yield",
+    "highYield": "High Yield",
+    "price": "Price",
+    "annualizedYield": "~{yield}% annualized",
+    "payDate": "Pay date",
+    "recordDate": "Record date",
+    "frequency": {
+      "annual": "Annual",
+      "semiAnnual": "Semi-Annual",
+      "quarterly": "Quarterly",
+      "monthly": "Monthly"
+    },
+    "guidedTour": "Guided Tour",
+    "tour": {
+      "welcome": {
+        "title": "Dividends in Value Investing",
+        "description": "Dividends are a key pillar of value investing. They provide tangible returns while you wait for a stock's price to reflect its intrinsic value. Regular, growing dividends often signal a financially healthy company with disciplined management."
+      },
+      "calendar": {
+        "title": "Ex-Dividend Dates",
+        "description": "This calendar shows ex-dividend dates: the cutoff day by which you must own the stock to receive the dividend. Green badges highlight days with high-yield distributions. Planning around these dates helps you build a reliable income stream."
+      },
+      "detail": {
+        "title": "Analyzing Dividends",
+        "description": "Each card shows the cash amount per share, yield, and payment frequency. High yield is attractive, but as a value investor, always check if it's sustainable: look at the payout ratio and free cash flow on the company detail page. An unsustainable dividend is a warning sign, not an opportunity."
+      },
+      "conclusion": {
+        "title": "Quality Over Yield",
+        "description": "The best dividend stocks aren't always the highest yielding; they're the ones that can grow their dividend consistently. Use this calendar to identify opportunities, then verify each company's ability to sustain and grow its payouts on the Screener."
+      },
+      "next": "Next",
+      "prev": "Previous",
+      "done": "Got it!"
+    }
+  }
+}

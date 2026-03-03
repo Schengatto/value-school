@@ -1,0 +1,38 @@
+node_modules
+.nuxt
+.output
+.data
+.nitro
+.cache
+dist
+
+# Git
+.git
+.gitignore
+
+# IDE
+.fleet
+.idea
+.vscode
+.DS_Store
+
+# Legacy code
+src-legacy/
+public-legacy/
+*.legacy
+
+# Local env (injected via docker-compose)
+.env
+.env.*
+
+# Claude
+.claude/
+
+# Logs
+logs
+*.log
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
