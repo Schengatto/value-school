@@ -88,7 +88,17 @@
       },
       "next": "Next",
       "prev": "Previous",
-      "done": "Got it!"
+      "done": "Got it!",
+      "bullQuips": {
+        "intro": "Comparison is key!",
+        "selector": "Pick your contenders!",
+        "overview": "Let's see who's winning!",
+        "fundamentals": "Who's the healthiest?",
+        "valuation": "Is the price right?",
+        "radar": "The shape tells the story!",
+        "price": "Price vs value!",
+        "conclusion": "Now you can compare like a pro!"
+      }
     }
   }
 }

@@ -38,7 +38,14 @@
       },
       "next": "Avanti",
       "prev": "Indietro",
-      "done": "Ho capito!"
+      "done": "Ho capito!",
+      "bullQuips": {
+        "welcome": "Il giorno degli utili e emozionante!",
+        "search": "Trova la tua azienda!",
+        "calendar": "Segna sul calendario!",
+        "detail": "Controlliamo i dettagli!",
+        "conclusion": "Preparati, non farti sorprendere!"
+      }
     }
   },
   "ipo": {
@@ -82,7 +89,13 @@
       },
       "next": "Avanti",
       "prev": "Indietro",
-      "done": "Ho capito!"
+      "done": "Ho capito!",
+      "bullQuips": {
+        "welcome": "Nuove aziende in arrivo sul mercato!",
+        "calendar": "Quando si quotano?",
+        "detail": "Valutiamo questa IPO!",
+        "conclusion": "La pazienza ripaga!"
+      }
     }
   },
   "dividends": {
@@ -126,7 +139,13 @@
       },
       "next": "Avanti",
       "prev": "Indietro",
-      "done": "Ho capito!"
+      "done": "Ho capito!",
+      "bullQuips": {
+        "welcome": "I dividendi sono una ricompensa!",
+        "calendar": "Non perderti queste date!",
+        "detail": "E sostenibile?",
+        "conclusion": "Qualita prima del rendimento!"
+      }
     }
   }
 }

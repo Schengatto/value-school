@@ -38,7 +38,14 @@
       },
       "next": "Next",
       "prev": "Previous",
-      "done": "Got it!"
+      "done": "Got it!",
+      "bullQuips": {
+        "welcome": "Earnings day is exciting!",
+        "search": "Find your company!",
+        "calendar": "Mark your calendar!",
+        "detail": "Let's check the details!",
+        "conclusion": "Be prepared, not surprised!"
+      }
     }
   },
   "ipo": {
@@ -82,7 +89,13 @@
       },
       "next": "Next",
       "prev": "Previous",
-      "done": "Got it!"
+      "done": "Got it!",
+      "bullQuips": {
+        "welcome": "New companies joining the market!",
+        "calendar": "When are they listing?",
+        "detail": "Let's evaluate this IPO!",
+        "conclusion": "Patience pays off!"
+      }
     }
   },
   "dividends": {
@@ -126,7 +139,13 @@
       },
       "next": "Next",
       "prev": "Previous",
-      "done": "Got it!"
+      "done": "Got it!",
+      "bullQuips": {
+        "welcome": "Dividends are a reward!",
+        "calendar": "Don't miss these dates!",
+        "detail": "Is it sustainable?",
+        "conclusion": "Quality over yield!"
+      }
     }
   }
 }

@@ -1,5 +1,8 @@
-import { driver, type DriveStep } from 'driver.js'
+import type { DriveStep } from 'driver.js'
 import 'driver.js/dist/driver.css'
+import { createBullDriver } from './useBullTourDriver'
+
+const STEP_KEYS = ['welcome', 'calendar', 'detail', 'conclusion'] as const
 
 export function useIpoTour() {
   const { t } = useI18n()
@@ -35,7 +38,9 @@ export function useIpoTour() {
       }
     ]
 
-    const driverObj = driver({
+    const quips = STEP_KEYS.map(key => t(`ipo.tour.bullQuips.${key}`))
+
+    const driverObj = createBullDriver({
       showProgress: true,
       animate: true,
       smoothScroll: true,
@@ -44,13 +49,12 @@ export function useIpoTour() {
       overlayOpacity: 0.6,
       stagePadding: 10,
       stageRadius: 8,
-      popoverClass: 'tour-popover',
       nextBtnText: t('ipo.tour.next'),
       prevBtnText: t('ipo.tour.prev'),
       doneBtnText: t('ipo.tour.done'),
       progressText: '{{current}} / {{total}}',
       steps
-    })
+    }, quips)
 
     driverObj.drive()
   }

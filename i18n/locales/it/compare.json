@@ -88,7 +88,17 @@
       },
       "next": "Avanti",
       "prev": "Indietro",
-      "done": "Ho capito!"
+      "done": "Ho capito!",
+      "bullQuips": {
+        "intro": "Il confronto e fondamentale!",
+        "selector": "Scegli i tuoi sfidanti!",
+        "overview": "Vediamo chi vince!",
+        "fundamentals": "Chi e il piu sano?",
+        "valuation": "Il prezzo e giusto?",
+        "radar": "La forma racconta tutto!",
+        "price": "Prezzo contro valore!",
+        "conclusion": "Ora sai confrontare come un professionista!"
+      }
     }
   }
 }

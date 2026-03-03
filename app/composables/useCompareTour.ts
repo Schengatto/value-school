@@ -1,11 +1,17 @@
-import { driver, type DriveStep } from 'driver.js'
+import type { DriveStep } from 'driver.js'
 import 'driver.js/dist/driver.css'
+import { createBullDriver } from './useBullTourDriver'
+
+const STEP_KEYS = [
+  'intro', 'selector', 'overview', 'fundamentals',
+  'valuation', 'radar', 'price', 'conclusion'
+] as const
 
 export function useCompareTour() {
   const { t } = useI18n()
 
-  function driverConfig(steps: DriveStep[]) {
-    return driver({
+  function driverConfig(steps: DriveStep[], quips: string[]) {
+    return createBullDriver({
       showProgress: true,
       animate: true,
       smoothScroll: true,
@@ -14,13 +20,12 @@ export function useCompareTour() {
       overlayOpacity: 0.6,
       stagePadding: 10,
       stageRadius: 8,
-      popoverClass: 'tour-popover',
       nextBtnText: t('compare.tour.next'),
       prevBtnText: t('compare.tour.prev'),
       doneBtnText: t('compare.tour.done'),
       progressText: '{{current}} / {{total}}',
       steps
-    })
+    }, quips)
   }
 
   const introSteps: () => DriveStep[] = () => [
@@ -96,7 +101,8 @@ export function useCompareTour() {
   ]
 
   function startTour() {
-    driverConfig([...introSteps(), ...analysisSteps()]).drive()
+    const quips = STEP_KEYS.map(key => t(`compare.tour.bullQuips.${key}`))
+    driverConfig([...introSteps(), ...analysisSteps()], quips).drive()
   }
 
   return { startTour }

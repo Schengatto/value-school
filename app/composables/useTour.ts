@@ -1,5 +1,15 @@
-import { driver, type DriveStep } from 'driver.js'
+import type { DriveStep } from 'driver.js'
 import 'driver.js/dist/driver.css'
+import { createBullDriver } from './useBullTourDriver'
+
+const STEP_KEYS = [
+  'welcome', 'overview', 'balanceSheet', 'revenue', 'fcf', 'currentRatio',
+  'debtMetrics', 'epsChart', 'revenueChart', 'fcfChart', 'incomeBreakdown',
+  'fairValue', 'marginOfSafety', 'peRatio', 'roeRoic', 'pbPfcf',
+  'radarChart', 'fundamentalCriteria', 'priceChart', 'rsi', 'smaTrend',
+  'macdVolatility', 'piotroski', 'earningsQuality', 'shareDilution',
+  'governance', 'conclusion'
+] as const
 
 export function useTour() {
   const { t } = useI18n()
@@ -245,7 +255,9 @@ export function useTour() {
       }
     ]
 
-    const driverObj = driver({
+    const quips = STEP_KEYS.map(key => t(`tour.bullQuips.${key}`))
+
+    const driverObj = createBullDriver({
       showProgress: true,
       animate: true,
       smoothScroll: true,
@@ -254,13 +266,12 @@ export function useTour() {
       overlayOpacity: 0.6,
       stagePadding: 10,
       stageRadius: 8,
-      popoverClass: 'tour-popover',
       nextBtnText: t('tour.next'),
       prevBtnText: t('tour.prev'),
       doneBtnText: t('tour.done'),
       progressText: '{{current}} / {{total}}',
       steps
-    })
+    }, quips)
 
     driverObj.drive()
   }

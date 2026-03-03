@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 @import "./driver-theme.css";
+@import "./bull-mascot.css";
 
 @theme static {
   --font-sans: 'Public Sans', sans-serif;
