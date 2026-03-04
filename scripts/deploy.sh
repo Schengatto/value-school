@@ -2,7 +2,7 @@
 set -euo pipefail
 
 COMPOSE_DIR="${COMPOSE_DIR:-/root}"
-IMAGE="${DOCKER_IMAGE:-ghcr.io/schengatto/stocks-radar:latest}"
+IMAGE="${DOCKER_IMAGE:-ghcr.io/schengatto/value-school:latest}"
 APP_SERVICE="app-stocks-radar"
 APP_CONTAINER="root-${APP_SERVICE}-1"
 HEALTH_CHECK_URL="${HEALTH_CHECK_URL:-https://value.schengatto.cloud}"
