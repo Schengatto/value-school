@@ -39,7 +39,7 @@
       "next": "Avanti",
       "prev": "Indietro",
       "done": "Ho capito!",
-      "bullQuips": {
+      "sageQuips": {
         "welcome": "Il giorno degli utili e emozionante!",
         "search": "Trova la tua azienda!",
         "calendar": "Segna sul calendario!",
@@ -90,7 +90,7 @@
       "next": "Avanti",
       "prev": "Indietro",
       "done": "Ho capito!",
-      "bullQuips": {
+      "sageQuips": {
         "welcome": "Nuove aziende in arrivo sul mercato!",
         "calendar": "Quando si quotano?",
         "detail": "Valutiamo questa IPO!",
@@ -140,7 +140,7 @@
       "next": "Avanti",
       "prev": "Indietro",
       "done": "Ho capito!",
-      "bullQuips": {
+      "sageQuips": {
         "welcome": "I dividendi sono una ricompensa!",
         "calendar": "Non perderti queste date!",
         "detail": "E sostenibile?",

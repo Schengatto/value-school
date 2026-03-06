@@ -111,13 +111,13 @@
     },
     "prompt": {
       "title": "Want a guided tour?",
-      "bullQuip": "Hey! Want me to show you around?",
+      "sageQuip": "Hey! Want me to show you around?",
       "description": "Learn how to read each metric like a value investor. Takes about 5 minutes.",
       "start": "Start Tour",
       "dismiss": "Not now",
       "dontAskAgain": "Don't ask me again"
     },
-    "bullQuips": {
+    "sageQuips": {
       "welcome": "Ready? Let's dive in!",
       "overview": "First things first...",
       "balanceSheet": "Time to check the numbers!",

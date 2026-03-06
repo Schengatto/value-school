@@ -111,13 +111,13 @@
     },
     "prompt": {
       "title": "Vuoi un tour guidato?",
-      "bullQuip": "Ehi! Vuoi che ti faccia da guida?",
+      "sageQuip": "Ehi! Vuoi che ti faccia da guida?",
       "description": "Impara a leggere ogni metrica come un value investor. Dura circa 5 minuti.",
       "start": "Inizia il Tour",
       "dismiss": "Non ora",
       "dontAskAgain": "Non chiedermelo più"
     },
-    "bullQuips": {
+    "sageQuips": {
       "welcome": "Pronti? Tuffiamoci!",
       "overview": "Cominciamo dalle basi...",
       "balanceSheet": "Tempo di controllare i numeri!",

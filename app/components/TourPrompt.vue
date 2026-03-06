@@ -25,9 +25,9 @@ const emit = defineEmits<{
         v-if="show"
         class="fixed bottom-6 right-6 z-100 flex items-end gap-3"
       >
-        <div class="bull-speech-bubble relative max-w-64 rounded-xl bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-lg p-4" style="--speech-bg: white">
+        <div class="sage-speech-bubble relative max-w-64 rounded-xl bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-lg p-4" style="--speech-bg: white">
           <p class="font-semibold text-sm text-emerald-600 dark:text-emerald-400 mb-1">
-            {{ $t('tour.prompt.bullQuip') }}
+            {{ $t('tour.prompt.sageQuip') }}
           </p>
           <p class="text-xs text-gray-500 dark:text-gray-400 mb-3">{{ $t('tour.prompt.description') }}</p>
           <div class="flex items-center gap-2 mb-3">
@@ -43,11 +43,11 @@ const emit = defineEmits<{
             >
             {{ $t('tour.prompt.dontAskAgain') }}
           </label>
-          <div class="bull-speech-tail dark:border-l-gray-800!" />
+          <div class="sage-speech-tail dark:border-l-gray-800!" />
         </div>
 
-        <div class="bull-prompt-enter shrink-0">
-          <BullMascot state="talking" :size="72" />
+        <div class="sage-prompt-enter shrink-0">
+          <SageMascot state="talking" :size="72" />
         </div>
       </div>
     </Transition>

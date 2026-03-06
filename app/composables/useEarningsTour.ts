@@ -1,6 +1,6 @@
 import type { DriveStep } from 'driver.js'
 import 'driver.js/dist/driver.css'
-import { createBullDriver } from './useBullTourDriver'
+import { createSageDriver } from './useSageTourDriver'
 
 const STEP_KEYS = ['welcome', 'search', 'calendar', 'detail', 'conclusion'] as const
 
@@ -47,9 +47,9 @@ export function useEarningsTour() {
       }
     ]
 
-    const quips = STEP_KEYS.map(key => t(`earnings.tour.bullQuips.${key}`))
+    const quips = STEP_KEYS.map(key => t(`earnings.tour.sageQuips.${key}`))
 
-    const driverObj = createBullDriver({
+    const driverObj = createSageDriver({
       showProgress: true,
       animate: true,
       smoothScroll: true,

@@ -1,6 +1,6 @@
 import type { DriveStep } from 'driver.js'
 import 'driver.js/dist/driver.css'
-import { createBullDriver } from './useBullTourDriver'
+import { createSageDriver } from './useSageTourDriver'
 
 const STEP_KEYS = [
   'intro', 'selector', 'overview', 'fundamentals',
@@ -11,7 +11,7 @@ export function useCompareTour() {
   const { t } = useI18n()
 
   function driverConfig(steps: DriveStep[], quips: string[]) {
-    return createBullDriver({
+    return createSageDriver({
       showProgress: true,
       animate: true,
       smoothScroll: true,
@@ -101,7 +101,7 @@ export function useCompareTour() {
   ]
 
   function startTour() {
-    const quips = STEP_KEYS.map(key => t(`compare.tour.bullQuips.${key}`))
+    const quips = STEP_KEYS.map(key => t(`compare.tour.sageQuips.${key}`))
     driverConfig([...introSteps(), ...analysisSteps()], quips).drive()
   }
 

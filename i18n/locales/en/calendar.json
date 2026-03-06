@@ -39,7 +39,7 @@
       "next": "Next",
       "prev": "Previous",
       "done": "Got it!",
-      "bullQuips": {
+      "sageQuips": {
         "welcome": "Earnings day is exciting!",
         "search": "Find your company!",
         "calendar": "Mark your calendar!",
@@ -90,7 +90,7 @@
       "next": "Next",
       "prev": "Previous",
       "done": "Got it!",
-      "bullQuips": {
+      "sageQuips": {
         "welcome": "New companies joining the market!",
         "calendar": "When are they listing?",
         "detail": "Let's evaluate this IPO!",
@@ -140,7 +140,7 @@
       "next": "Next",
       "prev": "Previous",
       "done": "Got it!",
-      "bullQuips": {
+      "sageQuips": {
         "welcome": "Dividends are a reward!",
         "calendar": "Don't miss these dates!",
         "detail": "Is it sustainable?",
