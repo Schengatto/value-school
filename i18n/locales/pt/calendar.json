@@ -1,0 +1,151 @@
+{
+  "earnings": {
+    "title": "Calendário de Resultados",
+    "countThisWeek": "{count} resultados esta semana",
+    "countThisMonth": "{count} resultados este mês",
+    "description": "Datas de publicação de resultados das ações NASDAQ acompanhadas. Clique em qualquer dia para ver informações detalhadas das empresas.",
+    "loadingCalendar": "A carregar calendário de resultados...",
+    "reports": "({count} relatórios)",
+    "noReports": "Nenhum relatório de resultados agendado",
+    "dayDrawerTitle": "Resultados a {date}",
+    "dayDrawerEmpty": "Nenhum resultado agendado para este dia.",
+    "earningsCount": "{count} resultados",
+    "searchPlaceholder": "Pesquisar por nome da empresa ou ticker...",
+    "searchResults": "{count} resultados para \"{query}\"",
+    "searchNoResults": "Nenhum resultado encontrado para \"{query}\"",
+    "searchResultDate": "Resultados a {date}",
+    "guidedTour": "Visita Guiada",
+    "tour": {
+      "welcome": {
+        "title": "Porquê Acompanhar os Resultados?",
+        "description": "Os relatórios de resultados são o pulso do investimento em valor. Revelam se uma empresa está a crescer em receita, a melhorar as margens e a gerar caixa. Acompanhar as datas de resultados ajuda-o a manter-se informado e preparado para agir quando surgem oportunidades decorrentes de reações exageradas do mercado."
+      },
+      "search": {
+        "title": "Encontre as Suas Empresas",
+        "description": "Utilize a barra de pesquisa para encontrar rapidamente uma empresa específica pelo nome ou ticker. Isto é útil quando já tem uma ação em mente e quer saber quando vai publicar resultados. Esta é uma data-chave para qualquer investidor em valor."
+      },
+      "calendar": {
+        "title": "Visão Geral Mensal",
+        "description": "O calendário mostra quantas empresas publicam resultados em cada dia. Clique em qualquer dia para ver a lista completa. Preste atenção aos clusters: quando muitas empresas publicam resultados ao mesmo tempo, os mercados podem ser mais voláteis, criando potenciais oportunidades de compra."
+      },
+      "detail": {
+        "title": "Detalhe dos Resultados",
+        "description": "Cada cartão de empresa mostra a sua pontuação composta e sinal junto à data de resultados. O horário pré-mercado ou pós-mercado indica quando esperar as notícias. Use isto para planear a sua investigação: reveja os financeiros de uma empresa no Screener antes do dia dos resultados."
+      },
+      "conclusion": {
+        "title": "Prepare-se, Não Reaja",
+        "description": "Os melhores investidores em valor estão preparados antes dos resultados, não surpreendidos depois. Use este calendário para planear o seu calendário de investigação: identifique empresas que publicam resultados em breve, reveja os seus fundamentos na página de detalhe e forme a sua tese antes de o mercado reagir."
+      },
+      "next": "Seguinte",
+      "prev": "Anterior",
+      "done": "Entendido!",
+      "sageQuips": {
+        "welcome": "O dia dos resultados é emocionante!",
+        "search": "Encontre a sua empresa!",
+        "calendar": "Marque no calendário!",
+        "detail": "Vamos ver os detalhes!",
+        "conclusion": "Esteja preparado, não surpreendido!"
+      }
+    }
+  },
+  "ipo": {
+    "title": "Calendário de IPO",
+    "countThisWeek": "{count} IPOs esta semana",
+    "countThisMonth": "{count} IPOs este mês",
+    "description": "Ofertas Públicas Iniciais (IPOs) agrupadas por data de cotação prevista. Clique em qualquer dia para ver detalhes. Dados fornecidos pela Polygon.io.",
+    "loadingCalendar": "A carregar calendário de IPOs...",
+    "iposCount": "({count} IPOs)",
+    "noIpos": "Nenhum IPO agendado",
+    "dayDrawerTitle": "IPOs a {date}",
+    "dayDrawerEmpty": "Nenhum IPO agendado para este dia.",
+    "status": {
+      "new": "Submetido",
+      "pending": "Previsto",
+      "directListing": "Cotação Direta",
+      "rumor": "Rumor",
+      "history": "Precificado",
+      "withdrawn": "Retirado",
+      "unknown": "Desconhecido"
+    },
+    "shares": "{count} ações",
+    "raised": "{amount} angariados",
+    "guidedTour": "Visita Guiada",
+    "tour": {
+      "welcome": {
+        "title": "IPOs e Investimento em Valor",
+        "description": "As Ofertas Públicas Iniciais são emocionantes mas arriscadas. Os investidores em valor abordam os IPOs com cautela: histórico financeiro limitado, preços influenciados pelo entusiasmo e períodos de lock-up dos fundadores dificultam a determinação do verdadeiro valor intrínseco. Esta página ajuda-o a acompanhar os próximos IPOs e a avaliá-los de forma crítica."
+      },
+      "calendar": {
+        "title": "Calendário de IPO",
+        "description": "O calendário mostra as datas de cotação dos próximos IPOs. Clique em qualquer dia para ver detalhes, incluindo o intervalo de preço, ações oferecidas e estado. Os clusters de IPOs indicam frequentemente um forte sentimento de mercado. Mas lembre-se: popular não significa bom valor."
+      },
+      "detail": {
+        "title": "Avaliar um IPO",
+        "description": "Analise o intervalo de preço e o montante angariado. Uma avaliação muito elevada em relação ao capital angariado pode sinalizar sobrevalorização. Verifique o estado: 'Submetido' significa que o processo está em curso, 'Previsto' significa que uma data está definida. Os investidores em valor frequentemente aguardam o fim do período de lock-up antes de comprar."
+      },
+      "conclusion": {
+        "title": "A Paciência Compensa",
+        "description": "Warren Buffett raramente investe em IPOs; prefere empresas com longo historial. Use este calendário para monitorizar novas cotações, mas considere aguardar 6 a 12 meses antes de investir. Até lá, terá dados financeiros reais para analisar no Screener."
+      },
+      "next": "Seguinte",
+      "prev": "Anterior",
+      "done": "Entendido!",
+      "sageQuips": {
+        "welcome": "Novas empresas a entrar no mercado!",
+        "calendar": "Quando vão cotar?",
+        "detail": "Vamos avaliar este IPO!",
+        "conclusion": "A paciência compensa!"
+      }
+    }
+  },
+  "dividends": {
+    "title": "Calendário de Dividendos",
+    "countThisMonth": "{count} datas ex-dividendo este mês",
+    "description": "Datas ex-dividendo das ações acompanhadas pela plataforma. Clique em qualquer dia para ver detalhes dos dividendos, incluindo montante, data de pagamento e frequência.",
+    "loadingCalendar": "A carregar calendário de dividendos...",
+    "dayDrawerTitle": "Dividendos a {date}",
+    "dayDrawerEmpty": "Nenhuma data ex-dividendo para este dia.",
+    "dividendsCount": "{count} dividendos",
+    "share": "ação",
+    "yield": "Rendimento",
+    "highYield": "Alto Rendimento",
+    "price": "Preço",
+    "annualizedYield": "~{yield}% anualizado",
+    "payDate": "Data de pagamento",
+    "recordDate": "Data de registo",
+    "frequency": {
+      "annual": "Anual",
+      "semiAnnual": "Semestral",
+      "quarterly": "Trimestral",
+      "monthly": "Mensal"
+    },
+    "guidedTour": "Visita Guiada",
+    "tour": {
+      "welcome": {
+        "title": "Dividendos no Investimento em Valor",
+        "description": "Os dividendos são um pilar fundamental do investimento em valor. Proporcionam retornos tangíveis enquanto aguarda que o preço de uma ação reflita o seu valor intrínseco. Dividendos regulares e crescentes frequentemente sinalizam uma empresa financeiramente saudável com uma gestão disciplinada."
+      },
+      "calendar": {
+        "title": "Datas Ex-Dividendo",
+        "description": "Este calendário mostra as datas ex-dividendo: o dia limite até ao qual deve ser detentor da ação para receber o dividendo. Os indicadores verdes destacam os dias com distribuições de alto rendimento. Planear em torno destas datas ajuda-o a construir um fluxo de rendimento fiável."
+      },
+      "detail": {
+        "title": "Analisar Dividendos",
+        "description": "Cada cartão mostra o montante em dinheiro por ação, o rendimento e a frequência de pagamento. O alto rendimento é atrativo, mas como investidor em valor, verifique sempre se é sustentável: consulte o rácio de distribuição e o fluxo de caixa livre na página de detalhe da empresa. Um dividendo insustentável é um sinal de alerta, não uma oportunidade."
+      },
+      "conclusion": {
+        "title": "Qualidade Acima do Rendimento",
+        "description": "As melhores ações de dividendos nem sempre são as de maior rendimento; são as que conseguem aumentar consistentemente o dividendo. Use este calendário para identificar oportunidades e depois verifique a capacidade de cada empresa em manter e aumentar os seus pagamentos no Screener."
+      },
+      "next": "Seguinte",
+      "prev": "Anterior",
+      "done": "Entendido!",
+      "sageQuips": {
+        "welcome": "Os dividendos são uma recompensa!",
+        "calendar": "Não perca estas datas!",
+        "detail": "É sustentável?",
+        "conclusion": "Qualidade acima do rendimento!"
+      }
+    }
+  }
+}

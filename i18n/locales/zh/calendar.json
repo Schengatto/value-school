@@ -1,0 +1,151 @@
+{
+  "earnings": {
+    "title": "财报日历",
+    "countThisWeek": "本周 {count} 家财报",
+    "countThisMonth": "本月 {count} 家财报",
+    "description": "所跟踪 NASDAQ 股票的即将发布财报日期。点击任意日期查看详细公司信息。",
+    "loadingCalendar": "加载财报日历中...",
+    "reports": "（{count} 份财报）",
+    "noReports": "暂无计划发布的财报",
+    "dayDrawerTitle": "{date} 的财报",
+    "dayDrawerEmpty": "本日没有计划发布的财报。",
+    "earningsCount": "{count} 份财报",
+    "searchPlaceholder": "按公司名称或代码搜索...",
+    "searchResults": ""{query}"的 {count} 条结果",
+    "searchNoResults": "未找到"{query}"的财报",
+    "searchResultDate": "{date} 的财报",
+    "guidedTour": "引导游览",
+    "tour": {
+      "welcome": {
+        "title": "为什么要跟踪财报？",
+        "description": "财报是价值投资的脉搏。它们揭示公司是否在增长营收、改善利润率并产生现金。跟踪财报日期有助于您保持知情，并在市场过度反应产生机会时做好准备。"
+      },
+      "search": {
+        "title": "查找您关注的公司",
+        "description": "使用搜索栏按名称或代码快速找到特定公司。当您心中已有目标股票并想了解其财报发布时间时，这非常有用。对于任何价值投资者来说，这都是一个关键日期。"
+      },
+      "calendar": {
+        "title": "月度概览",
+        "description": "日历显示每天有多少公司发布财报。点击任意日期查看完整列表。注意集中发布的情况：当许多公司同时发布财报时，市场波动可能加剧，从而创造潜在的买入机会。"
+      },
+      "detail": {
+        "title": "财报详情",
+        "description": "每张公司卡片显示其综合评分、信号以及财报日期。盘前或盘后的时间告诉您何时可以获取消息。以此规划研究计划：在财报日前在筛选器中审查公司财务状况。"
+      },
+      "conclusion": {
+        "title": "提前准备，而非事后反应",
+        "description": "最优秀的价值投资者在财报发布前就做好了准备，而不是发布后才感到惊讶。利用这个日历规划研究日程：识别即将发布财报的公司，在详情页审查其基本面，并在市场反应之前形成自己的投资论点。"
+      },
+      "next": "下一步",
+      "prev": "上一步",
+      "done": "知道了！",
+      "sageQuips": {
+        "welcome": "财报日令人兴奋！",
+        "search": "找到您的公司！",
+        "calendar": "在日历上标记！",
+        "detail": "让我们查看详情！",
+        "conclusion": "提前准备，不打无准备之仗！"
+      }
+    }
+  },
+  "ipo": {
+    "title": "IPO 日历",
+    "countThisWeek": "本周 {count} 个 IPO",
+    "countThisMonth": "本月 {count} 个 IPO",
+    "description": "按预期上市日期分组的即将上市 IPO。点击任意日期查看详情。数据来源：Polygon.io。",
+    "loadingCalendar": "加载 IPO 日历中...",
+    "iposCount": "（{count} 个 IPO）",
+    "noIpos": "暂无计划 IPO",
+    "dayDrawerTitle": "{date} 的 IPO",
+    "dayDrawerEmpty": "本日没有计划上市的 IPO。",
+    "status": {
+      "new": "已申报",
+      "pending": "预期",
+      "directListing": "直接上市",
+      "rumor": "传闻",
+      "history": "已定价",
+      "withdrawn": "已撤回",
+      "unknown": "未知"
+    },
+    "shares": "{count} 股",
+    "raised": "募资 {amount}",
+    "guidedTour": "引导游览",
+    "tour": {
+      "welcome": {
+        "title": "IPO 与价值投资",
+        "description": "首次公开募股令人兴奋，但风险较高。价值投资者通常对 IPO 持谨慎态度：有限的财务历史、炒作驱动的定价以及内部人锁定期，使得判断真实内在价值颇为困难。本页面帮助您跟踪即将上市的 IPO 并进行批判性评估。"
+      },
+      "calendar": {
+        "title": "IPO 日历",
+        "description": "日历显示即将上市 IPO 的挂牌日期。点击任意日期查看详情，包括价格区间、发行股数和状态。IPO 集中上市通常表明市场情绪强烈。但请记住，受欢迎不代表有价值。"
+      },
+      "detail": {
+        "title": "评估 IPO",
+        "description": "查看价格区间和募资金额。相对于募资金额而言过高的估值可能预示定价偏高。注意状态标签："已申报"意味着流程正在进行，"预期"意味着日期已确定。价值投资者通常等待锁定期届满后再买入。"
+      },
+      "conclusion": {
+        "title": "耐心是回报",
+        "description": "巴菲特很少投资 IPO；他更喜欢有长期业绩记录的公司。利用这个日历监控新上市公司，但考虑等待 6-12 个月后再投资。届时，您将拥有真实的财务数据可以在筛选器中分析。"
+      },
+      "next": "下一步",
+      "prev": "上一步",
+      "done": "知道了！",
+      "sageQuips": {
+        "welcome": "新公司加入市场！",
+        "calendar": "它们何时上市？",
+        "detail": "让我们评估这个 IPO！",
+        "conclusion": "耐心终有回报！"
+      }
+    }
+  },
+  "dividends": {
+    "title": "股息日历",
+    "countThisMonth": "本月 {count} 个除息日",
+    "description": "平台跟踪股票的除息日期。点击任意日期查看股息详情，包括金额、派息日期和频率。",
+    "loadingCalendar": "加载股息日历中...",
+    "dayDrawerTitle": "{date} 的股息",
+    "dayDrawerEmpty": "本日没有除息日期。",
+    "dividendsCount": "{count} 只股息",
+    "share": "股",
+    "yield": "收益率",
+    "highYield": "高收益率",
+    "price": "价格",
+    "annualizedYield": "~{yield}% 年化",
+    "payDate": "派息日",
+    "recordDate": "股权登记日",
+    "frequency": {
+      "annual": "年度",
+      "semiAnnual": "半年度",
+      "quarterly": "季度",
+      "monthly": "月度"
+    },
+    "guidedTour": "引导游览",
+    "tour": {
+      "welcome": {
+        "title": "股息在价值投资中的地位",
+        "description": "股息是价值投资的重要支柱。它们在等待股价反映内在价值的过程中提供有形回报。持续增长的股息往往意味着公司财务健康、管理层严于律己。"
+      },
+      "calendar": {
+        "title": "除息日期",
+        "description": "本日历显示除息日期：您必须在该日期之前持有股票才能获得股息。绿色标签突出显示高收益分红的日期。围绕这些日期进行规划有助于您建立稳定的收入来源。"
+      },
+      "detail": {
+        "title": "分析股息",
+        "description": "每张卡片显示每股现金金额、收益率和支付频率。高收益率具有吸引力，但作为价值投资者，务必检查其可持续性：在公司详情页查看派息率和自由现金流。不可持续的股息是风险信号，而非机会。"
+      },
+      "conclusion": {
+        "title": "质量优于收益率",
+        "description": "最佳股息股票并不总是收益率最高的，而是能够持续增长股息的公司。利用这个日历识别机会，然后在筛选器中验证每家公司维持和增长分红的能力。"
+      },
+      "next": "下一步",
+      "prev": "上一步",
+      "done": "知道了！",
+      "sageQuips": {
+        "welcome": "股息是一种奖励！",
+        "calendar": "不要错过这些日期！",
+        "detail": "可持续吗？",
+        "conclusion": "质量优于收益率！"
+      }
+    }
+  }
+}

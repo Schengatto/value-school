@@ -1,0 +1,46 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "previous": "上一页",
+    "next": "下一页",
+    "reset": "重置",
+    "backToCurrentWeek": "返回本周",
+    "backToCurrentMonth": "返回本月",
+    "today": "今天",
+    "noData": "暂无数据"
+  },
+  "nav": {
+    "brand": "Value School",
+    "home": "首页",
+    "screener": "股票筛选",
+    "compare": "对比",
+    "earnings": "财报",
+    "ipo": "IPO",
+    "dividends": "股息",
+    "lastUpdate": "最后更新：",
+    "disclaimer": "本平台仅供教育目的使用，不提供财务、投资或交易建议。所有评分、估值和信号均基于对公开数据的自动化分析，数据可能不完整或不准确。在做出投资决策前，请务必进行独立研究并咨询合格的财务顾问。",
+    "createdBy": "创建者"
+  },
+  "disclaimer": {
+    "short": "评分和估值仅供参考，基于可能有限的数据。本内容不构成财务建议。",
+    "landing": "本平台旨在通过实际分析教授价值投资方法论。所有评分和估值纯属参考，基于对公开数据的自动化处理，可能不完整或存在错误。本平台上的任何内容均不构成财务建议或投资推荐。在做出任何投资决策前，请务必进行独立尽职调查并咨询合格的财务顾问。",
+    "analysis": "所示分析由公开财务数据自动生成，数据可能不完整或不准确。评分和估值纯属参考，不应作为投资决策的唯一依据。本平台具有教育性质：学习方法论，然后运用自己的判断力。"
+  },
+  "welcome": {
+    "title": "欢迎来到 Value School",
+    "subtitle": "通过实际分析学习价值投资",
+    "selectLanguage": "选择您偏好的语言",
+    "disclaimer": "本平台上的所有数据、评分和估值纯属参考，仅供教育目的。它们由对公开财务数据的自动化分析生成，数据可能不完整或不准确。本平台上的任何内容均不构成财务建议。",
+    "continue": "继续",
+    "english": "English",
+    "italian": "Italiano"
+  },
+  "pipeline": {
+    "running": "分析运行中",
+    "completed": "分析已完成",
+    "starting": "启动中...",
+    "processing": "{current}/{total}：{symbol}",
+    "success": "成功",
+    "errors": "错误"
+  }
+}

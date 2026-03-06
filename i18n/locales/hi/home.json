@@ -1,0 +1,27 @@
+{
+  "home": {
+    "title": "Value Investing विश्लेषण",
+    "description1": "यह रिपोर्ट {buffett} और {graham} से प्रेरित आधुनिक Value Investing पद्धति का उपयोग करके तैयार की गई है। प्रत्येक कंपनी का मूल्यांकन उसकी वित्तीय शक्ति, लाभप्रदता, परिचालन दक्षता और इस आधार पर किया जाता है कि क्या शेयर अपने आंतरिक मूल्य के सापेक्ष कम मूल्यांकित दिखता है।",
+    "description2": "प्रत्येक कंपनी को fundamentals, दक्षता, पूंजी संरचना और आंतरिक मूल्यांकन में एक {score} मिलता है।",
+    "compositeScore": "0-100 composite स्कोर",
+    "evaluationCriteria": "मूल्यांकन मानदंड",
+    "criteriaIntro": "स्कोरिंग मॉडल निम्नलिखित प्रमुख मानदंडों के भारित मूल्यांकन पर आधारित है:",
+    "criteria": {
+      "epsTrend": "Earnings Per Share (EPS) में निरंतर वृद्धि, जो टिकाऊ कमाई शक्ति को दर्शाती है।",
+      "epsCagr": "EPS compound annual growth rate (CAGR) 10% से ऊपर, जो मजबूत दीर्घकालिक विकास दिखाती है।",
+      "roic": "Return on Invested Capital (ROIC) 10% से ऊपर, जो कुशल पूंजी आवंटन को दर्शाता है।",
+      "grossMargin": "सकल लाभ margin 60% से ऊपर, जो टिकाऊ प्रतिस्पर्धात्मक लाभ का संकेत देती है।",
+      "pfcf": "Price-to-Free-Cash-Flow (P/FCF) 15 से नीचे, जो आकर्षक मूल्यांकन दर्शाता है।",
+      "fcfPositive": "सकारात्मक Free Cash Flow (FCF), अतिरिक्त नकदी उत्पन्न करने की क्षमता की पुष्टि करता है।",
+      "dividendPayout": "Dividend payout ratio 60% से नीचे, शेयरधारक रिटर्न और पुनर्निवेश को संतुलित करता है।",
+      "debtToEquity": "Debt-to-Equity ratio 2 से नीचे, रूढ़िवादी पूंजी संरचना दिखाता है।",
+      "operatingMargin": "Operating margin 10% से ऊपर, परिचालन दक्षता को दर्शाता है।",
+      "currentRatio": "Current ratio 1.5 से ऊपर, अल्पकालिक वित्तीय स्वास्थ्य को प्रदर्शित करता है।",
+      "interestCoverage": "Interest coverage 3 से ऊपर, ऋण सेवा करने की क्षमता सुनिश्चित करता है।",
+      "debtEbitda": "Debt/EBITDA ratio 3 से नीचे, टिकाऊ leverage को दर्शाता है।",
+      "grahamNumber": "बाजार मूल्य Graham Number से नीचे, एक क्लासिक fair-value मानक।",
+      "dcf": "DCF आंतरिक मूल्य वर्तमान बाजार मूल्य से ऊपर, कम मूल्यांकन का संकेत देता है।"
+    },
+    "rankings": "कंपनी रैंकिंग"
+  }
+}

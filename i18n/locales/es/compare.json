@@ -1,0 +1,104 @@
+{
+  "compare": {
+    "title": "Comparación de Acciones",
+    "description": "Compare 2-3 acciones una al lado de la otra para evaluar cuál ofrece la mejor combinación de calidad, precio y potencial de crecimiento.",
+    "searchPlaceholder": "Buscar por nombre o símbolo...",
+    "addStock": "Añadir acción",
+    "removeStock": "Eliminar",
+    "selectAtLeast": "Seleccione al menos 2 acciones para comparar",
+    "maxStocks": "Máximo 3 acciones",
+    "loading": "Cargando datos de acciones...",
+    "guidedTour": "Visita Guiada",
+    "sections": {
+      "overview": "Resumen",
+      "fundamentals": "Métricas Fundamentales",
+      "valuation": "Valoración",
+      "priceChart": "Evolución del Precio",
+      "radarChart": "Comparación de Perfiles"
+    },
+    "metrics": {
+      "metric": "Métrica",
+      "pe": "Ratio P/E",
+      "roe": "ROE",
+      "grossMargin": "Margen Bruto",
+      "operatingMargin": "Margen Operativo",
+      "currentRatio": "Ratio de Liquidez",
+      "debtToEbitda": "Deuda / EBITDA",
+      "interestCoverage": "Cobertura de Intereses",
+      "fcf": "Flujo de Caja Libre",
+      "piotroski": "Piotroski F-Score",
+      "earningsQuality": "Calidad de Beneficios",
+      "dataCompleteness": "Completitud de Datos"
+    },
+    "overview": {
+      "category": "Categoría",
+      "sector": "Sector",
+      "industry": "Industria",
+      "price": "Precio",
+      "compositeScore": "Puntuación Compuesta",
+      "fundamentalScore": "Puntuación Fundamental",
+      "technicalScore": "Puntuación Técnica",
+      "signal": "Señal",
+      "valuation": "Valoración"
+    },
+    "valuation": {
+      "fairValue": "Valor Justo",
+      "currentPrice": "Precio Actual",
+      "marginOfSafety": "Margen de Seguridad",
+      "signal": "Señal de Valoración",
+      "fairValueRange": "Rango de Valor Justo"
+    },
+    "chart": {
+      "normalizedPrice": "Precio Normalizado (base 100)",
+      "percentChange": "% Cambio",
+      "noData": "No hay datos de precios disponibles para comparar"
+    },
+    "tour": {
+      "intro": {
+        "title": "Bienvenido a la Comparación de Acciones",
+        "description": "El análisis relativo es una piedra angular de la inversión en valor. Los números de una empresa tienen poco significado de forma aislada; solo se vuelven significativos cuando se comparan con sus competidores. Esta herramienta le permite colocar hasta 3 acciones una al lado de la otra para descubrir cuál ofrece realmente la mejor combinación de calidad, precio y potencial de crecimiento."
+      },
+      "selector": {
+        "title": "Seleccione al Menos 2 Empresas",
+        "description": "Use esta barra de búsqueda para añadir acciones que desea comparar. Para el análisis más significativo, elija empresas del mismo sector: comparar una empresa tecnológica con una de servicios públicos sería como comparar manzanas con naranjas. Las comparaciones dentro del mismo sector revelan diferencias reales en ventaja competitiva, eficiencia y calidad de gestión. ¡Adelante! Busque y añada al menos 2 empresas para comenzar."
+      },
+      "overview": {
+        "title": "El Panorama General",
+        "description": "Comience aquí para obtener una instantánea rápida. La puntuación compuesta combina factores fundamentales y técnicos. Pregúntese: ¿la categoría (valor, crecimiento, GARP) coincide con su estrategia de inversión? Una acción de 'valor' con una alta puntuación compuesta es un punto de partida prometedor para un análisis más profundo."
+      },
+      "fundamentals": {
+        "title": "Verificación de Salud Financiera",
+        "description": "Aquí es donde realmente comienza la inversión en valor. El verde resalta la métrica más fuerte, el rojo la más débil. Preguntas clave: ¿Quién tiene el ROE más alto (eficiencia de gestión)? ¿La menor deuda (seguridad financiera)? ¿Los márgenes más amplios (foso competitivo)? Una puntuación Piotroski alta (7-9) indica sólida salud financiera."
+      },
+      "valuation": {
+        "title": "¿Es Justo el Precio?",
+        "description": "Benjamin Graham enseñó que una gran empresa a un mal precio sigue siendo una mala inversión. Compare el valor justo de cada acción con su precio actual. El margen de seguridad le indica cuánto 'colchón' tiene: mayor es mejor. Busque empresas que estén infravaloradas Y tengan fundamentos sólidos."
+      },
+      "radar": {
+        "title": "Perfil Visual",
+        "description": "El gráfico de radar le ofrece una comparación visual instantánea. Una forma más amplia y equilibrada indica una empresa fuerte en múltiples dimensiones. Sea precavido con las formas muy estrechas en un lado; señala una debilidad. La inversión en valor ideal muestra fortaleza en rentabilidad, solvencia y crecimiento."
+      },
+      "price": {
+        "title": "Precio vs. Valor",
+        "description": "Recuerde: el precio es lo que paga, el valor es lo que obtiene. Este gráfico normaliza todos los precios a 100 para que pueda comparar el rendimiento de forma justa. Una acción que ha subido bruscamente puede estar sobrevalorada ahora, mientras que una que se ha quedado rezagada podría representar una oportunidad. Siempre cruce referencias con la sección de valoración anterior."
+      },
+      "conclusion": {
+        "title": "Su Kit de Herramientas de Análisis",
+        "description": "Ahora tiene las herramientas para comparar acciones como un inversor en valor. Ninguna empresa es perfecta. El objetivo es encontrar el mejor equilibrio entre calidad, precio y potencial de crecimiento. Use esta comparación como punto de partida, luego profundice en la página de detalle de cada empresa para su evaluación final."
+      },
+      "next": "Siguiente",
+      "prev": "Anterior",
+      "done": "¡Entendido!",
+      "sageQuips": {
+        "intro": "¡La comparación es clave!",
+        "selector": "¡Elija a sus contendientes!",
+        "overview": "¡Veamos quién va ganando!",
+        "fundamentals": "¿Quién está más sano?",
+        "valuation": "¿Es justo el precio?",
+        "radar": "¡La forma cuenta la historia!",
+        "price": "¡Precio vs. valor!",
+        "conclusion": "¡Ahora puede comparar como un profesional!"
+      }
+    }
+  }
+}

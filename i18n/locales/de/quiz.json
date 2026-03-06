@@ -1,0 +1,95 @@
+{
+  "quiz": {
+    "sectionTitle": "Verständnis testen",
+    "questions": {
+      "currentRatio": {
+        "question": "Die Current Ratio beträgt {value}. Was sagt das über die kurzfristige Liquidität aus?",
+        "a": "Gesund: Kann kurzfristige Schulden bequem begleichen",
+        "b": "Ausreichend, aber begrenzter Sicherheitspuffer",
+        "c": "Warnung: Könnte Schwierigkeiten haben, kurzfristige Verpflichtungen zu erfüllen",
+        "explanation": "Eine Current Ratio über 1,5 gilt als gesund, zwischen 1,0–1,5 als ausreichend, und unter 1,0 bedeutet, dass kurzfristige Verbindlichkeiten kurzfristige Vermögenswerte übersteigen – ein Warnsignal."
+      },
+      "debtToEbitda": {
+        "question": "Schulden/EBITDA beträgt {value}. Wie würden Sie das Schuldenniveau einschätzen?",
+        "a": "Gesund: Schulden sind beherrschbar",
+        "b": "Moderat: Bedarf Überwachung",
+        "c": "Besorgniserregend: Stark verschuldet",
+        "explanation": "Schulden/EBITDA unter 3x gilt als gesund, 3–5x bedarf Überwachung, und über 5x ist ein rotes Flag. Hohe Schulden erhöhen das Risiko bei wirtschaftlichen Abschwüngen."
+      },
+      "fcf": {
+        "question": "Der freie Cashflow beträgt {value}. Was sagt Ihnen das?",
+        "a": "Das Unternehmen generiert echtes Bargeld – ein positives Zeichen",
+        "b": "Das Unternehmen verbrennt Bargeld; Untersuchung erforderlich",
+        "c": "FCF spielt beim Value Investing keine Rolle",
+        "explanation": "Positiver FCF bedeutet, dass das Unternehmen nach Betrieb und Investitionen echtes Bargeld generiert. Dies ist eine der wichtigsten Kennzahlen, weil er im Gegensatz zum Nettogewinn sehr schwer zu manipulieren ist."
+      },
+      "pe": {
+        "question": "Das P/E-Verhältnis beträgt {value}. Wie würden Sie das interpretieren?",
+        "a": "Möglicherweise unterbewertet, handelt zu einem niedrigen Multiplikator",
+        "b": "Fair bewertet: Vernünftiger Preis für die Gewinne",
+        "c": "Hohe Erwartungen oder Verluste; weiter untersuchen",
+        "explanation": "P/E unter 15 kann Unterbewertung anzeigen, 15–25 ist für die meisten Sektoren fair, und über 25 deutet darauf hin, dass der Markt starkes Wachstum erwartet. Negatives P/E bedeutet, das Unternehmen ist unrentabel. Vergleichen Sie stets innerhalb derselben Branche."
+      },
+      "marginOfSafety": {
+        "question": "Die Sicherheitsmarge beträgt {value}. Was empfiehlt Benjamin Grahams Framework?",
+        "a": "Starker Abschlag: Attraktiver Einstiegspunkt",
+        "b": "Kleiner Abschlag: Begrenzter Spielraum für Fehler",
+        "c": "Handel über dem inneren Wert; Sie zahlen eine Prämie",
+        "explanation": "Graham empfahl mindestens 25 % Sicherheitsmarge zum Schutz vor Schätzfehlern. Eine positive Marge bedeutet, Sie kaufen unter dem inneren Wert, während eine negative Marge bedeutet, Sie zahlen mehr als den geschätzten Wert."
+      },
+      "fairValueVsPrice": {
+        "question": "Der innere Wert wird auf {fairValue} geschätzt und der aktuelle Kurs beträgt {price}. Was bedeutet das?",
+        "a": "Die Aktie erscheint unterbewertet: Kurs liegt unter dem geschätzten Wert",
+        "b": "Die Aktie ist ungefähr fair bewertet",
+        "c": "Die Aktie erscheint überbewertet: Kurs übersteigt den geschätzten Wert",
+        "explanation": "Wenn der aktuelle Kurs unter dem inneren Wert liegt, könnte die Aktie unterbewertet sein – eine potenzielle Chance. Wenn er darüber liegt, zahlen Sie mehr als den geschätzten intrinsischen Wert. Denken Sie daran: Der innere Wert ist eine Schätzung, keine Garantie."
+      },
+      "rsi": {
+        "question": "RSI (14) beträgt {value}. Was signalisiert das über das aktuelle Momentum?",
+        "a": "Überverkauft: Möglicherweise eine Kaufgelegenheit",
+        "b": "Neutral: Normale Handelsbedingungen",
+        "c": "Überkauft: Die Aktie könnte für einen Rückzug reif sein",
+        "explanation": "RSI unter 30 deutet darauf hin, dass die Aktie überverkauft ist (möglicherweise ein Kauf), 30–70 ist neutrales Territorium, und über 70 deutet auf überkaufte Bedingungen hin (möglicherweise ein Verkauf). RSI ist ein Timing-Werkzeug; verwenden Sie es zusammen mit der Fundamentalanalyse."
+      },
+      "smaTrend": {
+        "question": "SMA 50 beträgt {sma50} und SMA 200 beträgt {sma200}. Welches Trendmuster zeigt dies?",
+        "a": "Golden Cross (bullish): Kurzfristiger Trend ist stark",
+        "b": "Death Cross (bearish): Kurzfristige Schwäche",
+        "c": "Kein klares Signal: Durchschnitte liegen zu nah beieinander",
+        "explanation": "Wenn SMA 50 über SMA 200 liegt (Golden Cross), zeigt das, dass der kurzfristige Trend stärker ist – allgemein bullish. Wenn SMA 50 unter SMA 200 liegt (Death Cross), deutet das auf nachlassendes Momentum hin."
+      },
+      "piotroski": {
+        "question": "Der Piotroski F-Score beträgt {value}/9. Was zeigt das über die finanzielle Gesundheit?",
+        "a": "Stark: Das Unternehmen besteht die meisten Qualitätsprüfungen",
+        "b": "Gemischt: Einige Bereiche sind besorgniserregend",
+        "c": "Schwach: Erhebliche finanzielle Bedenken",
+        "explanation": "Ein Piotroski-Score von 7–9 zeigt starke finanzielle Gesundheit, 4–6 zeigt gemischte Signale, und 0–3 deutet auf ernsthafte Bedenken hin. Akademische Forschung hat gezeigt, dass Aktien mit hohem Score dazu neigen, über die Zeit zu übertreffen."
+      },
+      "earningsQuality": {
+        "question": "Die Gewinnqualität beträgt {value}. Sind die ausgewiesenen Gewinne verlässlich?",
+        "a": "Hohe Qualität: Gewinne werden durch echten Cashflow gedeckt",
+        "b": "Moderat: Gewisse Lücke zwischen Buchgewinnen und Bargeld",
+        "c": "Niedrige Qualität: Erhebliche Lücke, mögliche Buchhaltungsbedenken",
+        "explanation": "Gewinnqualität über 1,0 bedeutet, dass der operative Cashflow den Nettogewinn übersteigt, also sind Gewinne real und verlässlich. Zwischen 0,5–1,0 ist Überwachung angebracht. Unter 0,5 deutet darauf hin, dass der Nettogewinn durch Buchhaltungsentscheidungen aufgebläht sein könnte."
+      }
+    },
+    "page": {
+      "title": "Analysequiz: {symbol}",
+      "backToAnalysis": "Zurück zur Analyse",
+      "step": "Schritt {current} von {total}",
+      "next": "Weiter",
+      "previous": "Zurück",
+      "finish": "Ergebnisse anzeigen",
+      "results": "Ergebnisse",
+      "score": "{correct} von {total} richtig",
+      "restart": "Quiz neu starten",
+      "backToCompany": "Zurück zu {symbol}",
+      "sections": {
+        "financials": "Finanzielle Gesundheit",
+        "valuation": "Bewertung",
+        "technical": "Technische Signale",
+        "management": "Managementqualität"
+      }
+    }
+  }
+}

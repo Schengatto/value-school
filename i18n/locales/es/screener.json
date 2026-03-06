@@ -1,0 +1,146 @@
+{
+  "screenerTour": {
+    "welcome": {
+      "title": "Bienvenido al Buscador",
+      "description": "El Buscador le ayuda a descubrir oportunidades de inversión entre más de 200 acciones de gran capitalización del NASDAQ.\n\nCada acción se puntúa en fundamentos (salud financiera) y técnicos (tendencias del mercado), y luego se clasifica por una puntuación compuesta.\n\nEsta visita le muestra cómo usar filtros, presets y ordenación para encontrar las acciones que coinciden con sus criterios de inversión. Tarda unos 2 minutos.\n\nPresione Esc en cualquier momento para salir, y use el botón \"Visita Guiada\" para volver a verla."
+    },
+    "intro": {
+      "title": "Cómo Funciona el Buscador",
+      "description": "Esta tarjeta explica la metodología de puntuación detrás del buscador.\n\nCada acción recibe una Puntuación Compuesta (0-100) combinando el 70% de análisis fundamental y el 30% de análisis técnico.\n\nExpanda \"Criterios de Evaluación\" para ver la lista completa de métricas utilizadas: tendencias de EPS, ROIC, márgenes, niveles de deuda, valoración DCF y más.\n\n💡 Entender los criterios le ayuda a interpretar las puntuaciones de forma más eficaz."
+    },
+    "presets": {
+      "title": "Presets Rápidos",
+      "description": "Los presets aplican filtros predefinidos con un solo clic, ideales para estrategias de búsqueda habituales:\n\n• Selección de Valor: acciones de valor clásico con fundamentos sólidos\n• Estrellas de Crecimiento: empresas de alto crecimiento con las mejores puntuaciones compuestas\n• Acciones de Calidad: alto Piotroski F-Score y datos fiables\n• Infravaloradas: acciones que cotizan por debajo de su valor justo estimado\n\n💡 Use los presets como punto de partida, luego refine con filtros adicionales."
+    },
+    "filters": {
+      "title": "Buscar y Filtrar",
+      "description": "Reduzca la lista de acciones usando estos controles:\n\n• Búsqueda: encuentre una acción específica por nombre o ticker\n• Sector: filtre por sector (Tecnología, Sanidad, etc.)\n• Señal: filtre por señal general (positiva, neutral, negativa)\n• Categoría: cambie tipos de acciones (valor, crecimiento, GARP, especulativo)\n• Valoración: filtre por señal de valoración (infravalorado, justo, sobrevalorado)\n\n💡 Los filtros se combinan: solo se muestran las acciones que cumplen TODOS los filtros activos."
+    },
+    "scoreRanges": {
+      "title": "Rangos de Puntuación",
+      "description": "Establezca umbrales mínimos y máximos para las tres puntuaciones principales:\n\n• Puntuación Compuesta: la clasificación general (70% fundamental + 30% técnico)\n• Puntuación Fundamental: métricas de salud financiera y calidad\n• Puntuación Técnica: tendencias del mercado e indicadores de momentum\n\nLas puntuaciones van de 0 a 100. Por encima de 60 generalmente indica una acción sólida.\n\n💡 Intente establecer la Puntuación Fundamental mínima en 60 para filtrar empresas financieramente sanas."
+    },
+    "advanced": {
+      "title": "Filtros Avanzados",
+      "description": "Expanda para opciones de búsqueda más profundas:\n\n• Piotroski F-Score (0-9): mide la solidez financiera. 7+ significa fundamentos fuertes\n• Margen de Seguridad: cuánto descuento respecto al valor justo. Positivo = potencialmente infravalorado\n• Completitud de Datos: porcentaje de datos disponibles. Mayor = puntuaciones más fiables\n\n💡 Combinar Piotroski ≥ 7 con Margen de Seguridad positivo es un filtro clásico de inversión en valor."
+    },
+    "sorting": {
+      "title": "Ordenación",
+      "description": "Ordene los resultados por cualquier métrica para encontrar lo que más le importa:\n\n• Puntuación Compuesta (predeterminada): las acciones mejor clasificadas en general\n• Puntuación Fundamental/Técnica: ordenar por tipo de análisis específico\n• Margen de Seguridad: encontrar primero las acciones más infravaloradas\n• Piotroski F-Score: priorizar la calidad financiera\n• P/E o ROE: ordenar por métricas de valoración clásicas\n\nHaga clic en la flecha para alternar entre orden ascendente/descendente."
+    },
+    "results": {
+      "title": "Tarjetas de Acciones",
+      "description": "Cada tarjeta muestra información clave de un vistazo:\n\n• Nombre, ticker y precio actual\n• Insignia de categoría (valor, crecimiento, GARP, especulativo)\n• Tres puntuaciones: Compuesta, Fundamental, Técnica\n• Señal general y señal de valoración\n• Margen de Seguridad, Piotroski F-Score, P/E y ROE\n\nHaga clic en cualquier tarjeta para abrir la página de análisis completo con gráficos, estimación de valor justo y datos de gobernanza.\n\n💡 Un prefijo \"~\" en las puntuaciones significa baja completitud de datos; interprete con precaución."
+    },
+    "conclusion": {
+      "title": "¡Listo para Explorar!",
+      "description": "Ahora sabe cómo usar el buscador de manera efectiva:\n\n✅ Use presets para estrategias de búsqueda rápida\n✅ Combine filtros para acotar su búsqueda\n✅ Ordene por diferentes métricas para encontrar lo que importa\n✅ Haga clic en una acción para profundizar en el análisis detallado\n\nRecuerde: el buscador es un punto de partida para la investigación, no una recomendación de compra/venta. Realice siempre su propia diligencia debida.\n\n💡 Haga clic en el botón \"Visita Guiada\" en cualquier momento para volver a ver este recorrido."
+    },
+    "sageQuips": {
+      "welcome": "¡Déjeme mostrarle el mapa del tesoro!",
+      "intro": "¡Así es como puntuamos las acciones!",
+      "presets": "¡Un clic, estrategia instantánea!",
+      "filters": "¡Reduzcamos la búsqueda!",
+      "scoreRanges": "¡Establezca su listón de calidad!",
+      "advanced": "¡Herramientas avanzadas para profesionales!",
+      "sorting": "¡Encuentre lo mejor de lo mejor!",
+      "results": "¡Aquí están sus candidatos!",
+      "conclusion": "¡Ahora vaya a buscar algunas joyas!"
+    }
+  },
+  "screener": {
+    "title": "Buscador de Acciones",
+    "description": "Filtre y descubra acciones basándose en puntuaciones fundamentales, señales técnicas, métricas de valoración e indicadores de calidad. Use presets para un análisis rápido o cree su propio filtro personalizado.",
+    "presets": {
+      "valuePicks": "Selección de Valor",
+      "growthStars": "Estrellas de Crecimiento",
+      "qualityStocks": "Acciones de Calidad",
+      "undervalued": "Infravaloradas"
+    },
+    "filters": {
+      "title": "Filtros",
+      "active": "{count} activo | {count} activos",
+      "category": "Categoría",
+      "compositeRange": "Puntuación Compuesta",
+      "fundamentalRange": "Puntuación Fundamental",
+      "technicalRange": "Puntuación Técnica",
+      "advanced": "Filtros Avanzados",
+      "piotroskiMin": "Piotroski F-Score (mín.)",
+      "marginOfSafetyRange": "Margen de Seguridad (%)",
+      "dataCompletenessMin": "Completitud de Datos (mín. %)",
+      "valuationSignal": "Valoración",
+      "allValuations": "Todas las valoraciones"
+    },
+    "columns": {
+      "price": "Precio",
+      "valuation": "Valoración",
+      "marginOfSafety": "MdS %",
+      "piotroski": "F-Score",
+      "pe": "P/E",
+      "roe": "ROE %"
+    },
+    "results": {
+      "found": "{count} acciones encontradas",
+      "noResults": "Ninguna acción coincide con sus criterios. Intente relajar algunos filtros."
+    },
+    "valuation": {
+      "undervalued": "Infravalorada",
+      "fairlyValued": "Valor Justo",
+      "overvalued": "Sobrevalorada"
+    },
+    "help": {
+      "sector": {
+        "title": "Sector Industrial",
+        "content": "El sector económico al que pertenece una empresa (p. ej. Tecnología, Sanidad, Finanzas).\n\nFiltrar por sector le ayuda a centrarse en sectores que entiende o quiere explorar.\n\nLos diferentes sectores tienen valoraciones típicas distintas; comparar dentro del mismo sector es más significativo."
+      },
+      "signal": {
+        "title": "Señal General",
+        "content": "Una recomendación resumida derivada de la puntuación compuesta:\n\n• Positivo: la puntuación compuesta sugiere condiciones favorables\n• Neutral: señales mixtas, ni claramente positivas ni negativas\n• Negativo: puntuaciones bajas indican posibles preocupaciones\n\nEsto NO es una recomendación de compra/venta; realice siempre su propia investigación."
+      },
+      "category": {
+        "title": "Categoría de Acción",
+        "content": "Cada acción se clasifica según su perfil financiero:\n\n• Valor: baja valoración relativa a los fundamentos (P/E bajo, dividendo alto)\n• Crecimiento: fuerte impulso de crecimiento en beneficios e ingresos\n• GARP: Crecimiento a un Precio Razonable, mezcla de crecimiento y valor\n• Especulativo: alta incertidumbre o datos insuficientes para la clasificación"
+      },
+      "valuation": {
+        "title": "Señal de Valoración",
+        "content": "Compara el precio actual de la acción con su valor justo estimado:\n\n• Infravalorada: el precio está por debajo del valor justo estimado (posible oportunidad)\n• Valor Justo: el precio está cerca del valor justo estimado\n• Sobrevalorada: el precio está por encima del valor justo estimado\n\nEl valor justo se calcula usando los modelos DCF, Número de Graham, EPV y basado en P/E."
+      },
+      "compositeScore": {
+        "title": "Puntuación Compuesta (0-100)",
+        "content": "La puntuación de clasificación general que combina:\n\n• 70% Puntuación Fundamental (salud financiera, calidad de beneficios, valoración)\n• 30% Puntuación Técnica (tendencias del mercado, momentum)\n\nUna puntuación más alta significa que la acción se clasifica bien en criterios fundamentales y técnicos.\n\n60+ se considera generalmente sólido. Compare dentro del mismo sector para mejores resultados."
+      },
+      "fundamentalScore": {
+        "title": "Puntuación Fundamental (0-100)",
+        "content": "Evalúa la salud financiera de una empresa usando más de 30 métricas:\n\n• Rentabilidad: crecimiento de EPS, ROE, ROIC, márgenes\n• Solidez financiera: niveles de deuda, ratio de liquidez, cobertura de intereses\n• Flujo de caja: generación de flujo de caja libre, sostenibilidad de pagos\n• Valoración: P/E, P/FCF, Número de Graham, DCF\n\nPuntuación más alta = fundamentos financieros más sólidos."
+      },
+      "technicalScore": {
+        "title": "Puntuación Técnica (0-100)",
+        "content": "Mide las tendencias del mercado y el momentum del precio:\n\n• SMA 50/200: medias móviles a corto y largo plazo\n• RSI (14): indicador de sobrecompra/sobreventa\n• MACD: momentum y dirección de la tendencia\n• Momentum de precio: tasa de cambio a 12 meses\n• Volatilidad: evaluación de la estabilidad del precio\n\nPuntuación más alta = condiciones técnicas más favorables para la entrada."
+      },
+      "piotroski": {
+        "title": "Piotroski F-Score (0-9)",
+        "content": "Una puntuación de calidad desarrollada por el profesor Joseph Piotroski que evalúa 9 criterios financieros:\n\n• Rentabilidad (4 pruebas): beneficio neto positivo, flujo de caja operativo, mejora del ROA, flujo de caja > beneficio neto\n• Apalancamiento (3 pruebas): reducción de deuda, mejora del ratio de liquidez, sin dilución de acciones\n• Eficiencia (2 pruebas): mejora del margen bruto, mejora de la rotación de activos\n\n7-9 = fundamentos sólidos\n4-6 = mixto\n0-3 = fundamentos débiles"
+      },
+      "marginOfSafety": {
+        "title": "Margen de Seguridad (%)",
+        "content": "La diferencia porcentual entre el valor justo estimado de una acción y su precio de mercado actual.\n\n• Positivo: la acción cotiza por debajo del valor justo (p. ej. +25% significa un 25% de descuento)\n• Cero: la acción cotiza a su valor justo\n• Negativo: la acción cotiza por encima del valor justo (p. ej. -15% significa una prima del 15%)\n\nBenjamin Graham recomendó un margen de seguridad de al menos el 25-30% antes de comprar."
+      },
+      "dataCompleteness": {
+        "title": "Completitud de Datos (%)",
+        "content": "El porcentaje de métricas fundamentales para las que tenemos datos.\n\nAlgunas empresas (especialmente las más nuevas o las que cotizan en el extranjero) pueden tener datos financieros incompletos de nuestras fuentes.\n\n• Por encima del 60%: puntuaciones fiables\n• 40-60%: use con precaución\n• Por debajo del 40%: puntuaciones mostradas con prefijo ~ indicando baja confianza\n\nEstablezca un mínimo para asegurarse de ver solo acciones con datos fiables."
+      }
+    },
+    "sort": {
+      "label": "Ordenar por",
+      "compositeScore": "Puntuación Compuesta",
+      "fundamentalScore": "Puntuación Fundamental",
+      "technicalScore": "Puntuación Técnica",
+      "currentPrice": "Precio",
+      "name": "Nombre",
+      "marginOfSafety": "Margen de Seguridad",
+      "piotroskiScore": "Piotroski F-Score",
+      "pe": "Ratio P/E",
+      "roe": "ROE"
+    }
+  }
+}

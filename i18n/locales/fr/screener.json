@@ -1,0 +1,146 @@
+{
+  "screenerTour": {
+    "welcome": {
+      "title": "Bienvenue sur le Screener",
+      "description": "Le Screener vous aide à découvrir des opportunités d'investissement parmi plus de 200 actions NASDAQ à grande capitalisation.\n\nChaque action est notée sur les fondamentaux (santé financière) et les indicateurs techniques (tendances du marché), puis classée par un score composite.\n\nCette visite vous montre comment utiliser les filtres, les présélections et le tri pour trouver les actions correspondant à vos critères d'investissement. Environ 2 minutes.\n\nAppuyez sur Échap pour quitter à tout moment, et utilisez le bouton « Visite guidée » pour revenir."
+    },
+    "intro": {
+      "title": "Comment fonctionne le Screener",
+      "description": "Cette carte explique la méthodologie de notation derrière le screener.\n\nChaque action reçoit un score composite (0-100) combinant 70 % d'analyse fondamentale et 30 % d'analyse technique.\n\nDéveloppez « Critères d'évaluation » pour voir la liste complète des indicateurs utilisés : tendances de l'EPS, ROIC, marges, niveaux d'endettement, valorisation DCF, et plus encore.\n\n💡 Comprendre les critères vous aide à mieux interpréter les scores."
+    },
+    "presets": {
+      "title": "Présélections rapides",
+      "description": "Les présélections appliquent des filtres prédéfinis en un clic, idéales pour les stratégies de screening courantes :\n\n• Value Picks : actions valeur classiques avec de solides fondamentaux\n• Growth Stars : entreprises à forte croissance avec les meilleurs scores composites\n• Quality Stocks : score F de Piotroski élevé et données fiables\n• Undervalued : actions se négociant en dessous de leur juste valeur estimée\n\n💡 Utilisez les présélections comme point de départ, puis affinez avec des filtres supplémentaires."
+    },
+    "filters": {
+      "title": "Recherche & Filtres",
+      "description": "Affinez la liste d'actions avec ces contrôles :\n\n• Recherche : trouvez une action spécifique par nom ou ticker\n• Secteur : filtrez par industrie (Technologie, Santé, etc.)\n• Signal : filtrez par signal global (positif, neutre, négatif)\n• Catégorie : basculez les types d'actions (valeur, croissance, GARP, spéculatif)\n• Valorisation : filtrez par signal de valorisation (sous-évalué, juste, surévalué)\n\n💡 Les filtres se combinent : seules les actions correspondant à TOUS les filtres actifs sont affichées."
+    },
+    "scoreRanges": {
+      "title": "Plages de scores",
+      "description": "Définissez des seuils minimum et maximum pour les trois scores principaux :\n\n• Score composite : le classement global (70 % fondamental + 30 % technique)\n• Score fondamental : santé financière et indicateurs de qualité\n• Score technique : tendances du marché et indicateurs de momentum\n\nLes scores vont de 0 à 100. Au-dessus de 60, on considère généralement une action solide.\n\n💡 Essayez de fixer le score fondamental minimum à 60 pour filtrer les entreprises financièrement saines."
+    },
+    "advanced": {
+      "title": "Filtres avancés",
+      "description": "Développez pour des options de screening plus approfondies :\n\n• Score F de Piotroski (0-9) : mesure la solidité financière. 7+ signifie de solides fondamentaux\n• Marge de sécurité : quelle décote par rapport à la juste valeur. Positive = potentiellement sous-évalué\n• Complétude des données : pourcentage de données disponibles. Plus élevé = scores plus fiables\n\n💡 Combiner Piotroski ≥ 7 avec une marge de sécurité positive est un screening classique de l'investissement valeur."
+    },
+    "sorting": {
+      "title": "Tri",
+      "description": "Triez les résultats par n'importe quel indicateur pour trouver ce qui compte le plus :\n\n• Score composite (défaut) : meilleures actions classées globalement\n• Score fondamental/technique : trier par type d'analyse spécifique\n• Marge de sécurité : trouvez d'abord les actions les plus sous-évaluées\n• Score F de Piotroski : privilégiez la qualité financière\n• P/E ou ROE : trier par indicateurs de valorisation classiques\n\nCliquez sur la flèche pour basculer entre l'ordre croissant/décroissant."
+    },
+    "results": {
+      "title": "Fiches des actions",
+      "description": "Chaque fiche affiche les informations clés en un coup d'œil :\n\n• Nom, ticker et prix actuel\n• Badge de catégorie (valeur, croissance, GARP, spéculatif)\n• Trois scores : composite, fondamental, technique\n• Signal global et signal de valorisation\n• Marge de sécurité, score F de Piotroski, P/E et ROE\n\nCliquez sur n'importe quelle fiche pour ouvrir la page d'analyse complète avec graphiques, estimation de juste valeur et données de gouvernance.\n\n💡 Un préfixe « ~ » sur les scores signifie une faible complétude des données ; interprétez avec prudence."
+    },
+    "conclusion": {
+      "title": "Prêt à explorer !",
+      "description": "Vous savez maintenant comment utiliser le screener efficacement :\n\n✅ Utilisez les présélections pour des stratégies de screening rapides\n✅ Combinez les filtres pour affiner votre recherche\n✅ Triez par différents indicateurs pour trouver ce qui compte\n✅ Cliquez sur une action pour plonger dans l'analyse détaillée\n\nN'oubliez pas : le screener est un point de départ pour la recherche, pas une recommandation d'achat/vente. Effectuez toujours votre propre diligence raisonnable.\n\n💡 Cliquez sur le bouton « Visite guidée » à tout moment pour revoir ce parcours."
+    },
+    "sageQuips": {
+      "welcome": "Laissez-moi vous montrer la carte au trésor !",
+      "intro": "Voici comment nous notons les actions !",
+      "presets": "Un clic, stratégie instantanée !",
+      "filters": "Affinons la recherche !",
+      "scoreRanges": "Fixez votre barre de qualité !",
+      "advanced": "Outils avancés pour les pros !",
+      "sorting": "Trouvez le meilleur du meilleur !",
+      "results": "Voici vos candidats !",
+      "conclusion": "Maintenant, cherchez des pépites !"
+    }
+  },
+  "screener": {
+    "title": "Screener d'actions",
+    "description": "Filtrez et découvrez des actions sur la base de scores fondamentaux, de signaux techniques, d'indicateurs de valorisation et d'indicateurs de qualité. Utilisez des présélections pour une analyse rapide ou créez votre propre screen personnalisé.",
+    "presets": {
+      "valuePicks": "Value Picks",
+      "growthStars": "Growth Stars",
+      "qualityStocks": "Quality Stocks",
+      "undervalued": "Undervalued"
+    },
+    "filters": {
+      "title": "Filtres",
+      "active": "{count} actif | {count} actifs",
+      "category": "Catégorie",
+      "compositeRange": "Score composite",
+      "fundamentalRange": "Score fondamental",
+      "technicalRange": "Score technique",
+      "advanced": "Filtres avancés",
+      "piotroskiMin": "Score F de Piotroski (min)",
+      "marginOfSafetyRange": "Marge de sécurité (%)",
+      "dataCompletenessMin": "Complétude des données (min %)",
+      "valuationSignal": "Valorisation",
+      "allValuations": "Toutes les valorisations"
+    },
+    "columns": {
+      "price": "Prix",
+      "valuation": "Valorisation",
+      "marginOfSafety": "MdS %",
+      "piotroski": "F-Score",
+      "pe": "P/E",
+      "roe": "ROE %"
+    },
+    "results": {
+      "found": "{count} actions trouvées",
+      "noResults": "Aucune action ne correspond à vos critères. Essayez d'assouplir certains filtres."
+    },
+    "valuation": {
+      "undervalued": "Sous-évalué",
+      "fairlyValued": "Juste valeur",
+      "overvalued": "Surévalué"
+    },
+    "help": {
+      "sector": {
+        "title": "Secteur d'activité",
+        "content": "Le secteur économique auquel appartient une entreprise (ex. Technologie, Santé, Finance).\n\nFiltrer par secteur vous aide à vous concentrer sur les industries que vous comprenez ou souhaitez explorer.\n\nDifférents secteurs ont des valorisations typiques différentes ; la comparaison au sein du même secteur est plus pertinente."
+      },
+      "signal": {
+        "title": "Signal global",
+        "content": "Une recommandation synthétique dérivée du score composite :\n\n• Positif : le score composite suggère des conditions favorables\n• Neutre : signaux mixtes, ni fortement positifs ni négatifs\n• Négatif : des scores faibles indiquent des préoccupations potentielles\n\nCeci N'EST PAS une recommandation d'achat/vente ; effectuez toujours vos propres recherches."
+      },
+      "category": {
+        "title": "Catégorie d'action",
+        "content": "Chaque action est classée selon son profil financier :\n\n• Valeur : faible valorisation par rapport aux fondamentaux (P/E faible, dividende élevé)\n• Croissance : fort momentum de croissance des bénéfices et du chiffre d'affaires\n• GARP : Croissance à un Prix Raisonnable, mélange de croissance et de valeur\n• Spéculatif : forte incertitude ou données insuffisantes pour la classification"
+      },
+      "valuation": {
+        "title": "Signal de valorisation",
+        "content": "Compare le prix actuel de l'action à sa juste valeur estimée :\n\n• Sous-évalué : le prix est en dessous de la juste valeur estimée (opportunité potentielle)\n• Juste valeur : le prix est proche de la juste valeur estimée\n• Surévalué : le prix est au-dessus de la juste valeur estimée\n\nLa juste valeur est calculée à l'aide des modèles DCF, nombre de Graham, EPV et basé sur le P/E."
+      },
+      "compositeScore": {
+        "title": "Score composite (0-100)",
+        "content": "Le score de classement global combinant :\n\n• 70 % Score fondamental (santé financière, qualité des bénéfices, valorisation)\n• 30 % Score technique (tendances du marché, momentum)\n\nUn score plus élevé signifie que l'action se classe bien sur les critères fondamentaux et techniques.\n\n60+ est généralement considéré comme solide. Comparez au sein du même secteur pour de meilleurs résultats."
+      },
+      "fundamentalScore": {
+        "title": "Score fondamental (0-100)",
+        "content": "Évalue la santé financière d'une entreprise à l'aide de plus de 30 indicateurs :\n\n• Rentabilité : croissance de l'EPS, ROE, ROIC, marges\n• Solidité financière : niveaux d'endettement, ratio de liquidité, couverture des intérêts\n• Flux de trésorerie : génération de FCF, soutenabilité du paiement\n• Valorisation : P/E, P/FCF, nombre de Graham, DCF\n\nScore plus élevé = fondamentaux financiers plus solides."
+      },
+      "technicalScore": {
+        "title": "Score technique (0-100)",
+        "content": "Mesure les tendances du marché et le momentum des prix :\n\n• SMA 50/200 : moyennes mobiles à court et long terme\n• RSI (14) : indicateur de surachat/survente\n• MACD : momentum et direction de la tendance\n• Momentum des prix : taux de variation sur 12 mois\n• Volatilité : évaluation de la stabilité des prix\n\nScore plus élevé = conditions techniques plus favorables pour l'entrée."
+      },
+      "piotroski": {
+        "title": "Score F de Piotroski (0-9)",
+        "content": "Un score de qualité développé par le professeur Joseph Piotroski qui teste 9 critères financiers :\n\n• Rentabilité (4 tests) : résultat net positif, flux de trésorerie d'exploitation, amélioration du ROA, flux de trésorerie > résultat net\n• Levier (3 tests) : réduction de la dette, amélioration du ratio de liquidité, pas de dilution du capital\n• Efficacité (2 tests) : amélioration de la marge brute, amélioration du taux de rotation des actifs\n\n7-9 = fondamentaux solides\n4-6 = mixte\n0-3 = fondamentaux faibles"
+      },
+      "marginOfSafety": {
+        "title": "Marge de sécurité (%)",
+        "content": "La différence en pourcentage entre la juste valeur estimée d'une action et son prix de marché actuel.\n\n• Positive : l'action se négocie en dessous de la juste valeur (ex. +25 % signifie 25 % de décote)\n• Zéro : l'action se négocie à la juste valeur\n• Négative : l'action se négocie au-dessus de la juste valeur (ex. -15 % signifie 15 % de prime)\n\nBenjamin Graham recommandait une marge de sécurité d'au moins 25-30 % avant d'acheter."
+      },
+      "dataCompleteness": {
+        "title": "Complétude des données (%)",
+        "content": "Le pourcentage d'indicateurs fondamentaux pour lesquels nous disposons de données.\n\nCertaines entreprises (surtout les plus récentes ou cotées à l'étranger) peuvent avoir des données financières incomplètes dans nos sources.\n\n• Au-dessus de 60 % : scores fiables\n• 40-60 % : utiliser avec prudence\n• En dessous de 40 % : scores affichés avec un préfixe ~ indiquant une faible confiance\n\nFixez un minimum pour n'afficher que les actions avec des données fiables."
+      }
+    },
+    "sort": {
+      "label": "Trier par",
+      "compositeScore": "Score composite",
+      "fundamentalScore": "Score fondamental",
+      "technicalScore": "Score technique",
+      "currentPrice": "Prix",
+      "name": "Nom",
+      "marginOfSafety": "Marge de sécurité",
+      "piotroskiScore": "Score F de Piotroski",
+      "pe": "Ratio P/E",
+      "roe": "ROE"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "home": {
+    "title": "Value-Investing-Analyse",
+    "description1": "Dieser Bericht wird nach einer modernisierten Value-Investing-Methodik erstellt, inspiriert von {buffett} und {graham}. Jedes Unternehmen wird auf Basis seiner finanziellen Stärke, Rentabilität, betrieblichen Effizienz und danach bewertet, ob die Aktie im Verhältnis zu ihrem inneren Wert unterbewertet erscheint.",
+    "description2": "Jedes Unternehmen erhält einen {score} über Fundamentaldaten, Effizienz, Kapitalstruktur und intrinsische Bewertung.",
+    "compositeScore": "Composite-Score von 0–100",
+    "evaluationCriteria": "Bewertungskriterien",
+    "criteriaIntro": "Das Scoring-Modell basiert auf einer gewichteten Bewertung der folgenden Schlüsselkriterien:",
+    "criteria": {
+      "epsTrend": "Konstantes Wachstum des Gewinns je Aktie (EPS), das auf nachhaltige Ertragskraft hindeutet.",
+      "epsCagr": "EPS-Compound-Annual-Growth-Rate (CAGR) über 10 %, was starkes langfristiges Wachstum zeigt.",
+      "roic": "Return on Invested Capital (ROIC) über 10 %, was eine effiziente Kapitalallokation widerspiegelt.",
+      "grossMargin": "Bruttogewinnmarge über 60 %, was auf einen dauerhaften Wettbewerbsvorteil hindeutet.",
+      "pfcf": "Kurs-Freier-Cashflow-Verhältnis (P/FCF) unter 15, was auf eine attraktive Bewertung hinweist.",
+      "fcfPositive": "Positiver freier Cashflow (FCF), der die Fähigkeit zur Generierung von überschüssigem Kapital bestätigt.",
+      "dividendPayout": "Dividendenausschüttungsquote unter 60 %, die Aktionärsrendite und Reinvestition ausbalanciert.",
+      "debtToEquity": "Verschuldungsgrad unter 2, was eine konservative Kapitalstruktur zeigt.",
+      "operatingMargin": "Operative Marge über 10 %, die betriebliche Effizienz darstellt.",
+      "currentRatio": "Current Ratio über 1,5, was kurzfristige finanzielle Gesundheit demonstriert.",
+      "interestCoverage": "Zinsdeckungsgrad über 3, der die Fähigkeit zur Schuldenbedienung sicherstellt.",
+      "debtEbitda": "Schulden/EBITDA-Verhältnis unter 3, das auf nachhaltigen Verschuldungsgrad hinweist.",
+      "grahamNumber": "Marktpreis unterhalb der Graham-Zahl, einem klassischen inneren Wert-Maßstab.",
+      "dcf": "DCF-innerer-Wert über dem aktuellen Marktpreis, was auf Unterbewertung hindeutet."
+    },
+    "rankings": "Unternehmens-Rankings"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stocks": {
+    "searchPlaceholder": "按名称或代码搜索...",
+    "sectorPlaceholder": "按行业筛选...",
+    "allSectors": "所有行业",
+    "allSignals": "所有信号",
+    "positive": "正面",
+    "neutral": "中性",
+    "negative": "负面",
+    "loadingStocks": "加载股票中...",
+    "columns": {
+      "rank": "#",
+      "company": "公司",
+      "fundamentals": "基本面",
+      "fundamentalsShort": "基",
+      "technical": "技术面",
+      "technicalShort": "技",
+      "composite": "综合",
+      "compositeShort": "综",
+      "signal": "信号",
+      "country": "国家",
+      "sector": "行业"
+    },
+    "showing": "显示第 {from}-{to} 条，共 {total} 只股票"
+  },
+  "categories": {
+    "value": "价值",
+    "growth": "成长",
+    "garp": "GARP",
+    "speculative": "投机"
+  }
+}

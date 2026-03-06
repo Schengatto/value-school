@@ -1,0 +1,104 @@
+{
+  "compare": {
+    "title": "Comparação de Ações",
+    "description": "Compare 2-3 ações lado a lado para avaliar qual oferece a melhor combinação de qualidade, preço e potencial de crescimento.",
+    "searchPlaceholder": "Pesquisar por nome ou símbolo...",
+    "addStock": "Adicionar ação",
+    "removeStock": "Remover",
+    "selectAtLeast": "Selecione pelo menos 2 ações para comparar",
+    "maxStocks": "Máximo de 3 ações",
+    "loading": "Carregando dados de ações...",
+    "guidedTour": "Tour Guiado",
+    "sections": {
+      "overview": "Visão Geral",
+      "fundamentals": "Métricas Fundamentais",
+      "valuation": "Avaliação",
+      "priceChart": "Desempenho de Preço",
+      "radarChart": "Comparação de Perfil"
+    },
+    "metrics": {
+      "metric": "Métrica",
+      "pe": "Índice P/L",
+      "roe": "ROE",
+      "grossMargin": "Margem Bruta",
+      "operatingMargin": "Margem Operacional",
+      "currentRatio": "Índice Corrente",
+      "debtToEbitda": "Dívida / EBITDA",
+      "interestCoverage": "Cobertura de Juros",
+      "fcf": "Fluxo de Caixa Livre",
+      "piotroski": "F-Score de Piotroski",
+      "earningsQuality": "Qualidade dos Lucros",
+      "dataCompleteness": "Completude de Dados"
+    },
+    "overview": {
+      "category": "Categoria",
+      "sector": "Setor",
+      "industry": "Indústria",
+      "price": "Preço",
+      "compositeScore": "Pontuação Composta",
+      "fundamentalScore": "Pontuação Fundamental",
+      "technicalScore": "Pontuação Técnica",
+      "signal": "Sinal",
+      "valuation": "Avaliação"
+    },
+    "valuation": {
+      "fairValue": "Valor Justo",
+      "currentPrice": "Preço Atual",
+      "marginOfSafety": "Margem de Segurança",
+      "signal": "Sinal de Avaliação",
+      "fairValueRange": "Faixa de Valor Justo"
+    },
+    "chart": {
+      "normalizedPrice": "Preço Normalizado (base 100)",
+      "percentChange": "% Variação",
+      "noData": "Sem dados de preço disponíveis para comparação"
+    },
+    "tour": {
+      "intro": {
+        "title": "Bem-vindo à Comparação de Ações",
+        "description": "A análise relativa é um pilar do investimento em valor. Os números de uma empresa têm pouco sentido isolados; eles só se tornam significativos quando comparados aos concorrentes. Esta ferramenta permite colocar até 3 ações lado a lado para descobrir qual realmente oferece a melhor combinação de qualidade, preço e potencial de crescimento."
+      },
+      "selector": {
+        "title": "Selecione pelo Menos 2 Empresas",
+        "description": "Use esta barra de pesquisa para adicionar ações que deseja comparar. Para a análise mais significativa, escolha empresas do mesmo setor: comparar uma empresa de tecnologia com uma de utilidade seria como comparar maçãs com laranjas. Comparações do mesmo setor revelam diferenças reais em vantagem competitiva, eficiência e qualidade de gestão. Vá em frente. Pesquise e adicione pelo menos 2 empresas para começar!"
+      },
+      "overview": {
+        "title": "A Visão Geral",
+        "description": "Comece aqui para ter uma visão rápida. A pontuação composta combina fatores fundamentais e técnicos. Pergunte-se: a categoria (valor, crescimento, GARP) corresponde à sua estratégia de investimento? Uma ação de 'valor' com alta pontuação composta é um bom ponto de partida para análise mais aprofundada."
+      },
+      "fundamentals": {
+        "title": "Verificação de Saúde Financeira",
+        "description": "É aqui que o investimento em valor realmente começa. Verde destaca a métrica mais forte, vermelho a mais fraca. Perguntas-chave: Quem tem o maior ROE (eficiência da gestão)? A menor dívida (segurança financeira)? As margens mais amplas (vantagem competitiva)? Uma pontuação alta de Piotroski (7-9) sinaliza forte saúde financeira."
+      },
+      "valuation": {
+        "title": "O Preço É Justo?",
+        "description": "Benjamin Graham ensinou que uma grande empresa a um preço ruim ainda é um mau investimento. Compare o valor justo de cada ação com seu preço atual. A margem de segurança informa quanto 'amortecedor' você tem: maior é melhor. Procure empresas que estejam subavaliadas E tenham fundamentos sólidos."
+      },
+      "radar": {
+        "title": "Perfil Visual",
+        "description": "O gráfico radar oferece uma comparação visual instantânea. Uma forma mais ampla e equilibrada indica uma empresa forte em múltiplas dimensões. Seja cauteloso com formas muito estreitas em um lado; isso sinaliza uma fraqueza. O investimento de valor ideal mostra força em lucratividade, solvência e crescimento."
+      },
+      "price": {
+        "title": "Preço vs Valor",
+        "description": "Lembre-se: preço é o que você paga, valor é o que você recebe. Este gráfico normaliza todos os preços para 100 para que você possa comparar o desempenho de forma justa. Uma ação que subiu muito pode estar superavaliada agora, enquanto uma que ficou para trás pode representar uma oportunidade. Sempre faça referência cruzada com a seção de avaliação acima."
+      },
+      "conclusion": {
+        "title": "Seu Kit de Ferramentas de Análise",
+        "description": "Agora você tem as ferramentas para comparar ações como um investidor de valor. Nenhuma empresa é perfeita. O objetivo é encontrar o melhor equilíbrio entre qualidade, preço e potencial de crescimento. Use esta comparação como ponto de partida, depois aprofunde-se na página de detalhes de cada empresa para sua avaliação final."
+      },
+      "next": "Próximo",
+      "prev": "Anterior",
+      "done": "Entendi!",
+      "sageQuips": {
+        "intro": "Comparação é fundamental!",
+        "selector": "Escolha seus concorrentes!",
+        "overview": "Vamos ver quem está ganhando!",
+        "fundamentals": "Quem é o mais saudável?",
+        "valuation": "O preço é justo?",
+        "radar": "A forma conta a história!",
+        "price": "Preço vs valor!",
+        "conclusion": "Agora você pode comparar como um profissional!"
+      }
+    }
+  }
+}

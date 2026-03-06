@@ -1,0 +1,27 @@
+{
+  "home": {
+    "title": "Analyse de l'investissement valeur",
+    "description1": "Ce rapport est généré à l'aide d'une méthodologie d'investissement valeur modernisée, inspirée de {buffett} et {graham}. Chaque entreprise est évaluée en fonction de sa solidité financière, de sa rentabilité, de son efficacité opérationnelle et de la question de savoir si l'action semble sous-évaluée par rapport à sa valeur intrinsèque.",
+    "description2": "Chaque entreprise reçoit un {score} couvrant les fondamentaux, l'efficacité, la structure du capital et la valorisation intrinsèque.",
+    "compositeScore": "Score composite de 0 à 100",
+    "evaluationCriteria": "Critères d'évaluation",
+    "criteriaIntro": "Le modèle de notation est basé sur une évaluation pondérée des critères clés suivants :",
+    "criteria": {
+      "epsTrend": "Croissance régulière du bénéfice par action (EPS), indiquant un pouvoir de gain durable.",
+      "epsCagr": "Taux de croissance annuel composé (CAGR) de l'EPS supérieur à 10 %, témoignant d'une forte croissance à long terme.",
+      "roic": "Rendement du capital investi (ROIC) supérieur à 10 %, reflétant une allocation efficace du capital.",
+      "grossMargin": "Marge brute supérieure à 60 %, suggérant un avantage concurrentiel durable.",
+      "pfcf": "Ratio prix/flux de trésorerie libre (P/FCF) inférieur à 15, indiquant une valorisation attractive.",
+      "fcfPositive": "Flux de trésorerie libre (FCF) positif, confirmant la capacité à générer des liquidités excédentaires.",
+      "dividendPayout": "Taux de distribution des dividendes inférieur à 60 %, équilibrant le retour aux actionnaires et le réinvestissement.",
+      "debtToEquity": "Ratio dette/capitaux propres inférieur à 2, témoignant d'une structure du capital conservatrice.",
+      "operatingMargin": "Marge opérationnelle supérieure à 10 %, représentant l'efficacité opérationnelle.",
+      "currentRatio": "Ratio de liquidité général supérieur à 1,5, démontrant une bonne santé financière à court terme.",
+      "interestCoverage": "Couverture des intérêts supérieure à 3, garantissant la capacité à honorer la dette.",
+      "debtEbitda": "Ratio dette/EBITDA inférieur à 3, indiquant un levier soutenable.",
+      "grahamNumber": "Prix du marché inférieur au nombre de Graham, un référentiel classique de juste valeur.",
+      "dcf": "Valeur intrinsèque DCF supérieure au prix de marché actuel, suggérant une sous-évaluation."
+    },
+    "rankings": "Classement des entreprises"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "screenerTour": {
+    "welcome": {
+      "title": "Willkommen beim Screener",
+      "description": "Der Screener hilft Ihnen, Investitionsmöglichkeiten unter 200+ NASDAQ-Large-Cap-Aktien zu entdecken.\n\nJede Aktie wird nach Fundamentaldaten (finanzielle Gesundheit) und Technik (Markttrends) bewertet und dann nach einem Composite-Score eingestuft.\n\nDiese Tour zeigt Ihnen, wie Sie Filter, Voreinstellungen und Sortierung verwenden, um die Aktien zu finden, die Ihren Anlagekriterien entsprechen. Dauert etwa 2 Minuten.\n\nDrücken Sie jederzeit Esc zum Beenden, und verwenden Sie die Schaltfläche 'Geführte Tour', um die Tour zu wiederholen."
+    },
+    "intro": {
+      "title": "Wie der Screener funktioniert",
+      "description": "Diese Karte erklärt die Scoring-Methodik hinter dem Screener.\n\nJede Aktie erhält einen Composite-Score (0–100), der 70 % Fundamentalanalyse und 30 % technische Analyse kombiniert.\n\nErweitern Sie 'Bewertungskriterien', um die vollständige Liste der verwendeten Kennzahlen zu sehen: EPS-Trends, ROIC, Margen, Schuldenniveaus, DCF-Bewertung und mehr.\n\n💡 Das Verstehen der Kriterien hilft Ihnen, Scores effektiver zu interpretieren."
+    },
+    "presets": {
+      "title": "Schnellvoreinstellungen",
+      "description": "Voreinstellungen wenden vordefinierte Filter mit einem Klick an, ideal für gängige Screening-Strategien:\n\n• Value Picks: Klassische Value-Aktien mit starken Fundamentaldaten\n• Growth Stars: Hochwachstumsunternehmen mit Top-Composite-Scores\n• Quality Stocks: Hoher Piotroski F-Score und zuverlässige Daten\n• Undervalued: Aktien, die unter ihrem geschätzten inneren Wert handeln\n\n💡 Verwenden Sie Voreinstellungen als Ausgangspunkt, dann verfeinern Sie mit zusätzlichen Filtern."
+    },
+    "filters": {
+      "title": "Suchen & Filtern",
+      "description": "Schränken Sie die Aktienliste mit diesen Steuerelementen ein:\n\n• Suche: Finden Sie eine bestimmte Aktie nach Name oder Ticker\n• Sektor: Filtern Sie nach Branche (Technologie, Gesundheitswesen usw.)\n• Signal: Filtern Sie nach Gesamtsignal (positiv, neutral, negativ)\n• Kategorie: Schalten Sie Aktientypen um (Value, Growth, GARP, spekulativ)\n• Bewertung: Filtern Sie nach Bewertungssignal (unterbewertet, fair, überbewertet)\n\n💡 Filter kombinieren sich: Nur Aktien, die ALLE aktiven Filter erfüllen, werden angezeigt."
+    },
+    "scoreRanges": {
+      "title": "Score-Bereiche",
+      "description": "Legen Sie Mindest- und Höchstschwellen für die drei Hauptscores fest:\n\n• Composite-Score: Das Gesamtranking (70 % Fundamental + 30 % Technisch)\n• Fundamental-Score: Finanzielle Gesundheits- und Qualitätskennzahlen\n• Technischer Score: Markttrends und Momentumindikatoren\n\nScores reichen von 0 bis 100. Über 60 gilt allgemein als solide Aktie.\n\n💡 Versuchen Sie, den Mindest-Fundamental-Score auf 60 zu setzen, um finanziell gesunde Unternehmen zu filtern."
+    },
+    "advanced": {
+      "title": "Erweiterte Filter",
+      "description": "Erweitern Sie für tiefere Screening-Optionen:\n\n• Piotroski F-Score (0–9): Misst finanzielle Stärke. 7+ bedeutet starke Fundamentaldaten\n• Sicherheitsmarge: Wie viel Rabatt zum inneren Wert. Positiv = möglicherweise unterbewertet\n• Datenvollständigkeit: Prozentsatz verfügbarer Daten. Höher = zuverlässigere Scores\n\n💡 Piotroski ≥ 7 mit positiver Sicherheitsmarge zu kombinieren ist ein klassisches Value-Investing-Screen."
+    },
+    "sorting": {
+      "title": "Sortierung",
+      "description": "Sortieren Sie die Ergebnisse nach jeder Kennzahl, um das Wichtigste zu finden:\n\n• Composite-Score (Standard): Insgesamt am besten eingestufte Aktien\n• Fundamental-/Technischer Score: Nach spezifischem Analysetyp sortieren\n• Sicherheitsmarge: Zuerst die am stärksten unterbewerteten Aktien finden\n• Piotroski F-Score: Finanzielle Qualität priorisieren\n• P/E oder ROE: Nach klassischen Bewertungskennzahlen sortieren\n\nKlicken Sie auf den Pfeil, um zwischen aufsteigender/absteigender Reihenfolge zu wechseln."
+    },
+    "results": {
+      "title": "Aktienkarten",
+      "description": "Jede Karte zeigt auf einen Blick wichtige Informationen:\n\n• Name, Ticker und aktueller Kurs\n• Kategorie-Badge (Value, Growth, GARP, spekulativ)\n• Drei Scores: Composite, Fundamental, Technisch\n• Gesamtsignal und Bewertungssignal\n• Sicherheitsmarge, Piotroski F-Score, P/E und ROE\n\nKlicken Sie auf eine Karte, um die vollständige Analyseseite mit Charts, innerer-Wert-Schätzung und Governance-Daten zu öffnen.\n\n💡 Ein '~'-Präfix bei Scores bedeutet geringe Datenvollständigkeit; mit Vorsicht interpretieren."
+    },
+    "conclusion": {
+      "title": "Bereit zum Erkunden!",
+      "description": "Sie wissen nun, wie Sie den Screener effektiv nutzen:\n\n✅ Voreinstellungen für schnelle Screening-Strategien verwenden\n✅ Filter kombinieren, um Ihre Suche einzugrenzen\n✅ Nach verschiedenen Kennzahlen sortieren, um das Wichtigste zu finden\n✅ Auf eine Aktie klicken, um in die detaillierte Analyse einzutauchen\n\nDenken Sie daran: Der Screener ist ein Ausgangspunkt für die Recherche, keine Kauf-/Verkaufsempfehlung. Führen Sie stets Ihre eigene Due-Diligence-Prüfung durch.\n\n💡 Klicken Sie jederzeit auf die Schaltfläche 'Geführte Tour', um diese Anleitung zu wiederholen."
+    },
+    "sageQuips": {
+      "welcome": "Lass mich dir die Schatzkarte zeigen!",
+      "intro": "So bewerten wir Aktien!",
+      "presets": "Ein Klick, sofortige Strategie!",
+      "filters": "Grenzen wir es ein!",
+      "scoreRanges": "Setzen Sie Ihre Qualitätsliste!",
+      "advanced": "Profi-Werkzeuge für Experten!",
+      "sorting": "Finden Sie das Beste vom Besten!",
+      "results": "Hier sind Ihre Kandidaten!",
+      "conclusion": "Jetzt gehen Sie auf Schatzsuche!"
+    }
+  },
+  "screener": {
+    "title": "Aktien-Screener",
+    "description": "Filtern und entdecken Sie Aktien basierend auf Fundamental-Scores, technischen Signalen, Bewertungskennzahlen und Qualitätsindikatoren. Verwenden Sie Voreinstellungen für schnelle Analysen oder erstellen Sie Ihren eigenen benutzerdefinierten Screen.",
+    "presets": {
+      "valuePicks": "Value Picks",
+      "growthStars": "Growth Stars",
+      "qualityStocks": "Quality Stocks",
+      "undervalued": "Unterbewertet"
+    },
+    "filters": {
+      "title": "Filter",
+      "active": "{count} aktiv | {count} aktiv",
+      "category": "Kategorie",
+      "compositeRange": "Composite-Score",
+      "fundamentalRange": "Fundamental-Score",
+      "technicalRange": "Technischer Score",
+      "advanced": "Erweiterte Filter",
+      "piotroskiMin": "Piotroski F-Score (min)",
+      "marginOfSafetyRange": "Sicherheitsmarge (%)",
+      "dataCompletenessMin": "Datenvollständigkeit (min %)",
+      "valuationSignal": "Bewertung",
+      "allValuations": "Alle Bewertungen"
+    },
+    "columns": {
+      "price": "Kurs",
+      "valuation": "Bewertung",
+      "marginOfSafety": "SM %",
+      "piotroski": "F-Score",
+      "pe": "P/E",
+      "roe": "ROE %"
+    },
+    "results": {
+      "found": "{count} Aktien gefunden",
+      "noResults": "Keine Aktien entsprechen Ihren Kriterien. Versuchen Sie, einige Filter zu lockern."
+    },
+    "valuation": {
+      "undervalued": "Unterbewertet",
+      "fairlyValued": "Fair bewertet",
+      "overvalued": "Überbewertet"
+    },
+    "help": {
+      "sector": {
+        "title": "Branchensektor",
+        "content": "Der Wirtschaftssektor, dem ein Unternehmen angehört (z.B. Technologie, Gesundheitswesen, Finanzen).\n\nDas Filtern nach Sektor hilft Ihnen, sich auf Branchen zu konzentrieren, die Sie verstehen oder erkunden möchten.\n\nVerschiedene Sektoren haben typischerweise unterschiedliche Bewertungen; Vergleiche innerhalb desselben Sektors sind aussagekräftiger."
+      },
+      "signal": {
+        "title": "Gesamtsignal",
+        "content": "Eine zusammenfassende Empfehlung, die aus dem Composite-Score abgeleitet wird:\n\n• Positiv: Composite-Score deutet auf günstige Bedingungen hin\n• Neutral: Gemischte Signale, weder stark positiv noch negativ\n• Negativ: Niedrige Scores zeigen potenzielle Bedenken\n\nDies ist KEINE Kauf-/Verkaufsempfehlung; führen Sie stets Ihre eigene Recherche durch."
+      },
+      "category": {
+        "title": "Aktienkategorie",
+        "content": "Jede Aktie wird basierend auf ihrem Finanzprofil klassifiziert:\n\n• Value: Niedrige Bewertung relativ zu Fundamentaldaten (niedriges P/E, hohe Dividende)\n• Growth: Starkes Gewinn- und Umsatzwachstumsmomentum\n• GARP: Growth at a Reasonable Price, eine Mischung aus Growth und Value\n• Spekulativ: Hohe Unsicherheit oder unzureichende Daten für die Klassifizierung"
+      },
+      "valuation": {
+        "title": "Bewertungssignal",
+        "content": "Vergleicht den aktuellen Aktienkurs mit dem geschätzten inneren Wert:\n\n• Unterbewertet: Kurs liegt unter dem geschätzten inneren Wert (potenzielle Chance)\n• Fair bewertet: Kurs liegt nahe am geschätzten inneren Wert\n• Überbewertet: Kurs liegt über dem geschätzten inneren Wert\n\nDer innere Wert wird mit DCF, Graham-Zahl, EPV und P/E-basierten Modellen berechnet."
+      },
+      "compositeScore": {
+        "title": "Composite-Score (0–100)",
+        "content": "Der Gesamtranking-Score kombiniert:\n\n• 70 % Fundamental-Score (finanzielle Gesundheit, Gewinnqualität, Bewertung)\n• 30 % Technischer Score (Markttrends, Momentum)\n\nEin höherer Score bedeutet, dass die Aktie sowohl nach fundamentalen als auch technischen Kriterien gut abschneidet.\n\n60+ gilt allgemein als solide. Vergleichen Sie innerhalb desselben Sektors für beste Ergebnisse."
+      },
+      "fundamentalScore": {
+        "title": "Fundamental-Score (0–100)",
+        "content": "Bewertet die finanzielle Gesundheit eines Unternehmens mit 30+ Kennzahlen:\n\n• Rentabilität: EPS-Wachstum, ROE, ROIC, Margen\n• Finanzielle Stärke: Schuldenniveaus, Current Ratio, Zinsdeckungsgrad\n• Cashflow: Freie Cashflow-Generierung, Nachhaltigkeitsausschüttung\n• Bewertung: P/E, P/FCF, Graham-Zahl, DCF\n\nHöherer Score = stärkere finanzielle Fundamentaldaten."
+      },
+      "technicalScore": {
+        "title": "Technischer Score (0–100)",
+        "content": "Misst Markttrends und Kursmomentum:\n\n• SMA 50/200: Kurz- und langfristige gleitende Durchschnitte\n• RSI (14): Überkauft-/Überverkauft-Indikator\n• MACD: Momentum und Trendrichtung\n• Kursmomentum: 12-Monats-Änderungsrate\n• Volatilität: Kursstabilitätsbewertung\n\nHöherer Score = günstigere technische Bedingungen für den Einstieg."
+      },
+      "piotroski": {
+        "title": "Piotroski F-Score (0–9)",
+        "content": "Ein Qualitätsscore, entwickelt von Professor Joseph Piotroski, der 9 finanzielle Kriterien testet:\n\n• Rentabilität (4 Tests): Positives Nettoeinkommen, operativer Cashflow, ROA-Verbesserung, Cashflow > Nettoeinkommen\n• Verschuldung (3 Tests): Rückläufige Schulden, verbesserte Current Ratio, keine Aktienverwässerung\n• Effizienz (2 Tests): Verbesserte Bruttomarge, verbesserte Vermögensumschlaghäufigkeit\n\n7–9 = starke Fundamentaldaten\n4–6 = gemischt\n0–3 = schwache Fundamentaldaten"
+      },
+      "marginOfSafety": {
+        "title": "Sicherheitsmarge (%)",
+        "content": "Der prozentuale Unterschied zwischen dem geschätzten inneren Wert einer Aktie und ihrem aktuellen Marktpreis.\n\n• Positiv: Aktie handelt unter dem inneren Wert (z.B. +25 % bedeutet 25 % Rabatt)\n• Null: Aktie handelt zum inneren Wert\n• Negativ: Aktie handelt über dem inneren Wert (z.B. -15 % bedeutet 15 % Prämie)\n\nBenjamin Graham empfahl eine Sicherheitsmarge von mindestens 25–30 % vor dem Kauf."
+      },
+      "dataCompleteness": {
+        "title": "Datenvollständigkeit (%)",
+        "content": "Der Prozentsatz der Fundamentalkennzahlen, für die wir Daten haben.\n\nEinige Unternehmen (insbesondere neuere oder im Ausland notierte) haben möglicherweise unvollständige Finanzdaten aus unseren Quellen.\n\n• Über 60 %: Zuverlässige Scores\n• 40–60 %: Mit Vorsicht verwenden\n• Unter 40 %: Scores mit '~'-Präfix, das auf geringes Vertrauen hinweist\n\nSetzen Sie ein Minimum, um sicherzustellen, dass Sie nur Aktien mit zuverlässigen Daten sehen."
+      }
+    },
+    "sort": {
+      "label": "Sortieren nach",
+      "compositeScore": "Composite-Score",
+      "fundamentalScore": "Fundamental-Score",
+      "technicalScore": "Technischer Score",
+      "currentPrice": "Kurs",
+      "name": "Name",
+      "marginOfSafety": "Sicherheitsmarge",
+      "piotroskiScore": "Piotroski F-Score",
+      "pe": "P/E-Verhältnis",
+      "roe": "ROE"
+    }
+  }
+}

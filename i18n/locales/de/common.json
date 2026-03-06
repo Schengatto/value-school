@@ -1,0 +1,46 @@
+{
+  "common": {
+    "loading": "Laden...",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "reset": "Zurücksetzen",
+    "backToCurrentWeek": "Zur aktuellen Woche",
+    "backToCurrentMonth": "Zum aktuellen Monat",
+    "today": "Heute",
+    "noData": "Keine Daten verfügbar"
+  },
+  "nav": {
+    "brand": "Value School",
+    "home": "Startseite",
+    "screener": "Screener",
+    "compare": "Vergleich",
+    "earnings": "Gewinne",
+    "ipo": "IPO",
+    "dividends": "Dividenden",
+    "lastUpdate": "Letztes Update:",
+    "disclaimer": "Diese Plattform dient ausschließlich zu Bildungszwecken. Sie stellt keine Finanz-, Anlage- oder Handelsberatung dar. Alle Scores, Bewertungen und Signale basieren auf automatisierter Analyse öffentlich verfügbarer Daten, die unvollständig oder ungenau sein können. Führen Sie stets Ihre eigene Recherche durch und konsultieren Sie einen qualifizierten Finanzberater, bevor Sie Anlageentscheidungen treffen.",
+    "createdBy": "Erstellt von"
+  },
+  "disclaimer": {
+    "short": "Scores und Bewertungen sind nur indikativ und basieren auf möglicherweise eingeschränkten Daten. Dies ist keine Finanzberatung.",
+    "landing": "Diese Plattform ist darauf ausgelegt, die Value-Investing-Methodik durch praktische Analyse zu lehren. Alle Scores und Bewertungen sind rein indikativ und basieren auf automatisierter Verarbeitung öffentlich verfügbarer Daten, die unvollständig sein oder Fehler enthalten können. Kein Inhalt auf dieser Plattform stellt eine Finanzberatung oder Anlageempfehlung dar. Führen Sie stets Ihre eigene Due-Diligence-Prüfung durch und konsultieren Sie einen qualifizierten Finanzberater, bevor Sie Anlageentscheidungen treffen.",
+    "analysis": "Die dargestellte Analyse wird automatisch aus öffentlich verfügbaren Finanzdaten generiert, die unvollständig oder ungenau sein können. Scores und Bewertungen sind rein indikativ und sollten nicht als alleinige Grundlage für Anlageentscheidungen verwendet werden. Diese Plattform ist pädagogisch: Lernen Sie die Methodik, und wenden Sie dann Ihr eigenes Urteilsvermögen an."
+  },
+  "welcome": {
+    "title": "Willkommen bei Value School",
+    "subtitle": "Value Investing durch praktische Analyse erlernen",
+    "selectLanguage": "Wählen Sie Ihre bevorzugte Sprache",
+    "disclaimer": "Alle Daten, Scores und Bewertungen auf dieser Plattform sind rein indikativ und dienen ausschließlich zu Bildungszwecken. Sie werden aus automatisierter Analyse öffentlich verfügbarer Finanzdaten generiert, die unvollständig oder ungenau sein können. Nichts hier stellt eine Finanzberatung dar.",
+    "continue": "Weiter",
+    "english": "English",
+    "italian": "Italiano"
+  },
+  "pipeline": {
+    "running": "Analyse läuft",
+    "completed": "Analyse abgeschlossen",
+    "starting": "Startet...",
+    "processing": "{current}/{total}: {symbol}",
+    "success": "OK",
+    "errors": "Fehler"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Aprenda Investimento em Valor na Prática",
+      "subtitle": "Analise ações reais da NASDAQ com ferramentas de nível profissional. Compreenda os fundamentos, estime o valor justo e construa seu framework de investimento, passo a passo.",
+      "ctaScreener": "Explorar o Screener",
+      "ctaLearn": "O que é Investimento em Valor?"
+    },
+    "valueInvesting": {
+      "sectionTitle": "O que é Investimento em Valor?",
+      "sectionSubtitle": "A estratégia utilizada por Warren Buffett, Benjamin Graham e os investidores de longo prazo mais bem-sucedidos.",
+      "pillar1Title": "Compre Abaixo do Valor Intrínseco",
+      "pillar1Description": "Os investidores em valor procuram ações negociadas abaixo do que o negócio realmente vale. Esta 'margem de segurança' protege contra erros e quedas do mercado.",
+      "pillar2Title": "Analise os Fundamentos",
+      "pillar2Description": "Em vez de seguir tendências, os investidores em valor estudam demonstrações financeiras: receita, fluxo de caixa, níveis de dívida e lucratividade. Os números não mentem.",
+      "pillar3Title": "Pense a Longo Prazo",
+      "pillar3Description": "O investimento em valor não é day trading. É sobre encontrar grandes negócios a preços justos e mantê-los enquanto acumulam riqueza ao longo dos anos."
+    },
+    "learningPath": {
+      "sectionTitle": "Como Este App Ajuda Você a Aprender",
+      "sectionSubtitle": "Siga um caminho estruturado desde a descoberta de ações até a decisão de investimento.",
+      "step1Title": "Filtrar e Descobrir",
+      "step1Description": "Use o screener para encontrar ações pontuadas em fundamentos, técnicos e avaliação. Filtre por setor, sinal e categoria.",
+      "step2Title": "Entender os Números",
+      "step2Description": "Aprofunde-se nas finanças de cada empresa: tendências de receita, fluxo de caixa, solidez do balanço. Cada métrica tem um glossário interativo para ensinar o que significa.",
+      "step3Title": "Estimar o Valor Justo",
+      "step3Description": "Veja múltiplos modelos de avaliação (DCF, Graham, EPV) combinados em uma estimativa de valor justo. Aprenda a identificar se uma ação está barata ou cara.",
+      "step4Title": "Tome Decisões Informadas",
+      "step4Description": "Combine análise fundamental, avaliação, técnicos e qualidade da gestão em um quadro completo. O tour guiado percorre cada seção."
+    },
+    "features": {
+      "sectionTitle": "Feito para Aprender",
+      "sectionSubtitle": "Cada funcionalidade é projetada para ensinar conceitos de investimento em valor enquanto você as usa.",
+      "glossaryTitle": "Glossário Interativo",
+      "glossaryDescription": "Clique em qualquer termo financeiro para ver uma definição clara e um exemplo do mundo real.",
+      "tourTitle": "Tour Guiado",
+      "tourDescription": "Um passo a passo que ensina como ler cada seção de análise.",
+      "fundamentalTitle": "Análise Fundamental",
+      "fundamentalDescription": "Mais de 30 critérios ponderados avaliam lucratividade, crescimento, dívida e qualidade do fluxo de caixa.",
+      "fairValueTitle": "Estimativa de Valor Justo",
+      "fairValueDescription": "Múltiplos modelos de avaliação combinados para estimar o que uma ação realmente vale.",
+      "technicalTitle": "Indicadores Técnicos",
+      "technicalDescription": "RSI, médias móveis, MACD e momentum ajudam a calcular o momento de entrada.",
+      "managementTitle": "Qualidade da Gestão",
+      "managementDescription": "O F-Score de Piotroski, atividade de insiders e alocação de capital revelam a qualidade da liderança."
+    },
+    "cta": {
+      "title": "Pronto para Começar a Analisar?",
+      "subtitle": "Escolha uma ação no screener e comece sua jornada de investimento em valor.",
+      "button": "Abrir o Screener"
+    }
+  }
+}

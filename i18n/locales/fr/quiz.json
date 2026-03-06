@@ -1,0 +1,95 @@
+{
+  "quiz": {
+    "sectionTitle": "Testez votre compréhension",
+    "questions": {
+      "currentRatio": {
+        "question": "Le ratio de liquidité général est de {value}. Que suggère-t-il sur la liquidité à court terme ?",
+        "a": "Sain : peut payer confortablement ses dettes à court terme",
+        "b": "Adéquat mais marge de sécurité limitée",
+        "c": "Signal d'alerte : peut peiner à honorer ses obligations à court terme",
+        "explanation": "Un ratio de liquidité général supérieur à 1,5 est considéré comme sain, entre 1,0 et 1,5 est adéquat, et en dessous de 1,0 signifie que le passif courant dépasse l'actif courant, un signal d'alerte."
+      },
+      "debtToEbitda": {
+        "question": "La dette/EBITDA est de {value}. Comment évalueriez-vous le niveau d'endettement ?",
+        "a": "Sain : la dette est gérable",
+        "b": "Modéré : à surveiller",
+        "c": "Préoccupant : fortement endetté",
+        "explanation": "Une dette/EBITDA inférieure à 3x est considérée comme saine, 3-5x nécessite une surveillance, et au-dessus de 5x est un signal d'alarme. Un fort endettement augmente le risque lors des ralentissements économiques."
+      },
+      "fcf": {
+        "question": "Le flux de trésorerie libre est de {value}. Qu'est-ce que cela vous indique ?",
+        "a": "L'entreprise génère de vraies liquidités, signe positif",
+        "b": "L'entreprise brûle des liquidités ; nécessite investigation",
+        "c": "Le FCF ne compte pas pour l'investissement valeur",
+        "explanation": "Un FCF positif signifie que l'entreprise génère de vraies liquidités après opérations et investissements. C'est l'un des indicateurs les plus importants car, contrairement au résultat net, il est très difficile à manipuler."
+      },
+      "pe": {
+        "question": "Le ratio P/E est de {value}. Comment l'interpréteriez-vous ?",
+        "a": "Potentiellement sous-évalué, se négocie à un multiple faible",
+        "b": "Correctement valorisé : prix raisonnable pour les bénéfices",
+        "c": "Fortes attentes ou perte d'argent ; à investiguer",
+        "explanation": "Un P/E inférieur à 15 peut indiquer une sous-évaluation, 15-25 est juste pour la plupart des secteurs, et au-dessus de 25 suggère que le marché anticipe une forte croissance. Un P/E négatif signifie que l'entreprise est non rentable. Comparez toujours au sein du même secteur."
+      },
+      "marginOfSafety": {
+        "question": "La marge de sécurité est de {value}. Que suggère le cadre de Benjamin Graham ?",
+        "a": "Forte décote : point d'entrée attractif",
+        "b": "Faible décote : marge d'erreur limitée",
+        "c": "Se négocie au-dessus de la juste valeur ; vous payez une prime",
+        "explanation": "Graham recommandait au moins 25 % de marge de sécurité pour se protéger des erreurs d'estimation. Une marge positive signifie que vous achetez en dessous de la juste valeur, tandis qu'une marge négative signifie que vous payez plus que la valeur estimée."
+      },
+      "fairValueVsPrice": {
+        "question": "La juste valeur est estimée à {fairValue} et le prix actuel est de {price}. Qu'est-ce que cela signifie ?",
+        "a": "L'action semble sous-évaluée : le prix est en dessous de la valeur estimée",
+        "b": "L'action est à peu près correctement valorisée",
+        "c": "L'action semble surévaluée : le prix dépasse la valeur estimée",
+        "explanation": "Quand le prix actuel est en dessous de la juste valeur, l'action peut être sous-évaluée, une opportunité potentielle. Quand il est au-dessus, vous payez plus que la valeur intrinsèque estimée. N'oubliez pas : la juste valeur est une estimation, pas une garantie."
+      },
+      "rsi": {
+        "question": "Le RSI (14) est de {value}. Quel signal envoie-t-il sur le momentum actuel ?",
+        "a": "Survendu : potentiellement une opportunité d'achat",
+        "b": "Neutre : conditions de trading normales",
+        "c": "Suracheté : l'action pourrait être due à un repli",
+        "explanation": "Un RSI en dessous de 30 suggère que l'action est survendue (possible achat), 30-70 est un territoire neutre, et au-dessus de 70 suggère des conditions de surachat (possible vente). Le RSI est un outil de timing ; utilisez-le avec l'analyse fondamentale."
+      },
+      "smaTrend": {
+        "question": "La SMA 50 est à {sma50} et la SMA 200 est à {sma200}. Quel modèle de tendance cela montre-t-il ?",
+        "a": "Croix d'or (haussière) : la tendance à court terme est forte",
+        "b": "Croix de la mort (baissière) : faiblesse à court terme",
+        "c": "Pas de signal clair : les moyennes sont trop proches",
+        "explanation": "Quand la SMA 50 est au-dessus de la SMA 200 (Croix d'or), cela indique que la tendance à court terme est plus forte, généralement haussier. Quand la SMA 50 est en dessous de la SMA 200 (Croix de la mort), cela suggère un affaiblissement du momentum."
+      },
+      "piotroski": {
+        "question": "Le score F de Piotroski est de {value}/9. Qu'est-ce que cela indique sur la santé financière ?",
+        "a": "Solide : l'entreprise passe la plupart des contrôles de qualité",
+        "b": "Mixte : quelques domaines préoccupants",
+        "c": "Faible : préoccupations financières significatives",
+        "explanation": "Un score Piotroski de 7-9 indique une santé financière solide, 4-6 montre des signaux mixtes, et 0-3 suggère des préoccupations sérieuses. La recherche académique a montré que les actions à score élevé ont tendance à surperformer dans le temps."
+      },
+      "earningsQuality": {
+        "question": "La qualité des bénéfices est de {value}. Les bénéfices déclarés sont-ils fiables ?",
+        "a": "Haute qualité : les bénéfices sont soutenus par un vrai flux de trésorerie",
+        "b": "Modérée : certain écart entre bénéfices comptables et trésorerie",
+        "c": "Faible qualité : écart significatif, possibles problèmes comptables",
+        "explanation": "Une qualité des bénéfices supérieure à 1,0 signifie que le flux de trésorerie d'exploitation dépasse le résultat net, les bénéfices sont réels et fiables. Entre 0,5 et 1,0, une surveillance s'impose. En dessous de 0,5, le résultat net peut être gonflé par des choix comptables."
+      }
+    },
+    "page": {
+      "title": "Quiz d'analyse : {symbol}",
+      "backToAnalysis": "Retour à l'analyse",
+      "step": "Étape {current} sur {total}",
+      "next": "Suivant",
+      "previous": "Précédent",
+      "finish": "Voir les résultats",
+      "results": "Résultats",
+      "score": "{correct} sur {total} correct",
+      "restart": "Recommencer le quiz",
+      "backToCompany": "Retour à {symbol}",
+      "sections": {
+        "financials": "Santé financière",
+        "valuation": "Valorisation",
+        "technical": "Signaux techniques",
+        "management": "Qualité du management"
+      }
+    }
+  }
+}

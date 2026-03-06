@@ -1,0 +1,190 @@
+{
+  "glossary": {
+    "revenue": {
+      "label": "Chiffre d'affaires",
+      "title": "Chiffre d'affaires (Ventes totales)",
+      "definition": "L'argent total qu'une entreprise gagne en vendant ses produits ou services, avant de soustraire les coûts. C'est la « première ligne » du compte de résultat.",
+      "example": "Si Apple vend 10 millions d'iPhone à 1 000 $ chacun, cela représente 10 Mds$ de chiffre d'affaires, peu importe le coût de fabrication."
+    },
+    "netIncome": {
+      "label": "Résultat net",
+      "title": "Résultat net (Ligne du bas)",
+      "definition": "Le profit réel restant après déduction de TOUS les coûts : production, salaires, impôts, intérêts et tout le reste. C'est ce que les actionnaires gagnent réellement.",
+      "example": "Une entreprise avec 10 Mds$ de chiffre d'affaires et 7 Mds$ de coûts totaux a 3 Mds$ de résultat net. C'est 30 centimes de profit pour chaque euro de ventes."
+    },
+    "freeCashFlow": {
+      "label": "Flux de trésorerie libre",
+      "title": "Flux de trésorerie libre (FCF)",
+      "definition": "Les vraies liquidités qu'une entreprise génère après avoir payé ses opérations et ses investissements. Contrairement au résultat net, il est très difficile à manipuler avec des astuces comptables.",
+      "example": "Une entreprise gagne 5 Mds$ de profit mais dépense 2 Mds$ en nouvelles usines. FCF = 3 Mds$. C'est la trésorerie disponible pour les dividendes, les rachats d'actions ou la réduction de la dette."
+    },
+    "totalEquity": {
+      "label": "Capitaux propres totaux",
+      "title": "Capitaux propres totaux (Valeur comptable)",
+      "definition": "Ce que possèdent réellement les actionnaires : actif total moins passif total. Pensez-y comme la valeur nette de l'entreprise si elle vendait tout et remboursait toutes ses dettes.",
+      "example": "Une entreprise avec 50 Mds$ d'actifs et 30 Mds$ de dettes a 20 Mds$ de capitaux propres. Avec 1 Md d'actions, la valeur comptable est de 20 $ par action."
+    },
+    "totalLiabilities": {
+      "label": "Passif total",
+      "title": "Passif total (Dette totale)",
+      "definition": "Tout ce que l'entreprise doit : emprunts, obligations, comptes fournisseurs, obligations de crédit-bail et autres engagements financiers. Un passif élevé augmente le risque lors des ralentissements.",
+      "example": "Une entreprise avec 40 Mds$ de passif et 20 Mds$ de capitaux propres a un ratio dette/fonds propres de 2:1, ce qui signifie qu'elle doit deux fois plus qu'elle ne possède."
+    },
+    "currentRatio": {
+      "label": "Ratio de liquidité général",
+      "title": "Ratio de liquidité général (Liquidité)",
+      "definition": "Actif à court terme divisé par les dettes à court terme. Indique si l'entreprise peut payer ses factures exigibles dans les 12 mois. Au-dessus de 1,5 est sain, en dessous de 1,0 est un signal d'alerte.",
+      "example": "Une entreprise avec 6 Mds$ d'actif courant et 4 Mds$ de passif courant a un ratio de liquidité de 1,5, ce qui lui permet de couvrir confortablement ses obligations à court terme."
+    },
+    "interestCoverage": {
+      "label": "Couverture des intérêts",
+      "title": "Ratio de couverture des intérêts",
+      "definition": "Bénéfice d'exploitation divisé par les paiements d'intérêts. Indique avec quelle facilité l'entreprise peut payer les intérêts de sa dette. Au-dessus de 3x est confortable, en dessous de 1,5x est risqué.",
+      "example": "Si une entreprise gagne 9 Mds$ de résultat opérationnel et paie 3 Mds$ d'intérêts, la couverture = 3x. Elle gagne trois fois ses paiements d'intérêts."
+    },
+    "debtToEbitda": {
+      "label": "Dette/EBITDA",
+      "title": "Ratio dette/EBITDA",
+      "definition": "Dette totale divisée par le bénéfice avant intérêts, impôts, dépréciation et amortissement. Indique combien d'années de bénéfices il faudrait pour rembourser toute la dette. En dessous de 3x est sain.",
+      "example": "Une entreprise avec 15 Mds$ de dette et 5 Mds$ d'EBITDA a un ratio de 3x, ce qui signifie qu'il faudrait 3 ans de bénéfices pour rembourser la dette (si rien d'autre ne changeait)."
+    },
+    "peRatio": {
+      "label": "Ratio P/E",
+      "title": "Ratio cours/bénéfice (P/E)",
+      "definition": "Prix de l'action divisé par le bénéfice par action. Indique combien les investisseurs paient pour chaque euro de profit. Un P/E faible peut signaler une bonne affaire, mais comparez toujours au sein du même secteur.",
+      "example": "Une action à 150 $ avec un bénéfice de 6 $/action a un P/E = 25. Vous payez 25 $ pour chaque 1 $ de bénéfices. La tech est en moyenne ~25-30, les services aux collectivités ~15-18."
+    },
+    "roe": {
+      "label": "ROE",
+      "title": "Rendement des capitaux propres (ROE)",
+      "definition": "Résultat net divisé par les capitaux propres. Mesure l'efficacité avec laquelle l'entreprise utilise l'argent des actionnaires pour générer du profit. Au-dessus de 15 % est excellent.",
+      "example": "Une entreprise avec 3 Mds$ de profit et 20 Mds$ de capitaux propres a un ROE = 15 %. Chaque 1 $ investi par les actionnaires génère 15 centimes de profit annuel."
+    },
+    "pbRatio": {
+      "label": "Ratio P/B",
+      "title": "Ratio cours/valeur comptable (P/B)",
+      "definition": "Prix de l'action divisé par la valeur comptable par action. En dessous de 1,0, vous payez moins que ne valent les actifs nets de l'entreprise. Cela pourrait indiquer une sous-évaluation, ou être le signe de problèmes plus profonds.",
+      "example": "Une action à 40 $ avec une valeur comptable de 50 $/action a un P/B = 0,8. Vous achetez 50 $ d'actifs pour 40 $, mais cherchez à savoir POURQUOI elle est bon marché."
+    },
+    "pfcf": {
+      "label": "P/FCF",
+      "title": "Ratio prix/flux de trésorerie libre (P/FCF)",
+      "definition": "Prix de l'action divisé par le flux de trésorerie libre par action. Comme le P/E mais utilise de vraies liquidités plutôt que les bénéfices comptables. Plus fiable pour repérer la vraie valeur.",
+      "example": "Une action à 100 $ avec 5 $ de FCF/action a un P/FCF = 20. Comparez au P/E : si le P/FCF est bien plus élevé, les bénéfices peuvent ne pas être soutenus par de vraies liquidités."
+    },
+    "grossMargin": {
+      "label": "Marge brute",
+      "title": "Marge bénéficiaire brute",
+      "definition": "Chiffre d'affaires moins coût des marchandises vendues, divisé par le chiffre d'affaires. Montre la rentabilité de base avant les charges générales. Des marges élevées (>40 %) signalent souvent de forts avantages concurrentiels ou un pouvoir de fixation des prix.",
+      "example": "Une entreprise de logiciels avec 80 % de marge brute conserve 0,80 € de chaque euro vendu. Un détaillant à 25 % ne conserve que 0,25 €. Des modèles économiques très différents."
+    },
+    "roic": {
+      "label": "ROIC",
+      "title": "Rendement du capital investi (ROIC)",
+      "definition": "Bénéfice d'exploitation (après impôts) divisé par tout le capital investi (capitaux propres + dette). La meilleure mesure de l'efficacité avec laquelle le management utilise TOUT le capital. Au-dessus de 10 % est fort.",
+      "example": "Une entreprise avec 4 Mds$ de bénéfice opérationnel sur 30 Mds$ de capital investi a un ROIC = 13 %. Elle génère 0,13 $ de rendement pour chaque 1 $ investi."
+    },
+    "fairValueLabel": {
+      "label": "Juste valeur",
+      "title": "Juste valeur estimée",
+      "definition": "Une estimation de ce que vaut vraiment l'action, calculée en combinant plusieurs méthodes (DCF, Graham, EPV). C'est une estimation éclairée, pas une garantie.",
+      "example": "Si la juste valeur est de 120 $ et que l'action se négocie à 95 $, il y a une marge de sécurité de 26 %, ce qui signifie que vous achetez potentiellement avec une décote."
+    },
+    "marginOfSafety": {
+      "label": "Marge de sécurité",
+      "title": "Marge de sécurité (MdS)",
+      "definition": "Dans quelle mesure le prix de l'action est moins cher que la juste valeur, en pourcentage. Positive = potentielle bonne affaire. Benjamin Graham recommandait d'acheter uniquement avec une marge de 25 %+.",
+      "example": "Juste valeur 100 $, prix actuel 75 $ → MdS = +25 %. Vous achetez avec un coussin de 25 % si votre estimation est légèrement erronée."
+    },
+    "rsi": {
+      "label": "RSI (14)",
+      "title": "Indice de force relative (RSI)",
+      "definition": "Un indicateur de momentum de 0 à 100 qui mesure la vitesse et l'amplitude des récents changements de prix. En dessous de 30 = potentiellement survendu (signal d'achat). Au-dessus de 70 = potentiellement suracheté (prudence).",
+      "example": "Un RSI à 25 signifie que l'action a fortement chuté récemment et peut être survendue. C'est un point d'entrée potentiel si les fondamentaux restent solides."
+    },
+    "sma50": {
+      "label": "SMA 50",
+      "title": "Moyenne mobile simple sur 50 jours",
+      "definition": "Le prix de clôture moyen sur les 50 derniers jours de trading. Agit comme indicateur de tendance à court terme. Prix au-dessus de la SMA 50 = tendance haussière à court terme.",
+      "example": "Si l'action est à 150 $ et la SMA 50 est à 140 $, le prix est en tendance haussière. Si elle descend en dessous, cela pourrait signaler un retournement à court terme."
+    },
+    "sma200": {
+      "label": "SMA 200",
+      "title": "Moyenne mobile simple sur 200 jours",
+      "definition": "Le prix de clôture moyen sur les 200 derniers jours de trading. La référence pour identifier les tendances à long terme. Prix au-dessus de la SMA 200 = tendance haussière à long terme.",
+      "example": "Quand la SMA 50 croise au-dessus de la SMA 200, on appelle ça une « Croix d'or », un signal haussier. L'inverse (« Croix de la mort ») est baissier."
+    },
+    "macd": {
+      "label": "MACD",
+      "title": "Convergence/Divergence des moyennes mobiles",
+      "definition": "Montre la relation entre deux moyennes mobiles. L'histogramme montre la force du momentum. Positif et en hausse = momentum haussier. Négatif et en baisse = baissier.",
+      "example": "Un histogramme MACD à +2,5 et en croissance signifie que le momentum haussier s'accélère. À -1,0 et en diminution, la pression baissière s'atténue."
+    },
+    "volatility": {
+      "label": "Volatilité",
+      "title": "Volatilité des prix",
+      "definition": "Mesure l'amplitude des variations du cours de l'action. Forte volatilité = plus grandes variations de prix (plus de risque et d'opportunité). Faible volatilité = prix plus stable.",
+      "example": "Une action avec 40 % de volatilité peut varier de 40 % à la hausse ou à la baisse en un an. Une action de services aux collectivités à 15 % de volatilité est bien plus stable."
+    },
+    "momentum": {
+      "label": "Momentum (12m)",
+      "title": "Momentum des prix sur 12 mois (ROC)",
+      "definition": "Dans quelle mesure le prix de l'action a changé au cours des 12 derniers mois, en pourcentage. Positif = le prix a augmenté. Négatif = le prix a baissé.",
+      "example": "Un momentum de +25 % signifie que l'action est en hausse de 25 % depuis un an. Un fort momentum persiste souvent, mais peut aussi signifier que l'action est chère."
+    },
+    "dividendYield": {
+      "label": "Rendement du dividende",
+      "title": "Rendement du dividende (Annuel)",
+      "definition": "Dividende annuel par action divisé par le prix de l'action, exprimé en pourcentage. Montre le rendement en espèces que vous gagnez simplement en détenant l'action, indépendamment des variations de prix.",
+      "example": "Une action à 100 $ versant 3 $/an en dividendes a un rendement de 3 %. C'est 3 000 $/an sur un investissement de 100 000 $, avant toute plus-value."
+    },
+    "dividendPerShare": {
+      "label": "Dividende par action",
+      "title": "Dividende annuel par action (DPS)",
+      "definition": "Le montant total en dollars des dividendes versés par action sur un an. Un DPS croissant dans le temps est l'un des signaux les plus forts d'une entreprise saine et favorable aux actionnaires.",
+      "example": "Si une entreprise paie 0,25 $ par trimestre, le DPS annuel est de 1,00 $. S'il était de 0,80 $ l'année dernière, les dividendes ont augmenté de 25 %."
+    },
+    "payoutRatio": {
+      "label": "Taux de distribution",
+      "title": "Taux de distribution des dividendes",
+      "definition": "Pourcentage du résultat net versé en dividendes. En dessous de 60 % est soutenable, car l'entreprise conserve suffisamment pour réinvestir. Au-dessus de 80 % peut signaler que le dividende risque d'être réduit.",
+      "example": "Une entreprise gagnant 5 $/action et versant 2 $ en dividendes a un taux de distribution de 40 %. Elle conserve 3 $ pour réinvestir dans la croissance tout en récompensant les actionnaires."
+    },
+    "fcfPayout": {
+      "label": "Distribution FCF",
+      "title": "Taux de distribution du flux de trésorerie libre",
+      "definition": "Dividendes versés en pourcentage du flux de trésorerie libre. Plus fiable que le taux de distribution basé sur les bénéfices car le FCF représente de vraies liquidités. En dessous de 70 % est sain.",
+      "example": "Si le FCF est de 4 $/action et les dividendes de 2 $/action, le taux de distribution FCF est de 50 %. L'entreprise génère deux fois les liquidités nécessaires pour couvrir les dividendes. Très sûr."
+    },
+    "dividendGrowth": {
+      "label": "Croissance (CAGR 5 ans)",
+      "title": "Taux de croissance du dividende sur 5 ans (CAGR)",
+      "definition": "Le taux de croissance annuel composé des dividendes au cours des 5 dernières années. Montre à quelle vitesse l'entreprise a augmenté ses versements de dividendes aux actionnaires.",
+      "example": "Un CAGR de 10 % signifie que les dividendes ont doublé environ tous les 7 ans. Les entreprises avec une croissance régulière des dividendes surperforment souvent le marché à long terme."
+    },
+    "consecutiveYears": {
+      "label": "Années consécutives",
+      "title": "Années consécutives de versement de dividendes",
+      "definition": "Combien d'années de suite l'entreprise a versé des dividendes sans interruption. De longues séries (10+ ans) signalent la stabilité financière et l'engagement du management envers les actionnaires.",
+      "example": "Les entreprises avec 25+ années consécutives sont appelées « Dividend Aristocrats ». Elles ont maintenu leurs dividendes à travers les récessions, témoignant d'une résilience financière exceptionnelle."
+    },
+    "piotroskiScore": {
+      "label": "Score F de Piotroski",
+      "title": "Score F de Piotroski (Solidité financière)",
+      "definition": "Un score de 0 à 9 basé sur 9 critères binaires couvrant la rentabilité, le levier et l'efficacité opérationnelle. Créé par le professeur Joseph Piotroski pour identifier les entreprises financièrement solides. Plus élevé est mieux.",
+      "example": "Une entreprise scorant 8/9 passe presque tous les tests de santé financière : flux de trésorerie positif, amélioration des marges, faible endettement et amélioration du taux de rotation des actifs. Un score de 2/9 échoue à la plupart, c'est un signal d'alerte."
+    },
+    "earningsQuality": {
+      "label": "Qualité des bénéfices",
+      "title": "Qualité des bénéfices (FCE/Résultat net)",
+      "definition": "Flux de trésorerie d'exploitation divisé par le résultat net. Mesure si les bénéfices déclarés sont soutenus par de vraies liquidités. Un ratio supérieur à 1,0 signifie que l'entreprise génère plus de trésorerie qu'elle ne déclare de profit, indiquant une haute qualité des bénéfices.",
+      "example": "Une entreprise avec 5 Mds$ de flux de trésorerie et 4 Mds$ de résultat net a une qualité de bénéfices de 1,25, où la trésorerie dépasse les bénéfices déclarés. Si inversé (3 Mds$ de trésorerie, 5 Mds$ de profit), la qualité est de 0,6, signal d'alerte."
+    },
+    "shareDilution": {
+      "label": "Dilution du capital",
+      "title": "Dilution du capital / Rachat d'actions",
+      "definition": "Variation annuelle en pourcentage du nombre d'actions en circulation. Les valeurs négatives indiquent des rachats d'actions (moins d'actions = plus de valeur par action). Les valeurs positives signifient une dilution (plus d'actions = moins de valeur par action).",
+      "example": "Une valeur de -3 % signifie que l'entreprise a racheté 3 % de ses actions, de sorte que chaque action restante représente maintenant une plus grande part de l'entreprise. +5 % signifie 5 % de dilution."
+    }
+  }
+}

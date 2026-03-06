@@ -1,0 +1,95 @@
+{
+  "quiz": {
+    "sectionTitle": "Teste o Seu Conhecimento",
+    "questions": {
+      "currentRatio": {
+        "question": "O Rácio de Liquidez é {value}. O que sugere sobre a liquidez de curto prazo?",
+        "a": "Saudável: consegue pagar confortavelmente as dívidas de curto prazo",
+        "b": "Adequado mas com margem de segurança limitada",
+        "c": "Aviso: pode ter dificuldades em pagar obrigações de curto prazo",
+        "explanation": "Um Rácio de Liquidez acima de 1,5 é considerado saudável, entre 1,0-1,5 é adequado, e abaixo de 1,0 significa que o passivo corrente supera o ativo corrente, um sinal de alerta."
+      },
+      "debtToEbitda": {
+        "question": "A Dívida/EBITDA é {value}. Como avaliaria o nível de endividamento?",
+        "a": "Saudável: a dívida é gerível",
+        "b": "Moderado: requer monitorização",
+        "c": "Preocupante: fortemente endividado",
+        "explanation": "Dívida/EBITDA abaixo de 3x é considerado saudável, 3-5x requer monitorização, e acima de 5x é uma bandeira vermelha. Dívida elevada aumenta o risco durante recessões económicas."
+      },
+      "fcf": {
+        "question": "O Fluxo de Caixa Livre é {value}. O que lhe diz isto?",
+        "a": "A empresa gera caixa real, um sinal positivo",
+        "b": "A empresa está a consumir caixa; requer investigação",
+        "c": "O FCF não importa para o investimento em valor",
+        "explanation": "FCF positivo significa que a empresa gera caixa real após operações e investimentos. Esta é uma das métricas mais importantes porque, ao contrário do resultado líquido, é muito difícil de manipular."
+      },
+      "pe": {
+        "question": "O Rácio P/E é {value}. Como interpretaria isto?",
+        "a": "Potencialmente subvalorizado, a transacionar a um múltiplo baixo",
+        "b": "Adequadamente valorizado: preço razoável para os resultados",
+        "c": "Expectativas elevadas ou a perder dinheiro; investigue mais",
+        "explanation": "P/E abaixo de 15 pode indicar subvalorização, 15-25 é justo para a maioria dos setores, e acima de 25 sugere que o mercado espera forte crescimento. P/E negativo significa que a empresa é deficitária. Compare sempre dentro do mesmo setor."
+      },
+      "marginOfSafety": {
+        "question": "A Margem de Segurança é {value}. O que sugere a estrutura de Benjamin Graham?",
+        "a": "Desconto forte: ponto de entrada atrativo",
+        "b": "Pequeno desconto: margem de erro limitada",
+        "c": "A transacionar acima do valor justo; está a pagar um prémio",
+        "explanation": "Graham recomendava pelo menos 25% de margem de segurança para proteger contra erros de estimativa. Uma margem positiva significa que está a comprar abaixo do valor justo, enquanto uma margem negativa significa que está a pagar mais do que o valor estimado."
+      },
+      "fairValueVsPrice": {
+        "question": "O valor justo é estimado em {fairValue} e o preço atual é {price}. O que significa isto?",
+        "a": "A ação parece subvalorizada: o preço está abaixo do valor estimado",
+        "b": "A ação está aproximadamente adequadamente valorizada",
+        "c": "A ação parece sobrevalorizada: o preço supera o valor estimado",
+        "explanation": "Quando o preço atual está abaixo do valor justo, a ação pode estar subvalorizada, uma potencial oportunidade. Quando está acima, está a pagar mais do que o valor intrínseco estimado. Lembre-se: o valor justo é uma estimativa, não uma garantia."
+      },
+      "rsi": {
+        "question": "O RSI (14) é {value}. Que sinal dá sobre o momentum atual?",
+        "a": "Sobrevendido: potencialmente uma oportunidade de compra",
+        "b": "Neutro: condições normais de negociação",
+        "c": "Sobrecomprado: a ação pode estar prestes a corrigir",
+        "explanation": "RSI abaixo de 30 sugere que a ação está sobrevendida (possivelmente uma compra), 30-70 é território neutro, e acima de 70 sugere condições de sobrecompra (possivelmente uma venda). O RSI é uma ferramenta de temporização; use-o com análise fundamental."
+      },
+      "smaTrend": {
+        "question": "A SMA 50 é {sma50} e a SMA 200 é {sma200}. Que padrão de tendência mostra isto?",
+        "a": "Golden Cross (altista): a tendência de curto prazo é forte",
+        "b": "Death Cross (baixista): fraqueza de curto prazo",
+        "c": "Sem sinal claro: as médias estão demasiado próximas",
+        "explanation": "Quando a SMA 50 está acima da SMA 200 (Golden Cross), indica que a tendência de curto prazo é mais forte, geralmente altista. Quando a SMA 50 está abaixo da SMA 200 (Death Cross), sugere enfraquecimento do momentum."
+      },
+      "piotroski": {
+        "question": "O Piotroski F-Score é {value}/9. O que indica sobre a saúde financeira?",
+        "a": "Forte: a empresa passa na maioria das verificações de qualidade",
+        "b": "Misto: algumas áreas de preocupação",
+        "c": "Fraco: preocupações financeiras significativas",
+        "explanation": "Uma pontuação Piotroski de 7-9 indica saúde financeira sólida, 4-6 mostra sinais mistos, e 0-3 sugere preocupações graves. A investigação académica demonstrou que as ações com pontuação elevada tendem a superar ao longo do tempo."
+      },
+      "earningsQuality": {
+        "question": "A Qualidade dos Resultados é {value}. Os lucros reportados são fiáveis?",
+        "a": "Alta qualidade: os lucros são respaldados por fluxo de caixa real",
+        "b": "Moderada: alguma diferença entre lucros contabilísticos e caixa",
+        "c": "Baixa qualidade: diferença significativa, possíveis preocupações contabilísticas",
+        "explanation": "Qualidade dos Resultados acima de 1,0 significa que o fluxo de caixa operacional supera o resultado líquido, logo os lucros são reais e fiáveis. Entre 0,5-1,0 justifica monitorização. Abaixo de 0,5 sugere que o resultado líquido pode estar inflacionado por escolhas contabilísticas."
+      }
+    },
+    "page": {
+      "title": "Quiz de Análise: {symbol}",
+      "backToAnalysis": "Voltar à análise",
+      "step": "Passo {current} de {total}",
+      "next": "Seguinte",
+      "previous": "Anterior",
+      "finish": "Ver Resultados",
+      "results": "Resultados",
+      "score": "{correct} de {total} corretos",
+      "restart": "Reiniciar Quiz",
+      "backToCompany": "Voltar a {symbol}",
+      "sections": {
+        "financials": "Saúde Financeira",
+        "valuation": "Avaliação",
+        "technical": "Sinais Técnicos",
+        "management": "Qualidade da Gestão"
+      }
+    }
+  }
+}

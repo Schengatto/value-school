@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { data: lastUpdated } = await useFetch('/api/meta/last-updated')
 const route = useRoute()
-const { t, locale, setLocale } = useI18n()
+const { t, locale, setLocale, locales } = useI18n()
 const colorMode = useColorMode()
 
 const navItems = computed(() => [
@@ -13,9 +13,18 @@ const navItems = computed(() => [
   { label: t('nav.ipo'), to: '/ipo', icon: 'i-lucide-rocket' }
 ])
 
-function toggleLocale() {
-  setLocale(locale.value === 'en' ? 'it' : 'en')
-}
+const currentLocale = computed(() =>
+  (locales.value as { code: string; name: string; flag?: string }[]).find(l => l.code === locale.value)
+)
+
+const languageItems = computed(() =>
+  (locales.value as { code: string; name: string; flag?: string }[]).map(l => ({
+    label: `${l.flag ?? ''} ${l.name}`,
+    onSelect: () => setLocale(l.code as 'en' | 'it' | 'es' | 'fr' | 'de' | 'pt' | 'zh' | 'hi' | 'ja')
+  }))
+)
+
+const dateLocale = computed(() => locale.value.replace('_', '-'))
 
 function toggleColorMode() {
   colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
@@ -60,7 +69,7 @@ onMounted(() => {
           <div class="flex items-center gap-3">
             <div class="hidden sm:block text-sm text-gray-500 dark:text-gray-400">
               <span v-if="lastUpdated?.lastUpdated">
-                {{ $t('nav.lastUpdate') }} {{ new Date(lastUpdated.lastUpdated).toLocaleDateString(locale === 'it' ? 'it-IT' : 'en-GB', { day: '2-digit', month: 'short', year: 'numeric' }) }}
+                {{ $t('nav.lastUpdate') }} {{ new Date(lastUpdated.lastUpdated).toLocaleDateString(dateLocale.value, { day: '2-digit', month: 'short', year: 'numeric' }) }}
               </span>
             </div>
             <button
@@ -69,26 +78,17 @@ onMounted(() => {
             >
               <UIcon :name="colorMode.value === 'dark' ? 'i-lucide-sun' : 'i-lucide-moon'" class="text-lg" />
             </button>
-            <div class="flex items-center bg-gray-100 dark:bg-gray-800 rounded-full p-0.5">
-              <button
-                class="px-2.5 py-1 text-xs font-semibold rounded-full transition-all duration-200"
-                :class="locale === 'en'
-                  ? 'bg-white dark:bg-gray-700 text-green-700 dark:text-green-400 shadow-sm'
-                  : 'text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300'"
-                @click="setLocale('en')"
+            <UDropdownMenu :items="languageItems" :popper="{ placement: 'bottom-end' }">
+              <UButton
+                variant="ghost"
+                color="neutral"
+                size="xs"
+                class="gap-1 font-semibold text-gray-600 dark:text-gray-400"
+                trailing-icon="i-lucide-chevron-down"
               >
-                EN
-              </button>
-              <button
-                class="px-2.5 py-1 text-xs font-semibold rounded-full transition-all duration-200"
-                :class="locale === 'it'
-                  ? 'bg-white dark:bg-gray-700 text-green-700 dark:text-green-400 shadow-sm'
-                  : 'text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300'"
-                @click="setLocale('it')"
-              >
-                IT
-              </button>
-            </div>
+                {{ currentLocale?.flag }} {{ currentLocale?.code.toUpperCase() }}
+              </UButton>
+            </UDropdownMenu>
             <button
               class="md:hidden p-1.5 rounded-md text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800 transition-colors"
               @click="mobileMenuOpen = true"
@@ -126,7 +126,7 @@ onMounted(() => {
           </nav>
 
           <div v-if="lastUpdated?.lastUpdated" class="mt-6 px-4 text-sm text-gray-400 dark:text-gray-500">
-            {{ $t('nav.lastUpdate') }} {{ new Date(lastUpdated.lastUpdated).toLocaleDateString(locale === 'it' ? 'it-IT' : 'en-GB', { day: '2-digit', month: 'short', year: 'numeric' }) }}
+            {{ $t('nav.lastUpdate') }} {{ new Date(lastUpdated.lastUpdated).toLocaleDateString(dateLocale.value, { day: '2-digit', month: 'short', year: 'numeric' }) }}
           </div>
         </template>
       </USlideover>

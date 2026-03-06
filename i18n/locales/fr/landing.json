@@ -1,0 +1,53 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Apprenez l'investissement valeur en pratiquant",
+      "subtitle": "Analysez de vraies actions NASDAQ avec des outils de niveau professionnel. Comprenez les fondamentaux, estimez la juste valeur et construisez votre cadre d'investissement, étape par étape.",
+      "ctaScreener": "Explorer le Screener",
+      "ctaLearn": "Qu'est-ce que l'investissement valeur ?"
+    },
+    "valueInvesting": {
+      "sectionTitle": "Qu'est-ce que l'investissement valeur ?",
+      "sectionSubtitle": "La stratégie utilisée par Warren Buffett, Benjamin Graham et les investisseurs à long terme les plus performants.",
+      "pillar1Title": "Acheter en dessous de la valeur intrinsèque",
+      "pillar1Description": "Les investisseurs valeur recherchent des actions se négociant en dessous de ce que vaut réellement l'entreprise. Cette « marge de sécurité » protège contre les erreurs et les replis du marché.",
+      "pillar2Title": "Analyser les fondamentaux",
+      "pillar2Description": "Au lieu de suivre les tendances, les investisseurs valeur étudient les états financiers : chiffre d'affaires, flux de trésorerie, niveaux d'endettement et rentabilité. Les chiffres ne mentent pas.",
+      "pillar3Title": "Penser à long terme",
+      "pillar3Description": "L'investissement valeur n'est pas du trading court terme. Il s'agit de trouver de grandes entreprises à des prix raisonnables et de les conserver pendant qu'elles accumulent de la richesse au fil des années."
+    },
+    "learningPath": {
+      "sectionTitle": "Comment cette application vous aide à apprendre",
+      "sectionSubtitle": "Suivez un parcours structuré de la découverte d'actions à la décision d'investissement.",
+      "step1Title": "Sélectionner & Découvrir",
+      "step1Description": "Utilisez le screener pour trouver des actions notées sur les fondamentaux, les indicateurs techniques et la valorisation. Filtrez par secteur, signal et catégorie.",
+      "step2Title": "Comprendre les chiffres",
+      "step2Description": "Plongez dans les finances de chaque entreprise : tendances du chiffre d'affaires, flux de trésorerie, solidité du bilan. Chaque indicateur dispose d'un glossaire interactif pour vous expliquer ce qu'il signifie.",
+      "step3Title": "Estimer la juste valeur",
+      "step3Description": "Voyez plusieurs modèles de valorisation (DCF, Graham, EPV) combinés en une estimation de juste valeur. Apprenez à déterminer si une action est bon marché ou chère.",
+      "step4Title": "Prendre des décisions éclairées",
+      "step4Description": "Combinez l'analyse fondamentale, la valorisation, les indicateurs techniques et la qualité du management en une image complète. La visite guidée vous accompagne à travers chaque section."
+    },
+    "features": {
+      "sectionTitle": "Conçu pour apprendre",
+      "sectionSubtitle": "Chaque fonctionnalité est conçue pour vous enseigner les concepts de l'investissement valeur au fur et à mesure que vous les utilisez.",
+      "glossaryTitle": "Glossaire interactif",
+      "glossaryDescription": "Cliquez sur n'importe quel terme financier pour voir une définition claire et un exemple concret.",
+      "tourTitle": "Visite guidée",
+      "tourDescription": "Un parcours étape par étape qui vous apprend à lire chaque section d'analyse.",
+      "fundamentalTitle": "Analyse fondamentale",
+      "fundamentalDescription": "Plus de 30 critères pondérés évaluent la rentabilité, la croissance, la dette et la qualité du flux de trésorerie.",
+      "fairValueTitle": "Estimation de la juste valeur",
+      "fairValueDescription": "Plusieurs modèles de valorisation combinés pour estimer ce que vaut vraiment une action.",
+      "technicalTitle": "Indicateurs techniques",
+      "technicalDescription": "RSI, moyennes mobiles, MACD et momentum vous aident à choisir le bon moment d'entrée.",
+      "managementTitle": "Qualité du management",
+      "managementDescription": "Score F de Piotroski, activité des initiés et allocation du capital révèlent la qualité des dirigeants."
+    },
+    "cta": {
+      "title": "Prêt à commencer l'analyse ?",
+      "subtitle": "Choisissez une action dans le screener et commencez votre parcours d'investissement valeur.",
+      "button": "Ouvrir le Screener"
+    }
+  }
+}

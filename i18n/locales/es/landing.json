@@ -1,0 +1,53 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Aprenda Inversión en Valor Practicando",
+      "subtitle": "Analice acciones NASDAQ reales con herramientas de nivel profesional. Comprenda los fundamentos, estime el valor justo y construya su marco de inversión, paso a paso.",
+      "ctaScreener": "Explorar el Buscador",
+      "ctaLearn": "¿Qué es la Inversión en Valor?"
+    },
+    "valueInvesting": {
+      "sectionTitle": "¿Qué es la Inversión en Valor?",
+      "sectionSubtitle": "La estrategia utilizada por Warren Buffett, Benjamin Graham y los inversores a largo plazo más exitosos.",
+      "pillar1Title": "Comprar por Debajo del Valor Intrínseco",
+      "pillar1Description": "Los inversores en valor buscan acciones que cotizan por debajo de lo que realmente vale el negocio. Este 'margen de seguridad' protege contra los errores y las caídas del mercado.",
+      "pillar2Title": "Analizar los Fundamentos",
+      "pillar2Description": "En lugar de seguir tendencias, los inversores en valor estudian los estados financieros: ingresos, flujo de caja, niveles de deuda y rentabilidad. Los números no mienten.",
+      "pillar3Title": "Pensar a Largo Plazo",
+      "pillar3Description": "La inversión en valor no es trading intradía. Se trata de encontrar grandes negocios a precios justos y mantenerlos mientras acumulan riqueza a lo largo de los años."
+    },
+    "learningPath": {
+      "sectionTitle": "Cómo Esta App Le Ayuda a Aprender",
+      "sectionSubtitle": "Siga un camino estructurado desde el descubrimiento de acciones hasta la decisión de inversión.",
+      "step1Title": "Buscar y Descubrir",
+      "step1Description": "Use el buscador para encontrar acciones puntuadas en fundamentos, técnicos y valoración. Filtre por sector, señal y categoría.",
+      "step2Title": "Entender los Números",
+      "step2Description": "Profundice en los financieros de cada empresa: tendencias de ingresos, flujo de caja, solidez del balance. Cada métrica tiene un glosario interactivo para enseñarle qué significa.",
+      "step3Title": "Estimar el Valor Justo",
+      "step3Description": "Vea múltiples modelos de valoración (DCF, Graham, EPV) combinados en una estimación de valor justo. Aprenda a distinguir si una acción está cara o barata.",
+      "step4Title": "Tomar Decisiones Informadas",
+      "step4Description": "Combine el análisis fundamental, la valoración, los técnicos y la calidad de gestión en una imagen completa. La visita guiada le lleva por cada sección."
+    },
+    "features": {
+      "sectionTitle": "Diseñado para Aprender",
+      "sectionSubtitle": "Cada función está diseñada para enseñarle conceptos de inversión en valor mientras los usa.",
+      "glossaryTitle": "Glosario Interactivo",
+      "glossaryDescription": "Haga clic en cualquier término financiero para ver una definición clara y un ejemplo del mundo real.",
+      "tourTitle": "Visita Guiada",
+      "tourDescription": "Un recorrido paso a paso que le enseña cómo leer cada sección de análisis.",
+      "fundamentalTitle": "Análisis Fundamental",
+      "fundamentalDescription": "Más de 30 criterios ponderados evalúan la rentabilidad, el crecimiento, la deuda y la calidad del flujo de caja.",
+      "fairValueTitle": "Estimación de Valor Justo",
+      "fairValueDescription": "Múltiples modelos de valoración combinados para estimar cuánto vale realmente una acción.",
+      "technicalTitle": "Indicadores Técnicos",
+      "technicalDescription": "RSI, medias móviles, MACD y momentum le ayudan a cronometrar sus entradas.",
+      "managementTitle": "Calidad de Gestión",
+      "managementDescription": "El Piotroski F-Score, la actividad de insiders y la asignación de capital revelan la calidad del liderazgo."
+    },
+    "cta": {
+      "title": "¿Listo para Empezar a Analizar?",
+      "subtitle": "Elija una acción del buscador y comience su viaje de inversión en valor.",
+      "button": "Abrir el Buscador"
+    }
+  }
+}

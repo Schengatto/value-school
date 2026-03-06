@@ -1,0 +1,190 @@
+{
+  "glossary": {
+    "revenue": {
+      "label": "Receita",
+      "title": "Receita (Vendas Totais)",
+      "definition": "O dinheiro total que uma empresa ganha com a venda de seus produtos ou serviços, antes de subtrair quaisquer custos. É a 'linha superior' da demonstração de resultados.",
+      "example": "Se a Apple vende 10 milhões de iPhones a $1.000 cada, isso gera $10 bilhões em receita, independentemente do custo de fabricação."
+    },
+    "netIncome": {
+      "label": "Lucro Líquido",
+      "title": "Lucro Líquido (Resultado Final)",
+      "definition": "O lucro real restante após subtrair TODOS os custos: produção, salários, impostos, juros e tudo mais. É o que os acionistas realmente ganham.",
+      "example": "Uma empresa com $10 bilhões em receita e $7 bilhões em custos totais tem $3 bilhões de lucro líquido. São 30 centavos de lucro para cada dólar de vendas."
+    },
+    "freeCashFlow": {
+      "label": "Fluxo de Caixa Livre",
+      "title": "Fluxo de Caixa Livre (FCF)",
+      "definition": "O caixa real que uma empresa gera após pagar operações e investimentos. Ao contrário do lucro líquido, é muito difícil de manipular com truques contábeis.",
+      "example": "Uma empresa ganha $5 bilhões de lucro mas gasta $2 bilhões em novas fábricas. FCF = $3 bilhões. Esse é o caixa disponível para dividendos, recompras ou redução de dívida."
+    },
+    "totalEquity": {
+      "label": "Patrimônio Total",
+      "title": "Patrimônio Total (Valor Contábil)",
+      "definition": "O que os acionistas realmente possuem: ativos totais menos passivos totais. Pense nisso como o patrimônio líquido da empresa se vendesse tudo e pagasse todas as dívidas.",
+      "example": "Uma empresa com $50 bilhões em ativos e $30 bilhões em dívidas tem $20 bilhões de patrimônio. Se tem 1 bilhão de ações, o valor contábil é $20 por ação."
+    },
+    "totalLiabilities": {
+      "label": "Passivos Totais",
+      "title": "Passivos Totais (Dívida Total)",
+      "definition": "Tudo o que a empresa deve: empréstimos, títulos, contas a pagar, obrigações de arrendamento e outras obrigações financeiras. Altos passivos aumentam o risco em recessões.",
+      "example": "Uma empresa com $40 bilhões em passivos e $20 bilhões em patrimônio tem uma relação dívida/patrimônio de 2:1, o que significa que deve o dobro do que possui."
+    },
+    "currentRatio": {
+      "label": "Índice Corrente",
+      "title": "Índice Corrente (Liquidez)",
+      "definition": "Ativos de curto prazo divididos por dívidas de curto prazo. Mostra se a empresa pode pagar contas a vencer em 12 meses. Acima de 1,5 é saudável, abaixo de 1,0 é um alerta.",
+      "example": "Uma empresa com $6 bilhões em ativos correntes e $4 bilhões em passivos correntes tem um índice corrente de 1,5, cobrindo confortavelmente suas obrigações de curto prazo."
+    },
+    "interestCoverage": {
+      "label": "Cobertura de Juros",
+      "title": "Índice de Cobertura de Juros",
+      "definition": "Lucro operacional dividido por pagamentos de juros. Mostra com que facilidade a empresa pode pagar juros sobre sua dívida. Acima de 3x é confortável, abaixo de 1,5x é arriscado.",
+      "example": "Se uma empresa ganha $9 bilhões de lucro operacional e paga $3 bilhões em juros, a cobertura = 3x. Ela ganha três vezes seus pagamentos de juros."
+    },
+    "debtToEbitda": {
+      "label": "Dívida/EBITDA",
+      "title": "Índice Dívida-para-EBITDA",
+      "definition": "Dívida total dividida pelo lucro antes de juros, impostos, depreciação e amortização. Mostra quantos anos de lucros seriam necessários para pagar toda a dívida. Abaixo de 3x é saudável.",
+      "example": "Uma empresa com $15 bilhões de dívida e $5 bilhões de EBITDA tem índice 3x, ou seja, levaria 3 anos de lucros para pagar a dívida (se nada mais mudasse)."
+    },
+    "peRatio": {
+      "label": "Índice P/L",
+      "title": "Índice Preço-Lucro (P/L)",
+      "definition": "Preço da ação dividido pelo lucro por ação. Mostra quanto os investidores pagam por cada dólar de lucro. P/L mais baixo pode sinalizar uma barganha, mas sempre compare dentro do mesmo setor.",
+      "example": "Uma ação a $150 ganhando $6/ação tem P/L = 25. Você paga $25 por cada $1 de lucros. A média tech é ~25-30, utilidades ~15-18."
+    },
+    "roe": {
+      "label": "ROE",
+      "title": "Retorno sobre Patrimônio (ROE)",
+      "definition": "Lucro líquido dividido pelo patrimônio dos acionistas. Mede a eficiência com que a empresa usa o dinheiro dos acionistas para gerar lucro. Acima de 15% é excelente.",
+      "example": "Uma empresa com $3 bilhões de lucro e $20 bilhões de patrimônio tem ROE = 15%. Cada $1 investido pelos acionistas gera 15 centavos de lucro anual."
+    },
+    "pbRatio": {
+      "label": "Índice P/VP",
+      "title": "Índice Preço-Valor Patrimonial (P/VP)",
+      "definition": "Preço da ação dividido pelo valor patrimonial por ação. Abaixo de 1,0 significa que você paga menos do que os ativos líquidos da empresa. Isso pode indicar subavaliação, ou pode ser sinal de problemas mais profundos.",
+      "example": "Uma ação a $40 com valor patrimonial de $50/ação tem P/VP = 0,8. Você está comprando $50 de ativos por $40, mas investigue POR QUÊ está barato."
+    },
+    "pfcf": {
+      "label": "P/FCL",
+      "title": "Preço-para-Fluxo de Caixa Livre (P/FCL)",
+      "definition": "Preço da ação dividido pelo fluxo de caixa livre por ação. Como P/L, mas usa caixa real em vez de lucros contábeis. Mais confiável para detectar valor real.",
+      "example": "Uma ação a $100 com $5 de FCL/ação tem P/FCL = 20. Compare com P/L: se P/FCL for muito maior, os lucros podem não ser respaldados por caixa real."
+    },
+    "grossMargin": {
+      "label": "Margem Bruta",
+      "title": "Margem de Lucro Bruto",
+      "definition": "Receita menos custo dos produtos vendidos, dividido pela receita. Mostra a lucratividade básica antes das despesas gerais. Margens altas (>40%) frequentemente sinalizam vantagens competitivas fortes ou poder de precificação.",
+      "example": "Uma empresa de software com 80% de margem bruta mantém $0,80 de cada dólar vendido. Um varejista a 25% mantém apenas $0,25. Modelos de negócio muito diferentes."
+    },
+    "roic": {
+      "label": "ROIC",
+      "title": "Retorno sobre Capital Investido (ROIC)",
+      "definition": "Lucro operacional (após impostos) dividido por todo o capital investido (patrimônio + dívida). A melhor medida de eficiência com que a gestão usa TODO o capital. Acima de 10% é forte.",
+      "example": "Uma empresa com $4 bilhões de lucro operacional em $30 bilhões de capital investido tem ROIC = 13%. Gera $0,13 de retorno para cada $1 investido."
+    },
+    "fairValueLabel": {
+      "label": "Valor Justo",
+      "title": "Valor Justo Estimado",
+      "definition": "Uma estimativa do que a ação realmente vale, calculada combinando múltiplos métodos (DCF, Graham, EPV). É uma suposição educada, não uma garantia.",
+      "example": "Se o valor justo é $120 e a ação negocia a $95, há uma margem de segurança de 26%, o que significa que você está potencialmente comprando com desconto."
+    },
+    "marginOfSafety": {
+      "label": "Margem de Segurança",
+      "title": "Margem de Segurança (MoS)",
+      "definition": "O quanto o preço da ação está mais barato em comparação ao valor justo, como porcentagem. Positivo = possível barganha. Benjamin Graham recomendava comprar apenas com margem de 25%+.",
+      "example": "Valor justo $100, preço atual $75 → MoS = +25%. Você está comprando com uma almofada de 25% caso sua estimativa esteja ligeiramente errada."
+    },
+    "rsi": {
+      "label": "RSI (14)",
+      "title": "Índice de Força Relativa (RSI)",
+      "definition": "Um indicador de momentum de 0-100 que mede a velocidade e magnitude das mudanças recentes de preço. Abaixo de 30 = possivelmente sobrevendido (sinal de compra). Acima de 70 = possivelmente sobrecomprado (cautela).",
+      "example": "RSI a 25 significa que a ação caiu acentuadamente recentemente e pode estar sobrevendida. Este é um ponto de entrada potencial se os fundamentos ainda são sólidos."
+    },
+    "sma50": {
+      "label": "SMA 50",
+      "title": "Média Móvel Simples de 50 Dias",
+      "definition": "A média de preço de fechamento dos últimos 50 dias de negociação. Serve como indicador de tendência de curto prazo. Preço acima da SMA 50 = tendência de alta de curto prazo.",
+      "example": "Se a ação está a $150 e a SMA 50 está a $140, o preço está em tendência de alta. Se cruzar para baixo, pode sinalizar uma reversão de curto prazo."
+    },
+    "sma200": {
+      "label": "SMA 200",
+      "title": "Média Móvel Simples de 200 Dias",
+      "definition": "A média de preço de fechamento dos últimos 200 dias de negociação. O padrão ouro para identificar tendências de longo prazo. Preço acima da SMA 200 = tendência de alta de longo prazo.",
+      "example": "Quando a SMA 50 cruza acima da SMA 200, é chamado de 'Cruz Dourada', um sinal de alta. O oposto ('Cruz da Morte') é de baixa."
+    },
+    "macd": {
+      "label": "MACD",
+      "title": "Convergência e Divergência de Médias Móveis",
+      "definition": "Mostra a relação entre duas médias móveis. O histograma mostra a força do momentum. Positivo e crescente = momentum de alta. Negativo e caindo = de baixa.",
+      "example": "Histograma MACD a +2,5 e crescendo significa que o momentum de alta está acelerando. A -1,0 e encolhendo, a pressão de baixa está diminuindo."
+    },
+    "volatility": {
+      "label": "Volatilidade",
+      "title": "Volatilidade de Preço",
+      "definition": "Mede quanto o preço da ação oscila para cima e para baixo. Alta volatilidade = oscilações de preço maiores (mais risco e oportunidade). Baixa volatilidade = preço mais estável.",
+      "example": "Uma ação com 40% de volatilidade pode oscilar 40% para cima ou para baixo em um ano. Uma ação de utilidade a 15% de volatilidade é muito mais estável."
+    },
+    "momentum": {
+      "label": "Momentum (12m)",
+      "title": "Momentum de Preço de 12 Meses (ROC)",
+      "definition": "O quanto o preço da ação mudou nos últimos 12 meses, como porcentagem. Positivo = preço subiu. Negativo = preço caiu.",
+      "example": "Momentum de +25% significa que a ação subiu 25% em relação a um ano atrás. Momentum forte frequentemente persiste, mas também pode significar que a ação está cara."
+    },
+    "dividendYield": {
+      "label": "Rendimento de Dividendos",
+      "title": "Rendimento de Dividendos (Anual)",
+      "definition": "Dividendo anual por ação dividido pelo preço da ação, expresso como porcentagem. Mostra o retorno em caixa que você ganha simplesmente por manter a ação, independentemente das variações de preço.",
+      "example": "Uma ação a $100 pagando $3/ano em dividendos tem rendimento de 3%. São $3.000/ano em um investimento de $100.000, antes de qualquer valorização de preço."
+    },
+    "dividendPerShare": {
+      "label": "Dividendo Por Ação",
+      "title": "Dividendo Anual Por Ação (DPA)",
+      "definition": "O valor total em dólares de dividendos pagos por ação ao longo de um ano. DPA crescente ao longo do tempo é um dos sinais mais fortes de uma empresa saudável e amigável aos acionistas.",
+      "example": "Se uma empresa paga $0,25 por trimestre, o DPA anual é $1,00. Se foi $0,80 no ano passado, os dividendos cresceram 25%."
+    },
+    "payoutRatio": {
+      "label": "Taxa de Distribuição",
+      "title": "Taxa de Distribuição de Dividendos",
+      "definition": "Porcentagem do lucro líquido pago como dividendos. Abaixo de 60% é sustentável, pois a empresa retém o suficiente para reinvestir. Acima de 80% pode sinalizar que o dividendo está em risco de ser cortado.",
+      "example": "Uma empresa ganhando $5/ação e pagando $2 em dividendos tem taxa de distribuição de 40%. Mantém $3 para reinvestir no crescimento enquanto recompensa os acionistas."
+    },
+    "fcfPayout": {
+      "label": "Dist. FCL",
+      "title": "Taxa de Distribuição do Fluxo de Caixa Livre",
+      "definition": "Dividendos pagos como porcentagem do fluxo de caixa livre. Mais confiável do que a taxa de distribuição baseada em lucros porque o FCL representa caixa real. Abaixo de 70% é saudável.",
+      "example": "Se o FCL é $4/ação e os dividendos são $2/ação, a distribuição de FCL é 50%. A empresa gera o dobro do caixa necessário para cobrir dividendos. Muito seguro."
+    },
+    "dividendGrowth": {
+      "label": "Crescimento (CAGR 5A)",
+      "title": "Taxa de Crescimento de Dividendos de 5 Anos (CAGR)",
+      "definition": "A taxa de crescimento anual composta dos dividendos nos últimos 5 anos. Mostra com que rapidez a empresa tem aumentado seus pagamentos de dividendos aos acionistas.",
+      "example": "Um CAGR de 10% significa que os dividendos dobraram aproximadamente a cada 7 anos. Empresas com crescimento consistente de dividendos frequentemente superam o mercado no longo prazo."
+    },
+    "consecutiveYears": {
+      "label": "Anos Consecutivos",
+      "title": "Anos Consecutivos de Pagamento de Dividendos",
+      "definition": "Quantos anos seguidos a empresa pagou dividendos sem interrupção. Sequências longas (10+ anos) sinalizam estabilidade financeira e comprometimento da gestão com os acionistas.",
+      "example": "Empresas com 25+ anos consecutivos são chamadas de 'Aristocratas de Dividendos'. Mantiveram dividendos durante recessões, mostrando resiliência financeira excepcional."
+    },
+    "piotroskiScore": {
+      "label": "F-Score de Piotroski",
+      "title": "F-Score de Piotroski (Solidez Financeira)",
+      "definition": "Uma pontuação de 0-9 baseada em 9 critérios binários que cobrem lucratividade, alavancagem e eficiência operacional. Criado pelo professor Joseph Piotroski para identificar empresas financeiramente fortes. Maior é melhor.",
+      "example": "Uma empresa com pontuação 8/9 passa em quase todos os testes de saúde financeira: fluxo de caixa positivo, margens melhorando, dívida baixa e rotatividade de ativos crescente. Uma pontuação de 2/9 falha na maioria, o que é um sinal de alerta."
+    },
+    "earningsQuality": {
+      "label": "Qualidade dos Lucros",
+      "title": "Qualidade dos Lucros (FCO/Lucro Líquido)",
+      "definition": "Fluxo de caixa operacional dividido pelo lucro líquido. Mede se os lucros reportados são respaldados por caixa real. Uma razão acima de 1,0 significa que a empresa gera mais caixa do que reporta como lucro, indicando lucros de alta qualidade.",
+      "example": "Uma empresa com $5 bilhões de fluxo de caixa e $4 bilhões de lucro líquido tem qualidade de lucros de 1,25, onde o caixa supera os lucros reportados. Se invertido ($3 bilhões de caixa, $5 bilhões de lucro), a qualidade é 0,6, o que é um sinal de alerta."
+    },
+    "shareDilution": {
+      "label": "Diluição de Ações",
+      "title": "Diluição de Ações / Recompra",
+      "definition": "Variação percentual ano a ano nas ações em circulação. Valores negativos indicam recompras de ações (menos ações = mais valor por ação). Valores positivos significam diluição (mais ações = menos valor por ação).",
+      "example": "Um valor de -3% significa que a empresa recomprou 3% de suas ações, então cada ação restante agora representa uma fatia maior do negócio. +5% significa 5% de diluição."
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "tour": {
+    "startTour": "Geführte Tour",
+    "welcome": {
+      "title": "Ihre Value-Investing-Analyse",
+      "description": "Sie sind dabei zu lernen, wie man eine Aktie wie ein professioneller Value-Investor analysiert. Diese geführte Tour führt Sie durch jede wichtige Kennzahl auf dieser Seite und erklärt, was sie bedeutet und wie man sie verwendet.\n\nWir behandeln 5 Phasen:\n1. Das Unternehmen verstehen\n2. Finanzielle Gesundheit bewerten\n3. Den Wert einschätzen\n4. Marktsignale lesen\n5. Managementqualität beurteilen\n\nNehmen Sie sich Zeit. Sie können mit Esc beenden und jederzeit neu starten."
+    },
+    "overview": {
+      "title": "Phase 1: Das Unternehmen verstehen",
+      "description": "Bevor Sie sich irgendwelche Zahlen ansehen, stellen Sie sicher, dass Sie wirklich verstehen, WAS dieses Unternehmen tut.\n\nFragen Sie sich: Können Sie dieses Unternehmen einem Freund in einem Satz erklären? Wenn nicht, verstehen Sie es wahrscheinlich nicht gut genug, um zu investieren.\n\nLesen Sie die Unternehmensbeschreibung, notieren Sie den Sektor und die Branche. Dieser Kontext ist wesentlich: Ein P/E von 30 bedeutet für ein Tech-Unternehmen etwas ganz anderes als für ein Versorgungsunternehmen."
+    },
+    "balanceSheet": {
+      "title": "Phase 2: Finanzielle Gesundheit",
+      "description": "Jetzt gehen wir tiefer in die Zahlen. Die Bilanz zeigt Ihnen, ob dieses Unternehmen schwierige Zeiten überstehen kann.\n\nBetrachten Sie es als einen Gesundheitscheck: Umsatz und Ertrag zeigen, ob das Unternehmen floriert, während Schulden- und Liquiditätskennzahlen verborgene Schwachstellen aufdecken.\n\nLassen Sie uns jede Kennzahl einzeln untersuchen."
+    },
+    "revenue": {
+      "title": "Umsatz",
+      "description": "Umsatz ist das Gesamtgeld, das aus dem Verkauf einfliesst. Es ist die oberste Zeile: Alles beginnt hier.\n\nWorauf Sie achten sollten:\n• Wächst der Umsatz von Jahr zu Jahr? Stagnation oder Rückgang ist eine Warnung.\n• Vergleichen Sie mit Branchenkollegen: Gewinnt oder verliert dieses Unternehmen Marktanteile?\n\nUmsatz allein sagt Ihnen nicht, ob das Unternehmen profitabel ist. Ein Unternehmen kann Milliarden Umsatz haben und trotzdem Verluste machen."
+    },
+    "fcf": {
+      "title": "Freier Cashflow (FCF)",
+      "description": "Freier Cashflow ist das ECHTE Bargeld, das nach dem Betrieb des Unternehmens und Investitionen in Wachstum übrig bleibt. Im Gegensatz zum Nettogewinn ist er sehr schwer durch Buchhaltungstricks zu manipulieren.\n\nWorauf Sie achten sollten:\n• Positiver FCF: Das Unternehmen generiert echtes Bargeld.\n• FCF wächst über die Zeit: Das Unternehmen wird zu einer stärkeren Bargeldmaschine.\n• FCF > Nettogewinn: Gewinne sind durch echtes Bargeld gedeckt (sehr gesundes Zeichen).\n\nEin Unternehmen mit starkem FCF kann Dividenden zahlen, Aktien zurückkaufen, Schulden reduzieren oder in Wachstum investieren – alles ohne zu borgen."
+    },
+    "currentRatio": {
+      "title": "Current Ratio",
+      "description": "Die Current Ratio misst die kurzfristige Liquidität: Kann das Unternehmen seine Rechnungen bezahlen, die innerhalb der nächsten 12 Monate fällig werden?\n\nWie Sie sie lesen:\n• Über 1,5: Gesund: Das Unternehmen hat 1,50 € und mehr liquide Mittel für jede 1 € kurzfristiger Schulden.\n• Zwischen 1,0 und 1,5: Ausreichend, aber nicht viel Sicherheitspuffer.\n• Unter 1,0: Warnung: Kurzfristige Verbindlichkeiten übersteigen kurzfristige Vermögenswerte.\n\nEine niedrige Current Ratio bedeutet nicht immer Probleme (einige Branchen wie Einzelhandel operieren mit niedrigen Quoten), aber sie erhöht das Risiko in wirtschaftlichen Abschwüngen."
+    },
+    "debtMetrics": {
+      "title": "Schuldenkennzahlen",
+      "description": "Diese zwei Kennzahlen zeigen Ihnen, ob Schuldenniveaus gefährlich sind:\n\nZinsdeckungsgrad: Wie leicht das Unternehmen Zinsen auf seine Schulden zahlt.\n• Über 3x: Komfortabel.\n• Unter 1,5x: Ein großer Teil der Gewinne geht an Zinszahlungen.\n\nSchulden/EBITDA: Wie viele Jahre Gewinn es dauern würde, alle Schulden abzuzahlen.\n• Unter 3x: Gesund.\n• 3–5x: Bedarf Überwachung.\n• Über 5x: Rotes Flag.\n\nWährend Rezessionen sind stark verschuldete Unternehmen die ersten, die scheitern. Geringe Schulden = Sicherheit."
+    },
+    "epsChart": {
+      "title": "Gewinn je Aktie (EPS) Trend",
+      "description": "EPS zeigt, wie viel Gewinn jede Aktie erwirtschaftet. Ein steigender EPS-Trend ist eines der stärksten Signale für ein qualitatives Unternehmen.\n\nWorauf Sie achten sollten:\n• Steigender EPS über 3–5 Jahre: Das Unternehmen wird rentabler.\n• EPS wächst schneller als Umsatz: Margen und Effizienz verbessern sich.\n• Plötzliche Rückgänge: Untersuchen Sie: Es könnte ein einmaliges Ereignis oder ein echtes Problem sein.\n\nVergleichen Sie EPS-Wachstum mit Aktienkurswachstum. Wenn EPS schneller als der Kurs wächst, wird die Aktie relativ zu den Gewinnen günstiger – eine potenzielle Chance."
+    },
+    "revenueChart": {
+      "title": "Umsatz & Nettogewinn-Trend",
+      "description": "Dieses Diagramm zeigt, ob das Unternehmen wächst UND mehr von dem behält, was es verdient.\n\nWorauf Sie achten sollten:\n• Beide Linien steigen: Gesundes, nachhaltiges Wachstum.\n• Umsatz steigt, aber Gewinn stagniert: Kosten wachsen zu schnell. Untersuchen Sie, warum.\n• Gewinn wächst schneller als Umsatz: Verbesserte Effizienz, ein gutes Zeichen.\n• Umsatz sinkt: Möglicher Verlust von Marktanteilen oder Branchendisruption.\n\nDie Lücke zwischen Umsatz und Nettogewinn repräsentiert die Gesamtkosten. Wenn diese Lücke über die Zeit enger wird, verbessert sich die Rentabilität."
+    },
+    "fcfChart": {
+      "title": "Freier Cashflow-Verlauf",
+      "description": "Dieses Diagramm visualisiert FCF über mehrere Jahre. Konsistenz ist wichtiger als jedes einzelne Jahr.\n\nWorauf Sie achten sollten:\n• Konstant positive Balken: Das Unternehmen generiert Jahr für Jahr echtes Bargeld.\n• Wachsender Trend: Die Bargeldmaschine wird stärker.\n• Volatiler oder negativer FCF: Das Unternehmen könnte externe Finanzierung benötigen, was das Risiko erhöht.\n\nEin Unternehmen mit starkem, wachsendem FCF hat die finanzielle Flexibilität, Aktionäre durch Dividenden oder Rückkäufe zu belohnen."
+    },
+    "incomeBreakdown": {
+      "title": "Ertragsaufschlüsselung",
+      "description": "Dieses Diagramm zeigt, wohin jeder Umsatzdollar tatsächlich geht: Warenkosten, Betriebskosten, Steuern und schließlich Nettogewinn.\n\nWorauf Sie achten sollten:\n• Größerer Nettogewinnanteil: Bessere Rentabilität.\n• Umsatzkosten, die den Großteil des Balkens auffressen: Dünne Margen, anfällig für Kostensteigerungen.\n• Betriebskosten wachsen schneller als Umsatz: Effizienz sinkt.\n\nUnternehmen mit hohen Bruttomargen (kleiner Umsatzkostenanteil) haben in der Regel stärkere Wettbewerbsvorteile: Preissetzungsmacht, einzigartige Produkte oder Netzwerkeffekte."
+    },
+    "fairValue": {
+      "title": "Phase 3: Stimmt der Preis?",
+      "description": "Dies ist das Herzstück des Value Investings. Die Innerer-Wert-Schätzung bewertet, was die Aktie WIRKLICH wert ist, unabhängig von der Marktstimmung. Wir kombinieren mehrere Methoden (DCF, Graham, EPV, P/E-basiert), um Verzerrungen zu reduzieren.\n\nSchlüsselkonzepte:\n• Innerer Wert: Unsere beste Schätzung des intrinsischen Werts.\n• Aktueller Kurs: Was der Markt heute verlangt.\n• Innerer-Wert-Spanne: Das Konfidenzintervall unserer Schätzung.\n\nWenn Methoden zu einem ähnlichen Wert konvergieren, ist die Schätzung zuverlässiger. Große Abweichungen bedeuten mehr Unsicherheit."
+    },
+    "marginOfSafety": {
+      "title": "Sicherheitsmarge",
+      "description": "Benjamin Grahams wichtigstes Konzept. Die Sicherheitsmarge ist der Abschlag zwischen dem aktuellen Kurs und dem inneren Wert.\n\nWie Sie sie lesen:\n• Positiv (z.B. +30 %): Die Aktie handelt unter dem inneren Wert – ein potenzielles Schnäppchen.\n• Nahe null: Die Aktie ist fair bewertet, mit begrenztem Aufwärtspotenzial.\n• Negativ (z.B. -15 %): Die Aktie handelt über dem inneren Wert; Sie zahlen eine Prämie.\n\nGraham empfahl mindestens 25 % Sicherheitsmarge, um Schätzfehler zu berücksichtigen.\n\nEine Aktie unter dem inneren Wert ist nicht automatisch ein Kauf. Fragen Sie stets, WARUM sie günstig ist; es könnte einen guten Grund geben."
+    },
+    "peRatio": {
+      "title": "P/E-Verhältnis",
+      "description": "Kurs-Gewinn-Verhältnis sagt Ihnen, wie viel Sie für jeden Dollar Jahresgewinn zahlen.\n\nWie Sie es lesen:\n• Niedriges P/E (< 15): Könnte unterbewertet sein, oder der Markt sieht Probleme voraus.\n• Mittleres P/E (15–25): Für die meisten Branchen fair bewertet.\n• Hohes P/E (> 25): Der Markt erwartet starkes künftiges Wachstum.\n• Negatives P/E: Das Unternehmen macht Verluste.\n\nVergleichen Sie stets innerhalb derselben Branche: Tech-Aktien haben typischerweise ein höheres P/E (25–35) als Versorgungsunternehmen (12–18).\n\nDer Sweet Spot des Value-Investors: Niedriges P/E kombiniert mit hohem ROE und wachsenden Gewinnen."
+    },
+    "roeRoic": {
+      "title": "ROE & ROIC",
+      "description": "Diese messen, wie effizient das Management Kapital einsetzt:\n\nROE (Return on Equity): Gewinn je Dollar Eigenkapital.\n• Über 15 %: Ausgezeichnete Managementeffizienz.\n• Unter 10 %: Das Unternehmen nutzt Kapital möglicherweise nicht gut.\n\nROIC (Return on Invested Capital): Ähnlich, aber beinhaltet Schulden in der Berechnung. Vollständigeres Bild.\n• Über 10 %: Starke Renditen auf DAS GESAMTE Kapital.\n\nKonsistent hoher ROE + ROIC = Ein Unternehmen mit dauerhaftem Wettbewerbsvorteil (was Buffett einen 'Burggraben' nennt)."
+    },
+    "pbPfcf": {
+      "title": "P/B & P/FCF-Verhältnisse",
+      "description": "Alternative Bewertungsperspektiven, die das P/E ergänzen:\n\nP/B (Kurs-Buchwert-Verhältnis): Vergleicht Aktienkurs mit dem Nettovermögenswert des Unternehmens.\n• Unter 1: Sie zahlen weniger als der Nettovermögenswert des Unternehmens. Könnte unterbewertet sein, oder eine Value-Falle.\n• Über 3: Der Markt bewertet immaterielle Vermögenswerte (Marke, IP, Wachstum) hoch.\n\nP/FCF (Kurs-Freier-Cashflow-Verhältnis): Wie P/E, aber mit echtem Bargeld statt buchhalterischem Gewinn. Zuverlässiger.\n\nP/FCF ist oft nützlicher als P/E, weil freier Cashflow schwerer zu manipulieren ist."
+    },
+    "radarChart": {
+      "title": "Rentabilitäts-Radar",
+      "description": "Dieses Radar-Diagramm gibt Ihnen einen sofortigen visuellen Überblick über das finanzielle Profil des Unternehmens über mehrere Dimensionen.\n\nWorauf Sie achten sollten:\n• Breite, ausgewogene Form: Stark über alle Dimensionen.\n• Kollabierte oder flache Achse: Zeigt eine spezifische Schwäche – untersuchen Sie diese.\n• Vergleichen Sie mit Ihrem mentalen Modell einer idealen Investition.\n\nKein Unternehmen erzielt auf jeder Achse perfekte Ergebnisse. Die Schlüsselfrage: Sind die Schwächen vorübergehend (und behebbar) oder strukturell (und dauerhaft)?"
+    },
+    "fundamentalCriteria": {
+      "title": "Fundamentalkriterien-Scorecard",
+      "description": "Dieser Abschnitt zeigt jedes Kriterium, das zur Berechnung des Fundamental-Scores verwendet wird. Betrachten Sie es als Qualitäts-Checkliste.\n\nWie Sie es lesen:\n• Grün (Bestanden): Das Unternehmen übertrifft die Qualitätsschwelle für diese Kennzahl.\n• Rot (Nicht bestanden): Das Unternehmen bleibt zurück. Prüfen Sie das Gewicht: Fehler bei hohem Gewicht sind wichtiger.\n• Grau (Nicht verfügbar): Daten fehlen. Nicht im Score enthalten.\n\nScore-Interpretation:\n• Über 75: Starke Fundamentaldaten.\n• 60–75: Angemessen, aber prüfen Sie, was nicht bestanden wurde.\n• Unter 40: Erhebliche Bedenken.\n\nSchauen Sie nicht nur auf den Gesamtscore. Lesen Sie, welche spezifischen Kriterien nicht bestanden wurden. Ein Unternehmen könnte 65 Punkte erzielen, aber gefährliche Schuldenniveaus unter vielen kleineren Erfolgen verstecken."
+    },
+    "priceChart": {
+      "title": "Phase 4: Marktsignale",
+      "description": "Der Kerzenchart zeigt die Kursentwicklung über die Zeit. Grüne Kerzen = Kurs ist gestiegen, Rote = gesunken. Die dünnen Linien (Dochte) zeigen das Tageshoch und -tief.\n\nWorauf Sie achten sollten:\n• Gesamttrend: Höhere Hochs = Aufwärtstrend, Niedrigere Tiefs = Abwärtstrend.\n• Unterstützungsniveaus: Preise, bei denen die Aktie konsistent nach oben abprallt.\n• Widerstandsniveaus: Preise, bei denen sie wiederholt zurückfällt.\n\nDer Kurschart sagt Ihnen, was der MARKT denkt. Ihre Fundamentalanalyse sagt Ihnen, was das Unternehmen WERT ist. Wenn diese auseinanderdriften, entstehen Chancen."
+    },
+    "rsi": {
+      "title": "RSI (Relative Strength Index)",
+      "description": "RSI misst, ob eine Aktie zu schnell gestiegen oder gefallen ist. Er reicht von 0 bis 100.\n\nWie Sie ihn lesen:\n• Unter 30: Möglicherweise überverkauft. Die Aktie könnte zu aggressiv verkauft worden sein. Könnte eine Kaufgelegenheit sein.\n• Zwischen 30 und 70: Neutrales Territorium mit normalen Handelsbedingungen.\n• Über 70: Möglicherweise überkauft. Die Aktie könnte zu schnell gestiegen sein. Könnte zurückfallen.\n\nRSI ist ein Timing-Werkzeug, kein Auswahlwerkzeug. Nutzen Sie Fundamentaldaten, um zu entscheiden, WAS Sie kaufen, RSI um zu entscheiden, WANN."
+    },
+    "smaTrend": {
+      "title": "Gleitende Durchschnitte (SMA 50 & 200)",
+      "description": "Gleitende Durchschnitte glätten das tägliche Rauschen, um den zugrunde liegenden Trend zu zeigen.\n\nSchlüsselsignale:\n• SMA 50 über SMA 200 (Golden Cross): Der kurzfristige Trend ist stärker als der langfristige – ein bullishes Signal.\n• SMA 50 unter SMA 200 (Death Cross): Der kurzfristige Trend ist schwächer – ein bearishes Signal.\n• Kurs über SMA 200: Der langfristige Trend ist aufwärts.\n\nDiese Signale funktionieren am besten als Bestätigung Ihrer Fundamentalanalyse. Ein fundamental großartiges Unternehmen in einem Golden Cross ist eine starke Kombination."
+    },
+    "macdVolatility": {
+      "title": "MACD & Volatilität",
+      "description": "Zwei weitere Werkzeuge zum Verständnis von Momentum und Risiko:\n\nMACD-Histogramm: Positiv und steigend = bullishes Momentum. Negativ und fallend = bearish.\n\nVolatilität: Wie stark der Aktienkurs schwankt. Hohe Volatilität bedeutet höheres Risiko, aber auch höhere potenzielle Chancen für geduldige Käufer.\n\nFür Value-Investoren kann hohe Volatilität bei einem fundamental starken Unternehmen Kaufgelegenheiten schaffen: Der Markt überreagiert und schafft vorübergehende Rabatte."
+    },
+    "piotroski": {
+      "title": "Phase 5: Managementqualität",
+      "description": "Der Piotroski F-Score ist eine 9-Punkte-Checkliste, die die finanzielle Gesundheit in den Bereichen Rentabilität, Verschuldung und betriebliche Effizienz bewertet.\n\nWie Sie ihn lesen:\n• 7–9: Starke finanzielle Gesundheit; das Management arbeitet gut.\n• 4–6: Gemischte Signale; einige Bereiche bedürfen Aufmerksamkeit.\n• 0–3: Ernsthafte finanzielle Bedenken; mit äußerster Vorsicht vorgehen.\n\nSchauen Sie sich die Aufschlüsselung unten an, um genau zu sehen, welche Kriterien bestanden und welche nicht bestanden wurden.\n\nAkademische Forschung zeigt, dass hohe Piotroski-Scores dazu neigen, niedrige Scores über die Zeit zu übertreffen. Es ist einer der am besten validierten Qualitätsindikatoren."
+    },
+    "earningsQuality": {
+      "title": "Gewinnqualität",
+      "description": "Gewinnqualität vergleicht den operativen Cashflow mit dem Nettogewinn. Dies zeigt, ob ausgewiesene Gewinne durch echtes Bargeld gedeckt sind.\n\nWie Sie sie lesen:\n• Über 1,0: Operativer Cashflow übersteigt Nettogewinn, also sind Gewinne solide und real.\n• Zwischen 0,5 und 1,0: Gewisse Lücke zwischen ausgewiesenen und echten Gewinnen. Überwachung empfehlenswert.\n• Unter 0,5: Nettogewinn ist viel höher als tatsächlich generiertes Bargeld, was auf mögliche aggressive Buchhaltung hindeutet.\n\nUnternehmen mit hoher Gewinnqualität liefern weniger negative Überraschungen. Bargeld lügt nicht."
+    },
+    "shareDilution": {
+      "title": "Aktienverwässerung",
+      "description": "Aktienverwässerung sagt Ihnen, ob das Management durch Aktienausgabe Aktionärswert schafft oder vernichtet.\n\nWie Sie sie lesen:\n• Negativ (z.B. -3 %): Das Unternehmen kauft Aktien zurück; jede verbleibende Aktie wird wertvoller. Aktionärsfreundlich.\n• Nahe null: Neutral; Aktienanzahl ist stabil.\n• Positiv (z.B. +5 %): Neue Aktien werden ausgegeben, was Ihren Eigentumsanteil verwässert.\n\nKonsistente Rückkäufe kombiniert mit einem hohen Piotroski-Score sind ein starkes Zeichen für aktionärsfreundliches Management."
+    },
+    "governance": {
+      "title": "Unternehmensführung",
+      "description": "Selbst das beste Unternehmen kann durch schlechtes Management ruiniert werden. Dieser Abschnitt bewertet die Vertrauenswürdigkeit der Führung.\n\nWorauf Sie achten sollten:\n• Vorstandsunabhängigkeit: Mehr unabhängige Direktoren = bessere Aufsicht.\n• Niedrige Risikoscores: Hohe Prüfungs-, Vorstands- oder Vergütungsrisiken sind Warnsignale.\n• Führungsvergütung: Sollte an Aktionärsrenditen geknüpft sein, nicht an garantierten Boni.\n\nSchlechte Unternehmensführung ist einer der stärksten Prädiktoren für zukünftige Probleme. Wenn alles andere gut aussieht, aber Governance-Scores alarmierend sind, denken Sie zweimal nach."
+    },
+    "conclusion": {
+      "title": "Alles zusammenführen",
+      "description": "Sie haben nun jede Kennzahl gesehen, die ein Value-Investor benötigt. So verbinden Sie die Punkte:\n\n1. Starkes Unternehmen, das Sie verstehen? (Phase 1)\n2. Solide Finanzdaten: Wachsender Umsatz, positiver FCF, geringe Schulden? (Phase 2)\n3. Handel unter dem inneren Wert mit Sicherheitsmarge? (Phase 3)\n4. Technische Signale schreien nicht 'Finger weg'? (Phase 4)\n5. Vertrauenswürdiges Management, das Aktionärswert aufbaut? (Phase 5)\n\nWenn die meisten Antworten JA sind, haben Sie möglicherweise einen Qualitätsinvestitionskandidaten gefunden. Wenn mehrere NEIN sind, tiefer graben oder weitermachen.\n\nKeine einzelne Kennzahl erzählt die ganze Geschichte. Suchen Sie nach Konvergenz. Klicken Sie auf das Info-Symbol auf einer Karte, um die Erklärung jederzeit zu sehen."
+    },
+    "prompt": {
+      "title": "Möchten Sie eine geführte Tour?",
+      "sageQuip": "Hey! Soll ich Ihnen alles zeigen?",
+      "description": "Lernen Sie, wie man jede Kennzahl wie ein Value-Investor liest. Dauert etwa 5 Minuten.",
+      "start": "Tour starten",
+      "dismiss": "Nicht jetzt",
+      "dontAskAgain": "Nicht mehr fragen"
+    },
+    "sageQuips": {
+      "welcome": "Bereit? Lassen Sie uns eintauchen!",
+      "overview": "Das Wichtigste zuerst...",
+      "balanceSheet": "Zeit, die Zahlen zu prüfen!",
+      "revenue": "Zeig mir das Geld!",
+      "fcf": "Cash ist König!",
+      "currentRatio": "Können sie ihre Rechnungen bezahlen?",
+      "debtMetrics": "Schulden können gefährlich sein...",
+      "epsChart": "Gewinne erzählen die Geschichte!",
+      "revenueChart": "Folgen wir dem Trend!",
+      "fcfChart": "Echtes Bargeld, echter Wert!",
+      "incomeBreakdown": "Wohin geht das Geld?",
+      "fairValue": "Ist es ein Schnäppchen?",
+      "marginOfSafety": "Die goldene Regel des Investierens!",
+      "peRatio": "Wie viel zahlen Sie?",
+      "roeRoic": "Effizienz ist wichtig!",
+      "pbPfcf": "Mehr Wege, Wert zu messen!",
+      "radarChart": "Das große Bild!",
+      "fundamentalCriteria": "Die Qualitäts-Checkliste!",
+      "priceChart": "Was denkt der Markt?",
+      "rsi": "Timing ist alles!",
+      "smaTrend": "Folgen Sie dem Trend!",
+      "macdVolatility": "Momentum-Check!",
+      "piotroski": "Benotet das Management!",
+      "earningsQuality": "Sind die Gewinne real?",
+      "shareDilution": "Achten Sie auf Verwässerung!",
+      "governance": "Vertrauen ist wesentlich!",
+      "conclusion": "Gut gemacht, Sie lernen schnell!"
+    },
+    "next": "Weiter",
+    "prev": "Zurück",
+    "done": "Fertig"
+  }
+}

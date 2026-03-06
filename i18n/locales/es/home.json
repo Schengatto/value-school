@@ -1,0 +1,27 @@
+{
+  "home": {
+    "title": "Análisis de Inversión en Valor",
+    "description1": "Este informe se genera utilizando una metodología modernizada de Inversión en Valor inspirada en {buffett} y {graham}. Cada empresa se evalúa en función de su solidez financiera, rentabilidad, eficiencia operativa y si la acción parece infravalorada en relación con su valor intrínseco.",
+    "description2": "Cada empresa recibe una {score} en fundamentos, eficiencia, estructura de capital y valoración intrínseca.",
+    "compositeScore": "Puntuación compuesta 0-100",
+    "evaluationCriteria": "Criterios de Evaluación",
+    "criteriaIntro": "El modelo de puntuación se basa en una evaluación ponderada de los siguientes criterios clave:",
+    "criteria": {
+      "epsTrend": "Crecimiento consistente en Beneficio Por Acción (EPS), indicando poder de ganancias duradero.",
+      "epsCagr": "Tasa de crecimiento anual compuesto (CAGR) del EPS por encima del 10%, mostrando un sólido crecimiento a largo plazo.",
+      "roic": "Retorno sobre el Capital Invertido (ROIC) por encima del 10%, reflejando una asignación eficiente del capital.",
+      "grossMargin": "Margen de beneficio bruto por encima del 60%, lo que sugiere una ventaja competitiva duradera.",
+      "pfcf": "Precio sobre Flujo de Caja Libre (P/FCF) por debajo de 15, indicando una valoración atractiva.",
+      "fcfPositive": "Flujo de Caja Libre (FCF) positivo, confirmando la capacidad de generar efectivo excedente.",
+      "dividendPayout": "Ratio de distribución de dividendos por debajo del 60%, equilibrando la rentabilidad para el accionista y la reinversión.",
+      "debtToEquity": "Ratio Deuda-Capital por debajo de 2, mostrando una estructura de capital conservadora.",
+      "operatingMargin": "Margen operativo por encima del 10%, representando eficiencia operativa.",
+      "currentRatio": "Ratio de liquidez corriente por encima de 1,5, demostrando salud financiera a corto plazo.",
+      "interestCoverage": "Cobertura de intereses por encima de 3, asegurando la capacidad de servicio de la deuda.",
+      "debtEbitda": "Ratio Deuda/EBITDA por debajo de 3, indicando un apalancamiento sostenible.",
+      "grahamNumber": "Precio de mercado por debajo del Número de Graham, un referente clásico de valor justo.",
+      "dcf": "Valor intrínseco DCF por encima del precio de mercado actual, sugiriendo infravaloración."
+    },
+    "rankings": "Clasificación de Empresas"
+  }
+}

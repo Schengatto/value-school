@@ -1,0 +1,151 @@
+{
+  "earnings": {
+    "title": "Gewinnkalender",
+    "countThisWeek": "{count} Gewinnberichte diese Woche",
+    "countThisMonth": "{count} Gewinnberichte diesen Monat",
+    "description": "Bevorstehende Termine für Gewinnberichte der verfolgten NASDAQ-Aktien. Klicken Sie auf einen beliebigen Tag, um detaillierte Unternehmensinformationen zu sehen.",
+    "loadingCalendar": "Gewinnkalender wird geladen...",
+    "reports": "({count} Berichte)",
+    "noReports": "Keine Gewinnberichte geplant",
+    "dayDrawerTitle": "Gewinne am {date}",
+    "dayDrawerEmpty": "Keine Gewinnberichte für diesen Tag geplant.",
+    "earningsCount": "{count} Gewinnberichte",
+    "searchPlaceholder": "Nach Unternehmensname oder Ticker suchen...",
+    "searchResults": "{count} Ergebnisse für \"{query}\"",
+    "searchNoResults": "Keine Gewinnberichte gefunden für \"{query}\"",
+    "searchResultDate": "Gewinne am {date}",
+    "guidedTour": "Geführte Tour",
+    "tour": {
+      "welcome": {
+        "title": "Warum Gewinne verfolgen?",
+        "description": "Gewinnberichte sind der Herzschlag des Value Investings. Sie zeigen, ob ein Unternehmen seinen Umsatz steigert, Margen verbessert und Cashflow generiert. Die Verfolgung von Gewinnterminen hilft Ihnen, informiert und vorbereitet zu sein, um bei Marktüberreaktionen Chancen zu nutzen."
+      },
+      "search": {
+        "title": "Ihre Unternehmen finden",
+        "description": "Verwenden Sie die Suchleiste, um ein bestimmtes Unternehmen schnell nach Name oder Ticker zu finden. Dies ist nützlich, wenn Sie bereits eine Aktie im Sinn haben und wissen möchten, wann der Gewinnbericht erscheint. Dies ist ein Schlüsseldatum für jeden Value-Investor."
+      },
+      "calendar": {
+        "title": "Monatsübersicht",
+        "description": "Der Kalender zeigt, wie viele Unternehmen an jedem Tag berichten. Klicken Sie auf einen beliebigen Tag, um die vollständige Liste zu sehen. Achten Sie auf Häufungen: Wenn viele Unternehmen gleichzeitig berichten, können die Märkte volatiler sein, was potenzielle Kaufgelegenheiten schafft."
+      },
+      "detail": {
+        "title": "Gewinndetails",
+        "description": "Jede Unternehmenskarte zeigt ihren Composite-Score und ihr Signal zusammen mit dem Gewinntermin. Die Zeitangabe vor oder nach Börsenschluss sagt Ihnen, wann Sie die Nachricht erwarten können. Nutzen Sie dies, um Ihre Recherche zu planen: Überprüfen Sie die Finanzdaten eines Unternehmens im Screener vor dem Gewinntag."
+      },
+      "conclusion": {
+        "title": "Vorbereiten, nicht reagieren",
+        "description": "Die besten Value-Investoren sind vor den Gewinnen vorbereitet, nicht überrascht danach. Nutzen Sie diesen Kalender, um Ihren Forschungsplan zu gestalten: Identifizieren Sie Unternehmen, die bald berichten, überprüfen Sie ihre Fundamentaldaten auf der Detailseite, und bilden Sie Ihre Anlagethese, bevor der Markt reagiert."
+      },
+      "next": "Weiter",
+      "prev": "Zurück",
+      "done": "Verstanden!",
+      "sageQuips": {
+        "welcome": "Der Gewinntag ist aufregend!",
+        "search": "Finden Sie Ihr Unternehmen!",
+        "calendar": "Markieren Sie Ihren Kalender!",
+        "detail": "Schauen wir uns die Details an!",
+        "conclusion": "Seien Sie vorbereitet, nicht überrascht!"
+      }
+    }
+  },
+  "ipo": {
+    "title": "IPO-Kalender",
+    "countThisWeek": "{count} IPOs diese Woche",
+    "countThisMonth": "{count} IPOs diesen Monat",
+    "description": "Bevorstehende Börsengänge (IPOs) nach erwartetem Listing-Datum gruppiert. Klicken Sie auf einen beliebigen Tag für Details. Daten stammen von Polygon.io.",
+    "loadingCalendar": "IPO-Kalender wird geladen...",
+    "iposCount": "({count} IPOs)",
+    "noIpos": "Keine IPOs geplant",
+    "dayDrawerTitle": "IPOs am {date}",
+    "dayDrawerEmpty": "Keine IPOs für diesen Tag geplant.",
+    "status": {
+      "new": "Eingereicht",
+      "pending": "Erwartet",
+      "directListing": "Direktnotierung",
+      "rumor": "Gerücht",
+      "history": "Gepreist",
+      "withdrawn": "Zurückgezogen",
+      "unknown": "Unbekannt"
+    },
+    "shares": "{count} Aktien",
+    "raised": "{amount} eingenommen",
+    "guidedTour": "Geführte Tour",
+    "tour": {
+      "welcome": {
+        "title": "IPOs und Value Investing",
+        "description": "Börsengänge sind aufregend, aber riskant. Value-Investoren gehen IPOs in der Regel mit Vorsicht an: Begrenzte Finanzgeschichte, hypegetriebene Preisgestaltung und Lock-up-Perioden für Insider machen es schwer, den wahren inneren Wert zu bestimmen. Diese Seite hilft Ihnen, bevorstehende IPOs zu verfolgen und sie kritisch zu bewerten."
+      },
+      "calendar": {
+        "title": "IPO-Kalender",
+        "description": "Der Kalender zeigt Listing-Termine für bevorstehende IPOs. Klicken Sie auf einen beliebigen Tag, um Details einschließlich Preisspanne, angebotener Aktien und Status zu sehen. IPO-Häufungen deuten oft auf starke Marktstimmung hin. Aber denken Sie daran: Beliebt bedeutet nicht guten Wert."
+      },
+      "detail": {
+        "title": "Einen IPO bewerten",
+        "description": "Überprüfen Sie die Preisspanne und das eingenommene Kapital. Eine sehr hohe Bewertung im Verhältnis zum eingenommenen Kapital kann auf überhöhte Preise hinweisen. Achten Sie auf das Status-Badge: 'Eingereicht' bedeutet, der Prozess läuft; 'Erwartet' bedeutet, ein Datum ist festgelegt. Value-Investoren warten oft auf den Ablauf der Lock-up-Periode, bevor sie kaufen."
+      },
+      "conclusion": {
+        "title": "Geduld zahlt sich aus",
+        "description": "Warren Buffett investiert selten in IPOs; er bevorzugt Unternehmen mit langer Erfolgsbilanz. Nutzen Sie diesen Kalender, um neue Listings zu beobachten, aber erwägen Sie, 6–12 Monate zu warten, bevor Sie investieren. Bis dahin haben Sie echte Finanzdaten, die Sie im Screener analysieren können."
+      },
+      "next": "Weiter",
+      "prev": "Zurück",
+      "done": "Verstanden!",
+      "sageQuips": {
+        "welcome": "Neue Unternehmen kommen an die Börse!",
+        "calendar": "Wann notieren sie?",
+        "detail": "Lassen Sie uns diesen IPO bewerten!",
+        "conclusion": "Geduld zahlt sich aus!"
+      }
+    }
+  },
+  "dividends": {
+    "title": "Dividendenkalender",
+    "countThisMonth": "{count} Ex-Dividendentermine diesen Monat",
+    "description": "Ex-Dividendentermine für von der Plattform verfolgte Aktien. Klicken Sie auf einen beliebigen Tag, um Dividendendetails einschließlich Betrag, Zahlungsdatum und Häufigkeit zu sehen.",
+    "loadingCalendar": "Dividendenkalender wird geladen...",
+    "dayDrawerTitle": "Dividenden am {date}",
+    "dayDrawerEmpty": "Keine Ex-Dividendentermine für diesen Tag.",
+    "dividendsCount": "{count} Dividenden",
+    "share": "Aktie",
+    "yield": "Rendite",
+    "highYield": "Hohe Rendite",
+    "price": "Kurs",
+    "annualizedYield": "~{yield} % annualisiert",
+    "payDate": "Zahlungsdatum",
+    "recordDate": "Stichtagsdatum",
+    "frequency": {
+      "annual": "Jährlich",
+      "semiAnnual": "Halbjährlich",
+      "quarterly": "Vierteljährlich",
+      "monthly": "Monatlich"
+    },
+    "guidedTour": "Geführte Tour",
+    "tour": {
+      "welcome": {
+        "title": "Dividenden im Value Investing",
+        "description": "Dividenden sind ein wichtiger Pfeiler des Value Investings. Sie bieten greifbare Renditen, während Sie darauf warten, dass der Aktienkurs seinen inneren Wert widerspiegelt. Regelmäßige, wachsende Dividenden signalisieren oft ein finanziell gesundes Unternehmen mit diszipliniertem Management."
+      },
+      "calendar": {
+        "title": "Ex-Dividendentermine",
+        "description": "Dieser Kalender zeigt Ex-Dividendentermine: den Stichtag, bis zu dem Sie die Aktie besitzen müssen, um die Dividende zu erhalten. Grüne Badges heben Tage mit hohen Ausschüttungsrenditen hervor. Die Planung rund um diese Termine hilft Ihnen, einen zuverlässigen Einkommensstrom aufzubauen."
+      },
+      "detail": {
+        "title": "Dividenden analysieren",
+        "description": "Jede Karte zeigt den Barbetrag pro Aktie, die Rendite und die Zahlungshäufigkeit. Hohe Rendite ist attraktiv, aber als Value-Investor prüfen Sie stets, ob sie nachhaltig ist: Schauen Sie sich die Ausschüttungsquote und den freien Cashflow auf der Unternehmensdetailseite an. Eine nicht nachhaltige Dividende ist ein Warnsignal, keine Chance."
+      },
+      "conclusion": {
+        "title": "Qualität vor Rendite",
+        "description": "Die besten Dividendenaktien sind nicht immer die höchstrentierlichsten; es sind jene, die ihre Dividende konstant steigern können. Nutzen Sie diesen Kalender, um Chancen zu identifizieren, und prüfen Sie dann die Fähigkeit jedes Unternehmens, seine Ausschüttungen im Screener zu halten und zu steigern."
+      },
+      "next": "Weiter",
+      "prev": "Zurück",
+      "done": "Verstanden!",
+      "sageQuips": {
+        "welcome": "Dividenden sind eine Belohnung!",
+        "calendar": "Verpassen Sie diese Termine nicht!",
+        "detail": "Ist sie nachhaltig?",
+        "conclusion": "Qualität vor Rendite!"
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "glossary": {
+    "revenue": {
+      "label": "Ingresos",
+      "title": "Ingresos (Ventas Totales)",
+      "definition": "El dinero total que una empresa gana vendiendo sus productos o servicios, antes de restar ningún coste. Es la 'línea superior' de la cuenta de resultados.",
+      "example": "Si Apple vende 10 millones de iPhones a 1.000$ cada uno, eso son 10.000 millones en ingresos, independientemente de cuánto costó fabricarlos."
+    },
+    "netIncome": {
+      "label": "Beneficio Neto",
+      "title": "Beneficio Neto (Resultado Final)",
+      "definition": "El beneficio real que queda después de restar TODOS los costes: producción, salarios, impuestos, intereses y todo lo demás. Esto es lo que los accionistas realmente ganan.",
+      "example": "Una empresa con 10.000 millones en ingresos y 7.000 millones en costes totales tiene 3.000 millones de beneficio neto. Eso es 30 céntimos de beneficio por cada euro de ventas."
+    },
+    "freeCashFlow": {
+      "label": "Flujo de Caja Libre",
+      "title": "Flujo de Caja Libre (FCF)",
+      "definition": "El efectivo real que genera una empresa después de pagar las operaciones e inversiones. A diferencia del beneficio neto, es muy difícil de manipular con trucos contables.",
+      "example": "Una empresa gana 5.000 millones de beneficio pero gasta 2.000 millones en nuevas fábricas. FCF = 3.000 millones. Ese es el efectivo disponible para dividendos, recompras o reducción de deuda."
+    },
+    "totalEquity": {
+      "label": "Patrimonio Neto Total",
+      "title": "Patrimonio Neto Total (Valor en Libros)",
+      "definition": "Lo que los accionistas realmente poseen: activos totales menos pasivos totales. Piénselo como el patrimonio neto de la empresa si vendiera todo y pagara todas las deudas.",
+      "example": "Una empresa con 50.000 millones en activos y 30.000 millones en deudas tiene 20.000 millones de patrimonio. Si tiene 1.000 millones de acciones, el valor en libros es de 20$ por acción."
+    },
+    "totalLiabilities": {
+      "label": "Pasivo Total",
+      "title": "Pasivo Total (Deuda Total)",
+      "definition": "Todo lo que debe la empresa: préstamos, bonos, cuentas por pagar, obligaciones de arrendamiento y otras obligaciones financieras. Los pasivos altos aumentan el riesgo en las recesiones.",
+      "example": "Una empresa con 40.000 millones en pasivos y 20.000 millones en patrimonio tiene una ratio deuda-capital de 2:1, lo que significa que debe el doble de lo que posee."
+    },
+    "currentRatio": {
+      "label": "Ratio de Liquidez",
+      "title": "Ratio de Liquidez (Liquidez)",
+      "definition": "Activos a corto plazo divididos entre deudas a corto plazo. Muestra si la empresa puede pagar las facturas con vencimiento en 12 meses. Por encima de 1,5 es saludable, por debajo de 1,0 es una señal de alerta.",
+      "example": "Una empresa con 6.000 millones en activos corrientes y 4.000 millones en pasivos corrientes tiene un ratio de liquidez de 1,5, por lo que puede cubrir cómodamente sus obligaciones a corto plazo."
+    },
+    "interestCoverage": {
+      "label": "Cobertura de Intereses",
+      "title": "Ratio de Cobertura de Intereses",
+      "definition": "Beneficio operativo dividido entre los pagos de intereses. Muestra con qué facilidad la empresa puede pagar los intereses de su deuda. Por encima de 3x es cómodo, por debajo de 1,5x es arriesgado.",
+      "example": "Si una empresa gana 9.000 millones de resultado operativo y paga 3.000 millones en intereses, la cobertura = 3x. Gana tres veces sus pagos de intereses."
+    },
+    "debtToEbitda": {
+      "label": "Deuda/EBITDA",
+      "title": "Ratio Deuda-EBITDA",
+      "definition": "Deuda total dividida entre beneficios antes de intereses, impuestos, depreciación y amortización. Muestra cuántos años de beneficios se necesitarían para pagar toda la deuda. Por debajo de 3x es saludable.",
+      "example": "Una empresa con 15.000 millones de deuda y 5.000 millones de EBITDA tiene un ratio de 3x, lo que significa que tardaría 3 años de beneficios en pagar la deuda (si nada más cambiara)."
+    },
+    "peRatio": {
+      "label": "Ratio P/E",
+      "title": "Ratio Precio-Beneficio (P/E)",
+      "definition": "Precio de la acción dividido entre el beneficio por acción. Muestra cuánto pagan los inversores por cada euro de beneficio. Un P/E más bajo puede indicar una ganga, pero siempre compare dentro del mismo sector.",
+      "example": "Una acción a 150$ que gana 6$/acción tiene P/E = 25. Paga 25$ por cada 1$ de beneficios. La tecnología promedia ~25-30, los servicios públicos ~15-18."
+    },
+    "roe": {
+      "label": "ROE",
+      "title": "Retorno sobre el Patrimonio (ROE)",
+      "definition": "Beneficio neto dividido entre el patrimonio del accionista. Mide con qué eficiencia la empresa usa el dinero de los accionistas para generar beneficio. Por encima del 15% es excelente.",
+      "example": "Una empresa con 3.000 millones de beneficio y 20.000 millones de patrimonio tiene ROE = 15%. Cada 1$ invertido por los accionistas genera 15 céntimos de beneficio anual."
+    },
+    "pbRatio": {
+      "label": "Ratio P/B",
+      "title": "Ratio Precio-Valor en Libros (P/B)",
+      "definition": "Precio de la acción dividido entre el valor en libros por acción. Por debajo de 1,0 significa que está pagando menos de lo que valen los activos netos de la empresa. Podría indicar que está potencialmente infravalorada, o podría ser una señal de problemas más profundos.",
+      "example": "Una acción a 40$ con un valor en libros de 50$/acción tiene P/B = 0,8. Está comprando 50$ de activos por 40$, pero investigue POR QUÉ está barata."
+    },
+    "pfcf": {
+      "label": "P/FCF",
+      "title": "Ratio Precio-Flujo de Caja Libre (P/FCF)",
+      "definition": "Precio de la acción dividido entre el flujo de caja libre por acción. Como el P/E pero usa efectivo real en lugar de beneficios contables. Más fiable para detectar el valor real.",
+      "example": "Una acción a 100$ con 5$ de FCF/acción tiene P/FCF = 20. Compare con el P/E: si el P/FCF es mucho más alto, los beneficios pueden no estar respaldados por efectivo real."
+    },
+    "grossMargin": {
+      "label": "Margen Bruto",
+      "title": "Margen de Beneficio Bruto",
+      "definition": "Ingresos menos coste de los bienes vendidos, dividido entre los ingresos. Muestra la rentabilidad básica antes de los gastos generales. Los márgenes altos (>40%) suelen señalar fuertes ventajas competitivas o poder de fijación de precios.",
+      "example": "Una empresa de software con un margen bruto del 80% retiene 0,80$ de cada euro vendido. Un minorista al 25% retiene solo 0,25$. Modelos de negocio muy diferentes."
+    },
+    "roic": {
+      "label": "ROIC",
+      "title": "Retorno sobre el Capital Invertido (ROIC)",
+      "definition": "Beneficio operativo (después de impuestos) dividido entre todo el capital invertido (patrimonio + deuda). La mejor medida de con qué eficiencia la dirección usa TODO el capital. Por encima del 10% es sólido.",
+      "example": "Una empresa con 4.000 millones de beneficio operativo sobre 30.000 millones de capital invertido tiene ROIC = 13%. Genera 0,13$ de retorno por cada 1$ invertido."
+    },
+    "fairValueLabel": {
+      "label": "Valor Justo",
+      "title": "Valor Justo Estimado",
+      "definition": "Una estimación de cuánto vale realmente la acción, calculada combinando múltiples métodos (DCF, Graham, EPV). Es una estimación fundamentada, no una garantía.",
+      "example": "Si el valor justo es 120$ y la acción cotiza a 95$, hay un margen de seguridad del 26%, lo que significa que potencialmente está comprando con descuento."
+    },
+    "marginOfSafety": {
+      "label": "Margen de Seguridad",
+      "title": "Margen de Seguridad (MdS)",
+      "definition": "Cuánto más barato es el precio de la acción en comparación con el valor justo, como porcentaje. Positivo = posible ganga. Benjamin Graham recomendaba comprar solo con un margen del 25%+.",
+      "example": "Valor justo 100$, precio actual 75$ → MdS = +25%. Está comprando con un colchón del 25% si su estimación es ligeramente incorrecta."
+    },
+    "rsi": {
+      "label": "RSI (14)",
+      "title": "Índice de Fuerza Relativa (RSI)",
+      "definition": "Un indicador de momentum de 0 a 100 que mide la velocidad y magnitud de los cambios de precio recientes. Por debajo de 30 = potencialmente sobrevendido (señal de compra). Por encima de 70 = potencialmente sobrecomprado (precaución).",
+      "example": "RSI en 25 significa que la acción ha caído bruscamente recientemente y puede estar sobrevendida. Este es un posible punto de entrada si los fundamentos siguen siendo sólidos."
+    },
+    "sma50": {
+      "label": "SMA 50",
+      "title": "Media Móvil Simple de 50 Días",
+      "definition": "El precio de cierre promedio de los últimos 50 días de negociación. Actúa como indicador de tendencia a corto plazo. Precio por encima de la SMA 50 = tendencia alcista a corto plazo.",
+      "example": "Si la acción está a 150$ y la SMA 50 está a 140$, el precio está en tendencia alcista. Si cae por debajo, podría indicar una reversión a corto plazo."
+    },
+    "sma200": {
+      "label": "SMA 200",
+      "title": "Media Móvil Simple de 200 Días",
+      "definition": "El precio de cierre promedio de los últimos 200 días de negociación. El estándar de oro para identificar tendencias a largo plazo. Precio por encima de la SMA 200 = tendencia alcista a largo plazo.",
+      "example": "Cuando la SMA 50 cruza por encima de la SMA 200, se llama 'Cruce Dorado', una señal alcista. Lo opuesto ('Cruce de la Muerte') es bajista."
+    },
+    "macd": {
+      "label": "MACD",
+      "title": "Convergencia/Divergencia de Medias Móviles",
+      "definition": "Muestra la relación entre dos medias móviles. El histograma muestra la fuerza del momentum. Positivo y en alza = momentum alcista. Negativo y en caída = bajista.",
+      "example": "El histograma MACD en +2,5 y creciendo significa que el momentum alcista se está acelerando. En -1,0 y reduciéndose, la presión bajista se está atenuando."
+    },
+    "volatility": {
+      "label": "Volatilidad",
+      "title": "Volatilidad del Precio",
+      "definition": "Mide cuánto oscila el precio de la acción hacia arriba y hacia abajo. Alta volatilidad = mayores oscilaciones de precio (más riesgo y oportunidad). Baja volatilidad = precio más estable.",
+      "example": "Una acción con un 40% de volatilidad puede oscilar un 40% al alza o a la baja en un año. Una acción de servicios públicos con un 15% de volatilidad es mucho más estable."
+    },
+    "momentum": {
+      "label": "Momentum (12m)",
+      "title": "Momentum de Precio a 12 Meses (ROC)",
+      "definition": "Cuánto ha cambiado el precio de la acción en los últimos 12 meses, como porcentaje. Positivo = el precio ha ganado. Negativo = el precio ha caído.",
+      "example": "Un momentum de +25% significa que la acción ha subido un 25% respecto a hace un año. El momentum fuerte suele persistir, pero también puede significar que la acción está cara."
+    },
+    "dividendYield": {
+      "label": "Rentabilidad por Dividendo",
+      "title": "Rentabilidad por Dividendo (Anual)",
+      "definition": "Dividendo anual por acción dividido entre el precio de la acción, expresado como porcentaje. Muestra el retorno en efectivo que obtiene simplemente por mantener la acción, independientemente de los cambios de precio.",
+      "example": "Una acción a 100$ que paga 3$/año en dividendos tiene una rentabilidad del 3%. Eso es 3.000$/año con una inversión de 100.000$, antes de cualquier revalorización del precio."
+    },
+    "dividendPerShare": {
+      "label": "Dividendo Por Acción",
+      "title": "Dividendo Anual Por Acción (DPA)",
+      "definition": "El importe total en euros de dividendos pagados por acción a lo largo de un año. Un DPA creciente a lo largo del tiempo es una de las señales más fuertes de una empresa sana y favorable al accionista.",
+      "example": "Si una empresa paga 0,25$ por trimestre, el DPA anual es 1,00$. Si fue 0,80$ el año pasado, los dividendos crecieron un 25%."
+    },
+    "payoutRatio": {
+      "label": "Ratio de Distribución",
+      "title": "Ratio de Distribución de Dividendos",
+      "definition": "Porcentaje del beneficio neto pagado como dividendos. Por debajo del 60% es sostenible, ya que la empresa retiene suficiente para reinvertir. Por encima del 80% puede indicar que el dividendo está en riesgo de ser recortado.",
+      "example": "Una empresa que gana 5$/acción y paga 2$ en dividendos tiene un ratio de distribución del 40%. Retiene 3$ para reinvertir en crecimiento mientras recompensa a los accionistas."
+    },
+    "fcfPayout": {
+      "label": "Pago con FCF",
+      "title": "Ratio de Distribución sobre Flujo de Caja Libre",
+      "definition": "Dividendos pagados como porcentaje del flujo de caja libre. Más fiable que el ratio de distribución basado en beneficios porque el FCF representa efectivo real. Por debajo del 70% es saludable.",
+      "example": "Si el FCF es 4$/acción y los dividendos son 2$/acción, el pago con FCF es del 50%. La empresa genera el doble del efectivo que necesita para cubrir los dividendos. Muy seguro."
+    },
+    "dividendGrowth": {
+      "label": "Crecimiento (CAGR 5A)",
+      "title": "Tasa de Crecimiento del Dividendo a 5 Años (CAGR)",
+      "definition": "La tasa de crecimiento anual compuesto de los dividendos durante los últimos 5 años. Muestra con qué rapidez la empresa ha ido aumentando sus pagos de dividendos a los accionistas.",
+      "example": "Un CAGR del 10% significa que los dividendos se han duplicado aproximadamente cada 7 años. Las empresas con crecimiento de dividendos consistente suelen superar al mercado a largo plazo."
+    },
+    "consecutiveYears": {
+      "label": "Años Consecutivos",
+      "title": "Años Consecutivos de Pagos de Dividendos",
+      "definition": "Cuántos años seguidos ha pagado dividendos la empresa sin interrupción. Las rachas largas (10+ años) señalan estabilidad financiera y compromiso de la dirección con los accionistas.",
+      "example": "Las empresas con 25+ años consecutivos se llaman 'Aristócratas del Dividendo'. Han mantenido los dividendos a través de recesiones, mostrando una resiliencia financiera excepcional."
+    },
+    "piotroskiScore": {
+      "label": "Piotroski F-Score",
+      "title": "Piotroski F-Score (Solidez Financiera)",
+      "definition": "Una puntuación de 0-9 basada en 9 criterios binarios que cubren rentabilidad, apalancamiento y eficiencia operativa. Creado por el profesor Joseph Piotroski para identificar empresas financieramente fuertes. Mayor es mejor.",
+      "example": "Una empresa con una puntuación de 8/9 supera casi todas las pruebas de salud financiera: flujo de caja positivo, márgenes en mejora, poca deuda y creciente rotación de activos. Una puntuación de 2/9 falla en la mayoría, lo que es una señal de alerta."
+    },
+    "earningsQuality": {
+      "label": "Calidad de Beneficios",
+      "title": "Calidad de Beneficios (FCO/Beneficio Neto)",
+      "definition": "Flujo de caja operativo dividido entre el beneficio neto. Mide si los beneficios declarados están respaldados por efectivo real. Un ratio por encima de 1,0 significa que la empresa genera más efectivo del que declara como beneficio, indicando beneficios de alta calidad.",
+      "example": "Una empresa con 5.000 millones de flujo de caja y 4.000 millones de beneficio neto tiene una calidad de beneficios de 1,25, donde el efectivo supera a los beneficios declarados. Si se invierte (3.000 millones de efectivo, 5.000 millones de beneficio), la calidad es 0,6, lo que es una bandera roja."
+    },
+    "shareDilution": {
+      "label": "Dilución de Acciones",
+      "title": "Dilución de Acciones / Recompra",
+      "definition": "Cambio porcentual interanual en el número de acciones en circulación. Los valores negativos indican recompras de acciones (menos acciones = más valor por acción). Los valores positivos significan dilución (más acciones = menos valor por acción).",
+      "example": "Un valor de -3% significa que la empresa recompró el 3% de sus acciones, por lo que cada acción restante representa ahora una parte más grande del negocio. +5% significa una dilución del 5%."
+    }
+  }
+}

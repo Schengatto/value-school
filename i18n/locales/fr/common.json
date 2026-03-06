@@ -1,0 +1,46 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "reset": "Réinitialiser",
+    "backToCurrentWeek": "Retour à la semaine en cours",
+    "backToCurrentMonth": "Retour au mois en cours",
+    "today": "Aujourd'hui",
+    "noData": "Aucune donnée disponible"
+  },
+  "nav": {
+    "brand": "Value School",
+    "home": "Accueil",
+    "screener": "Screener",
+    "compare": "Comparer",
+    "earnings": "Résultats",
+    "ipo": "IPO",
+    "dividends": "Dividendes",
+    "lastUpdate": "Dernière mise à jour :",
+    "disclaimer": "Cette plateforme est destinée à des fins éducatives uniquement. Elle ne fournit pas de conseils financiers, d'investissement ou de trading. Tous les scores, valorisations et signaux sont basés sur une analyse automatisée de données publiquement disponibles qui peuvent être incomplètes ou inexactes. Effectuez toujours vos propres recherches et consultez un conseiller financier qualifié avant de prendre des décisions d'investissement.",
+    "createdBy": "Créé par"
+  },
+  "disclaimer": {
+    "short": "Les scores et valorisations sont purement indicatifs, basés sur des données potentiellement limitées. Ceci n'est pas un conseil financier.",
+    "landing": "Cette plateforme est conçue pour enseigner la méthodologie de l'investissement valeur à travers une analyse pratique. Tous les scores et valorisations sont purement indicatifs et basés sur le traitement automatisé de données publiquement disponibles, qui peuvent être incomplètes ou contenir des erreurs. Aucun contenu de cette plateforme ne constitue un conseil financier ou une recommandation d'investissement. Effectuez toujours votre propre diligence raisonnable et consultez un conseiller financier qualifié avant de prendre toute décision d'investissement.",
+    "analysis": "L'analyse présentée est générée automatiquement à partir de données financières publiquement disponibles qui peuvent être incomplètes ou inexactes. Les scores et valorisations sont purement indicatifs et ne doivent pas être utilisés comme seule base pour des décisions d'investissement. Cette plateforme est éducative : apprenez la méthodologie, puis appliquez votre propre jugement."
+  },
+  "welcome": {
+    "title": "Bienvenue sur Value School",
+    "subtitle": "Apprenez l'investissement valeur grâce à l'analyse pratique",
+    "selectLanguage": "Choisissez votre langue préférée",
+    "disclaimer": "Toutes les données, scores et valorisations sur cette plateforme sont purement indicatifs et à des fins éducatives uniquement. Ils sont générés à partir d'une analyse automatisée de données financières publiquement disponibles qui peuvent être incomplètes ou inexactes. Rien ici ne constitue un conseil financier.",
+    "continue": "Continuer",
+    "english": "English",
+    "italian": "Italiano"
+  },
+  "pipeline": {
+    "running": "Analyse en cours",
+    "completed": "Analyse terminée",
+    "starting": "Démarrage...",
+    "processing": "{current}/{total} : {symbol}",
+    "success": "OK",
+    "errors": "Erreurs"
+  }
+}

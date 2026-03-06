@@ -1,0 +1,32 @@
+{
+  "stocks": {
+    "searchPlaceholder": "नाम या सिंबल से खोजें...",
+    "sectorPlaceholder": "क्षेत्र के अनुसार फ़िल्टर करें...",
+    "allSectors": "सभी क्षेत्र",
+    "allSignals": "सभी संकेत",
+    "positive": "सकारात्मक",
+    "neutral": "तटस्थ",
+    "negative": "नकारात्मक",
+    "loadingStocks": "शेयर लोड हो रहे हैं...",
+    "columns": {
+      "rank": "#",
+      "company": "कंपनी",
+      "fundamentals": "Fundamentals",
+      "fundamentalsShort": "F.",
+      "technical": "Technical",
+      "technicalShort": "T.",
+      "composite": "Composite",
+      "compositeShort": "C.",
+      "signal": "संकेत",
+      "country": "देश",
+      "sector": "क्षेत्र"
+    },
+    "showing": "{total} में से {from}-{to} शेयर दिखाए जा रहे हैं"
+  },
+  "categories": {
+    "value": "Value",
+    "growth": "Growth",
+    "garp": "GARP",
+    "speculative": "सट्टा"
+  }
+}

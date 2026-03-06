@@ -1,0 +1,32 @@
+{
+  "stocks": {
+    "searchPlaceholder": "名前またはシンボルで検索...",
+    "sectorPlaceholder": "セクターで絞り込み...",
+    "allSectors": "全セクター",
+    "allSignals": "全シグナル",
+    "positive": "ポジティブ",
+    "neutral": "ニュートラル",
+    "negative": "ネガティブ",
+    "loadingStocks": "銘柄を読み込み中...",
+    "columns": {
+      "rank": "#",
+      "company": "企業",
+      "fundamentals": "ファンダメンタルズ",
+      "fundamentalsShort": "F.",
+      "technical": "テクニカル",
+      "technicalShort": "T.",
+      "composite": "総合",
+      "compositeShort": "C.",
+      "signal": "シグナル",
+      "country": "国",
+      "sector": "セクター"
+    },
+    "showing": "{total}銘柄中 {from}〜{to}を表示"
+  },
+  "categories": {
+    "value": "バリュー",
+    "growth": "グロース",
+    "garp": "GARP",
+    "speculative": "投機的"
+  }
+}

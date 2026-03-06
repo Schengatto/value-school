@@ -1,0 +1,104 @@
+{
+  "compare": {
+    "title": "Comparaison d'actions",
+    "description": "Comparez 2 à 3 actions côte à côte pour évaluer laquelle offre la meilleure combinaison de qualité, de prix et de potentiel de croissance.",
+    "searchPlaceholder": "Rechercher par nom ou symbole...",
+    "addStock": "Ajouter une action",
+    "removeStock": "Supprimer",
+    "selectAtLeast": "Sélectionnez au moins 2 actions à comparer",
+    "maxStocks": "Maximum 3 actions",
+    "loading": "Chargement des données...",
+    "guidedTour": "Visite guidée",
+    "sections": {
+      "overview": "Vue d'ensemble",
+      "fundamentals": "Indicateurs fondamentaux",
+      "valuation": "Valorisation",
+      "priceChart": "Performance des prix",
+      "radarChart": "Comparaison de profils"
+    },
+    "metrics": {
+      "metric": "Indicateur",
+      "pe": "Ratio P/E",
+      "roe": "ROE",
+      "grossMargin": "Marge brute",
+      "operatingMargin": "Marge opérationnelle",
+      "currentRatio": "Ratio de liquidité général",
+      "debtToEbitda": "Dette / EBITDA",
+      "interestCoverage": "Couverture des intérêts",
+      "fcf": "Flux de trésorerie libre",
+      "piotroski": "Score F de Piotroski",
+      "earningsQuality": "Qualité des bénéfices",
+      "dataCompleteness": "Complétude des données"
+    },
+    "overview": {
+      "category": "Catégorie",
+      "sector": "Secteur",
+      "industry": "Industrie",
+      "price": "Prix",
+      "compositeScore": "Score composite",
+      "fundamentalScore": "Score fondamental",
+      "technicalScore": "Score technique",
+      "signal": "Signal",
+      "valuation": "Valorisation"
+    },
+    "valuation": {
+      "fairValue": "Juste valeur",
+      "currentPrice": "Prix actuel",
+      "marginOfSafety": "Marge de sécurité",
+      "signal": "Signal de valorisation",
+      "fairValueRange": "Fourchette de juste valeur"
+    },
+    "chart": {
+      "normalizedPrice": "Prix normalisé (base 100)",
+      "percentChange": "Variation %",
+      "noData": "Aucune donnée de prix disponible pour la comparaison"
+    },
+    "tour": {
+      "intro": {
+        "title": "Bienvenue dans la comparaison d'actions",
+        "description": "L'analyse relative est une pierre angulaire de l'investissement valeur. Les chiffres d'une entreprise signifient peu isolément ; ils ne deviennent pertinents que comparés à ceux de ses concurrents. Cet outil vous permet de placer jusqu'à 3 actions côte à côte pour découvrir laquelle offre vraiment la meilleure combinaison de qualité, de prix et de potentiel de croissance."
+      },
+      "selector": {
+        "title": "Sélectionnez au moins 2 entreprises",
+        "description": "Utilisez cette barre de recherche pour ajouter des actions à comparer. Pour une analyse la plus pertinente, choisissez des entreprises du même secteur : comparer une entreprise technologique à une entreprise de services aux collectivités serait comparer des pommes et des oranges. Les comparaisons au sein du même secteur révèlent de vraies différences en termes d'avantage concurrentiel, d'efficacité et de qualité du management. Allez-y. Recherchez et ajoutez au moins 2 entreprises pour commencer !"
+      },
+      "overview": {
+        "title": "La vue d'ensemble",
+        "description": "Commencez ici pour un aperçu rapide. Le score composite combine les facteurs fondamentaux et techniques. Demandez-vous : la catégorie (valeur, croissance, GARP) correspond-elle à votre stratégie d'investissement ? Une action « valeur » avec un score composite élevé est un point de départ prometteur pour une analyse approfondie."
+      },
+      "fundamentals": {
+        "title": "Bilan de santé financière",
+        "description": "C'est là que l'investissement valeur commence vraiment. Le vert met en évidence l'indicateur le plus fort, le rouge le plus faible. Questions clés : Qui a le ROE le plus élevé (efficacité du management) ? La dette la plus faible (sécurité financière) ? Les marges les plus larges (fossé concurrentiel) ? Un score Piotroski élevé (7-9) signale une solide santé financière."
+      },
+      "valuation": {
+        "title": "Le prix est-il juste ?",
+        "description": "Benjamin Graham enseignait qu'une grande entreprise à un mauvais prix reste un mauvais investissement. Comparez la juste valeur de chaque action à son prix actuel. La marge de sécurité vous indique quelle « marge d'erreur » vous avez : plus élevée est mieux. Recherchez des entreprises sous-évaluées ET avec de solides fondamentaux."
+      },
+      "radar": {
+        "title": "Profil visuel",
+        "description": "Le graphique radar vous donne une comparaison visuelle instantanée. Une forme plus large et plus équilibrée indique une entreprise solide sur plusieurs dimensions. Méfiez-vous des formes très étroites d'un côté ; cela signale une faiblesse. L'investissement valeur idéal montre de la force en rentabilité, solvabilité et croissance."
+      },
+      "price": {
+        "title": "Prix vs Valeur",
+        "description": "N'oubliez pas : le prix est ce que vous payez, la valeur est ce que vous obtenez. Ce graphique normalise tous les prix à 100 pour que vous puissiez comparer la performance équitablement. Une action qui a fortement augmenté peut être surévaluée maintenant, tandis qu'une qui a stagné pourrait représenter une opportunité. Croisez toujours avec la section valorisation ci-dessus."
+      },
+      "conclusion": {
+        "title": "Votre boîte à outils d'analyse",
+        "description": "Vous disposez maintenant des outils pour comparer des actions comme un investisseur valeur. Aucune entreprise n'est parfaite. L'objectif est de trouver le meilleur compromis entre qualité, prix et potentiel de croissance. Utilisez cette comparaison comme point de départ, puis plongez plus profondément dans la page de détail de chaque entreprise pour votre évaluation finale."
+      },
+      "next": "Suivant",
+      "prev": "Précédent",
+      "done": "Compris !",
+      "sageQuips": {
+        "intro": "La comparaison est clé !",
+        "selector": "Choisissez vos concurrents !",
+        "overview": "Voyons qui est en tête !",
+        "fundamentals": "Qui est le plus sain ?",
+        "valuation": "Le prix est-il juste ?",
+        "radar": "La forme raconte l'histoire !",
+        "price": "Prix vs valeur !",
+        "conclusion": "Vous comparez maintenant comme un pro !"
+      }
+    }
+  }
+}

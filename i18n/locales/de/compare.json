@@ -1,0 +1,104 @@
+{
+  "compare": {
+    "title": "Aktienvergleich",
+    "description": "Vergleichen Sie 2–3 Aktien nebeneinander, um zu beurteilen, welche die beste Kombination aus Qualität, Preis und Wachstumspotenzial bietet.",
+    "searchPlaceholder": "Nach Name oder Symbol suchen...",
+    "addStock": "Aktie hinzufügen",
+    "removeStock": "Entfernen",
+    "selectAtLeast": "Wählen Sie mindestens 2 Aktien zum Vergleich aus",
+    "maxStocks": "Maximal 3 Aktien",
+    "loading": "Aktiendaten werden geladen...",
+    "guidedTour": "Geführte Tour",
+    "sections": {
+      "overview": "Übersicht",
+      "fundamentals": "Fundamentalkennzahlen",
+      "valuation": "Bewertung",
+      "priceChart": "Kursentwicklung",
+      "radarChart": "Profilvergleich"
+    },
+    "metrics": {
+      "metric": "Kennzahl",
+      "pe": "P/E-Verhältnis",
+      "roe": "ROE",
+      "grossMargin": "Bruttomarge",
+      "operatingMargin": "Operative Marge",
+      "currentRatio": "Current Ratio",
+      "debtToEbitda": "Schulden / EBITDA",
+      "interestCoverage": "Zinsdeckungsgrad",
+      "fcf": "Freier Cashflow",
+      "piotroski": "Piotroski F-Score",
+      "earningsQuality": "Gewinnqualität",
+      "dataCompleteness": "Datenvollständigkeit"
+    },
+    "overview": {
+      "category": "Kategorie",
+      "sector": "Sektor",
+      "industry": "Branche",
+      "price": "Kurs",
+      "compositeScore": "Composite-Score",
+      "fundamentalScore": "Fundamental-Score",
+      "technicalScore": "Technischer Score",
+      "signal": "Signal",
+      "valuation": "Bewertung"
+    },
+    "valuation": {
+      "fairValue": "Innerer Wert",
+      "currentPrice": "Aktueller Kurs",
+      "marginOfSafety": "Sicherheitsmarge",
+      "signal": "Bewertungssignal",
+      "fairValueRange": "Innerer-Wert-Spanne"
+    },
+    "chart": {
+      "normalizedPrice": "Normalisierter Kurs (Basis 100)",
+      "percentChange": "% Veränderung",
+      "noData": "Keine Kursdaten für den Vergleich verfügbar"
+    },
+    "tour": {
+      "intro": {
+        "title": "Willkommen beim Aktienvergleich",
+        "description": "Relative Analyse ist ein Eckpfeiler des Value Investings. Die Zahlen eines Unternehmens bedeuten wenig isoliert; sie werden erst bedeutsam, wenn man sie mit seinen Wettbewerbern vergleicht. Mit diesem Werkzeug können Sie bis zu 3 Aktien nebeneinander platzieren, um herauszufinden, welche wirklich die beste Kombination aus Qualität, Preis und Wachstumspotenzial bietet."
+      },
+      "selector": {
+        "title": "Mindestens 2 Unternehmen auswählen",
+        "description": "Verwenden Sie diese Suchleiste, um Aktien hinzuzufügen, die Sie vergleichen möchten. Wählen Sie für die aussagekräftigste Analyse Unternehmen aus demselben Sektor: Ein Tech-Unternehmen mit einem Versorgungsunternehmen zu vergleichen wäre wie Äpfel mit Birnen zu vergleichen. Vergleiche innerhalb desselben Sektors zeigen echte Unterschiede in Wettbewerbsvorteil, Effizienz und Managementqualität. Los geht's. Suchen und fügen Sie mindestens 2 Unternehmen hinzu!"
+      },
+      "overview": {
+        "title": "Das große Bild",
+        "description": "Beginnen Sie hier, um einen schnellen Überblick zu erhalten. Der Composite-Score kombiniert fundamentale und technische Faktoren. Fragen Sie sich: Passt die Kategorie (Value, Growth, GARP) zu Ihrer Anlagestrategie? Eine 'Value'-Aktie mit hohem Composite-Score ist ein vielversprechender Ausgangspunkt für tiefere Analyse."
+      },
+      "fundamentals": {
+        "title": "Finanzielle Gesundheitsprüfung",
+        "description": "Hier beginnt Value Investing wirklich. Grün hebt die stärkste Kennzahl hervor, Rot die schwächste. Schlüsselfragen: Wer hat den höchsten ROE (Managementeffizienz)? Die niedrigsten Schulden (finanzielle Sicherheit)? Die breitesten Margen (Wettbewerbsmoat)? Ein hoher Piotroski-Score (7–9) signalisiert starke finanzielle Gesundheit."
+      },
+      "valuation": {
+        "title": "Stimmt der Preis?",
+        "description": "Benjamin Graham lehrte, dass ein großartiges Unternehmen zu einem schlechten Preis immer noch eine schlechte Investition ist. Vergleichen Sie den inneren Wert jeder Aktie mit ihrem aktuellen Kurs. Die Sicherheitsmarge sagt Ihnen, wie viel 'Puffer' Sie haben: Höher ist besser. Suchen Sie nach Unternehmen, die unterbewertet UND mit starken Fundamentaldaten sind."
+      },
+      "radar": {
+        "title": "Visuelles Profil",
+        "description": "Das Radar-Diagramm gibt Ihnen einen sofortigen visuellen Vergleich. Eine breitere, ausgewogenere Form zeigt ein Unternehmen, das über mehrere Dimensionen stark ist. Seien Sie vorsichtig bei Formen, die auf einer Seite sehr schmal sind; das signalisiert eine Schwäche. Die ideale Value-Investition zeigt Stärke in Rentabilität, Solvenz und Wachstum."
+      },
+      "price": {
+        "title": "Kurs vs. Wert",
+        "description": "Denken Sie daran: Kurs ist, was Sie zahlen, Wert ist, was Sie bekommen. Dieses Diagramm normalisiert alle Kurse auf 100, sodass Sie die Leistung fair vergleichen können. Eine Aktie, die stark gestiegen ist, könnte jetzt überbewertet sein, während eine, die zurückgeblieben ist, eine Chance darstellen könnte. Vergleichen Sie stets mit dem Bewertungsabschnitt oben."
+      },
+      "conclusion": {
+        "title": "Ihr Analyse-Toolkit",
+        "description": "Sie haben jetzt die Werkzeuge, um Aktien wie ein Value-Investor zu vergleichen. Kein Unternehmen ist perfekt. Das Ziel ist, den besten Kompromiss zwischen Qualität, Preis und Wachstumspotenzial zu finden. Verwenden Sie diesen Vergleich als Ausgangspunkt, und tauchen Sie dann tiefer in die Detailseite jedes Unternehmens für Ihre abschließende Bewertung ein."
+      },
+      "next": "Weiter",
+      "prev": "Zurück",
+      "done": "Verstanden!",
+      "sageQuips": {
+        "intro": "Vergleich ist der Schlüssel!",
+        "selector": "Wählen Sie Ihre Kandidaten!",
+        "overview": "Schauen wir, wer vorne liegt!",
+        "fundamentals": "Wer ist am gesündesten?",
+        "valuation": "Stimmt der Preis?",
+        "radar": "Die Form erzählt die Geschichte!",
+        "price": "Kurs vs. Wert!",
+        "conclusion": "Jetzt können Sie wie ein Profi vergleichen!"
+      }
+    }
+  }
+}

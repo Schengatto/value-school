@@ -1,0 +1,190 @@
+{
+  "glossary": {
+    "revenue": {
+      "label": "Umsatz",
+      "title": "Umsatz (Gesamtumsatz)",
+      "definition": "Das gesamte Geld, das ein Unternehmen durch den Verkauf seiner Produkte oder Dienstleistungen verdient, bevor Kosten abgezogen werden. Es ist die 'oberste Zeile' der Gewinn- und Verlustrechnung.",
+      "example": "Wenn Apple 10 Millionen iPhones zu je 1.000 $ verkauft, sind das 10 Mrd. $ Umsatz – unabhängig davon, wie viel die Produktion gekostet hat."
+    },
+    "netIncome": {
+      "label": "Nettogewinn",
+      "title": "Nettogewinn (Ergebnis nach Steuern)",
+      "definition": "Der tatsächliche Gewinn, der nach Abzug ALLER Kosten verbleibt: Produktion, Gehälter, Steuern, Zinsen und alles andere. Das ist, was Aktionäre wirklich verdienen.",
+      "example": "Ein Unternehmen mit 10 Mrd. $ Umsatz und 7 Mrd. $ Gesamtkosten hat 3 Mrd. $ Nettogewinn. Das sind 30 Cent Gewinn für jeden Umsatzdollar."
+    },
+    "freeCashFlow": {
+      "label": "Freier Cashflow",
+      "title": "Freier Cashflow (FCF)",
+      "definition": "Das echte Bargeld, das ein Unternehmen nach Zahlung von Betrieb und Investitionen generiert. Im Gegensatz zum Nettogewinn ist er sehr schwer durch Buchhaltungstricks zu manipulieren.",
+      "example": "Ein Unternehmen verdient 5 Mrd. $ Gewinn, gibt aber 2 Mrd. $ für neue Fabriken aus. FCF = 3 Mrd. $. Das ist das für Dividenden, Rückkäufe oder Schuldenabbau verfügbare Bargeld."
+    },
+    "totalEquity": {
+      "label": "Gesamtes Eigenkapital",
+      "title": "Gesamtes Eigenkapital (Buchwert)",
+      "definition": "Was Aktionäre tatsächlich besitzen: Gesamtvermögen minus Gesamtverbindlichkeiten. Betrachten Sie es als den Nettowert des Unternehmens, wenn es alles verkaufen und alle Schulden bezahlen würde.",
+      "example": "Ein Unternehmen mit 50 Mrd. $ Vermögen und 30 Mrd. $ Schulden hat 20 Mrd. $ Eigenkapital. Bei 1 Mrd. Aktien beträgt der Buchwert 20 $ je Aktie."
+    },
+    "totalLiabilities": {
+      "label": "Gesamtverbindlichkeiten",
+      "title": "Gesamtverbindlichkeiten (Gesamtschulden)",
+      "definition": "Alles, was das Unternehmen schuldet: Kredite, Anleihen, Verbindlichkeiten aus Lieferungen, Leasingverpflichtungen und andere finanzielle Verpflichtungen. Hohe Verbindlichkeiten erhöhen das Risiko in Abschwüngen.",
+      "example": "Ein Unternehmen mit 40 Mrd. $ Verbindlichkeiten und 20 Mrd. $ Eigenkapital hat ein Verhältnis von 2:1, was bedeutet, es schuldet doppelt so viel wie es besitzt."
+    },
+    "currentRatio": {
+      "label": "Current Ratio",
+      "title": "Current Ratio (Liquidität)",
+      "definition": "Kurzfristige Vermögenswerte geteilt durch kurzfristige Schulden. Zeigt, ob das Unternehmen Rechnungen bezahlen kann, die innerhalb von 12 Monaten fällig sind. Über 1,5 ist gesund, unter 1,0 ist eine Warnung.",
+      "example": "Ein Unternehmen mit 6 Mrd. $ kurzfristigen Vermögenswerten und 4 Mrd. $ kurzfristigen Verbindlichkeiten hat eine Current Ratio von 1,5 und kann seine kurzfristigen Verpflichtungen bequem abdecken."
+    },
+    "interestCoverage": {
+      "label": "Zinsdeckungsgrad",
+      "title": "Zinsdeckungsgrad",
+      "definition": "Betriebsgewinn geteilt durch Zinszahlungen. Zeigt, wie leicht das Unternehmen Zinsen auf seine Schulden zahlen kann. Über 3x ist komfortabel, unter 1,5x ist riskant.",
+      "example": "Wenn ein Unternehmen 9 Mrd. $ Betriebsergebnis erwirtschaftet und 3 Mrd. $ Zinsen zahlt, beträgt der Deckungsgrad 3x. Es verdient dreimal seine Zinszahlungen."
+    },
+    "debtToEbitda": {
+      "label": "Schulden/EBITDA",
+      "title": "Schulden-zu-EBITDA-Verhältnis",
+      "definition": "Gesamtschulden geteilt durch Gewinn vor Zinsen, Steuern, Abschreibungen und Amortisation. Zeigt, wie viele Jahre Gewinn benötigt würden, um alle Schulden zu tilgen. Unter 3x ist gesund.",
+      "example": "Ein Unternehmen mit 15 Mrd. $ Schulden und 5 Mrd. $ EBITDA hat ein Verhältnis von 3x, was bedeutet, es würde 3 Jahre Gewinn brauchen, um die Schulden abzuzahlen (wenn sich sonst nichts ändert)."
+    },
+    "peRatio": {
+      "label": "P/E-Verhältnis",
+      "title": "Kurs-Gewinn-Verhältnis (P/E)",
+      "definition": "Aktienkurs geteilt durch Gewinn je Aktie. Zeigt, wie viel Investoren für jeden Dollar Gewinn zahlen. Niedrigeres P/E kann ein Schnäppchen signalisieren, vergleichen Sie aber stets innerhalb derselben Branche.",
+      "example": "Eine Aktie bei 150 $ mit 6 $/Aktie Gewinn hat P/E = 25. Sie zahlen 25 $ für jeden 1 $ Gewinn. Tech durchschnittlich ~25–30, Versorgungsunternehmen ~15–18."
+    },
+    "roe": {
+      "label": "ROE",
+      "title": "Return on Equity (ROE)",
+      "definition": "Nettogewinn geteilt durch Aktionärseigenkapital. Misst, wie effizient das Unternehmen das Geld der Aktionäre zur Gewinnerzielung nutzt. Über 15 % ist ausgezeichnet.",
+      "example": "Ein Unternehmen mit 3 Mrd. $ Gewinn und 20 Mrd. $ Eigenkapital hat ROE = 15 %. Jeder investierte 1 $ der Aktionäre generiert 15 Cent Jahresgewinn."
+    },
+    "pbRatio": {
+      "label": "P/B-Verhältnis",
+      "title": "Kurs-Buchwert-Verhältnis (P/B)",
+      "definition": "Aktienkurs geteilt durch Buchwert je Aktie. Unter 1,0 bedeutet, Sie zahlen weniger als der Nettovermögenswert des Unternehmens. Dies könnte auf Unterbewertung oder auf tiefere Probleme hinweisen.",
+      "example": "Eine Aktie bei 40 $ mit Buchwert von 50 $/Aktie hat P/B = 0,8. Sie kaufen 50 $ Vermögen für 40 $, aber untersuchen Sie, WARUM sie günstig ist."
+    },
+    "pfcf": {
+      "label": "P/FCF",
+      "title": "Kurs-Freier-Cashflow-Verhältnis (P/FCF)",
+      "definition": "Aktienkurs geteilt durch freien Cashflow je Aktie. Wie P/E, aber mit echtem Bargeld statt buchhalterischen Gewinnen. Zuverlässiger für die Identifizierung echter Wertmöglichkeiten.",
+      "example": "Eine Aktie bei 100 $ mit 5 $ FCF/Aktie hat P/FCF = 20. Vergleichen Sie dies mit P/E: Wenn P/FCF viel höher ist, sind Gewinne möglicherweise nicht durch echtes Bargeld gedeckt."
+    },
+    "grossMargin": {
+      "label": "Bruttomarge",
+      "title": "Bruttogewinnmarge",
+      "definition": "Umsatz minus Warenkosten, geteilt durch Umsatz. Zeigt die grundlegende Rentabilität vor Gemeinkosten. Hohe Margen (>40 %) signalisieren oft starke Wettbewerbsvorteile oder Preissetzungsmacht.",
+      "example": "Ein Softwareunternehmen mit 80 % Bruttomarge behält 0,80 $ von jedem verkauften Dollar. Ein Einzelhändler mit 25 % behält nur 0,25 $. Sehr unterschiedliche Geschäftsmodelle."
+    },
+    "roic": {
+      "label": "ROIC",
+      "title": "Return on Invested Capital (ROIC)",
+      "definition": "Betriebsgewinn (nach Steuern) geteilt durch das gesamte eingesetzte Kapital (Eigenkapital + Schulden). Das beste Maß dafür, wie effizient das Management DAS GESAMTE Kapital einsetzt. Über 10 % ist stark.",
+      "example": "Ein Unternehmen mit 4 Mrd. $ Betriebsgewinn auf 30 Mrd. $ eingesetztem Kapital hat ROIC = 13 %. Es generiert 0,13 $ Rendite für jeden investierten 1 $."
+    },
+    "fairValueLabel": {
+      "label": "Innerer Wert",
+      "title": "Geschätzter innerer Wert",
+      "definition": "Eine Schätzung dessen, was die Aktie wirklich wert ist, berechnet durch Kombination mehrerer Methoden (DCF, Graham, EPV). Es ist eine fundierte Schätzung, keine Garantie.",
+      "example": "Wenn der innere Wert 120 $ beträgt und die Aktie bei 95 $ handelt, gibt es eine Sicherheitsmarge von 26 %, was bedeutet, Sie kaufen potenziell mit einem Rabatt."
+    },
+    "marginOfSafety": {
+      "label": "Sicherheitsmarge",
+      "title": "Sicherheitsmarge (SM)",
+      "definition": "Wie viel günstiger der Aktienkurs im Vergleich zum inneren Wert ist, als Prozentsatz. Positiv = potenzielles Schnäppchen. Benjamin Graham empfahl, nur mit mindestens 25 % Sicherheitsmarge zu kaufen.",
+      "example": "Innerer Wert 100 $, aktueller Kurs 75 $ → SM = +25 %. Sie kaufen mit 25 % Puffer, falls Ihre Schätzung etwas falsch liegt."
+    },
+    "rsi": {
+      "label": "RSI (14)",
+      "title": "Relative Strength Index (RSI)",
+      "definition": "Ein Momentumindikator von 0–100, der Geschwindigkeit und Ausmaß jüngster Kursveränderungen misst. Unter 30 = möglicherweise überverkauft (Kaufsignal). Über 70 = möglicherweise überkauft (Vorsicht).",
+      "example": "RSI bei 25 bedeutet, die Aktie ist kürzlich stark gefallen und könnte überverkauft sein. Das ist ein potenzieller Einstiegspunkt, wenn die Fundamentaldaten noch stark sind."
+    },
+    "sma50": {
+      "label": "SMA 50",
+      "title": "50-Tage-Gleitender Durchschnitt",
+      "definition": "Der durchschnittliche Schlusskurs über die letzten 50 Handelstage. Dient als kurzfristiger Trendindikator. Kurs über SMA 50 = kurzfristiger Aufwärtstrend.",
+      "example": "Wenn die Aktie bei 150 $ und SMA 50 bei 140 $ liegt, entwickelt sich der Kurs aufwärts. Wenn er darunter fällt, könnte das eine kurzfristige Trendumkehr signalisieren."
+    },
+    "sma200": {
+      "label": "SMA 200",
+      "title": "200-Tage-Gleitender Durchschnitt",
+      "definition": "Der durchschnittliche Schlusskurs über die letzten 200 Handelstage. Der Goldstandard zur Identifizierung langfristiger Trends. Kurs über SMA 200 = langfristiger Aufwärtstrend.",
+      "example": "Wenn SMA 50 über SMA 200 kreuzt, nennt man das 'Golden Cross' – ein bullishes Signal. Das Gegenteil ('Death Cross') ist bearish."
+    },
+    "macd": {
+      "label": "MACD",
+      "title": "Moving Average Convergence Divergence",
+      "definition": "Zeigt die Beziehung zwischen zwei gleitenden Durchschnitten. Das Histogramm zeigt die Momentumstärke. Positiv und steigend = bullishes Momentum. Negativ und fallend = bearish.",
+      "example": "MACD-Histogramm bei +2,5 und wachsend bedeutet, das Aufwärtsmomentum beschleunigt sich. Bei -1,0 und schrumpfend lässt der Abwärtsdruck nach."
+    },
+    "volatility": {
+      "label": "Volatilität",
+      "title": "Kursvolatilität",
+      "definition": "Misst, wie stark der Aktienkurs auf und ab schwankt. Hohe Volatilität = größere Kursschwankungen (mehr Risiko und Chance). Niedrige Volatilität = stabilerer Kurs.",
+      "example": "Eine Aktie mit 40 % Volatilität könnte in einem Jahr um 40 % steigen oder fallen. Eine Versorgungsaktie mit 15 % Volatilität ist viel stabiler."
+    },
+    "momentum": {
+      "label": "Momentum (12M)",
+      "title": "12-Monats-Kursmomentum (ROC)",
+      "definition": "Wie stark sich der Aktienkurs in den letzten 12 Monaten verändert hat, als Prozentsatz. Positiv = Kurs hat zugelegt. Negativ = Kurs ist gefallen.",
+      "example": "Momentum von +25 % bedeutet, die Aktie liegt 25 % höher als vor einem Jahr. Starkes Momentum hält oft an, kann aber auch bedeuten, dass die Aktie teuer ist."
+    },
+    "dividendYield": {
+      "label": "Dividendenrendite",
+      "title": "Dividendenrendite (jährlich)",
+      "definition": "Jahresividende je Aktie geteilt durch den Aktienkurs, ausgedrückt als Prozentsatz. Zeigt die Barrendite, die Sie allein durch das Halten der Aktie erzielen, unabhängig von Kursveränderungen.",
+      "example": "Eine Aktie bei 100 $, die 3 $/Jahr Dividende zahlt, hat eine Rendite von 3 %. Das sind 3.000 $/Jahr auf eine Investition von 100.000 $, vor jeder Kurssteigerung."
+    },
+    "dividendPerShare": {
+      "label": "Dividende je Aktie",
+      "title": "Jährliche Dividende je Aktie (DPS)",
+      "definition": "Der gesamte Dollarbetrag der über ein Jahr pro Aktie gezahlten Dividenden. Steigende DPS über die Zeit ist eines der stärksten Signale eines gesunden, aktionärsfreundlichen Unternehmens.",
+      "example": "Wenn ein Unternehmen 0,25 $ pro Quartal zahlt, beträgt die jährliche DPS 1,00 $. Wenn es im letzten Jahr 0,80 $ waren, sind die Dividenden um 25 % gewachsen."
+    },
+    "payoutRatio": {
+      "label": "Ausschüttungsquote",
+      "title": "Dividenden-Ausschüttungsquote",
+      "definition": "Prozentsatz des Nettogewinns, der als Dividenden ausgeschüttet wird. Unter 60 % ist nachhaltig, da das Unternehmen genug für Reinvestitionen zurückbehält. Über 80 % kann darauf hindeuten, dass die Dividende gefährdet ist.",
+      "example": "Ein Unternehmen, das 5 $/Aktie verdient und 2 $ Dividenden zahlt, hat eine Ausschüttungsquote von 40 %. Es behält 3 $ für Reinvestitionen bei gleichzeitiger Aktionärsvergütung."
+    },
+    "fcfPayout": {
+      "label": "FCF-Ausschüttung",
+      "title": "Freier-Cashflow-Ausschüttungsquote",
+      "definition": "Dividenden gezahlt als Prozentsatz des freien Cashflows. Zuverlässiger als die gewinnbasierte Ausschüttungsquote, weil FCF echtes Bargeld darstellt. Unter 70 % ist gesund.",
+      "example": "Wenn FCF 4 $/Aktie und Dividenden 2 $/Aktie betragen, ist die FCF-Ausschüttung 50 %. Das Unternehmen generiert doppelt so viel Bargeld, wie es für Dividenden braucht. Sehr sicher."
+    },
+    "dividendGrowth": {
+      "label": "Wachstum (5J CAGR)",
+      "title": "5-Jahres-Dividendenwachstumsrate (CAGR)",
+      "definition": "Die zusammengesetzte jährliche Wachstumsrate der Dividenden über die letzten 5 Jahre. Zeigt, wie schnell das Unternehmen seine Dividendenzahlungen an Aktionäre erhöht hat.",
+      "example": "Eine CAGR von 10 % bedeutet, dass sich Dividenden etwa alle 7 Jahre verdoppelt haben. Unternehmen mit konstantem Dividendenwachstum übertreffen den Markt oft langfristig."
+    },
+    "consecutiveYears": {
+      "label": "Aufeinanderfolgende Jahre",
+      "title": "Aufeinanderfolgende Jahre der Dividendenzahlungen",
+      "definition": "Wie viele Jahre in Folge das Unternehmen Dividenden ohne Unterbrechung gezahlt hat. Lange Serien (10+ Jahre) signalisieren finanzielle Stabilität und das Engagement des Managements gegenüber Aktionären.",
+      "example": "Unternehmen mit 25+ aufeinanderfolgenden Jahren werden 'Dividend Aristocrats' genannt. Sie haben Dividenden durch Rezessionen aufrechterhalten und zeigen außergewöhnliche finanzielle Widerstandsfähigkeit."
+    },
+    "piotroskiScore": {
+      "label": "Piotroski F-Score",
+      "title": "Piotroski F-Score (Finanzielle Stärke)",
+      "definition": "Ein Score von 0–9 basierend auf 9 binären Kriterien, die Rentabilität, Verschuldung und betriebliche Effizienz abdecken. Erstellt von Professor Joseph Piotroski zur Identifizierung finanziell starker Unternehmen. Höher ist besser.",
+      "example": "Ein Unternehmen mit Score 8/9 besteht fast alle Finanzgesundheitstests: positiver Cashflow, verbesserte Margen, geringe Schulden und wachsende Vermögensumschlaghäufigkeit. Ein Score von 2/9 scheitert bei den meisten – ein Warnsignal."
+    },
+    "earningsQuality": {
+      "label": "Gewinnqualität",
+      "title": "Gewinnqualität (OCF/Nettogewinn)",
+      "definition": "Operativer Cashflow geteilt durch Nettogewinn. Misst, ob ausgewiesene Gewinne durch echtes Bargeld gedeckt sind. Ein Verhältnis über 1,0 bedeutet, das Unternehmen generiert mehr Bargeld als es als Gewinn ausweist, was auf hohe Gewinnqualität hindeutet.",
+      "example": "Ein Unternehmen mit 5 Mrd. $ Cashflow und 4 Mrd. $ Nettogewinn hat Gewinnqualität von 1,25, wobei Bargeld die ausgewiesenen Gewinne übersteigt. Umgekehrt (3 Mrd. $ Bargeld, 5 Mrd. $ Gewinn) wäre Qualität 0,6 – ein rotes Flag."
+    },
+    "shareDilution": {
+      "label": "Aktienverwässerung",
+      "title": "Aktienverwässerung / Rückkauf",
+      "definition": "Jährliche prozentuale Veränderung der ausstehenden Aktien. Negative Werte zeigen Aktienrückkäufe an (weniger Aktien = mehr Wert je Aktie). Positive Werte bedeuten Verwässerung (mehr Aktien = weniger Wert je Aktie).",
+      "example": "Ein Wert von -3 % bedeutet, das Unternehmen hat 3 % seiner Aktien zurückgekauft, sodass jede verbleibende Aktie nun einen größeren Anteil am Unternehmen darstellt. +5 % bedeutet 5 % Verwässerung."
+    }
+  }
+}

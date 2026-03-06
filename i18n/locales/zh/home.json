@@ -1,0 +1,27 @@
+{
+  "home": {
+    "title": "价值投资分析",
+    "description1": "本报告采用受 {buffett} 和 {graham} 启发的现代化价值投资方法论生成。每家公司根据其财务实力、盈利能力、运营效率以及股票相对于内在价值是否被低估进行综合评估。",
+    "description2": "每家公司在基本面、效率、资本结构和内在估值方面获得一个 {score}。",
+    "compositeScore": "0-100 综合评分",
+    "evaluationCriteria": "评估标准",
+    "criteriaIntro": "评分模型基于以下关键标准的加权评估：",
+    "criteria": {
+      "epsTrend": "每股收益（EPS）持续增长，表明持久的盈利能力。",
+      "epsCagr": "EPS 复合年增长率（CAGR）超过 10%，显示强劲的长期增长。",
+      "roic": "投入资本回报率（ROIC）超过 10%，反映高效的资本配置。",
+      "grossMargin": "毛利率超过 60%，表明具有持久的竞争优势。",
+      "pfcf": "股价与自由现金流之比（P/FCF）低于 15，表明估值具有吸引力。",
+      "fcfPositive": "正向自由现金流（FCF），确认产生超额现金的能力。",
+      "dividendPayout": "股息支付率低于 60%，平衡股东回报与再投资。",
+      "debtToEquity": "债务股权比低于 2，显示保守的资本结构。",
+      "operatingMargin": "营业利润率超过 10%，代表运营效率。",
+      "currentRatio": "流动比率高于 1.5，证明短期财务健康。",
+      "interestCoverage": "利息覆盖率高于 3，确保有能力偿还债务。",
+      "debtEbitda": "债务/EBITDA 比率低于 3，表明杠杆水平可持续。",
+      "grahamNumber": "市场价格低于 Graham 数值，这是经典的公允价值基准。",
+      "dcf": "DCF 内在价值高于当前市场价格，表明股票被低估。"
+    },
+    "rankings": "公司排名"
+  }
+}

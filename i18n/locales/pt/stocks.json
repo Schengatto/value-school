@@ -1,0 +1,32 @@
+{
+  "stocks": {
+    "searchPlaceholder": "Pesquisar por nome ou símbolo...",
+    "sectorPlaceholder": "Filtrar por setor...",
+    "allSectors": "Todos os setores",
+    "allSignals": "Todos os sinais",
+    "positive": "Positivo",
+    "neutral": "Neutro",
+    "negative": "Negativo",
+    "loadingStocks": "A carregar ações...",
+    "columns": {
+      "rank": "#",
+      "company": "Empresa",
+      "fundamentals": "Fundamentos",
+      "fundamentalsShort": "F.",
+      "technical": "Técnica",
+      "technicalShort": "T.",
+      "composite": "Composta",
+      "compositeShort": "C.",
+      "signal": "Sinal",
+      "country": "País",
+      "sector": "Setor"
+    },
+    "showing": "A mostrar {from}-{to} de {total} ações"
+  },
+  "categories": {
+    "value": "Valor",
+    "growth": "Crescimento",
+    "garp": "GARP",
+    "speculative": "Spec"
+  }
+}

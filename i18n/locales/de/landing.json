@@ -1,0 +1,53 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Value Investing durch Praxis lernen",
+      "subtitle": "Analysieren Sie echte NASDAQ-Aktien mit professionellen Werkzeugen. Fundamentaldaten verstehen, inneren Wert schätzen und Ihren Investitionsrahmen Schritt für Schritt aufbauen.",
+      "ctaScreener": "Screener erkunden",
+      "ctaLearn": "Was ist Value Investing?"
+    },
+    "valueInvesting": {
+      "sectionTitle": "Was ist Value Investing?",
+      "sectionSubtitle": "Die Strategie von Warren Buffett, Benjamin Graham und den erfolgreichsten Langzeitinvestoren.",
+      "pillar1Title": "Unter dem inneren Wert kaufen",
+      "pillar1Description": "Value-Investoren suchen Aktien, die unter dem tatsächlichen Unternehmenswert gehandelt werden. Diese 'Sicherheitsmarge' schützt vor Fehlern und Marktabschwüngen.",
+      "pillar2Title": "Fundamentaldaten analysieren",
+      "pillar2Description": "Anstatt Trends zu folgen, studieren Value-Investoren Finanzberichte: Umsatz, Cashflow, Schuldenniveaus und Rentabilität. Zahlen lügen nicht.",
+      "pillar3Title": "Langfristig denken",
+      "pillar3Description": "Value Investing ist kein Daytrading. Es geht darum, großartige Unternehmen zu fairen Preisen zu finden und sie zu halten, während sie über Jahre Vermögen aufbauen."
+    },
+    "learningPath": {
+      "sectionTitle": "Wie diese App Ihnen beim Lernen hilft",
+      "sectionSubtitle": "Folgen Sie einem strukturierten Weg von der Aktienentdeckung zur Investitionsentscheidung.",
+      "step1Title": "Screenen & Entdecken",
+      "step1Description": "Nutzen Sie den Screener, um Aktien zu finden, die nach Fundamentaldaten, Technik und Bewertung bewertet werden. Filtern Sie nach Sektor, Signal und Kategorie.",
+      "step2Title": "Die Zahlen verstehen",
+      "step2Description": "Tauchen Sie in die Finanzdaten jedes Unternehmens ein: Umsatztrends, Cashflow, Bilanzstärke. Jede Kennzahl hat ein interaktives Glossar, das Ihnen erklärt, was sie bedeutet.",
+      "step3Title": "Inneren Wert schätzen",
+      "step3Description": "Sehen Sie mehrere Bewertungsmodelle (DCF, Graham, EPV), die zu einer inneren-Wert-Schätzung kombiniert werden. Lernen Sie, wie Sie erkennen, ob eine Aktie günstig oder teuer ist.",
+      "step4Title": "Fundierte Entscheidungen treffen",
+      "step4Description": "Kombinieren Sie Fundamentalanalyse, Bewertung, Technik und Managementqualität zu einem vollständigen Bild. Die geführte Tour führt Sie durch jeden Abschnitt."
+    },
+    "features": {
+      "sectionTitle": "Für das Lernen konzipiert",
+      "sectionSubtitle": "Jede Funktion ist darauf ausgelegt, Ihnen Value-Investing-Konzepte zu lehren, während Sie sie anwenden.",
+      "glossaryTitle": "Interaktives Glossar",
+      "glossaryDescription": "Klicken Sie auf einen Finanzbegriff, um eine klare Definition und ein Praxisbeispiel zu sehen.",
+      "tourTitle": "Geführte Tour",
+      "tourDescription": "Eine Schritt-für-Schritt-Anleitung, die Ihnen beibringt, wie Sie jeden Analyseabschnitt lesen.",
+      "fundamentalTitle": "Fundamentalanalyse",
+      "fundamentalDescription": "30+ gewichtete Kriterien bewerten Rentabilität, Wachstum, Schulden und Cashflow-Qualität.",
+      "fairValueTitle": "Innerer-Wert-Schätzung",
+      "fairValueDescription": "Mehrere Bewertungsmodelle kombiniert, um zu schätzen, was eine Aktie wirklich wert ist.",
+      "technicalTitle": "Technische Indikatoren",
+      "technicalDescription": "RSI, gleitende Durchschnitte, MACD und Momentum helfen Ihnen, Ihre Einstiege zu timen.",
+      "managementTitle": "Managementqualität",
+      "managementDescription": "Piotroski F-Score, Insider-Aktivität und Kapitalallokation zeigen die Führungsqualität."
+    },
+    "cta": {
+      "title": "Bereit mit der Analyse zu beginnen?",
+      "subtitle": "Wählen Sie eine Aktie aus dem Screener und beginnen Sie Ihre Value-Investing-Reise.",
+      "button": "Screener öffnen"
+    }
+  }
+}

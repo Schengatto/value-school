@@ -1,0 +1,104 @@
+{
+  "compare": {
+    "title": "शेयर तुलना",
+    "description": "यह मूल्यांकन करने के लिए 2-3 शेयरों की side-by-side तुलना करें कि कौन सा गुणवत्ता, मूल्य, और विकास क्षमता का सर्वोत्तम combination प्रदान करता है।",
+    "searchPlaceholder": "नाम या सिंबल से खोजें...",
+    "addStock": "शेयर जोड़ें",
+    "removeStock": "हटाएं",
+    "selectAtLeast": "तुलना करने के लिए कम से कम 2 शेयर चुनें",
+    "maxStocks": "अधिकतम 3 शेयर",
+    "loading": "शेयर डेटा लोड हो रहा है...",
+    "guidedTour": "गाइडेड टूर",
+    "sections": {
+      "overview": "अवलोकन",
+      "fundamentals": "Fundamental Metrics",
+      "valuation": "Valuation",
+      "priceChart": "मूल्य प्रदर्शन",
+      "radarChart": "Profile तुलना"
+    },
+    "metrics": {
+      "metric": "Metric",
+      "pe": "P/E Ratio",
+      "roe": "ROE",
+      "grossMargin": "Gross Margin",
+      "operatingMargin": "Operating Margin",
+      "currentRatio": "Current Ratio",
+      "debtToEbitda": "Debt / EBITDA",
+      "interestCoverage": "Interest Coverage",
+      "fcf": "Free Cash Flow",
+      "piotroski": "Piotroski F-Score",
+      "earningsQuality": "Earnings Quality",
+      "dataCompleteness": "Data Completeness"
+    },
+    "overview": {
+      "category": "Category",
+      "sector": "Sector",
+      "industry": "Industry",
+      "price": "मूल्य",
+      "compositeScore": "Composite Score",
+      "fundamentalScore": "Fundamental Score",
+      "technicalScore": "Technical Score",
+      "signal": "Signal",
+      "valuation": "Valuation"
+    },
+    "valuation": {
+      "fairValue": "Fair Value",
+      "currentPrice": "वर्तमान मूल्य",
+      "marginOfSafety": "Margin of Safety",
+      "signal": "Valuation Signal",
+      "fairValueRange": "Fair Value Range"
+    },
+    "chart": {
+      "normalizedPrice": "Normalized Price (base 100)",
+      "percentChange": "% परिवर्तन",
+      "noData": "तुलना के लिए कोई मूल्य डेटा उपलब्ध नहीं"
+    },
+    "tour": {
+      "intro": {
+        "title": "शेयर तुलना में आपका स्वागत है",
+        "description": "Relative विश्लेषण value investing का एक आधारशिला है। एक कंपनी की संख्याएं अकेले कम मायने रखती हैं; वे तभी सार्थक बनती हैं जब उसके competitors से तुलना की जाए। यह tool आपको यह खोजने के लिए 3 शेयरों को side by side रखने देता है कि कौन सा वास्तव में गुणवत्ता, मूल्य, और विकास क्षमता का सर्वोत्तम combination प्रदान करता है।"
+      },
+      "selector": {
+        "title": "कम से कम 2 कंपनियाँ चुनें",
+        "description": "उन शेयरों को जोड़ने के लिए इस search bar का उपयोग करें जिन्हें आप compare करना चाहते हैं। सबसे सार्थक विश्लेषण के लिए, एक ही sector की कंपनियाँ चुनें: एक tech firm की utility से तुलना करना सेब और संतरे की तुलना जैसा होगा। Same-sector तुलनाएं प्रतिस्पर्धात्मक लाभ, दक्षता, और प्रबंधन गुणवत्ता में वास्तविक अंतर प्रकट करती हैं। जाएं। शुरू करने के लिए कम से कम 2 कंपनियाँ खोजें और जोड़ें!"
+      },
+      "overview": {
+        "title": "बड़ी तस्वीर",
+        "description": "त्वरित snapshot प्राप्त करने के लिए यहाँ से शुरू करें। Composite score fundamental और technical factors को combine करता है। खुद से पूछें: क्या category (value, growth, GARP) आपकी निवेश रणनीति से मेल खाती है? उच्च composite score के साथ एक 'value' शेयर गहरे विश्लेषण के लिए एक promising starting point है।"
+      },
+      "fundamentals": {
+        "title": "वित्तीय स्वास्थ्य जांच",
+        "description": "यहीं से value investing सही मायनों में शुरू होती है। हरा सबसे मजबूत metric को highlight करता है, लाल सबसे कमजोर को। मुख्य प्रश्न: किसका सबसे उच्च ROE (प्रबंधन दक्षता) है? सबसे कम ऋण (वित्तीय सुरक्षा) है? सबसे चौड़ी margins (competitive moat) हैं? उच्च Piotroski score (7-9) मजबूत वित्तीय स्वास्थ्य का संकेत देता है।"
+      },
+      "valuation": {
+        "title": "क्या मूल्य सही है?",
+        "description": "Benjamin Graham ने सिखाया कि बुरे मूल्य पर एक महान कंपनी फिर भी एक बुरा निवेश है। प्रत्येक शेयर की fair value की उसके वर्तमान मूल्य से तुलना करें। Margin of safety बताता है कि आपके पास कितना 'cushion' है: अधिक बेहतर है। उन कंपनियों की तलाश करें जो undervalued हों और मजबूत fundamentals हों।"
+      },
+      "radar": {
+        "title": "Visual Profile",
+        "description": "Radar chart आपको तत्काल visual तुलना देता है। एक चौड़ा, अधिक संतुलित आकार एक ऐसी कंपनी को दर्शाता है जो कई dimensions में मजबूत है। उन shapes से सावधान रहें जो एक तरफ बहुत संकीर्ण हों; यह एक कमजोरी का संकेत देता है। आदर्श value investment लाभप्रदता, solvency, और विकास में शक्ति दिखाता है।"
+      },
+      "price": {
+        "title": "मूल्य बनाम Value",
+        "description": "याद रखें: मूल्य वह है जो आप चुकाते हैं, value वह है जो आपको मिलती है। यह chart सभी मूल्यों को 100 पर normalize करता है ताकि आप प्रदर्शन की उचित तुलना कर सकें। जो शेयर तेज़ी से बढ़ा है वह अभी overvalued हो सकता है, जबकि जो पिछड़ा है वह एक अवसर हो सकता है। हमेशा ऊपर के valuation section के साथ cross-reference करें।"
+      },
+      "conclusion": {
+        "title": "आपकी Analysis Toolkit",
+        "description": "अब आपके पास एक value investor की तरह शेयरों की तुलना करने के tools हैं। कोई भी कंपनी सही नहीं है। लक्ष्य गुणवत्ता, मूल्य, और विकास क्षमता के बीच सर्वोत्तम trade-off खोजना है। इस तुलना को starting point के रूप में उपयोग करें, फिर अपने final evaluation के लिए प्रत्येक कंपनी के detail page में गहरे जाएं।"
+      },
+      "next": "अगला",
+      "prev": "पिछला",
+      "done": "समझ गया!",
+      "sageQuips": {
+        "intro": "तुलना ही कुंजी है!",
+        "selector": "अपने प्रतिस्पर्धियों को चुनें!",
+        "overview": "चलो देखें कौन जीत रहा है!",
+        "fundamentals": "सबसे स्वस्थ कौन है?",
+        "valuation": "क्या मूल्य सही है?",
+        "radar": "आकार कहानी बताता है!",
+        "price": "मूल्य बनाम value!",
+        "conclusion": "अब आप pro की तरह तुलना कर सकते हैं!"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "landing": {
+    "hero": {
+      "title": "करके Value Investing सीखें",
+      "subtitle": "पेशेवर-grade tools से वास्तविक NASDAQ शेयरों का विश्लेषण करें। Fundamentals समझें, fair value का अनुमान लगाएं, और अपना निवेश framework बनाएं, कदम-दर-कदम।",
+      "ctaScreener": "Screener एक्सप्लोर करें",
+      "ctaLearn": "Value Investing क्या है?"
+    },
+    "valueInvesting": {
+      "sectionTitle": "Value Investing क्या है?",
+      "sectionSubtitle": "Warren Buffett, Benjamin Graham, और सबसे सफल दीर्घकालिक investors द्वारा उपयोग की जाने वाली रणनीति।",
+      "pillar1Title": "आंतरिक मूल्य से नीचे खरीदें",
+      "pillar1Description": "Value investors ऐसे शेयरों की तलाश करते हैं जो व्यवसाय की वास्तविक worth से नीचे trade हो रहे हों। यह 'margin of safety' गलतियों और बाजार मंदी से बचाती है।",
+      "pillar2Title": "Fundamentals का विश्लेषण करें",
+      "pillar2Description": "Trends का पालन करने के बजाय, value investors financial statements का अध्ययन करते हैं: राजस्व, cash flow, ऋण स्तर, और लाभप्रदता। संख्याएं झूठ नहीं बोलतीं।",
+      "pillar3Title": "दीर्घकालिक सोचें",
+      "pillar3Description": "Value investing day trading नहीं है। यह उचित मूल्य पर महान व्यवसाय खोजने और उन्हें hold करने के बारे में है जब वे वर्षों में धन को compound करते हैं।"
+    },
+    "learningPath": {
+      "sectionTitle": "यह App आपको सीखने में कैसे मदद करती है",
+      "sectionSubtitle": "शेयर खोज से निवेश निर्णय तक एक structured path का पालन करें।",
+      "step1Title": "Screen करें और खोजें",
+      "step1Description": "Fundamentals, technicals, और valuation पर scored शेयर खोजने के लिए screener का उपयोग करें। Sector, signal, और category के अनुसार filter करें।",
+      "step2Title": "संख्याएं समझें",
+      "step2Description": "प्रत्येक कंपनी के financials में गहरे जाएं: राजस्व trends, cash flow, balance sheet strength। प्रत्येक metric में एक interactive glossary है जो आपको बताती है कि इसका अर्थ क्या है।",
+      "step3Title": "Fair Value का अनुमान लगाएं",
+      "step3Description": "एक fair value अनुमान में संयुक्त कई मूल्यांकन models (DCF, Graham, EPV) देखें। सीखें कि कैसे बताएं कि एक शेयर सस्ता है या महंगा।",
+      "step4Title": "सूचित निर्णय लें",
+      "step4Description": "Fundamental विश्लेषण, valuation, technicals, और प्रबंधन गुणवत्ता को एक संपूर्ण तस्वीर में जोड़ें। गाइडेड टूर आपको हर section से गुजराता है।"
+    },
+    "features": {
+      "sectionTitle": "सीखने के लिए बनाया गया",
+      "sectionSubtitle": "प्रत्येक feature आपको value investing अवधारणाएं सिखाने के लिए designed है जैसे आप उनका उपयोग करते हैं।",
+      "glossaryTitle": "Interactive Glossary",
+      "glossaryDescription": "किसी भी financial term पर click करें स्पष्ट definition और वास्तविक दुनिया का उदाहरण देखने के लिए।",
+      "tourTitle": "गाइडेड टूर",
+      "tourDescription": "एक step-by-step walkthrough जो आपको सिखाती है कि प्रत्येक विश्लेषण section कैसे पढ़ें।",
+      "fundamentalTitle": "Fundamental विश्लेषण",
+      "fundamentalDescription": "30+ weighted criteria लाभप्रदता, विकास, ऋण, और cash flow गुणवत्ता का मूल्यांकन करते हैं।",
+      "fairValueTitle": "Fair Value अनुमान",
+      "fairValueDescription": "कई मूल्यांकन models यह अनुमान लगाने के लिए संयुक्त कि एक शेयर वास्तव में कितना worth है।",
+      "technicalTitle": "Technical संकेतक",
+      "technicalDescription": "RSI, moving averages, MACD, और momentum आपको अपनी entries time करने में मदद करते हैं।",
+      "managementTitle": "प्रबंधन गुणवत्ता",
+      "managementDescription": "Piotroski F-Score, insider activity, और capital allocation नेतृत्व गुणवत्ता प्रकट करते हैं।"
+    },
+    "cta": {
+      "title": "विश्लेषण शुरू करने के लिए तैयार हैं?",
+      "subtitle": "Screener से एक शेयर चुनें और अपनी value investing यात्रा शुरू करें।",
+      "button": "Screener खोलें"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "tour": {
+    "startTour": "Visite guidée",
+    "welcome": {
+      "title": "Votre analyse d'investissement valeur",
+      "description": "Vous êtes sur le point d'apprendre à analyser une action comme un investisseur valeur professionnel. Cette visite guidée vous accompagne à travers chaque indicateur clé de cette page, en expliquant sa signification et comment l'utiliser.\n\nNous couvrirons 5 phases :\n1. Comprendre l'entreprise\n2. Évaluer la santé financière\n3. Apprécier la valeur\n4. Lire les signaux du marché\n5. Juger la qualité du management\n\nPrenez votre temps. Vous pouvez quitter avec Échap et recommencer à tout moment."
+    },
+    "overview": {
+      "title": "Phase 1 : Comprendre l'entreprise",
+      "description": "Avant de regarder les chiffres, assurez-vous de vraiment comprendre CE QUE fait cette entreprise.\n\nDemandez-vous : pouvez-vous expliquer ce modèle d'affaires à un ami en une phrase ? Si non, vous ne le comprenez probablement pas assez bien pour investir.\n\nLisez la description de l'entreprise, notez le secteur et l'industrie. Ce contexte est essentiel : un P/E de 30 signifie quelque chose de très différent pour une entreprise technologique par rapport à une entreprise de services aux collectivités."
+    },
+    "balanceSheet": {
+      "title": "Phase 2 : Santé financière",
+      "description": "Nous entrons maintenant dans les chiffres. Le bilan vous indique si cette entreprise peut survivre aux périodes difficiles.\n\nPensez-y comme un bilan de santé : les revenus et le résultat montrent si l'activité est florissante, tandis que les ratios d'endettement et de liquidité révèlent des vulnérabilités cachées.\n\nExaminons chaque indicateur un par un."
+    },
+    "revenue": {
+      "title": "Chiffre d'affaires",
+      "description": "Le chiffre d'affaires est l'argent total entrant des ventes. C'est la première ligne : tout commence ici.\n\nCe qu'il faut rechercher :\n• Le chiffre d'affaires croît-il d'année en année ? La stagnation ou le déclin est un signal d'alerte.\n• Comparez aux pairs du secteur : cette entreprise gagne-t-elle ou perd-elle des parts de marché ?\n\nLe chiffre d'affaires seul ne dit pas si l'entreprise est rentable. Une entreprise peut avoir des milliards de revenus et quand même perdre de l'argent."
+    },
+    "fcf": {
+      "title": "Flux de trésorerie libre (FCF)",
+      "description": "Le flux de trésorerie libre est la VRAIE trésorerie restante après avoir géré l'activité et investi dans la croissance. Contrairement au résultat net, il est très difficile à manipuler avec des astuces comptables.\n\nCe qu'il faut rechercher :\n• FCF positif : l'entreprise génère de vraies liquidités.\n• FCF croissant dans le temps : l'activité devient une machine à cash plus puissante.\n• FCF > résultat net : les bénéfices sont soutenus par de vraies liquidités (très bon signe).\n\nUne entreprise avec un FCF solide peut verser des dividendes, racheter des actions, réduire sa dette ou investir dans la croissance, tout cela sans emprunter."
+    },
+    "currentRatio": {
+      "title": "Ratio de liquidité général",
+      "description": "Le ratio de liquidité général mesure la liquidité à court terme : l'entreprise peut-elle payer ses factures exigibles dans les 12 prochains mois ?\n\nComment l'interpréter :\n• Au-dessus de 1,5 : sain ; l'entreprise dispose de 1,50 € ou plus d'actifs liquides pour chaque 1 € de dette à court terme.\n• Entre 1,0 et 1,5 : adéquat, mais peu de marge de sécurité.\n• En dessous de 1,0 : signal d'alerte ; le passif courant dépasse l'actif courant.\n\nUn faible ratio de liquidité ne signifie pas toujours des problèmes (certains secteurs comme la distribution fonctionnent avec des ratios faibles), mais il augmente le risque lors des ralentissements économiques."
+    },
+    "debtMetrics": {
+      "title": "Indicateurs d'endettement",
+      "description": "Ces deux ratios vous indiquent si les niveaux d'endettement sont dangereux :\n\nCouverture des intérêts : avec quelle facilité l'entreprise paie les intérêts de sa dette.\n• Au-dessus de 3x : confortable.\n• En dessous de 1,5x : une grande part des bénéfices va aux paiements d'intérêts.\n\nDette/EBITDA : combien d'années de bénéfices il faudrait pour rembourser toute la dette.\n• En dessous de 3x : sain.\n• 3-5x : à surveiller.\n• Au-dessus de 5x : signal d'alarme.\n\nEn récession, les entreprises très endettées sont les premières à faire faillite. Faible endettement = sécurité."
+    },
+    "epsChart": {
+      "title": "Tendance du bénéfice par action (EPS)",
+      "description": "L'EPS montre combien de profit chaque action génère. Une tendance haussière de l'EPS est l'un des signaux les plus forts d'une entreprise de qualité.\n\nCe qu'il faut rechercher :\n• EPS en hausse sur 3 à 5 ans : l'entreprise devient plus rentable.\n• EPS croissant plus vite que le chiffre d'affaires : amélioration des marges et de l'efficacité.\n• Chutes soudaines : investiguer ; cela pourrait être un événement ponctuel ou un vrai problème.\n\nComparez la croissance de l'EPS à la croissance du cours de l'action. Si l'EPS croît plus vite que le prix, l'action devient moins chère par rapport aux bénéfices, une opportunité potentielle."
+    },
+    "revenueChart": {
+      "title": "Tendance du chiffre d'affaires & résultat net",
+      "description": "Ce graphique montre si l'activité croît ET conserve davantage de ce qu'elle gagne.\n\nCe qu'il faut rechercher :\n• Les deux courbes en hausse : croissance saine et soutenable.\n• Chiffre d'affaires en hausse mais résultat net stable : coûts croissant trop vite. Investiguer pourquoi.\n• Résultat net croissant plus vite que le chiffre d'affaires : amélioration de l'efficacité, excellent signe.\n• Chiffre d'affaires en baisse : perte potentielle de parts de marché ou disruption du secteur.\n\nL'écart entre le chiffre d'affaires et le résultat net représente les coûts totaux. Si cet écart se resserre dans le temps, la rentabilité s'améliore."
+    },
+    "fcfChart": {
+      "title": "Historique du flux de trésorerie libre",
+      "description": "Ce graphique visualise le FCF sur plusieurs années. La régularité compte davantage que n'importe quelle année isolée.\n\nCe qu'il faut rechercher :\n• Des barres constamment positives : l'activité génère de vraies liquidités année après année.\n• Tendance haussière : la machine à cash se renforce.\n• FCF volatile ou négatif : l'entreprise peut avoir besoin de financements externes, augmentant le risque.\n\nUne entreprise avec un FCF solide et croissant a la flexibilité financière pour récompenser les actionnaires via des dividendes ou des rachats d'actions."
+    },
+    "incomeBreakdown": {
+      "title": "Décomposition du résultat",
+      "description": "Ce graphique montre où va chaque euro de chiffre d'affaires : coût des marchandises, charges opérationnelles, impôts et finalement résultat net.\n\nCe qu'il faut rechercher :\n• Part de résultat net plus grande : meilleure rentabilité.\n• Coût des ventes représentant la majorité de la barre : faibles marges, vulnérable aux hausses de coûts.\n• Charges opérationnelles croissant plus vite que le chiffre d'affaires : efficacité en déclin.\n\nLes entreprises avec des marges brutes élevées (petite part de coût des ventes) ont généralement des avantages concurrentiels plus forts : pouvoir de fixation des prix, produits uniques ou effets de réseau."
+    },
+    "fairValue": {
+      "title": "Phase 3 : Le prix est-il juste ?",
+      "description": "C'est le cœur de l'investissement valeur. La juste valeur estime ce que vaut VRAIMENT l'action, indépendamment du sentiment du marché. Nous combinons plusieurs méthodes (DCF, Graham, EPV, basée sur le P/E) pour réduire les biais.\n\nConceptes clés :\n• Juste valeur : notre meilleure estimation de la valeur intrinsèque.\n• Prix actuel : ce que le marché demande aujourd'hui.\n• Fourchette de juste valeur : l'intervalle de confiance de notre estimation.\n\nQuand les méthodes convergent vers une valeur similaire, l'estimation est plus fiable. Une forte divergence signifie plus d'incertitude."
+    },
+    "marginOfSafety": {
+      "title": "Marge de sécurité",
+      "description": "Le concept le plus important de Benjamin Graham. La marge de sécurité est la décote entre le prix actuel et la juste valeur.\n\nComment l'interpréter :\n• Positive (ex. +30 %) : l'action se négocie en dessous de la juste valeur, une potentielle bonne affaire.\n• Proche de zéro : l'action est correctement valorisée, avec un potentiel de hausse limité.\n• Négative (ex. -15 %) : l'action se négocie au-dessus de la juste valeur ; vous payez une prime.\n\nGraham recommandait au moins 25 % de marge de sécurité pour se protéger des erreurs d'estimation.\n\nUne action en dessous de la juste valeur n'est pas automatiquement un achat. Demandez toujours POURQUOI elle est bon marché ; il peut y avoir une bonne raison."
+    },
+    "peRatio": {
+      "title": "Ratio P/E",
+      "description": "Le ratio cours/bénéfice vous indique combien vous payez pour chaque euro de profit annuel.\n\nComment l'interpréter :\n• P/E faible (< 15) : pourrait être sous-évalué, ou le marché voit des problèmes à venir.\n• P/E moyen (15-25) : correctement valorisé pour la plupart des secteurs.\n• P/E élevé (> 25) : le marché anticipe une forte croissance future.\n• P/E négatif : l'entreprise perd de l'argent.\n\nComparez toujours au sein du même secteur : les valeurs technologiques ont généralement un P/E plus élevé (25-35) que les services aux collectivités (12-18).\n\nLe point idéal de l'investisseur valeur : P/E faible combiné à ROE élevé et bénéfices croissants."
+    },
+    "roeRoic": {
+      "title": "ROE & ROIC",
+      "description": "Ces indicateurs mesurent l'efficacité avec laquelle le management utilise le capital :\n\nROE (Return on Equity) : profit généré par euro de capitaux propres.\n• Au-dessus de 15 % : excellente efficacité du management.\n• En dessous de 10 % : l'entreprise n'utilise peut-être pas bien le capital.\n\nROIC (Return on Invested Capital) : similaire, mais inclut la dette dans le calcul. Vue plus complète.\n• Au-dessus de 10 % : génère de forts rendements sur TOUT le capital.\n\nROE + ROIC élevés et constants = une entreprise avec un avantage concurrentiel durable (ce que Buffett appelle un « fossé »)."
+    },
+    "pbPfcf": {
+      "title": "Ratios P/B & P/FCF",
+      "description": "Des prismes de valorisation alternatifs qui complètent le P/E :\n\nP/B (Price-to-Book) : compare le cours de l'action à la valeur nette des actifs de l'entreprise.\n• En dessous de 1 : vous payez moins que ne valent les actifs de l'entreprise. Pourrait être sous-évalué, ou un piège à valeur.\n• Au-dessus de 3 : le marché valorise fortement les actifs incorporels (marque, propriété intellectuelle, croissance).\n\nP/FCF (Price-to-Free Cash Flow) : comme le P/E mais utilise de vraies liquidités plutôt que les bénéfices comptables. Plus fiable.\n\nLe P/FCF est souvent plus utile que le P/E car le flux de trésorerie libre est plus difficile à manipuler."
+    },
+    "radarChart": {
+      "title": "Radar de rentabilité",
+      "description": "Ce graphique radar vous donne un aperçu visuel instantané du profil financier de l'entreprise sur plusieurs dimensions.\n\nCe qu'il faut rechercher :\n• Forme large et équilibrée : solide sur toutes les dimensions.\n• Axe effondré ou plat : révèle une faiblesse spécifique ; investiguez-la.\n• Comparez avec votre modèle mental d'un investissement idéal.\n\nAucune entreprise ne performe parfaitement sur tous les axes. La question clé : les faiblesses sont-elles temporaires (et corrigibles) ou structurelles (et permanentes) ?"
+    },
+    "fundamentalCriteria": {
+      "title": "Tableau de bord des critères fondamentaux",
+      "description": "Cette section montre chaque critère utilisé pour calculer le score fondamental. Pensez-y comme une liste de contrôle qualité.\n\nComment l'interpréter :\n• Vert (Réussi) : l'entreprise dépasse le seuil de qualité pour cet indicateur.\n• Rouge (Échoué) : l'entreprise est en dessous du seuil. Vérifiez le poids : les échecs à fort poids comptent davantage.\n• Gris (Indisponible) : données manquantes. Non incluses dans le score.\n\nInterprétation du score :\n• Au-dessus de 75 : fondamentaux solides.\n• 60-75 : corrects, mais vérifiez ce qui a échoué.\n• En dessous de 40 : préoccupations significatives.\n\nNe regardez pas seulement le score total. Lisez quels critères spécifiques ont échoué. Une entreprise pourrait scorer 65 mais dissimuler des niveaux d'endettement dangereux parmi de nombreux critères mineurs réussis."
+    },
+    "priceChart": {
+      "title": "Phase 4 : Signaux du marché",
+      "description": "Le graphique en chandeliers montre l'évolution du prix dans le temps. Chandeliers verts = prix en hausse, rouges = en baisse. Les fines lignes (mèches) montrent les points hauts et bas de la journée.\n\nCe qu'il faut rechercher :\n• Tendance générale : plus hauts plus hauts = tendance haussière, plus bas plus bas = tendance baissière.\n• Niveaux de support : prix auxquels l'action rebondit régulièrement à la hausse.\n• Niveaux de résistance : prix auxquels elle replie régulièrement.\n\nLe graphique des prix vous dit ce que pense le MARCHÉ. Votre analyse fondamentale vous dit ce que VAUT l'entreprise. Quand ces deux éléments divergent, des opportunités apparaissent."
+    },
+    "rsi": {
+      "title": "RSI (Indice de force relative)",
+      "description": "Le RSI mesure si une action a augmenté ou baissé trop rapidement. Il varie de 0 à 100.\n\nComment l'interpréter :\n• En dessous de 30 : potentiellement survendu. L'action a peut-être été trop aggressivement vendue. Pourrait être une opportunité d'achat.\n• Entre 30 et 70 : territoire neutre, conditions de trading normales.\n• Au-dessus de 70 : potentiellement suracheté. L'action a peut-être monté trop vite. Pourrait se retourner.\n\nLe RSI est un outil de timing, pas de sélection. Utilisez les fondamentaux pour décider QUOI acheter, le RSI pour décider QUAND."
+    },
+    "smaTrend": {
+      "title": "Moyennes mobiles (SMA 50 & 200)",
+      "description": "Les moyennes mobiles lissent le bruit quotidien pour révéler la tendance sous-jacente.\n\nSignaux clés :\n• SMA 50 au-dessus de la SMA 200 (Croix d'or) : la tendance à court terme est plus forte que la tendance à long terme, signal haussier.\n• SMA 50 en dessous de la SMA 200 (Croix de la mort) : la tendance à court terme est plus faible, signal baissier.\n• Prix au-dessus de la SMA 200 : la tendance à long terme est haussière.\n\nCes signaux fonctionnent mieux comme confirmation de votre analyse fondamentale. Une entreprise fondamentalement excellente en Croix d'or est une combinaison puissante."
+    },
+    "macdVolatility": {
+      "title": "MACD & Volatilité",
+      "description": "Deux autres outils pour comprendre le momentum et le risque :\n\nHistogramme MACD : positif et en hausse = momentum haussier. Négatif et en baisse = baissier.\n\nVolatilité : l'amplitude des variations du cours de l'action. Une forte volatilité signifie plus de risque mais aussi plus d'opportunités potentielles pour les acheteurs patients.\n\nPour les investisseurs valeur, une forte volatilité dans une entreprise fondamentalement solide peut créer des opportunités d'achat : le marché surréagit, créant des décotes temporaires."
+    },
+    "piotroski": {
+      "title": "Phase 5 : Qualité du management",
+      "description": "Le score F de Piotroski est une liste de contrôle en 9 points qui évalue la santé financière sous les angles de la rentabilité, du levier et de l'efficacité opérationnelle.\n\nComment l'interpréter :\n• 7-9 : santé financière solide ; le management se comporte bien.\n• 4-6 : signaux mixtes ; certains domaines nécessitent attention.\n• 0-3 : préoccupations financières sérieuses ; procédez avec une extrême prudence.\n\nRegardez la décomposition ci-dessous pour voir exactement quels critères ont réussi et échoué.\n\nLa recherche académique montre que les scores Piotroski élevés ont tendance à surperformer les scores bas dans le temps. C'est l'un des indicateurs de qualité les plus validés."
+    },
+    "earningsQuality": {
+      "title": "Qualité des bénéfices",
+      "description": "La qualité des bénéfices compare le flux de trésorerie d'exploitation au résultat net. Cela révèle si les bénéfices déclarés sont soutenus par de vraies liquidités.\n\nComment l'interpréter :\n• Au-dessus de 1,0 : le flux de trésorerie d'exploitation dépasse le résultat net, les bénéfices sont solides et réels.\n• Entre 0,5 et 1,0 : certain écart entre bénéfices déclarés et réels. À surveiller.\n• En dessous de 0,5 : le résultat net est bien supérieur aux liquidités réellement générées, suggérant une possible comptabilité agressive.\n\nLes entreprises à haute qualité de bénéfices sont moins susceptibles de livrer des surprises négatives. La trésorerie ne ment pas."
+    },
+    "shareDilution": {
+      "title": "Dilution du capital",
+      "description": "La dilution du capital vous indique si le management crée ou détruit de la valeur pour les actionnaires par l'émission d'actions.\n\nComment l'interpréter :\n• Négatif (ex. -3 %) : l'entreprise rachète des actions ; chaque action restante devient plus précieuse. Favorable aux actionnaires.\n• Proche de zéro : neutre ; le nombre d'actions est stable.\n• Positif (ex. +5 %) : de nouvelles actions sont émises, diluant votre pourcentage de participation.\n\nDes rachats réguliers combinés à un score Piotroski élevé est un fort signe d'un management favorable aux actionnaires."
+    },
+    "governance": {
+      "title": "Gouvernance d'entreprise",
+      "description": "Même la meilleure entreprise peut être ruinée par un mauvais management. Cette section évalue la fiabilité des dirigeants.\n\nCe qu'il faut rechercher :\n• Indépendance du conseil : plus d'administrateurs indépendants = meilleure surveillance.\n• Scores de risque faibles : un risque élevé d'audit, de conseil ou de rémunération est un signal d'alerte.\n• Rémunération des dirigeants : doit être liée aux rendements pour les actionnaires, pas à des primes garanties.\n\nLa mauvaise gouvernance est l'un des meilleurs prédicteurs de problèmes futurs. Si tout le reste semble excellent mais que les scores de gouvernance sont alarmants, réfléchissez à deux fois."
+    },
+    "conclusion": {
+      "title": "Tout mettre ensemble",
+      "description": "Vous avez maintenant vu chaque indicateur dont un investisseur valeur a besoin. Voici comment relier les points :\n\n1. Activité solide que vous comprenez ? (Phase 1)\n2. Finances saines : chiffre d'affaires croissant, FCF positif, faible endettement ? (Phase 2)\n3. Se négocie en dessous de la juste valeur avec marge de sécurité ? (Phase 3)\n4. Signaux techniques ne criant pas « restez à l'écart » ? (Phase 4)\n5. Management de confiance créant de la valeur pour les actionnaires ? (Phase 5)\n\nSi la plupart des réponses sont OUI, vous avez peut-être trouvé un candidat à l'investissement de qualité. Si plusieurs sont NON, approfondissez ou passez à autre chose.\n\nAucun indicateur isolé ne raconte toute l'histoire. Cherchez la convergence. Cliquez sur l'icône info de n'importe quelle carte pour revoir son explication à tout moment."
+    },
+    "prompt": {
+      "title": "Souhaitez-vous une visite guidée ?",
+      "sageQuip": "Hé ! Voulez-vous que je vous fasse faire le tour ?",
+      "description": "Apprenez à lire chaque indicateur comme un investisseur valeur. Environ 5 minutes.",
+      "start": "Démarrer la visite",
+      "dismiss": "Pas maintenant",
+      "dontAskAgain": "Ne plus me demander"
+    },
+    "sageQuips": {
+      "welcome": "Prêt ? Plongeons-y !",
+      "overview": "Commençons par le début...",
+      "balanceSheet": "Place aux chiffres !",
+      "revenue": "Montrez-moi l'argent !",
+      "fcf": "La trésorerie est reine !",
+      "currentRatio": "Peuvent-ils payer leurs factures ?",
+      "debtMetrics": "La dette peut être dangereuse...",
+      "epsChart": "Les bénéfices racontent l'histoire !",
+      "revenueChart": "Suivons la tendance !",
+      "fcfChart": "Vraies liquidités, vraie valeur !",
+      "incomeBreakdown": "Où va l'argent ?",
+      "fairValue": "Est-ce une bonne affaire ?",
+      "marginOfSafety": "La règle d'or de l'investissement !",
+      "peRatio": "Combien payez-vous ?",
+      "roeRoic": "L'efficacité compte !",
+      "pbPfcf": "D'autres façons de mesurer la valeur !",
+      "radarChart": "La vue d'ensemble !",
+      "fundamentalCriteria": "La liste de contrôle qualité !",
+      "priceChart": "Qu'en pense le marché ?",
+      "rsi": "Le timing est tout !",
+      "smaTrend": "Suivez la tendance !",
+      "macdVolatility": "Contrôle du momentum !",
+      "piotroski": "Notons le management !",
+      "earningsQuality": "Les bénéfices sont-ils réels ?",
+      "shareDilution": "Attention à la dilution !",
+      "governance": "La confiance est essentielle !",
+      "conclusion": "Bravo, vous apprenez vite !"
+    },
+    "next": "Suivant",
+    "prev": "Précédent",
+    "done": "Terminé"
+  }
+}

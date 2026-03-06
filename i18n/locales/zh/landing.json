@@ -1,0 +1,53 @@
+{
+  "landing": {
+    "hero": {
+      "title": "通过实践学习价值投资",
+      "subtitle": "使用专业级工具分析真实 NASDAQ 股票。理解基本面，估算公允价值，逐步构建您的投资框架。",
+      "ctaScreener": "探索股票筛选",
+      "ctaLearn": "什么是价值投资？"
+    },
+    "valueInvesting": {
+      "sectionTitle": "什么是价值投资？",
+      "sectionSubtitle": "由巴菲特、Benjamin Graham 以及最成功的长期投资者所采用的策略。",
+      "pillar1Title": "低于内在价值买入",
+      "pillar1Description": "价值投资者寻找交易价格低于企业真实价值的股票。这种"安全边际"可以防范错误和市场下行。",
+      "pillar2Title": "分析基本面",
+      "pillar2Description": "价值投资者不追随趋势，而是研究财务报表：营收、现金流、债务水平和盈利能力。数字不会说谎。",
+      "pillar3Title": "着眼长期",
+      "pillar3Description": "价值投资不是短线交易。而是寻找以合理价格出售的优秀企业，并持有它们，让财富随着年月复利增长。"
+    },
+    "learningPath": {
+      "sectionTitle": "这款应用如何帮您学习",
+      "sectionSubtitle": "遵循从股票发现到投资决策的结构化路径。",
+      "step1Title": "筛选与发现",
+      "step1Description": "使用筛选器找到在基本面、技术面和估值方面得分良好的股票。按行业、信号和类别筛选。",
+      "step2Title": "理解数字",
+      "step2Description": "深入每家公司的财务状况：营收趋势、现金流、资产负债表实力。每个指标都有互动词汇表，教您其含义。",
+      "step3Title": "估算公允价值",
+      "step3Description": "查看多种估值模型（DCF、Graham、EPV）组合成的公允价值估算。学习如何判断股票是便宜还是昂贵。",
+      "step4Title": "做出知情决策",
+      "step4Description": "将基本面分析、估值、技术面和管理质量综合成完整的画面。引导游览将带您了解每个部分。"
+    },
+    "features": {
+      "sectionTitle": "为学习而生",
+      "sectionSubtitle": "每个功能都旨在在您使用时教导价值投资概念。",
+      "glossaryTitle": "互动词汇表",
+      "glossaryDescription": "点击任何财务术语，查看清晰的定义和实际案例。",
+      "tourTitle": "引导游览",
+      "tourDescription": "逐步的讲解，教您如何阅读每个分析部分。",
+      "fundamentalTitle": "基本面分析",
+      "fundamentalDescription": "30 多个加权标准评估盈利能力、增长、债务和现金流质量。",
+      "fairValueTitle": "公允价值估算",
+      "fairValueDescription": "多种估值模型组合，估算股票的真实价值。",
+      "technicalTitle": "技术指标",
+      "technicalDescription": "RSI、移动平均线、MACD 和动量帮助您把握买入时机。",
+      "managementTitle": "管理质量",
+      "managementDescription": "Piotroski F-评分、内部人士动态和资本配置揭示领导质量。"
+    },
+    "cta": {
+      "title": "准备好开始分析了吗？",
+      "subtitle": "从筛选器中选择一只股票，开启您的价值投资之旅。",
+      "button": "打开股票筛选"
+    }
+  }
+}

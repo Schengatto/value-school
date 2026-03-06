@@ -1,0 +1,190 @@
+{
+  "glossary": {
+    "revenue": {
+      "label": "राजस्व",
+      "title": "राजस्व (कुल बिक्री)",
+      "definition": "किसी कंपनी द्वारा अपने उत्पाद या सेवाएं बेचकर कमाया गया कुल पैसा, किसी भी लागत को घटाने से पहले। यह income statement की 'top line' है।",
+      "example": "यदि Apple 10 मिलियन iPhones $1,000 प्रत्येक पर बेचती है, तो यह $10B राजस्व है, चाहे उन्हें बनाने में कितनी लागत आई हो।"
+    },
+    "netIncome": {
+      "label": "शुद्ध आय",
+      "title": "शुद्ध आय (Bottom Line)",
+      "definition": "सभी लागतें घटाने के बाद बचा वास्तविक लाभ: उत्पादन, वेतन, कर, ब्याज, और बाकी सब कुछ। यही शेयरधारक वास्तव में कमाते हैं।",
+      "example": "एक कंपनी जिसका $10B राजस्व और $7B कुल लागत है, उसकी $3B शुद्ध आय है। यह बिक्री के प्रत्येक डॉलर पर 30 सेंट लाभ है।"
+    },
+    "freeCashFlow": {
+      "label": "Free Cash Flow",
+      "title": "Free Cash Flow (FCF)",
+      "definition": "संचालन और निवेश के भुगतान के बाद कंपनी द्वारा उत्पन्न वास्तविक नकदी। शुद्ध आय के विपरीत, इसे accounting tricks से manipulate करना बहुत कठिन है।",
+      "example": "एक कंपनी $5B लाभ कमाती है लेकिन नई factories पर $2B खर्च करती है। FCF = $3B। यह लाभांश, buybacks, या ऋण कटौती के लिए उपलब्ध नकदी है।"
+    },
+    "totalEquity": {
+      "label": "कुल इक्विटी",
+      "title": "कुल इक्विटी (Book Value)",
+      "definition": "शेयरधारक वास्तव में क्या स्वामित्व रखते हैं: कुल assets minus कुल देनदारियाँ। इसे कंपनी की net worth के रूप में सोचें यदि वह सब कुछ बेच दे और सभी ऋण चुका दे।",
+      "example": "एक कंपनी जिसके पास $50B assets और $30B ऋण है, उसकी $20B equity है। यदि उसके 1B shares हैं, तो book value $20 प्रति शेयर है।"
+    },
+    "totalLiabilities": {
+      "label": "कुल देनदारियाँ",
+      "title": "कुल देनदारियाँ (कुल ऋण)",
+      "definition": "कंपनी जो कुछ भी देती है: loans, bonds, accounts payable, lease obligations, और अन्य वित्तीय दायित्व। उच्च देनदारियाँ मंदी में जोखिम बढ़ाती हैं।",
+      "example": "एक कंपनी जिसके पास $40B देनदारियाँ और $20B इक्विटी है, उसका 2:1 debt-to-equity ratio है, मतलब वह जितनी स्वामित्व रखती है उसका दोगुना बकाया है।"
+    },
+    "currentRatio": {
+      "label": "Current Ratio",
+      "title": "Current Ratio (Liquidity)",
+      "definition": "अल्पकालिक assets को अल्पकालिक ऋण से विभाजित किया। दिखाता है कि क्या कंपनी 12 महीनों के भीतर देय बिल चुका सकती है। 1.5 से ऊपर स्वस्थ है, 1.0 से नीचे एक चेतावनी है।",
+      "example": "एक कंपनी जिसके पास $6B current assets और $4B current liabilities हैं, उसका current ratio 1.5 है, इसलिए वह आराम से अपने short-term obligations cover कर सकती है।"
+    },
+    "interestCoverage": {
+      "label": "Interest Coverage",
+      "title": "Interest Coverage Ratio",
+      "definition": "ब्याज भुगतान से विभाजित operating profit। दिखाता है कि कंपनी अपने ऋण पर ब्याज कितनी आसानी से चुका सकती है। 3x से ऊपर आरामदायक है, 1.5x से नीचे जोखिम भरा है।",
+      "example": "यदि एक कंपनी $9B operating income कमाती है और $3B ब्याज चुकाती है, coverage = 3x। यह अपने ब्याज भुगतान का तीन गुना कमाती है।"
+    },
+    "debtToEbitda": {
+      "label": "Debt/EBITDA",
+      "title": "Debt-to-EBITDA Ratio",
+      "definition": "ब्याज, कर, मूल्यह्रास, और amortization से पहले की earnings से विभाजित कुल ऋण। दिखाता है कि सभी ऋण चुकाने में कितने साल की earnings लगेगी। 3x से नीचे स्वस्थ है।",
+      "example": "एक कंपनी जिसके पास $15B ऋण और $5B EBITDA है, उसका 3x ratio है, मतलब ऋण चुकाने में 3 साल की earnings लगेगी (यदि कुछ और न बदले)।"
+    },
+    "peRatio": {
+      "label": "P/E Ratio",
+      "title": "Price-to-Earnings Ratio (P/E)",
+      "definition": "Earnings per share से विभाजित शेयर मूल्य। दिखाता है कि निवेशक प्रति डॉलर लाभ कितना चुकाते हैं। कम P/E सौदे का संकेत दे सकता है, लेकिन हमेशा एक ही उद्योग के भीतर तुलना करें।",
+      "example": "$6/share कमाने वाला $150 का शेयर P/E = 25 है। आप earnings के प्रत्येक $1 के लिए $25 चुकाते हैं। Tech average ~25-30, utilities ~15-18।"
+    },
+    "roe": {
+      "label": "ROE",
+      "title": "Return on Equity (ROE)",
+      "definition": "शेयरधारक इक्विटी से विभाजित शुद्ध आय। मापता है कि कंपनी लाभ उत्पन्न करने के लिए शेयरधारकों के पैसे का कितने कुशलता से उपयोग करती है। 15% से ऊपर उत्कृष्ट है।",
+      "example": "एक कंपनी जिसके पास $3B लाभ और $20B इक्विटी है, उसका ROE = 15% है। शेयरधारकों द्वारा निवेश किए गए प्रत्येक $1 पर 15 सेंट वार्षिक लाभ।"
+    },
+    "pbRatio": {
+      "label": "P/B Ratio",
+      "title": "Price-to-Book Ratio (P/B)",
+      "definition": "Book value per share से विभाजित शेयर मूल्य। 1.0 से नीचे का मतलब है आप कंपनी के net assets की value से कम चुका रहे हैं। यह संभावित रूप से undervalued हो सकता है, या गहरी समस्याओं का संकेत हो सकता है।",
+      "example": "$50/share book value वाला $40 का शेयर P/B = 0.8 है। आप $40 में $50 की assets खरीद रहे हैं, लेकिन जांच करें WHY यह सस्ता है।"
+    },
+    "pfcf": {
+      "label": "P/FCF",
+      "title": "Price-to-Free Cash Flow (P/FCF)",
+      "definition": "Free cash flow per share से विभाजित शेयर मूल्य। P/E जैसा लेकिन accounting earnings के बजाय वास्तविक नकदी का उपयोग करता है। सच्ची value खोजने के लिए अधिक विश्वसनीय।",
+      "example": "$5 FCF/share वाला $100 का शेयर P/FCF = 20 है। इसे P/E से compare करें: यदि P/FCF बहुत अधिक है, तो लाभ वास्तविक नकदी द्वारा समर्थित नहीं हो सकते।"
+    },
+    "grossMargin": {
+      "label": "Gross Margin",
+      "title": "Gross Profit Margin",
+      "definition": "राजस्व से विभाजित (राजस्व minus माल की लागत)। Overhead से पहले बुनियादी लाभप्रदता दिखाता है। उच्च margins (>40%) अक्सर मजबूत प्रतिस्पर्धात्मक लाभ या pricing power का संकेत देती हैं।",
+      "example": "80% gross margin वाली एक software company बेची गई प्रत्येक डॉलर का $0.80 रखती है। 25% पर एक retailer केवल $0.25 रखता है। बहुत अलग business models।"
+    },
+    "roic": {
+      "label": "ROIC",
+      "title": "Return on Invested Capital (ROIC)",
+      "definition": "सभी निवेशित पूंजी (equity + debt) से विभाजित operating profit (taxes के बाद)। सबसे अच्छा माप कि प्रबंधन सभी पूंजी का कितने कुशलता से उपयोग करता है। 10% से ऊपर मजबूत है।",
+      "example": "$30B निवेशित पूंजी पर $4B operating profit वाली कंपनी का ROIC = 13% है। यह निवेशित प्रत्येक $1 पर $0.13 return उत्पन्न करती है।"
+    },
+    "fairValueLabel": {
+      "label": "Fair Value",
+      "title": "अनुमानित Fair Value",
+      "definition": "शेयर वास्तव में कितना worth है इसका अनुमान, कई विधियों (DCF, Graham, EPV) को combine करके calculate किया गया। यह एक educated guess है, गारंटी नहीं।",
+      "example": "यदि fair value $120 है और शेयर $95 पर trade करता है, तो 26% margin of safety है, मतलब आप संभावित रूप से छूट पर खरीद रहे हैं।"
+    },
+    "marginOfSafety": {
+      "label": "Margin of Safety",
+      "title": "Margin of Safety (MoS)",
+      "definition": "Fair value की तुलना में शेयर मूल्य कितना सस्ता है, प्रतिशत के रूप में। सकारात्मक = संभावित सौदा। Benjamin Graham ने केवल 25%+ margin के साथ खरीदने की सिफारिश की।",
+      "example": "Fair value $100, वर्तमान मूल्य $75 → MoS = +25%। आप 25% cushion के साथ खरीद रहे हैं यदि आपका अनुमान थोड़ा गलत हो।"
+    },
+    "rsi": {
+      "label": "RSI (14)",
+      "title": "Relative Strength Index (RSI)",
+      "definition": "0-100 का एक momentum indicator जो हाल के मूल्य परिवर्तनों की गति और परिमाण को मापता है। 30 से नीचे = संभावित रूप से oversold (buy signal)। 70 से ऊपर = संभावित रूप से overbought (सावधानी)।",
+      "example": "RSI 25 पर का मतलब है शेयर हाल ही में तेज़ी से गिरा है और oversold हो सकता है। यदि fundamentals अभी भी मजबूत हैं तो यह एक संभावित entry point है।"
+    },
+    "sma50": {
+      "label": "SMA 50",
+      "title": "50-Day Simple Moving Average",
+      "definition": "पिछले 50 trading दिनों का औसत closing price। अल्पकालिक trend indicator के रूप में कार्य करता है। SMA 50 से ऊपर मूल्य = अल्पकालिक uptrend।",
+      "example": "यदि शेयर $150 पर है और SMA 50 $140 है, तो मूल्य ऊपर trending है। यदि यह नीचे cross करे, तो यह अल्पकालिक reversal का संकेत हो सकता है।"
+    },
+    "sma200": {
+      "label": "SMA 200",
+      "title": "200-Day Simple Moving Average",
+      "definition": "पिछले 200 trading दिनों का औसत closing price। दीर्घकालिक trends की पहचान के लिए gold standard। SMA 200 से ऊपर मूल्य = दीर्घकालिक uptrend।",
+      "example": "जब SMA 50 SMA 200 के ऊपर cross करता है तो इसे 'Golden Cross' कहते हैं, एक bullish संकेत। इसका opposite ('Death Cross') bearish है।"
+    },
+    "macd": {
+      "label": "MACD",
+      "title": "Moving Average Convergence Divergence",
+      "definition": "दो moving averages के बीच संबंध दिखाता है। Histogram momentum strength दिखाता है। सकारात्मक और बढ़ रहा = bullish momentum। नकारात्मक और गिर रहा = bearish।",
+      "example": "+2.5 पर बढ़ता MACD histogram का मतलब है upward momentum accelerate हो रहा है। -1.0 पर और shrinking, downward pressure कम हो रहा है।"
+    },
+    "volatility": {
+      "label": "अस्थिरता",
+      "title": "मूल्य अस्थिरता",
+      "definition": "मापता है कि शेयर का मूल्य कितना ऊपर-नीचे होता है। उच्च अस्थिरता = बड़े मूल्य swings (अधिक जोखिम और अवसर)। कम अस्थिरता = अधिक स्थिर मूल्य।",
+      "example": "40% अस्थिरता वाला शेयर एक साल में 40% ऊपर या नीचे swing कर सकता है। 15% अस्थिरता पर एक utility शेयर बहुत अधिक स्थिर है।"
+    },
+    "momentum": {
+      "label": "Momentum (12m)",
+      "title": "12-महीने का मूल्य Momentum (ROC)",
+      "definition": "पिछले 12 महीनों में शेयर का मूल्य कितना बदला है, प्रतिशत के रूप में। सकारात्मक = मूल्य बढ़ा। नकारात्मक = मूल्य घटा।",
+      "example": "+25% का Momentum का मतलब है शेयर एक साल पहले से 25% ऊपर है। मजबूत momentum अक्सर बनी रहती है, लेकिन इसका मतलब यह भी हो सकता है कि शेयर महंगा है।"
+    },
+    "dividendYield": {
+      "label": "Dividend Yield",
+      "title": "Dividend Yield (वार्षिक)",
+      "definition": "शेयर मूल्य से विभाजित वार्षिक dividend per share, प्रतिशत के रूप में व्यक्त। दिखाता है कि केवल शेयर hold करके आप कितना नकद return कमाते हैं, मूल्य परिवर्तन से स्वतंत्र।",
+      "example": "लाभांश में $3/year चुकाने वाला $100 का शेयर 3% yield है। $100,000 के निवेश पर $3,000/year, किसी भी मूल्य वृद्धि से पहले।"
+    },
+    "dividendPerShare": {
+      "label": "Dividend Per Share",
+      "title": "वार्षिक Dividend Per Share (DPS)",
+      "definition": "एक वर्ष में प्रति शेयर paid dividends की कुल dollar राशि। समय के साथ बढ़ता DPS एक स्वस्थ, shareholder-friendly कंपनी के सबसे मजबूत संकेतों में से एक है।",
+      "example": "यदि एक कंपनी प्रति तिमाही $0.25 चुकाती है, तो वार्षिक DPS $1.00 है। यदि पिछले साल $0.80 था, तो dividends 25% बढ़े।"
+    },
+    "payoutRatio": {
+      "label": "Payout Ratio",
+      "title": "Dividend Payout Ratio",
+      "definition": "Dividends के रूप में चुकाई गई शुद्ध आय का प्रतिशत। 60% से नीचे टिकाऊ है, क्योंकि कंपनी पुनर्निवेश के लिए पर्याप्त रखती है। 80% से ऊपर संकेत दे सकता है कि dividend कटने का जोखिम है।",
+      "example": "$5/share कमाने वाली कंपनी जो $2 dividend चुकाती है, उसका 40% payout ratio है। यह विकास में पुनर्निवेश करते हुए शेयरधारकों को पुरस्कृत करते हुए $3 रखती है।"
+    },
+    "fcfPayout": {
+      "label": "FCF Payout",
+      "title": "Free Cash Flow Payout Ratio",
+      "definition": "Free cash flow के प्रतिशत के रूप में paid dividends। Earnings-based payout ratio से अधिक विश्वसनीय क्योंकि FCF वास्तविक नकदी दर्शाता है। 70% से नीचे स्वस्थ है।",
+      "example": "यदि FCF $4/share है और dividends $2/share हैं, तो FCF payout 50% है। कंपनी dividends cover करने के लिए आवश्यक नकदी का दोगुना उत्पन्न करती है। बहुत safe।"
+    },
+    "dividendGrowth": {
+      "label": "Growth (5Y CAGR)",
+      "title": "5-Year Dividend Growth Rate (CAGR)",
+      "definition": "पिछले 5 वर्षों में dividends की compound annual growth rate। दिखाता है कि कंपनी शेयरधारकों को अपने dividend payments को कितनी तेज़ी से बढ़ा रही है।",
+      "example": "10% CAGR का मतलब है dividends लगभग हर 7 साल में doubled हैं। निरंतर dividend growth वाली कंपनियाँ अक्सर दीर्घकालिक में बाजार से बेहतर प्रदर्शन करती हैं।"
+    },
+    "consecutiveYears": {
+      "label": "लगातार वर्ष",
+      "title": "Dividend Payments के लगातार वर्ष",
+      "definition": "कंपनी ने बिना रुकावट के लगातार कितने वर्षों तक dividends चुकाए हैं। लंबी streaks (10+ वर्ष) वित्तीय स्थिरता और शेयरधारकों के प्रति प्रबंधन की प्रतिबद्धता का संकेत देती हैं।",
+      "example": "25+ लगातार वर्षों वाली कंपनियों को 'Dividend Aristocrats' कहते हैं। उन्होंने मंदी के दौरान dividends बनाए रखे हैं, असाधारण वित्तीय resilience दिखाते हुए।"
+    },
+    "piotroskiScore": {
+      "label": "Piotroski F-Score",
+      "title": "Piotroski F-Score (वित्तीय शक्ति)",
+      "definition": "9 binary criteria पर आधारित 0-9 score जो लाभप्रदता, leverage, और परिचालन दक्षता को cover करता है। Professor Joseph Piotroski द्वारा वित्तीय रूप से मजबूत कंपनियों की पहचान के लिए बनाया गया। अधिक बेहतर है।",
+      "example": "8/9 score करने वाली कंपनी लगभग सभी वित्तीय स्वास्थ्य tests pass करती है: सकारात्मक cash flow, बेहतर margins, कम ऋण, और बढ़ता asset turnover। 2/9 का score अधिकांश fail करता है, जो एक चेतावनी संकेत है।"
+    },
+    "earningsQuality": {
+      "label": "Earnings Quality",
+      "title": "Earnings Quality (OCF/Net Income)",
+      "definition": "शुद्ध आय से विभाजित operating cash flow। मापता है कि क्या reported लाभ वास्तविक नकदी द्वारा समर्थित हैं। 1.0 से ऊपर का ratio का मतलब है कंपनी जितना लाभ report करती है उससे अधिक नकदी उत्पन्न करती है, जो उच्च quality earnings दर्शाता है।",
+      "example": "$5B cash flow और $4B net income वाली कंपनी का earnings quality 1.25 है, जहाँ नकदी reported लाभ से अधिक है। यदि reversed ($3B cash, $5B profit), quality 0.6 है, जो एक red flag है।"
+    },
+    "shareDilution": {
+      "label": "Share Dilution",
+      "title": "Share Dilution / Buyback",
+      "definition": "Outstanding shares में साल-दर-साल प्रतिशत परिवर्तन। नकारात्मक मान share buybacks दर्शाते हैं (कम shares = प्रति share अधिक value)। सकारात्मक मान dilution का मतलब है (अधिक shares = प्रति share कम value)।",
+      "example": "-3% मान का मतलब है कंपनी ने अपने 3% shares वापस खरीदे, इसलिए प्रत्येक शेष share अब व्यवसाय का एक बड़ा हिस्सा दर्शाता है। +5% का मतलब 5% dilution है।"
+    }
+  }
+}

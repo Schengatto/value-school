@@ -1,0 +1,153 @@
+{
+  "tour": {
+    "startTour": "Visita Guiada",
+    "welcome": {
+      "title": "Su Análisis de Inversión en Valor",
+      "description": "Está a punto de aprender cómo analizar una acción como un inversor en valor profesional. Esta visita guiada le lleva por cada métrica clave de esta página, explicando qué significa y cómo usarla.\n\nCubriremos 5 fases:\n1. Entender el Negocio\n2. Evaluar la Salud Financiera\n3. Valorar el Precio\n4. Leer las Señales del Mercado\n5. Juzgar la Calidad de Gestión\n\nTómese su tiempo. Puede salir con Esc y reiniciar en cualquier momento."
+    },
+    "overview": {
+      "title": "Fase 1: Entender el Negocio",
+      "description": "Antes de mirar ningún número, asegúrese de entender verdaderamente QUÉ hace esta empresa.\n\nPregúntese: ¿puede explicarle este negocio a un amigo en una sola frase? Si no puede, probablemente no lo entiende lo suficientemente bien como para invertir.\n\nLea la descripción de la empresa, anote el sector y la industria. Este contexto es esencial: un P/E de 30 significa algo muy diferente para una empresa tecnológica que para una de servicios públicos."
+    },
+    "balanceSheet": {
+      "title": "Fase 2: Salud Financiera",
+      "description": "Ahora profundizamos en los números. El balance le indica si esta empresa puede sobrevivir a tiempos difíciles.\n\nPiénselo como un chequeo de salud: los ingresos y los beneficios muestran si el negocio está prosperando, mientras que los ratios de deuda y liquidez revelan vulnerabilidades ocultas.\n\nExaminemos cada métrica una por una."
+    },
+    "revenue": {
+      "title": "Ingresos",
+      "description": "Los ingresos son el dinero total que entra por las ventas. Es la línea superior: todo empieza aquí.\n\nQué buscar:\n• ¿Están creciendo los ingresos año tras año? El estancamiento o la caída es una señal de alerta.\n• Compare con los pares del sector: ¿está esta empresa ganando o perdiendo cuota de mercado?\n\nLos ingresos solos no le dicen si la empresa es rentable. Una empresa puede tener miles de millones en ingresos y aun así perder dinero."
+    },
+    "fcf": {
+      "title": "Flujo de Caja Libre (FCF)",
+      "description": "El Flujo de Caja Libre es el efectivo REAL que queda después de gestionar el negocio e invertir en crecimiento. A diferencia del beneficio neto, es muy difícil de manipular con trucos contables.\n\nQué buscar:\n• FCF positivo: la empresa genera efectivo real.\n• FCF creciendo con el tiempo: el negocio se está convirtiendo en una máquina de efectivo más fuerte.\n• FCF > Beneficio Neto: los beneficios están respaldados por efectivo real (una señal muy saludable).\n\nUna empresa con FCF sólido puede pagar dividendos, recomprar acciones, reducir deuda o invertir en crecimiento, todo sin pedir prestado."
+    },
+    "currentRatio": {
+      "title": "Ratio de Liquidez",
+      "description": "El Ratio de Liquidez mide la liquidez a corto plazo: ¿puede la empresa pagar sus facturas con vencimiento en los próximos 12 meses?\n\nCómo leerlo:\n• Por encima de 1,5: saludable: la empresa tiene 1,50€+ de activos líquidos por cada 1€ de deuda a corto plazo.\n• Entre 1,0 y 1,5: adecuado, pero con poco margen de seguridad.\n• Por debajo de 1,0: atención: el pasivo corriente supera al activo corriente.\n\nUn ratio de liquidez bajo no siempre significa problemas (algunos sectores como el comercio minorista operan con ratios bajos), pero aumenta el riesgo durante las recesiones económicas."
+    },
+    "debtMetrics": {
+      "title": "Métricas de Deuda",
+      "description": "Estos dos ratios le indican si los niveles de deuda son peligrosos:\n\nCobertura de Intereses: con qué facilidad la empresa paga los intereses de su deuda.\n• Por encima de 3x: cómodo.\n• Por debajo de 1,5x: una gran parte de los beneficios va al pago de intereses.\n\nDeuda/EBITDA: cuántos años de beneficios se necesitarían para pagar toda la deuda.\n• Por debajo de 3x: saludable.\n• 3-5x: necesita seguimiento.\n• Por encima de 5x: bandera roja.\n\nDurante las recesiones, las empresas muy endeudadas son las primeras en fracasar. Poca deuda = seguridad."
+    },
+    "epsChart": {
+      "title": "Tendencia del Beneficio Por Acción (EPS)",
+      "description": "El EPS muestra cuánto beneficio genera cada acción. Una tendencia alcista del EPS es una de las señales más fuertes de un negocio de calidad.\n\nQué buscar:\n• EPS en alza durante 3-5 años: la empresa es cada vez más rentable.\n• EPS creciendo más rápido que los ingresos: mejora de los márgenes y la eficiencia.\n• Caídas repentinas: investíguelas: podría ser un evento puntual o un problema real.\n\nCompare el crecimiento del EPS con el crecimiento del precio de la acción. Si el EPS crece más rápido que el precio, la acción se está abaratando en relación con los beneficios, una posible oportunidad."
+    },
+    "revenueChart": {
+      "title": "Tendencia de Ingresos y Beneficio Neto",
+      "description": "Este gráfico muestra si el negocio está creciendo Y reteniendo más de lo que gana.\n\nQué buscar:\n• Ambas líneas en alza: crecimiento saludable y sostenible.\n• Ingresos en alza pero beneficios estancados: costes creciendo demasiado rápido. Investigue por qué.\n• Beneficios creciendo más rápido que los ingresos: mejora de la eficiencia, una gran señal.\n• Ingresos en declive: posible pérdida de cuota de mercado o disrupción sectorial.\n\nLa brecha entre los ingresos y el beneficio neto representa los costes totales. Si esta brecha se estrecha con el tiempo, la rentabilidad está mejorando."
+    },
+    "fcfChart": {
+      "title": "Historial del Flujo de Caja Libre",
+      "description": "Este gráfico visualiza el FCF a lo largo de múltiples años. La consistencia importa más que cualquier año individual.\n\nQué buscar:\n• Barras consistentemente positivas: el negocio genera efectivo real año tras año.\n• Tendencia creciente: la máquina de efectivo se está fortaleciendo.\n• FCF volátil o negativo: la empresa puede necesitar financiación externa, aumentando el riesgo.\n\nUna empresa con FCF sólido y creciente tiene la flexibilidad financiera para recompensar a los accionistas mediante dividendos o recompras."
+    },
+    "incomeBreakdown": {
+      "title": "Desglose de Ingresos",
+      "description": "Este gráfico muestra adónde va realmente cada euro de ingresos: coste de los bienes vendidos, gastos operativos, impuestos y finalmente el beneficio neto.\n\nQué buscar:\n• Mayor segmento de beneficio neto: mejor rentabilidad.\n• El coste de ingresos acaparando la mayor parte de la barra: márgenes estrechos, vulnerables a aumentos de costes.\n• Gastos operativos creciendo más rápido que los ingresos: eficiencia en declive.\n\nLas empresas con altos márgenes brutos (pequeño segmento de coste de ingresos) suelen tener ventajas competitivas más fuertes: poder de fijación de precios, productos únicos o efectos de red."
+    },
+    "fairValue": {
+      "title": "Fase 3: ¿Es Justo el Precio?",
+      "description": "Este es el corazón de la inversión en valor. La estimación del valor justo determina cuánto vale REALMENTE la acción, independientemente del sentimiento del mercado. Combinamos múltiples métodos (DCF, Graham, EPV, basado en P/E) para reducir el sesgo.\n\nConceptos clave:\n• Valor Justo: nuestra mejor estimación del valor intrínseco.\n• Precio Actual: lo que el mercado cobra hoy.\n• Rango de Valor Justo: el intervalo de confianza de nuestra estimación.\n\nCuando los métodos coinciden en un valor similar, la estimación es más fiable. Un gran desacuerdo significa más incertidumbre."
+    },
+    "marginOfSafety": {
+      "title": "Margen de Seguridad",
+      "description": "El concepto más importante de Benjamin Graham. El margen de seguridad es el descuento entre el precio actual y el valor justo.\n\nCómo leerlo:\n• Positivo (p. ej., +30%): la acción cotiza por debajo del valor justo, una posible ganga.\n• Cercano a cero: la acción tiene un precio justo, con potencial alcista limitado.\n• Negativo (p. ej., -15%): la acción cotiza por encima del valor justo; está pagando una prima.\n\nGraham recomendó al menos un 25% de margen de seguridad para tener en cuenta los errores de estimación.\n\nUna acción por debajo del valor justo no es automáticamente una compra. Pregúntese siempre POR QUÉ está barata; puede haber una buena razón."
+    },
+    "peRatio": {
+      "title": "Ratio P/E",
+      "description": "El Precio/Beneficio le dice cuánto paga por cada euro de beneficio anual.\n\nCómo leerlo:\n• P/E bajo (< 15): podría estar infravalorada, o el mercado ve problemas por venir.\n• P/E medio (15-25): valoración justa para la mayoría de los sectores.\n• P/E alto (> 25): el mercado espera un fuerte crecimiento futuro.\n• P/E negativo: la empresa está perdiendo dinero.\n\nCompare siempre dentro del mismo sector: las acciones tecnológicas suelen tener P/E más alto (25-35) que las de servicios públicos (12-18).\n\nEl punto óptimo del inversor en valor: P/E bajo combinado con ROE alto y beneficios crecientes."
+    },
+    "roeRoic": {
+      "title": "ROE y ROIC",
+      "description": "Estas métricas miden con qué eficiencia la dirección usa el capital:\n\nROE (Retorno sobre el Patrimonio): beneficio generado por cada euro de patrimonio del accionista.\n• Por encima del 15%: excelente eficiencia de gestión.\n• Por debajo del 10%: la empresa puede no estar utilizando bien el capital.\n\nROIC (Retorno sobre el Capital Invertido): similar, pero incluye la deuda en el cálculo. Una imagen más completa.\n• Por encima del 10%: genera fuertes retornos sobre TODO el capital.\n\nROE + ROIC consistentemente altos = una empresa con una ventaja competitiva duradera (lo que Buffett llama un 'foso')."
+    },
+    "pbPfcf": {
+      "title": "Ratios P/B y P/FCF",
+      "description": "Perspectivas de valoración alternativas que complementan al P/E:\n\nP/B (Precio/Valor en Libros): compara el precio de la acción con el valor neto contable de la empresa.\n• Por debajo de 1: está pagando menos de lo que valen los activos de la empresa. Podría estar infravalorada, o ser una trampa de valor.\n• Por encima de 3: el mercado valora altamente los activos intangibles (marca, propiedad intelectual, crecimiento).\n\nP/FCF (Precio/Flujo de Caja Libre): como el P/E pero usa efectivo real en lugar de beneficio contable. Más fiable.\n\nEl P/FCF suele ser más útil que el P/E porque el flujo de caja libre es más difícil de manipular."
+    },
+    "radarChart": {
+      "title": "Radar de Rentabilidad",
+      "description": "Este gráfico de radar le ofrece una instantánea visual del perfil financiero de la empresa a lo largo de múltiples dimensiones.\n\nQué buscar:\n• Forma amplia y equilibrada: fuerte en todas las dimensiones.\n• Eje colapsado o plano: revela una debilidad específica; investíguela.\n• Compare con su modelo mental de una inversión ideal.\n\nNinguna empresa puntúa perfectamente en todos los ejes. La pregunta clave: ¿son las debilidades temporales (y solucionables) o estructurales (y permanentes)?"
+    },
+    "fundamentalCriteria": {
+      "title": "Cuadro de Mando de Criterios Fundamentales",
+      "description": "Esta sección muestra cada criterio utilizado para calcular la puntuación fundamental. Piénselo como una lista de verificación de calidad.\n\nCómo leerla:\n• Verde (Superado): la empresa supera el umbral de calidad para esta métrica.\n• Rojo (Fallido): la empresa se queda corta. Compruebe el peso: los fallos de alto peso importan más.\n• Gris (No disponible): datos faltantes. No incluidos en la puntuación.\n\nInterpretación de la puntuación:\n• Por encima de 75: fundamentos sólidos.\n• 60-75: decente, pero compruebe qué falló.\n• Por debajo de 40: preocupaciones significativas.\n\nNo se limite a mirar la puntuación total. Lea qué criterios específicos fallaron. Una empresa podría puntuar 65 pero ocultar niveles peligrosos de deuda entre muchos aprobados menores."
+    },
+    "priceChart": {
+      "title": "Fase 4: Señales del Mercado",
+      "description": "El gráfico de velas muestra la acción del precio a lo largo del tiempo. Velas verdes = el precio subió, rojas = bajó. Las líneas delgadas (mechas) muestran el máximo y mínimo del día.\n\nQué buscar:\n• Tendencia general: máximos más altos = tendencia alcista, mínimos más bajos = tendencia bajista.\n• Niveles de soporte: precios donde la acción rebota consistentemente hacia arriba.\n• Niveles de resistencia: precios donde retrocede repetidamente.\n\nEl gráfico de precios le dice lo que el MERCADO piensa. Su análisis fundamental le dice cuánto VALE la empresa. Cuando divergen, surgen oportunidades."
+    },
+    "rsi": {
+      "title": "RSI (Índice de Fuerza Relativa)",
+      "description": "El RSI mide si una acción ha subido o bajado demasiado rápido. Va de 0 a 100.\n\nCómo leerlo:\n• Por debajo de 30: potencialmente sobrevendido. La acción puede haber sido vendida demasiado agresivamente. Podría ser una oportunidad de compra.\n• Entre 30 y 70: territorio neutral, con condiciones de negociación normales.\n• Por encima de 70: potencialmente sobrecomprado. La acción puede haber subido demasiado rápido. Podría retroceder.\n\nEl RSI es una herramienta de temporización, no de selección. Use los fundamentos para decidir QUÉ comprar, el RSI para decidir CUÁNDO."
+    },
+    "smaTrend": {
+      "title": "Medias Móviles (SMA 50 y 200)",
+      "description": "Las medias móviles suavizan el ruido diario para revelar la tendencia subyacente.\n\nSeñales clave:\n• SMA 50 por encima de SMA 200 (Cruce Dorado): la tendencia a corto plazo es más fuerte que la de largo plazo, una señal alcista.\n• SMA 50 por debajo de SMA 200 (Cruce de la Muerte): la tendencia a corto plazo es más débil, una señal bajista.\n• Precio por encima de SMA 200: la tendencia a largo plazo es alcista.\n\nEstas señales funcionan mejor como confirmación de su análisis fundamental. Una empresa fundamentalmente excelente en un Cruce Dorado es una combinación sólida."
+    },
+    "macdVolatility": {
+      "title": "MACD y Volatilidad",
+      "description": "Dos herramientas más para entender el momentum y el riesgo:\n\nHistograma MACD: positivo y en alza = momentum alcista. Negativo y en caída = bajista.\n\nVolatilidad: cuánto oscila el precio de la acción. Alta volatilidad significa mayor riesgo pero también mayor potencial de oportunidad para los compradores pacientes.\n\nPara los inversores en valor, una alta volatilidad en una empresa fundamentalmente sólida puede crear oportunidades de compra: el mercado reacciona de forma exagerada, creando descuentos temporales."
+    },
+    "piotroski": {
+      "title": "Fase 5: Calidad de Gestión",
+      "description": "El Piotroski F-Score es una lista de verificación de 9 puntos que evalúa la salud financiera en términos de rentabilidad, apalancamiento y eficiencia operativa.\n\nCómo leerlo:\n• 7-9: sólida salud financiera; la dirección lo está haciendo bien.\n• 4-6: señales mixtas; algunas áreas necesitan atención.\n• 0-3: preocupaciones financieras graves; proceda con extrema precaución.\n\nObserve el desglose a continuación para ver exactamente qué criterios se aprobaron y cuáles fallaron.\n\nLas investigaciones académicas muestran que las altas puntuaciones Piotroski tienden a superar a las bajas a lo largo del tiempo. Es uno de los indicadores de calidad más validados."
+    },
+    "earningsQuality": {
+      "title": "Calidad de los Beneficios",
+      "description": "La Calidad de los Beneficios compara el Flujo de Caja Operativo con el Beneficio Neto. Esto revela si los beneficios declarados están respaldados por efectivo real.\n\nCómo leerlo:\n• Por encima de 1,0: el flujo de caja operativo supera el beneficio neto, por lo que los beneficios son sólidos y reales.\n• Entre 0,5 y 1,0: cierta brecha entre los beneficios declarados y los reales. Vale la pena monitorear.\n• Por debajo de 0,5: el beneficio neto es mucho mayor que el efectivo real generado, lo que sugiere una posible contabilidad agresiva.\n\nLas empresas con alta calidad de beneficios tienen menos probabilidades de dar sorpresas negativas. El efectivo no miente."
+    },
+    "shareDilution": {
+      "title": "Dilución de Acciones",
+      "description": "La dilución de acciones le indica si la dirección está creando o destruyendo valor para los accionistas mediante la emisión de acciones.\n\nCómo leerlo:\n• Negativo (p. ej., -3%): la empresa está recomprando acciones; cada acción restante se vuelve más valiosa. Favorable para el accionista.\n• Cercano a cero: neutral; el número de acciones es estable.\n• Positivo (p. ej., +5%): se están emitiendo nuevas acciones, diluyendo su porcentaje de participación.\n\nLas recompras consistentes combinadas con una alta puntuación Piotroski son una fuerte señal de una gestión favorable al accionista."
+    },
+    "governance": {
+      "title": "Gobierno Corporativo",
+      "description": "Incluso el mejor negocio puede arruinarse por una mala gestión. Esta sección evalúa la fiabilidad del liderazgo.\n\nQué buscar:\n• Independencia del consejo: más consejeros independientes = mejor supervisión.\n• Puntuaciones de riesgo bajas: los riesgos altos de auditoría, consejo o compensación son señales de alerta.\n• Compensación ejecutiva: debe estar vinculada a los retornos para los accionistas, no a bonos garantizados.\n\nLa mala gobernanza es uno de los predictores más fuertes de problemas futuros. Si todo lo demás parece bien pero las puntuaciones de gobernanza son alarmantes, piénselo dos veces."
+    },
+    "conclusion": {
+      "title": "Integrando Todo",
+      "description": "Ahora ha visto todas las métricas que necesita un inversor en valor. Así es como conectar los puntos:\n\n1. ¿Negocio sólido que entiende? (Fase 1)\n2. ¿Finanzas sólidas: ingresos crecientes, FCF positivo, poca deuda? (Fase 2)\n3. ¿Cotizando por debajo del valor justo con margen de seguridad? (Fase 3)\n4. ¿Las señales técnicas no gritan 'aléjese'? (Fase 4)\n5. ¿Dirección de confianza creando valor para los accionistas? (Fase 5)\n\nSi la mayoría de las respuestas son SÍ, puede haber encontrado un candidato de inversión de calidad. Si varias son NO, profundice más o pase al siguiente.\n\nNinguna métrica individual cuenta toda la historia. Busque convergencia. Haga clic en el icono de información de cualquier tarjeta para volver a ver su explicación en cualquier momento."
+    },
+    "prompt": {
+      "title": "¿Quiere una visita guiada?",
+      "sageQuip": "¡Hola! ¿Quiere que le muestre por aquí?",
+      "description": "Aprenda cómo leer cada métrica como un inversor en valor. Tarda unos 5 minutos.",
+      "start": "Iniciar Visita",
+      "dismiss": "Ahora no",
+      "dontAskAgain": "No volver a preguntar"
+    },
+    "sageQuips": {
+      "welcome": "¿Listo? ¡Vamos allá!",
+      "overview": "Lo primero es lo primero...",
+      "balanceSheet": "¡Es hora de revisar los números!",
+      "revenue": "¡Muéstrame el dinero!",
+      "fcf": "¡El efectivo es el rey!",
+      "currentRatio": "¿Pueden pagar sus facturas?",
+      "debtMetrics": "La deuda puede ser peligrosa...",
+      "epsChart": "¡Los beneficios cuentan la historia!",
+      "revenueChart": "¡Sigamos la tendencia!",
+      "fcfChart": "¡Efectivo real, valor real!",
+      "incomeBreakdown": "¿Adónde va el dinero?",
+      "fairValue": "¿Es una ganga?",
+      "marginOfSafety": "¡La regla de oro de la inversión!",
+      "peRatio": "¿Cuánto está pagando?",
+      "roeRoic": "¡La eficiencia importa!",
+      "pbPfcf": "¡Más formas de medir el valor!",
+      "radarChart": "¡El panorama general!",
+      "fundamentalCriteria": "¡La lista de verificación de calidad!",
+      "priceChart": "¿Qué piensa el mercado?",
+      "rsi": "¡El momento lo es todo!",
+      "smaTrend": "¡Siga la tendencia!",
+      "macdVolatility": "¡Control de momentum!",
+      "piotroski": "¡Calificamos la gestión!",
+      "earningsQuality": "¿Son reales los beneficios?",
+      "shareDilution": "¡Cuidado con la dilución!",
+      "governance": "¡La confianza es esencial!",
+      "conclusion": "¡Excelente trabajo, está aprendiendo rápido!"
+    },
+    "next": "Siguiente",
+    "prev": "Anterior",
+    "done": "Hecho"
+  }
+}

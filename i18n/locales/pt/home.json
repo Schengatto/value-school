@@ -1,0 +1,27 @@
+{
+  "home": {
+    "title": "Análise de Investimento em Valor",
+    "description1": "Este relatório é gerado utilizando uma metodologia de Investimento em Valor modernizada, inspirada em {buffett} e {graham}. Cada empresa é avaliada com base na sua solidez financeira, rentabilidade, eficiência operacional e se a ação parece subvalorizada em relação ao seu valor intrínseco.",
+    "description2": "Cada empresa recebe uma {score} nos fundamentos, eficiência, estrutura de capital e avaliação intrínseca.",
+    "compositeScore": "Pontuação composta de 0-100",
+    "evaluationCriteria": "Critérios de Avaliação",
+    "criteriaIntro": "O modelo de pontuação baseia-se numa avaliação ponderada dos seguintes critérios-chave:",
+    "criteria": {
+      "epsTrend": "Crescimento consistente dos Resultados Por Ação (EPS), indicando poder de lucro duradouro.",
+      "epsCagr": "Taxa de crescimento anual composta (CAGR) do EPS acima de 10%, demonstrando forte crescimento a longo prazo.",
+      "roic": "Retorno sobre o Capital Investido (ROIC) acima de 10%, refletindo uma alocação eficiente do capital.",
+      "grossMargin": "Margem de lucro bruto acima de 60%, sugerindo uma vantagem competitiva duradoura.",
+      "pfcf": "Preço sobre Fluxo de Caixa Livre (P/FCF) abaixo de 15, indicando uma avaliação atrativa.",
+      "fcfPositive": "Fluxo de Caixa Livre (FCF) positivo, confirmando a capacidade de gerar excesso de caixa.",
+      "dividendPayout": "Rácio de distribuição de dividendos abaixo de 60%, equilibrando o retorno ao acionista e o reinvestimento.",
+      "debtToEquity": "Rácio Dívida/Capital Próprio abaixo de 2, evidenciando uma estrutura de capital conservadora.",
+      "operatingMargin": "Margem operacional acima de 10%, representando eficiência operacional.",
+      "currentRatio": "Rácio de liquidez corrente acima de 1,5, demonstrando boa saúde financeira a curto prazo.",
+      "interestCoverage": "Cobertura de juros acima de 3, assegurando a capacidade de servir a dívida.",
+      "debtEbitda": "Rácio Dívida/EBITDA abaixo de 3, indicando alavancagem sustentável.",
+      "grahamNumber": "Preço de mercado abaixo do Número de Graham, um referencial clássico de valor justo.",
+      "dcf": "Valor intrínseco DCF acima do preço de mercado atual, sugerindo subvalorização."
+    },
+    "rankings": "Classificação das Empresas"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "screenerTour": {
+    "welcome": {
+      "title": "Screener में आपका स्वागत है",
+      "description": "Screener आपको 200+ NASDAQ large-cap शेयरों में निवेश के अवसर खोजने में मदद करता है।\n\nप्रत्येक शेयर को fundamentals (वित्तीय स्वास्थ्य) और technicals (बाजार trends) पर scored किया जाता है, फिर एक composite score के आधार पर ranked किया जाता है।\n\nयह टूर आपको दिखाता है कि अपने निवेश मानदंडों से मेल खाने वाले शेयर खोजने के लिए filters, presets, और sorting का उपयोग कैसे करें। लगभग 2 मिनट लेता है।\n\nबाहर निकलने के लिए Esc दबाएं, और revisit करने के लिए \"गाइडेड टूर\" button का उपयोग करें।"
+    },
+    "intro": {
+      "title": "Screener कैसे काम करता है",
+      "description": "यह card screener के पीछे scoring methodology समझाता है।\n\nप्रत्येक शेयर को 70% fundamental विश्लेषण और 30% technical विश्लेषण को मिलाकर एक Composite Score (0-100) मिलता है।\n\nउपयोग किए गए metrics की पूरी सूची देखने के लिए \"Evaluation Criteria\" expand करें: EPS trends, ROIC, margins, debt levels, DCF valuation, और अधिक।\n\n💡 मानदंडों को समझना आपको scores को अधिक प्रभावी ढंग से interpret करने में मदद करता है।"
+    },
+    "presets": {
+      "title": "त्वरित Presets",
+      "description": "Presets एक click से predefined filters लागू करते हैं, सामान्य screening रणनीतियों के लिए perfect:\n\n• Value Picks: मजबूत fundamentals वाले classic value stocks\n• Growth Stars: शीर्ष composite scores वाली high-growth कंपनियाँ\n• Quality Stocks: उच्च Piotroski F-Score और विश्वसनीय डेटा\n• Undervalued: अपने अनुमानित fair value से नीचे trade करने वाले शेयर\n\n💡 Presets को starting point के रूप में उपयोग करें, फिर अतिरिक्त filters से refine करें।"
+    },
+    "filters": {
+      "title": "खोजें और Filter करें",
+      "description": "इन controls का उपयोग करके शेयर सूची को narrow करें:\n\n• खोज: नाम या ticker से एक विशिष्ट शेयर खोजें\n• Sector: उद्योग के अनुसार filter करें (Technology, Healthcare, आदि)\n• Signal: समग्र signal के अनुसार filter करें (सकारात्मक, तटस्थ, नकारात्मक)\n• Category: शेयर प्रकार toggle करें (value, growth, GARP, सट्टा)\n• Valuation: valuation signal के अनुसार filter करें (undervalued, fair, overvalued)\n\n💡 Filters एक साथ combine होते हैं: केवल सभी active filters से मेल खाने वाले शेयर दिखाए जाते हैं।"
+    },
+    "scoreRanges": {
+      "title": "Score Ranges",
+      "description": "तीन मुख्य scores के लिए minimum और maximum thresholds सेट करें:\n\n• Composite Score: समग्र ranking (70% fundamental + 30% technical)\n• Fundamental Score: वित्तीय स्वास्थ्य और गुणवत्ता metrics\n• Technical Score: बाजार trends और momentum संकेतक\n\nScores 0 से 100 तक होते हैं। 60 से ऊपर आम तौर पर एक ठोस शेयर दर्शाता है।\n\n💡 वित्तीय रूप से स्वस्थ कंपनियों के लिए filter करने के लिए Fundamental Score min को 60 पर सेट करने का प्रयास करें।"
+    },
+    "advanced": {
+      "title": "Advanced Filters",
+      "description": "गहरे screening विकल्पों के लिए expand करें:\n\n• Piotroski F-Score (0-9): वित्तीय शक्ति मापता है। 7+ मजबूत fundamentals का मतलब है\n• Margin of Safety: fair value में कितनी छूट। सकारात्मक = संभावित रूप से undervalued\n• Data Completeness: उपलब्ध डेटा का प्रतिशत। अधिक = अधिक विश्वसनीय scores\n\n💡 Piotroski ≥ 7 को सकारात्मक Margin of Safety के साथ combine करना एक classic value investing screen है।"
+    },
+    "sorting": {
+      "title": "Sorting",
+      "description": "सबसे महत्वपूर्ण क्या है यह खोजने के लिए किसी भी metric के अनुसार results sort करें:\n\n• Composite Score (default): समग्र best-ranked stocks\n• Fundamental/Technical Score: विशिष्ट विश्लेषण प्रकार के अनुसार sort करें\n• Margin of Safety: पहले सबसे undervalued stocks खोजें\n• Piotroski F-Score: वित्तीय गुणवत्ता को प्राथमिकता दें\n• P/E या ROE: classic valuation metrics के अनुसार sort करें\n\nAscending/descending order toggle करने के लिए arrow पर click करें।"
+    },
+    "results": {
+      "title": "शेयर Cards",
+      "description": "प्रत्येक card एक नज़र में प्रमुख जानकारी दिखाता है:\n\n• नाम, ticker, और वर्तमान मूल्य\n• Category badge (value, growth, GARP, सट्टा)\n• तीन scores: Composite, Fundamental, Technical\n• समग्र signal और valuation signal\n• Margin of Safety, Piotroski F-Score, P/E, और ROE\n\nचार्ट, fair value अनुमान, और governance डेटा के साथ पूर्ण विश्लेषण page खोलने के लिए किसी भी card पर click करें।\n\n💡 Scores पर \"~\" prefix का मतलब है कम data completeness; सावधानी के साथ interpret करें।"
+    },
+    "conclusion": {
+      "title": "Explore करने के लिए तैयार!",
+      "description": "आप अब जानते हैं कि screener को प्रभावी ढंग से कैसे उपयोग करें:\n\n✅ त्वरित screening रणनीतियों के लिए presets का उपयोग करें\n✅ अपनी खोज narrow करने के लिए filters combine करें\n✅ जो मायने रखता है उसे खोजने के लिए अलग-अलग metrics के अनुसार sort करें\n✅ विस्तृत विश्लेषण में जाने के लिए एक शेयर पर click करें\n\nयाद रखें: screener शोध का starting point है, buy/sell recommendation नहीं। हमेशा अपनी उचित जांच करें।\n\n💡 इस walkthrough को revisit करने के लिए कभी भी \"गाइडेड टूर\" button पर click करें।"
+    },
+    "sageQuips": {
+      "welcome": "मुझे treasure map दिखाने दें!",
+      "intro": "यहाँ हम शेयरों को कैसे score करते हैं!",
+      "presets": "एक click, तुरंत रणनीति!",
+      "filters": "चलो इसे narrow करें!",
+      "scoreRanges": "अपनी गुणवत्ता bar सेट करें!",
+      "advanced": "Pros के लिए power tools!",
+      "sorting": "सर्वश्रेष्ठ में से सर्वश्रेष्ठ खोजें!",
+      "results": "ये आपके उम्मीदवार हैं!",
+      "conclusion": "अब जाएं और कुछ gems खोजें!"
+    }
+  },
+  "screener": {
+    "title": "शेयर Screener",
+    "description": "Fundamental scores, technical signals, valuation metrics, और quality indicators के आधार पर शेयरों को filter करें और खोजें। त्वरित विश्लेषण के लिए presets का उपयोग करें या अपनी custom screen बनाएं।",
+    "presets": {
+      "valuePicks": "Value Picks",
+      "growthStars": "Growth Stars",
+      "qualityStocks": "Quality Stocks",
+      "undervalued": "Undervalued"
+    },
+    "filters": {
+      "title": "Filters",
+      "active": "{count} active | {count} active",
+      "category": "Category",
+      "compositeRange": "Composite Score",
+      "fundamentalRange": "Fundamental Score",
+      "technicalRange": "Technical Score",
+      "advanced": "Advanced Filters",
+      "piotroskiMin": "Piotroski F-Score (min)",
+      "marginOfSafetyRange": "Margin of Safety (%)",
+      "dataCompletenessMin": "Data Completeness (min %)",
+      "valuationSignal": "Valuation",
+      "allValuations": "सभी valuations"
+    },
+    "columns": {
+      "price": "मूल्य",
+      "valuation": "Valuation",
+      "marginOfSafety": "MoS %",
+      "piotroski": "F-Score",
+      "pe": "P/E",
+      "roe": "ROE %"
+    },
+    "results": {
+      "found": "{count} शेयर मिले",
+      "noResults": "आपके मानदंडों से कोई शेयर मेल नहीं खाता। कुछ filters ढीले करने का प्रयास करें।"
+    },
+    "valuation": {
+      "undervalued": "Undervalued",
+      "fairlyValued": "Fair Value",
+      "overvalued": "Overvalued"
+    },
+    "help": {
+      "sector": {
+        "title": "उद्योग Sector",
+        "content": "वह आर्थिक sector जिससे कोई कंपनी संबंधित है (जैसे Technology, Healthcare, Finance)।\n\nSector के अनुसार filter करने से आप उन उद्योगों पर ध्यान केंद्रित कर सकते हैं जिन्हें आप समझते हैं या explore करना चाहते हैं।\n\nअलग-अलग sectors के अलग-अलग सामान्य valuations होते हैं; एक ही sector के भीतर तुलना करना अधिक सार्थक है।"
+      },
+      "signal": {
+        "title": "समग्र Signal",
+        "content": "Composite score से प्राप्त एक सारांश recommendation:\n\n• सकारात्मक: composite score अनुकूल conditions का सुझाव देता है\n• तटस्थ: मिश्रित संकेत, न तो दृढ़ता से सकारात्मक और न ही नकारात्मक\n• नकारात्मक: कम scores संभावित चिंताओं का संकेत देते हैं\n\nयह buy/sell recommendation नहीं है; हमेशा अपना शोध करें।"
+      },
+      "category": {
+        "title": "शेयर Category",
+        "content": "प्रत्येक शेयर को उसके financial profile के आधार पर classified किया जाता है:\n\n• Value: fundamentals के सापेक्ष कम valuation (कम P/E, उच्च dividend)\n• Growth: मजबूत earnings और revenue growth momentum\n• GARP: Growth at a Reasonable Price, growth और value का मिश्रण\n• Speculative: उच्च अनिश्चितता या classification के लिए अपर्याप्त डेटा"
+      },
+      "valuation": {
+        "title": "Valuation Signal",
+        "content": "वर्तमान शेयर मूल्य की अनुमानित fair value से तुलना करता है:\n\n• Undervalued: मूल्य अनुमानित fair value से नीचे है (संभावित अवसर)\n• Fair Value: मूल्य अनुमानित fair value के करीब है\n• Overvalued: मूल्य अनुमानित fair value से ऊपर है\n\nFair value DCF, Graham Number, EPV, और P/E-based models का उपयोग करके calculate की जाती है।"
+      },
+      "compositeScore": {
+        "title": "Composite Score (0-100)",
+        "content": "समग्र ranking score जो combine करता है:\n\n• 70% Fundamental Score (वित्तीय स्वास्थ्य, earnings quality, valuation)\n• 30% Technical Score (बाजार trends, momentum)\n\nउच्च score का मतलब है शेयर fundamental और technical दोनों मानदंडों पर अच्छी rank करता है।\n\n60+ आम तौर पर ठोस माना जाता है। सर्वोत्तम परिणामों के लिए एक ही sector के भीतर तुलना करें।"
+      },
+      "fundamentalScore": {
+        "title": "Fundamental Score (0-100)",
+        "content": "30+ metrics का उपयोग करके किसी कंपनी के वित्तीय स्वास्थ्य का मूल्यांकन करता है:\n\n• Profitability: EPS growth, ROE, ROIC, margins\n• वित्तीय शक्ति: debt levels, current ratio, interest coverage\n• Cash flow: free cash flow generation, payout sustainability\n• Valuation: P/E, P/FCF, Graham Number, DCF\n\nउच्च score = मजबूत वित्तीय fundamentals।"
+      },
+      "technicalScore": {
+        "title": "Technical Score (0-100)",
+        "content": "बाजार trends और मूल्य momentum मापता है:\n\n• SMA 50/200: अल्पकालिक और दीर्घकालिक moving averages\n• RSI (14): overbought/oversold संकेतक\n• MACD: momentum और trend दिशा\n• Price momentum: 12-महीने की rate of change\n• Volatility: मूल्य स्थिरता मूल्यांकन\n\nउच्च score = entry के लिए अधिक अनुकूल technical conditions।"
+      },
+      "piotroski": {
+        "title": "Piotroski F-Score (0-9)",
+        "content": "Professor Joseph Piotroski द्वारा विकसित एक quality score जो 9 financial criteria test करता है:\n\n• Profitability (4 tests): सकारात्मक net income, operating cash flow, ROA सुधार, cash flow > net income\n• Leverage (3 tests): घटता ऋण, बेहतर current ratio, कोई share dilution नहीं\n• Efficiency (2 tests): बेहतर gross margin, बेहतर asset turnover\n\n7-9 = मजबूत fundamentals\n4-6 = मिश्रित\n0-3 = कमजोर fundamentals"
+      },
+      "marginOfSafety": {
+        "title": "Margin of Safety (%)",
+        "content": "किसी शेयर की अनुमानित fair value और उसके वर्तमान बाजार मूल्य के बीच प्रतिशत अंतर।\n\n• सकारात्मक: शेयर fair value से नीचे trade करता है (जैसे +25% का मतलब 25% छूट)\n• शून्य: शेयर fair value पर trade करता है\n• नकारात्मक: शेयर fair value से ऊपर trade करता है (जैसे -15% का मतलब 15% premium)\n\nBenjamin Graham ने खरीदने से पहले कम से कम 25-30% margin of safety की सिफारिश की।"
+      },
+      "dataCompleteness": {
+        "title": "Data Completeness (%)",
+        "content": "Fundamental metrics का वह प्रतिशत जिसके लिए हमारे पास डेटा है।\n\nकुछ कंपनियाँ (विशेष रूप से नई या विदेश में listed) हमारे sources से अधूरे वित्तीय डेटा हो सकते हैं।\n\n• 60% से ऊपर: विश्वसनीय scores\n• 40-60%: सावधानी के साथ उपयोग करें\n• 40% से नीचे: scores ~ prefix के साथ दिखाए जाते हैं जो कम confidence दर्शाता है\n\nयह सुनिश्चित करने के लिए minimum सेट करें कि आप केवल विश्वसनीय डेटा वाले शेयर देखें।"
+      }
+    },
+    "sort": {
+      "label": "इसके अनुसार sort करें",
+      "compositeScore": "Composite Score",
+      "fundamentalScore": "Fundamental Score",
+      "technicalScore": "Technical Score",
+      "currentPrice": "मूल्य",
+      "name": "नाम",
+      "marginOfSafety": "Margin of Safety",
+      "piotroskiScore": "Piotroski F-Score",
+      "pe": "P/E Ratio",
+      "roe": "ROE"
+    }
+  }
+}

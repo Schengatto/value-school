@@ -1,0 +1,95 @@
+{
+  "quiz": {
+    "sectionTitle": "Pon a Prueba Tu Comprensión",
+    "questions": {
+      "currentRatio": {
+        "question": "El Ratio de Liquidez es {value}. ¿Qué sugiere esto sobre la liquidez a corto plazo?",
+        "a": "Saludable: puede pagar cómodamente las deudas a corto plazo",
+        "b": "Adecuado pero con margen de seguridad limitado",
+        "c": "Atención: puede tener dificultades para pagar las obligaciones a corto plazo",
+        "explanation": "Un Ratio de Liquidez por encima de 1,5 se considera saludable, entre 1,0-1,5 es adecuado, y por debajo de 1,0 significa que el pasivo corriente supera al activo corriente, una señal de alerta."
+      },
+      "debtToEbitda": {
+        "question": "La Deuda/EBITDA es {value}. ¿Cómo evaluaría el nivel de deuda?",
+        "a": "Saludable: la deuda es manejable",
+        "b": "Moderado: necesita seguimiento",
+        "c": "Preocupante: muy endeudado",
+        "explanation": "Deuda/EBITDA por debajo de 3x se considera saludable, 3-5x necesita seguimiento, y por encima de 5x es una bandera roja. La deuda alta aumenta el riesgo durante las recesiones económicas."
+      },
+      "fcf": {
+        "question": "El Flujo de Caja Libre es {value}. ¿Qué le dice esto?",
+        "a": "La empresa genera efectivo real, una señal positiva",
+        "b": "La empresa está quemando efectivo; necesita investigación",
+        "c": "El FCF no importa para la inversión en valor",
+        "explanation": "El FCF positivo significa que la empresa genera efectivo real después de las operaciones e inversiones. Esta es una de las métricas más importantes porque, a diferencia del beneficio neto, es muy difícil de manipular."
+      },
+      "pe": {
+        "question": "El Ratio P/E es {value}. ¿Cómo lo interpretaría?",
+        "a": "Potencialmente infravalorado, cotizando a un múltiplo bajo",
+        "b": "Valoración justa: precio razonable para los beneficios",
+        "c": "Altas expectativas o pérdidas; investigar más",
+        "explanation": "Un P/E por debajo de 15 puede indicar infravaloración, 15-25 es justo para la mayoría de los sectores, y por encima de 25 sugiere que el mercado espera un fuerte crecimiento. Un P/E negativo significa que la empresa no es rentable. Compara siempre dentro del mismo sector."
+      },
+      "marginOfSafety": {
+        "question": "El Margen de Seguridad es {value}. ¿Qué sugiere el marco de Benjamin Graham?",
+        "a": "Descuento importante: punto de entrada atractivo",
+        "b": "Pequeño descuento: margen de error limitado",
+        "c": "Cotizando por encima del valor justo; está pagando una prima",
+        "explanation": "Graham recomendó al menos un 25% de margen de seguridad para protegerse contra errores de estimación. Un margen positivo significa que está comprando por debajo del valor justo, mientras que un margen negativo significa que está pagando más del valor estimado."
+      },
+      "fairValueVsPrice": {
+        "question": "El valor justo se estima en {fairValue} y el precio actual es {price}. ¿Qué significa esto?",
+        "a": "La acción parece infravalorada: el precio está por debajo del valor estimado",
+        "b": "La acción tiene aproximadamente una valoración justa",
+        "c": "La acción parece sobrevalorada: el precio supera el valor estimado",
+        "explanation": "Cuando el precio actual está por debajo del valor justo, la acción puede estar infravalorada, una posible oportunidad. Cuando está por encima, está pagando más del valor intrínseco estimado. Recuerde: el valor justo es una estimación, no una garantía."
+      },
+      "rsi": {
+        "question": "El RSI (14) es {value}. ¿Qué señala esto sobre el momentum actual?",
+        "a": "Sobrevendido: potencialmente una oportunidad de compra",
+        "b": "Neutral: condiciones de negociación normales",
+        "c": "Sobrecomprado: la acción puede estar lista para un retroceso",
+        "explanation": "Un RSI por debajo de 30 sugiere que la acción está sobrevendida (posiblemente una compra), 30-70 es territorio neutral, y por encima de 70 sugiere condiciones de sobrecompra (posiblemente una venta). El RSI es una herramienta de temporización; úselo con el análisis fundamental."
+      },
+      "smaTrend": {
+        "question": "La SMA 50 es {sma50} y la SMA 200 es {sma200}. ¿Qué patrón de tendencia muestra esto?",
+        "a": "Cruce Dorado (alcista): la tendencia a corto plazo es fuerte",
+        "b": "Cruce de la Muerte (bajista): debilidad a corto plazo",
+        "c": "Ninguna señal clara: las medias están demasiado próximas",
+        "explanation": "Cuando la SMA 50 está por encima de la SMA 200 (Cruce Dorado), indica que la tendencia a corto plazo es más fuerte, generalmente alcista. Cuando la SMA 50 está por debajo de la SMA 200 (Cruce de la Muerte), sugiere un debilitamiento del momentum."
+      },
+      "piotroski": {
+        "question": "El Piotroski F-Score es {value}/9. ¿Qué indica esto sobre la salud financiera?",
+        "a": "Fuerte: la empresa supera la mayoría de los controles de calidad",
+        "b": "Mixto: algunas áreas de preocupación",
+        "c": "Débil: preocupaciones financieras significativas",
+        "explanation": "Una puntuación Piotroski de 7-9 indica sólida salud financiera, 4-6 muestra señales mixtas, y 0-3 sugiere preocupaciones graves. Las investigaciones académicas han demostrado que las acciones con puntuaciones altas tienden a superar al mercado a lo largo del tiempo."
+      },
+      "earningsQuality": {
+        "question": "La Calidad de los Beneficios es {value}. ¿Son fiables los beneficios declarados?",
+        "a": "Alta calidad: los beneficios están respaldados por flujo de caja real",
+        "b": "Moderada: cierta brecha entre los beneficios contables y el efectivo",
+        "c": "Baja calidad: brecha significativa, posibles preocupaciones contables",
+        "explanation": "La Calidad de los Beneficios por encima de 1,0 significa que el flujo de caja operativo supera el beneficio neto, por lo que los beneficios son reales y fiables. Entre 0,5-1,0 requiere seguimiento. Por debajo de 0,5 sugiere que el beneficio neto puede estar inflado por decisiones contables."
+      }
+    },
+    "page": {
+      "title": "Quiz de Análisis: {symbol}",
+      "backToAnalysis": "Volver al análisis",
+      "step": "Paso {current} de {total}",
+      "next": "Siguiente",
+      "previous": "Anterior",
+      "finish": "Ver Resultados",
+      "results": "Resultados",
+      "score": "{correct} de {total} correctas",
+      "restart": "Reiniciar Quiz",
+      "backToCompany": "Volver a {symbol}",
+      "sections": {
+        "financials": "Salud Financiera",
+        "valuation": "Valoración",
+        "technical": "Señales Técnicas",
+        "management": "Calidad de Gestión"
+      }
+    }
+  }
+}

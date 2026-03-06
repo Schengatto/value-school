@@ -1,0 +1,104 @@
+{
+  "compare": {
+    "title": "股票对比",
+    "description": "并排对比 2-3 只股票，评估哪只股票提供质量、价格和增长潜力的最佳组合。",
+    "searchPlaceholder": "按名称或代码搜索...",
+    "addStock": "添加股票",
+    "removeStock": "移除",
+    "selectAtLeast": "请至少选择 2 只股票进行对比",
+    "maxStocks": "最多 3 只股票",
+    "loading": "加载股票数据中...",
+    "guidedTour": "引导游览",
+    "sections": {
+      "overview": "概览",
+      "fundamentals": "基本面指标",
+      "valuation": "估值",
+      "priceChart": "价格表现",
+      "radarChart": "财务状况对比"
+    },
+    "metrics": {
+      "metric": "指标",
+      "pe": "市盈率（P/E）",
+      "roe": "ROE",
+      "grossMargin": "毛利率",
+      "operatingMargin": "营业利润率",
+      "currentRatio": "流动比率",
+      "debtToEbitda": "债务/EBITDA",
+      "interestCoverage": "利息覆盖率",
+      "fcf": "自由现金流",
+      "piotroski": "Piotroski F-评分",
+      "earningsQuality": "盈利质量",
+      "dataCompleteness": "数据完整性"
+    },
+    "overview": {
+      "category": "类别",
+      "sector": "行业",
+      "industry": "细分行业",
+      "price": "价格",
+      "compositeScore": "综合评分",
+      "fundamentalScore": "基本面评分",
+      "technicalScore": "技术面评分",
+      "signal": "信号",
+      "valuation": "估值"
+    },
+    "valuation": {
+      "fairValue": "公允价值",
+      "currentPrice": "当前价格",
+      "marginOfSafety": "安全边际",
+      "signal": "估值信号",
+      "fairValueRange": "公允价值区间"
+    },
+    "chart": {
+      "normalizedPrice": "标准化价格（基数 100）",
+      "percentChange": "% 变化",
+      "noData": "暂无可用于对比的价格数据"
+    },
+    "tour": {
+      "intro": {
+        "title": "欢迎来到股票对比",
+        "description": "相对分析是价值投资的基石。公司的数字孤立来看意义不大；只有与竞争对手比较时才变得有意义。这个工具让您将最多 3 只股票并排放置，发现哪一只真正提供质量、价格和增长潜力的最佳组合。"
+      },
+      "selector": {
+        "title": "选择至少 2 家公司",
+        "description": "使用此搜索栏添加您想要比较的股票。为了最有意义的分析，请选择同一行业的公司：比较科技公司和公用事业公司就像比较苹果和橘子。同行业比较揭示竞争优势、效率和管理质量的真实差异。开始搜索并添加至少 2 家公司！"
+      },
+      "overview": {
+        "title": "宏观全图",
+        "description": "从这里开始快速了解概况。综合评分综合了基本面和技术面因素。问自己：类别（价值、成长、GARP）是否符合您的投资策略？综合评分高的"价值"股是深入分析的有前途起点。"
+      },
+      "fundamentals": {
+        "title": "财务健康检查",
+        "description": "这是价值投资真正开始的地方。绿色突出显示最强的指标，红色突出显示最弱的。关键问题：谁的 ROE 最高（管理效率）？债务最低（财务安全）？利润率最高（竞争护城河）？高 Piotroski 评分（7-9）表明财务健康状况强健。"
+      },
+      "valuation": {
+        "title": "价格合理吗？",
+        "description": "Benjamin Graham 教导说，好公司若价格不好仍然是坏投资。比较每只股票的公允价值与当前价格。安全边际告诉您有多少"缓冲"：越高越好。寻找被低估且基本面强健的公司。"
+      },
+      "radar": {
+        "title": "视觉财务状况",
+        "description": "雷达图让您即时进行视觉对比。更宽广、更均衡的形状表明公司在多个维度上都很强劲。对某一侧非常狭窄的形状要谨慎；这预示着一个弱点。理想的价值投资在盈利能力、偿债能力和增长方面显示出优势。"
+      },
+      "price": {
+        "title": "价格与价值",
+        "description": "记住：价格是您支付的，价值是您获得的。这张图表将所有价格标准化为 100，让您公平比较表现。急剧上涨的股票现在可能被高估，而落后的股票可能代表机会。始终与上方的估值部分交叉参考。"
+      },
+      "conclusion": {
+        "title": "您的分析工具箱",
+        "description": "您现在拥有像价值投资者一样比较股票的工具。没有公司是完美的。目标是找到质量、价格和增长潜力之间的最佳权衡。将这个比较作为起点，然后深入每家公司的详情页进行最终评估。"
+      },
+      "next": "下一步",
+      "prev": "上一步",
+      "done": "知道了！",
+      "sageQuips": {
+        "intro": "比较是关键！",
+        "selector": "挑选您的竞争者！",
+        "overview": "让我们看看谁在领先！",
+        "fundamentals": "谁最健康？",
+        "valuation": "价格合理吗？",
+        "radar": "形状讲述故事！",
+        "price": "价格与价值！",
+        "conclusion": "现在您可以像专家一样比较了！"
+      }
+    }
+  }
+}
