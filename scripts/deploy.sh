@@ -2,9 +2,9 @@
 set -euo pipefail
 
 COMPOSE_DIR="${COMPOSE_DIR:-/root}"
+COMPOSE_PROJECT="${COMPOSE_PROJECT:-gazette}"
 IMAGE="${DOCKER_IMAGE:-ghcr.io/schengatto/value-school:latest}"
 APP_SERVICE="app-stocks-radar"
-APP_CONTAINER="root-${APP_SERVICE}-1"
 HEALTH_CHECK_URL="${HEALTH_CHECK_URL:-https://value.schengatto.cloud}"
 
 GREEN='\033[0;32m'
@@ -20,22 +20,26 @@ info "Pulling image ${IMAGE}..."
 docker pull "${IMAGE}" || { error "Docker pull failed"; exit 1; }
 
 cd "${COMPOSE_DIR}"
-info "Recreating ${APP_SERVICE} container..."
-docker compose up -d --force-recreate ${APP_SERVICE} \
+info "Recreating ${APP_SERVICE} container (project: ${COMPOSE_PROJECT})..."
+docker compose -p "${COMPOSE_PROJECT}" up -d --force-recreate --no-deps ${APP_SERVICE} \
   || { error "Docker up (${APP_SERVICE}) failed"; exit 1; }
 
 info "Waiting for container to start (10s)..."
 sleep 10
 
-APP_STATUS=$(docker inspect --format='{{.State.Status}}' "${APP_CONTAINER}" 2>/dev/null || echo "not found")
+APP_CONTAINER=$(docker compose -p "${COMPOSE_PROJECT}" ps -q ${APP_SERVICE} 2>/dev/null || echo "")
 
+if [[ -z "$APP_CONTAINER" ]]; then
+  error "Container not found"
+  exit 1
+fi
+
+APP_STATUS=$(docker inspect --format='{{.State.Status}}' "${APP_CONTAINER}" 2>/dev/null || echo "not found")
 info "Container status: ${APP_STATUS}"
 
-if [[ "$APP_STATUS" == "running" ]]; then
-  info "Container running!"
-else
+if [[ "$APP_STATUS" != "running" ]]; then
   warn "Container may not be healthy — check logs:"
-  echo "  docker compose -f ${COMPOSE_DIR}/docker-compose.yml logs --tail=30 ${APP_SERVICE}"
+  echo "  docker compose -p ${COMPOSE_PROJECT} -f ${COMPOSE_DIR}/docker-compose.yml logs --tail=30 ${APP_SERVICE}"
   exit 1
 fi
 
@@ -51,7 +55,7 @@ fi
 
 info "Recent ${APP_SERVICE} logs:"
 echo ""
-docker compose logs --tail=10 --no-log-prefix ${APP_SERVICE}
+docker compose -p "${COMPOSE_PROJECT}" logs --tail=10 --no-log-prefix ${APP_SERVICE}
 
 echo ""
 info "Deploy complete!"

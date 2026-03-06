@@ -62,5 +62,7 @@ jobs:
           script: |
             export DOCKER_IMAGE=$(echo "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest" | tr '[:upper:]' '[:lower:]')
             export COMPOSE_DIR=/root
+            export COMPOSE_PROJECT=gazette
             cd /root/stocks-radar && git fetch origin main && git reset --hard origin/main
+            cp /root/stocks-radar/infrastructure/docker-compose.prod.yml /root/docker-compose.yml
             bash /root/stocks-radar/scripts/deploy.sh
