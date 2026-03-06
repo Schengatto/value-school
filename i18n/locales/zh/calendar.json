@@ -11,8 +11,8 @@
     "dayDrawerEmpty": "本日没有计划发布的财报。",
     "earningsCount": "{count} 份财报",
     "searchPlaceholder": "按公司名称或代码搜索...",
-    "searchResults": ""{query}"的 {count} 条结果",
-    "searchNoResults": "未找到"{query}"的财报",
+    "searchResults": "\"{query}\"的 {count} 条结果",
+    "searchNoResults": "未找到\"{query}\"的财报",
     "searchResultDate": "{date} 的财报",
     "guidedTour": "引导游览",
     "tour": {
@@ -81,7 +81,7 @@
       },
       "detail": {
         "title": "评估 IPO",
-        "description": "查看价格区间和募资金额。相对于募资金额而言过高的估值可能预示定价偏高。注意状态标签："已申报"意味着流程正在进行，"预期"意味着日期已确定。价值投资者通常等待锁定期届满后再买入。"
+        "description": "查看价格区间和募资金额。相对于募资金额而言过高的估值可能预示定价偏高。注意状态标签：\"已申报\"意味着流程正在进行，\"预期\"意味着日期已确定。价值投资者通常等待锁定期届满后再买入。"
       },
       "conclusion": {
         "title": "耐心是回报",
