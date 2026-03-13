@@ -152,7 +152,7 @@ services:
       - gazette-net
 
   app-stocks-radar:
-    image: ghcr.io/schengatto/stocks-radar:latest
+    image: ghcr.io/schengatto/value-school:latest
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/stocks_radar
       NUXT_DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/stocks_radar
